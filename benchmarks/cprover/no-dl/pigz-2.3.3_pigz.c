@@ -1,0 +1,14247 @@
+// tag-#anon#ST[*{S8}$S8$'prog'||S32'ind'||S32'outd'||*{S8}$S8$'inf'||U64'inz'||*{S8}$S8$'outf'||S32'verbosity'||S32'headis'||S32'pipeout'||S32'keep'||S32'force'||S32'form'||U8'magic1'||U24'$pad0'||S32'recurse'||*{S8}$S8$'sufx'||*{S8}$S8$'name'||S64'mtime'||S32'list'||S32'first'||S32'decode'||S32'level'||SYM#tag-ZopfliOptions#'zopts'||S32'rsync'||S32'procs'||S32'setdict'||U32'$pad1'||U64'block'||S64'stamp'||*{S8}$S8$'hname'||U64'zip_crc'||U64'zip_clen'||U64'zip_ulen'||ARR32768{U8}$U8$'in_buf'||*{U8}$U8$'in_next'||U64'in_left'||S32'in_eof'||S32'in_short'||S64'in_tot'||S64'out_tot'||U64'out_check'||ARR32768{U8}$U8$'in_buf2'||U64'in_len'||S32'in_which'||U32'$pad2'||*{SYM#tag-lock_s#}$SYM#tag-lock_s#$'load_state'||*{SYM#tag-thread_s#}$SYM#tag-thread_s#$'load_thread'|]
+// file pigz.c line 472
+struct anonymous$1;
+
+// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
+struct anonymous$0;
+
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// file /usr/include/pthread.h line 525
+struct anonymous$5;
+
+// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// file /usr/include/pthread.h line 527
+struct anonymous$4;
+
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
+struct anonymous$6;
+
+// tag-#anon#ST[S32'code'||S32'free'||*{S8}$S8$'why'|]
+// file try.h line 281
+struct anonymous;
+
+// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
+union anonymous$7;
+
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
+union anonymous$3;
+
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
+union anonymous$2;
+
+// tag-Node
+// file zopfli/src/zopfli/katajainen.c line 30
+struct Node;
+
+// tag-NodePool
+// file zopfli/src/zopfli/katajainen.c line 45
+struct NodePool;
+
+// tag-RanState
+// file zopfli/src/zopfli/squeeze.c line 75
+struct RanState;
+
+// tag-SplitCostContext
+// file zopfli/src/zopfli/blocksplitter.c line 112
+struct SplitCostContext;
+
+// tag-SymbolStats
+// file zopfli/src/zopfli/squeeze.c line 31
+struct SymbolStats;
+
+// tag-ZopfliBlockState
+// file zopfli/src/zopfli/lz77.h line 62
+struct ZopfliBlockState;
+
+// tag-ZopfliHash
+// file zopfli/src/zopfli/hash.h line 29
+struct ZopfliHash;
+
+// tag-ZopfliLZ77Store
+// file zopfli/src/zopfli/lz77.h line 44
+struct ZopfliLZ77Store;
+
+// tag-ZopfliLongestMatchCache
+// file zopfli/src/zopfli/cache.h line 39
+struct ZopfliLongestMatchCache;
+
+// tag-ZopfliOptions
+// file zopfli/src/zopfli/zopfli.h line 33
+struct ZopfliOptions;
+
+// tag-_IO_FILE
+// file /usr/include/stdio.h line 44
+struct _IO_FILE;
+
+// tag-_IO_marker
+// file /usr/include/libio.h line 160
+struct _IO_marker;
+
+// tag-__dirstream
+// file /usr/include/dirent.h line 127
+struct __dirstream;
+
+// tag-__jmp_buf_tag
+// file /usr/include/setjmp.h line 34
+struct __jmp_buf_tag;
+
+// tag-__pthread_internal_list
+// file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 75
+struct __pthread_internal_list;
+
+// tag-__pthread_mutex_s
+// file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 92
+struct __pthread_mutex_s;
+
+// tag-capsule
+// file yarn.c line 204
+struct capsule;
+
+// tag-dirent
+// file /usr/include/x86_64-linux-gnu/bits/dirent.h line 22
+struct dirent;
+
+// tag-internal_state
+// file /usr/include/zlib.h line 83
+struct internal_state;
+
+// tag-job
+// file pigz.c line 1368
+struct job;
+
+// tag-lock_s
+// file yarn.h line 123
+struct lock_s;
+
+// tag-pool
+// file pigz.c line 1229
+struct pool;
+
+// tag-pthread_attr_t
+// file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 63
+union pthread_attr_t;
+
+// tag-space
+// file pigz.c line 1224
+struct space;
+
+// tag-stat
+// file /usr/include/x86_64-linux-gnu/bits/stat.h line 46
+struct stat;
+
+// tag-thread_s
+// file yarn.h line 117
+struct thread_s;
+
+// tag-timespec
+// file /usr/include/time.h line 120
+struct timespec;
+
+// tag-timeval
+// file /usr/include/x86_64-linux-gnu/bits/time.h line 30
+struct timeval;
+
+// tag-tm
+// file /usr/include/time.h line 133
+struct tm;
+
+// tag-try_s_
+// file try.h line 288
+struct try_s_;
+
+// tag-twist_op
+// file yarn.h line 127
+enum twist_op { TO=0, BY=1 };
+
+// tag-wait_op
+// file yarn.h line 129
+enum wait_op { TO_BE=0, NOT_TO_BE=1, TO_BE_MORE_THAN=2, TO_BE_LESS_THAN=3 };
+
+// tag-z_stream_s
+// file /usr/include/zlib.h line 85
+struct z_stream_s;
+
+#include <assert.h>
+
+#ifndef NULL
+#define NULL ((void*)0)
+#endif
+
+#ifndef IEEE_FLOAT_EQUAL
+#define IEEE_FLOAT_EQUAL(x,y) ((x)==(y))
+#endif
+#ifndef IEEE_FLOAT_NOTEQUAL
+#define IEEE_FLOAT_NOTEQUAL(x,y) ((x)!=(y))
+#endif
+
+// AbsDiff
+// file zopfli/src/zopfli/deflate.c line 369
+static unsigned long int AbsDiff(unsigned long int x, unsigned long int y);
+// AddBit
+// file zopfli/src/zopfli/deflate.c line 38
+static void AddBit(signed int bit, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// AddBits
+// file zopfli/src/zopfli/deflate.c line 45
+static void AddBits(unsigned int symbol, unsigned int length, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// AddDynamicTree
+// file zopfli/src/zopfli/deflate.c line 251
+static void AddDynamicTree(const unsigned int *ll_lengths, const unsigned int *d_lengths, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// AddHuffmanBits
+// file zopfli/src/zopfli/deflate.c line 61
+static void AddHuffmanBits(unsigned int symbol, unsigned int length, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// AddLZ77Block
+// file zopfli/src/zopfli/deflate.c line 528
+static void AddLZ77Block(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, unsigned long int expected_data_size, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// AddLZ77Data
+// file zopfli/src/zopfli/deflate.c line 297
+static void AddLZ77Data(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, unsigned long int expected_data_size, const unsigned int *ll_symbols, const unsigned int *ll_lengths, const unsigned int *d_symbols, const unsigned int *d_lengths, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// AddSorted
+// file zopfli/src/zopfli/blocksplitter.c line 132
+static void AddSorted(unsigned long int value, unsigned long int **out, unsigned long int *outsize);
+// AddWeighedStatFreqs
+// file zopfli/src/zopfli/squeeze.c line 60
+static void AddWeighedStatFreqs(const struct SymbolStats *stats1, double w1, const struct SymbolStats *stats2, double w2, struct SymbolStats *result);
+// BoundaryPM
+// file zopfli/src/zopfli/katajainen.c line 105
+static void BoundaryPM(struct Node *(*lists)[2l], signed int maxbits, struct Node *leaves, signed int numsymbols, struct NodePool *pool, signed int index, char final);
+// CalculateBlockSymbolSize
+// file zopfli/src/zopfli/deflate.c line 348
+static unsigned long int CalculateBlockSymbolSize(const unsigned int *ll_lengths, const unsigned int *d_lengths, const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend);
+// CalculateStatistics
+// file zopfli/src/zopfli/squeeze.c line 393
+static void CalculateStatistics(struct SymbolStats *stats);
+// CalculateTreeSize
+// file zopfli/src/zopfli/deflate.c line 277
+static unsigned long int CalculateTreeSize(const unsigned int *ll_lengths, const unsigned int *d_lengths);
+// ClearStatFreqs
+// file zopfli/src/zopfli/squeeze.c line 104
+static void ClearStatFreqs(struct SymbolStats *stats);
+// CopyStats
+// file zopfli/src/zopfli/squeeze.c line 50
+static void CopyStats(struct SymbolStats *source, struct SymbolStats *dest);
+// DeflateBlock
+// file zopfli/src/zopfli/deflate.c line 700
+static void DeflateBlock(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// DeflateDynamicBlock
+// file zopfli/src/zopfli/deflate.c line 586
+static void DeflateDynamicBlock(const struct ZopfliOptions *options, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// DeflateFixedBlock
+// file zopfli/src/zopfli/deflate.c line 639
+static void DeflateFixedBlock(const struct ZopfliOptions *options, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// DeflateNonCompressedBlock
+// file zopfli/src/zopfli/deflate.c line 670
+static void DeflateNonCompressedBlock(const struct ZopfliOptions *options, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// DeflateSplittingFirst
+// file zopfli/src/zopfli/deflate.c line 721
+static void DeflateSplittingFirst(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// DeflateSplittingLast
+// file zopfli/src/zopfli/deflate.c line 755
+static void DeflateSplittingLast(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// EncodeTree
+// file zopfli/src/zopfli/deflate.c line 105
+static unsigned long int EncodeTree(const unsigned int *ll_lengths, const unsigned int *d_lengths, signed int use_16, signed int use_17, signed int use_18, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// EstimateCost
+// file zopfli/src/zopfli/blocksplitter.c line 106
+static double EstimateCost(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend);
+// ExtractBitLengths
+// file zopfli/src/zopfli/katajainen.c line 163
+static void ExtractBitLengths(struct Node *chain, struct Node *leaves, unsigned int *bitlengths);
+// FindLargestSplittableBlock
+// file zopfli/src/zopfli/blocksplitter.c line 198
+static signed int FindLargestSplittableBlock(unsigned long int llsize, const unsigned char *done, const unsigned long int *splitpoints, unsigned long int npoints, unsigned long int *lstart, unsigned long int *lend);
+// FindMinimum
+// file zopfli/src/zopfli/blocksplitter.c line 43
+static unsigned long int FindMinimum(double (*f)(unsigned long int, void *), void *context, unsigned long int start, unsigned long int end);
+// FindMinimum::f$object
+//
+double f$object(unsigned long int, void *);
+// FollowPath
+// file zopfli/src/zopfli/squeeze.c line 334
+static void FollowPath(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned short int *path, unsigned long int pathsize, struct ZopfliLZ77Store *store);
+// GetBestLengths
+// file zopfli/src/zopfli/squeeze.c line 208
+static double GetBestLengths(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, double (*costmodel)(unsigned int, unsigned int, void *), void *costcontext, unsigned short int *length_array);
+// GetBestLengths::costmodel$object
+//
+double costmodel$object(unsigned int, unsigned int, void *);
+// GetCostFixed
+// file zopfli/src/zopfli/squeeze.c line 120
+static double GetCostFixed(unsigned int litlen, unsigned int dist, void *unused);
+// GetCostModelMinCost
+// file zopfli/src/zopfli/squeeze.c line 158
+static double GetCostModelMinCost(double (*costmodel)(unsigned int, unsigned int, void *), void *costcontext);
+// GetCostModelMinCost::costmodel$object
+//
+double costmodel$object(unsigned int, unsigned int, void *);
+// GetCostStat
+// file zopfli/src/zopfli/squeeze.c line 141
+static double GetCostStat(unsigned int litlen, unsigned int dist, void *context);
+// GetDynamicLengths
+// file zopfli/src/zopfli/deflate.c line 473
+static void GetDynamicLengths(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, unsigned int *ll_lengths, unsigned int *d_lengths);
+// GetFixedTree
+// file zopfli/src/zopfli/deflate.c line 336
+static void GetFixedTree(unsigned int *ll_lengths, unsigned int *d_lengths);
+// GetFreeNode
+// file zopfli/src/zopfli/katajainen.c line 67
+static struct Node * GetFreeNode(struct Node *(*lists)[2l], signed int maxbits, struct NodePool *pool);
+// GetLengthScore
+// file zopfli/src/zopfli/lz77.c line 87
+static signed int GetLengthScore(signed int length, signed int distance);
+// GetMatch
+// file zopfli/src/zopfli/lz77.c line 119
+static const unsigned char * GetMatch(const unsigned char *scan, const unsigned char *match, const unsigned char *end, const unsigned char *safe_end);
+// GetStatistics
+// file zopfli/src/zopfli/squeeze.c line 399
+static void GetStatistics(const struct ZopfliLZ77Store *store, struct SymbolStats *stats);
+// InitLists
+// file zopfli/src/zopfli/katajainen.c line 145
+static void InitLists(struct NodePool *pool, const struct Node *leaves, signed int maxbits, struct Node *(*lists)[2l]);
+// InitNode
+// file zopfli/src/zopfli/katajainen.c line 54
+static void InitNode(unsigned long int weight, signed int count, struct Node *tail, struct Node *node);
+// InitRanState
+// file zopfli/src/zopfli/squeeze.c line 79
+static void InitRanState(struct RanState *state);
+// InitStats
+// file zopfli/src/zopfli/squeeze.c line 42
+static void InitStats(struct SymbolStats *stats);
+// LZ77OptimalRun
+// file zopfli/src/zopfli/squeeze.c line 431
+static double LZ77OptimalRun(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned short int **path, unsigned long int *pathsize, unsigned short int *length_array, double (*costmodel)(unsigned int, unsigned int, void *), void *costcontext, struct ZopfliLZ77Store *store);
+// LZ77OptimalRun::costmodel$object
+//
+double costmodel$object(unsigned int, unsigned int, void *);
+// LeafComparator
+// file zopfli/src/zopfli/katajainen.c line 176
+static signed int LeafComparator(const void *a, const void *b);
+// OptimizeHuffmanForRle
+// file zopfli/src/zopfli/deflate.c line 381
+void OptimizeHuffmanForRle(signed int length, unsigned long int *counts);
+// PatchDistanceCodesForBuggyDecoders
+// file zopfli/src/zopfli/deflate.c line 86
+static void PatchDistanceCodesForBuggyDecoders(unsigned int *d_lengths);
+// PrintBlockSplitPoints
+// file zopfli/src/zopfli/blocksplitter.c line 150
+static void PrintBlockSplitPoints(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int llsize, const unsigned long int *lz77splitpoints, unsigned long int nlz77points);
+// Ran
+// file zopfli/src/zopfli/squeeze.c line 85
+static unsigned int Ran(struct RanState *state);
+// RandomizeFreqs
+// file zopfli/src/zopfli/squeeze.c line 91
+static void RandomizeFreqs(struct RanState *state, unsigned long int *freqs, signed int n);
+// RandomizeStatFreqs
+// file zopfli/src/zopfli/squeeze.c line 98
+static void RandomizeStatFreqs(struct RanState *state, struct SymbolStats *stats);
+// SplitCost
+// file zopfli/src/zopfli/blocksplitter.c line 126
+static double SplitCost(unsigned long int i, void *context);
+// StoreInLongestMatchCache
+// file zopfli/src/zopfli/lz77.c line 206
+static void StoreInLongestMatchCache(struct ZopfliBlockState *s, unsigned long int pos, unsigned long int limit, const unsigned short int *sublen, unsigned short int distance, unsigned short int length);
+// TraceBackwards
+// file zopfli/src/zopfli/squeeze.c line 313
+static void TraceBackwards(unsigned long int size, const unsigned short int *length_array, unsigned short int **path, unsigned long int *pathsize);
+// TryGetFromLongestMatchCache
+// file zopfli/src/zopfli/lz77.c line 162
+static signed int TryGetFromLongestMatchCache(struct ZopfliBlockState *s, unsigned long int pos, unsigned long int *limit, unsigned short int *sublen, unsigned short int *distance, unsigned short int *length);
+// UpdateHashValue
+// file zopfli/src/zopfli/hash.c line 87
+static void UpdateHashValue(struct ZopfliHash *h, unsigned char c);
+// ZopfliBlockSplit
+// file zopfli/src/zopfli/blocksplitter.h line 64
+void ZopfliBlockSplit(const struct ZopfliOptions *options, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned long int maxblocks, unsigned long int **splitpoints, unsigned long int *npoints);
+// ZopfliBlockSplitLZ77
+// file zopfli/src/zopfli/blocksplitter.h line 44
+void ZopfliBlockSplitLZ77(const struct ZopfliOptions *options, const unsigned short int *litlens, const unsigned short int *dists, unsigned long int llsize, unsigned long int maxblocks, unsigned long int **splitpoints, unsigned long int *npoints);
+// ZopfliBlockSplitSimple
+// file zopfli/src/zopfli/blocksplitter.h line 72
+void ZopfliBlockSplitSimple(const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned long int blocksize, unsigned long int **splitpoints, unsigned long int *npoints);
+// ZopfliCacheToSublen
+// file zopfli/src/zopfli/cache.h line 57
+void ZopfliCacheToSublen(const struct ZopfliLongestMatchCache *lmc, unsigned long int pos, unsigned long int length, unsigned short int *sublen);
+// ZopfliCalculateBitLengths
+// file zopfli/src/zopfli/tree.h line 33
+void ZopfliCalculateBitLengths(const unsigned long int *count, unsigned long int n, signed int maxbits, unsigned int *bitlengths);
+// ZopfliCalculateBlockSize
+// file zopfli/src/zopfli/deflate.c line 488
+double ZopfliCalculateBlockSize(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, signed int btype);
+// ZopfliCalculateEntropy
+// file zopfli/src/zopfli/tree.c line 71
+void ZopfliCalculateEntropy(const unsigned long int *count, unsigned long int n, double *bitlengths);
+// ZopfliCleanCache
+// file zopfli/src/zopfli/cache.h line 49
+void ZopfliCleanCache(struct ZopfliLongestMatchCache *lmc);
+// ZopfliCleanHash
+// file zopfli/src/zopfli/hash.h line 53
+void ZopfliCleanHash(struct ZopfliHash *h);
+// ZopfliCleanLZ77Store
+// file zopfli/src/zopfli/lz77.h line 52
+void ZopfliCleanLZ77Store(struct ZopfliLZ77Store *store);
+// ZopfliCopyLZ77Store
+// file zopfli/src/zopfli/lz77.c line 38
+void ZopfliCopyLZ77Store(const struct ZopfliLZ77Store *source, struct ZopfliLZ77Store *dest);
+// ZopfliDeflate
+// file zopfli/src/zopfli/deflate.c line 844
+void ZopfliDeflate(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int insize, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// ZopfliDeflatePart
+// file zopfli/src/zopfli/deflate.h line 66
+void ZopfliDeflatePart(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize);
+// ZopfliFindLongestMatch
+// file zopfli/src/zopfli/lz77.c line 229
+void ZopfliFindLongestMatch(struct ZopfliBlockState *s, const struct ZopfliHash *h, const unsigned char *array, unsigned long int pos, unsigned long int size, unsigned long int limit, unsigned short int *sublen, unsigned short int *distance, unsigned short int *length);
+// ZopfliGetDistExtraBits
+// file zopfli/src/zopfli/util.h line 135
+signed int ZopfliGetDistExtraBits(signed int dist);
+// ZopfliGetDistExtraBitsValue
+// file zopfli/src/zopfli/util.h line 138
+signed int ZopfliGetDistExtraBitsValue(signed int dist);
+// ZopfliGetDistSymbol
+// file zopfli/src/zopfli/util.h line 132
+signed int ZopfliGetDistSymbol(signed int dist);
+// ZopfliGetLengthExtraBits
+// file zopfli/src/zopfli/util.h line 126
+signed int ZopfliGetLengthExtraBits(signed int l);
+// ZopfliGetLengthExtraBitsValue
+// file zopfli/src/zopfli/util.h line 129
+signed int ZopfliGetLengthExtraBitsValue(signed int l);
+// ZopfliGetLengthSymbol
+// file zopfli/src/zopfli/util.h line 123
+signed int ZopfliGetLengthSymbol(signed int l);
+// ZopfliInitCache
+// file zopfli/src/zopfli/cache.h line 46
+void ZopfliInitCache(unsigned long int blocksize, struct ZopfliLongestMatchCache *lmc);
+// ZopfliInitHash
+// file zopfli/src/zopfli/hash.h line 50
+void ZopfliInitHash(unsigned long int window_size, struct ZopfliHash *h);
+// ZopfliInitLZ77Store
+// file zopfli/src/zopfli/lz77.h line 51
+void ZopfliInitLZ77Store(struct ZopfliLZ77Store *store);
+// ZopfliInitOptions
+// file zopfli/src/zopfli/zopfli.h line 70
+void ZopfliInitOptions(struct ZopfliOptions *options);
+// ZopfliLZ77Counts
+// file zopfli/src/zopfli/lz77.h line 113
+void ZopfliLZ77Counts(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int start, unsigned long int end, unsigned long int *ll_count, unsigned long int *d_count);
+// ZopfliLZ77Greedy
+// file zopfli/src/zopfli/lz77.h line 125
+void ZopfliLZ77Greedy(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, struct ZopfliLZ77Store *store);
+// ZopfliLZ77Optimal
+// file zopfli/src/zopfli/squeeze.h line 41
+void ZopfliLZ77Optimal(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, struct ZopfliLZ77Store *store);
+// ZopfliLZ77OptimalFixed
+// file zopfli/src/zopfli/squeeze.h line 55
+void ZopfliLZ77OptimalFixed(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, struct ZopfliLZ77Store *store);
+// ZopfliLengthLimitedCodeLengths
+// file zopfli/src/zopfli/katajainen.h line 39
+signed int ZopfliLengthLimitedCodeLengths(const unsigned long int *frequencies, signed int n, signed int maxbits, unsigned int *bitlengths);
+// ZopfliLengthsToSymbols
+// file zopfli/src/zopfli/tree.h line 39
+void ZopfliLengthsToSymbols(const unsigned int *lengths, unsigned long int n, unsigned int maxbits, unsigned int *symbols);
+// ZopfliMaxCachedSublen
+// file zopfli/src/zopfli/cache.h line 61
+unsigned int ZopfliMaxCachedSublen(const struct ZopfliLongestMatchCache *lmc, unsigned long int pos, unsigned long int length);
+// ZopfliStoreLitLenDist
+// file zopfli/src/zopfli/lz77.c line 59
+void ZopfliStoreLitLenDist(unsigned short int length, unsigned short int dist, struct ZopfliLZ77Store *store);
+// ZopfliSublenToCache
+// file zopfli/src/zopfli/cache.h line 52
+void ZopfliSublenToCache(const unsigned short int *sublen, unsigned long int pos, unsigned long int length, struct ZopfliLongestMatchCache *lmc);
+// ZopfliUpdateHash
+// file zopfli/src/zopfli/hash.h line 59
+void ZopfliUpdateHash(const unsigned char *array, unsigned long int pos, unsigned long int end, struct ZopfliHash *h);
+// ZopfliVerifyLenDist
+// file zopfli/src/zopfli/lz77.c line 95
+void ZopfliVerifyLenDist(const unsigned char *data, unsigned long int datasize, unsigned long int pos, unsigned short int dist, unsigned short int length);
+// ZopfliWarmupHash
+// file zopfli/src/zopfli/hash.h line 67
+void ZopfliWarmupHash(const unsigned char *array, unsigned long int pos, unsigned long int end, struct ZopfliHash *h);
+// _IO_putc
+// file /usr/include/libio.h line 435
+extern signed int _IO_putc(signed int, struct _IO_FILE *);
+// __assert_fail
+// file /usr/include/assert.h line 69
+extern void __assert_fail(const char *, const char *, unsigned int, const char *);
+// __errno_location
+// file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
+extern signed int * __errno_location(void);
+// __pthread_register_cancel
+// file /usr/include/pthread.h line 682
+extern void __pthread_register_cancel(struct anonymous$5 *);
+// __pthread_unregister_cancel
+// file /usr/include/pthread.h line 694
+extern void __pthread_unregister_cancel(struct anonymous$5 *);
+// __pthread_unwind_next
+// file /usr/include/pthread.h line 735
+extern void __pthread_unwind_next(struct anonymous$5 *);
+// __sigsetjmp
+// file /usr/include/pthread.h line 745
+extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
+// _exit
+// file /usr/include/unistd.h line 603
+extern void _exit(signed int);
+// _setjmp
+// file /usr/include/setjmp.h line 63
+extern signed int _setjmp(struct __jmp_buf_tag *);
+// adler32
+// file /usr/include/zlib.h line 1569
+extern unsigned long int adler32(unsigned long int, const unsigned char *, unsigned int);
+// adler32_comb
+// file pigz.c line 1192
+static unsigned long int adler32_comb(unsigned long int adler1, unsigned long int adler2, unsigned long int len2);
+// alloc
+// file pigz.c line 656
+static void * alloc(void *ptr, unsigned long int size);
+// append_len
+// file pigz.c line 1792
+static void append_len(struct job *job, unsigned long int len);
+// cat
+// file pigz.c line 2877
+static void cat(void);
+// chmod
+// file /usr/include/x86_64-linux-gnu/sys/stat.h line 283
+extern signed int chmod(const char *, unsigned int);
+// chown
+// file /usr/include/unistd.h line 473
+extern signed int chown(const char *, unsigned int, unsigned int);
+// close
+// file /usr/include/unistd.h line 353
+extern signed int close(signed int);
+// closedir
+// file /usr/include/dirent.h line 149
+extern signed int closedir(struct __dirstream *);
+// complain
+// file pigz.c line 528
+static signed int complain(char *fmt, ...);
+// compress_thread
+// file pigz.c line 1482
+static void compress_thread(void *dummy);
+// compressed_suffix
+// file pigz.c line 2642
+static unsigned long int compressed_suffix(char *nm);
+// copymeta
+// file pigz.c line 3386
+static void copymeta(char *from, char *to);
+// crc32
+// file /usr/include/zlib.h line 1600
+extern unsigned long int crc32(unsigned long int, const unsigned char *, unsigned int);
+// crc32_comb
+// file pigz.c line 1136
+static unsigned long int crc32_comb(unsigned long int crc1, unsigned long int crc2, unsigned long int len2);
+// ctime
+// file /usr/include/time.h line 264
+extern char * ctime(const signed long int *);
+// cut_short
+// file pigz.c line 824
+static void cut_short(signed int sig);
+// cut_yarn
+// file pigz.c line 4049
+static void cut_yarn(signed int err);
+// defaults
+// file pigz.c line 3826
+static void defaults(void);
+// deflate
+// file /usr/include/zlib.h line 246
+extern signed int deflate(struct z_stream_s *, signed int);
+// deflateEnd
+// file /usr/include/zlib.h line 353
+extern signed int deflateEnd(struct z_stream_s *);
+// deflateInit2_
+// file /usr/include/zlib.h line 1637
+extern signed int deflateInit2_(struct z_stream_s *, signed int, signed int, signed int, signed int, signed int, const char *, signed int);
+// deflateParams
+// file /usr/include/zlib.h line 660
+extern signed int deflateParams(struct z_stream_s *, signed int, signed int);
+// deflatePending
+// file /usr/include/zlib.h line 713
+extern signed int deflatePending(struct z_stream_s *, unsigned int *, signed int *);
+// deflatePrime
+// file /usr/include/zlib.h line 728
+extern signed int deflatePrime(struct z_stream_s *, signed int, signed int);
+// deflateReset
+// file /usr/include/zlib.h line 649
+extern signed int deflateReset(struct z_stream_s *);
+// deflateSetDictionary
+// file /usr/include/zlib.h line 587
+extern signed int deflateSetDictionary(struct z_stream_s *, const unsigned char *, unsigned int);
+// deflate_engine
+// file pigz.c line 1459
+static void deflate_engine(struct z_stream_s *strm, struct space *out, signed int flush);
+// destruct
+// file yarn.h line 121
+void destruct(struct thread_s *off_course);
+// dos2time
+// file pigz.c line 2415
+static signed long int dos2time(unsigned long int dos);
+// drop_space
+// file pigz.c line 1315
+static void drop_space(struct space *space);
+// exit
+// file /usr/include/stdlib.h line 543
+extern void exit(signed int);
+// fail
+// file yarn.c line 57
+static void fail(signed int err);
+// fflush
+// file /usr/include/stdio.h line 242
+extern signed int fflush(struct _IO_FILE *);
+// finish_jobs
+// file pigz.c line 1418
+static void finish_jobs(void);
+// fprintf
+// file /usr/include/stdio.h line 356
+extern signed int fprintf(struct _IO_FILE *, const char *, ...);
+// fputs
+// file /usr/include/stdio.h line 689
+extern signed int fputs(const char *, struct _IO_FILE *);
+// free
+// file /usr/include/stdlib.h line 483
+extern void free(void *);
+// free_lock
+// file yarn.h line 134
+void free_lock(struct lock_s *bolt);
+// free_pool
+// file pigz.c line 1337
+static signed int free_pool(struct pool *pool);
+// fstat
+// file /usr/include/x86_64-linux-gnu/sys/stat.h line 219
+extern signed int fstat(signed int, struct stat *);
+// get_header
+// file pigz.c line 2498
+static signed int get_header(signed int save);
+// get_space
+// file pigz.c line 1256
+static struct space * get_space(struct pool *pool);
+// getchar
+// file /usr/include/stdio.h line 538
+extern signed int getchar(void);
+// getenv
+// file /usr/include/stdlib.h line 564
+extern char * getenv(const char *);
+// gf2_matrix_square
+// file pigz.c line 1128
+static void gf2_matrix_square(unsigned long int *square, unsigned long int *mat);
+// gf2_matrix_times
+// file pigz.c line 1114
+static unsigned long int gf2_matrix_times(unsigned long int *mat, unsigned long int vec);
+// grow
+// file pigz.c line 849
+static inline unsigned long int grow(unsigned long int size);
+// grow_space
+// file pigz.c line 1292
+static void grow_space(struct space *space);
+// help
+// file pigz.c line 3789
+static void help(void);
+// ignition
+// file yarn.c line 245
+static void * ignition(void *arg);
+// ignition::1::1::__cancel_routine$object
+//
+void __cancel_routine$object(void *);
+// in_init
+// file pigz.c line 2360
+static void in_init(void);
+// inb
+// file pigz.c line 2897
+static unsigned int inb(void *desc, unsigned char **buf);
+// infchk
+// file pigz.c line 3040
+static void infchk(void);
+// inflateBack
+// file /usr/include/zlib.h line 1029
+extern signed int inflateBack(struct z_stream_s *, unsigned int (*)(void *, unsigned char **), void *, signed int (*)(void *, unsigned char *, unsigned int), void *);
+// inflateBackEnd
+// file /usr/include/zlib.h line 1099
+extern signed int inflateBackEnd(struct z_stream_s *);
+// inflateBackInit_
+// file /usr/include/zlib.h line 1643
+extern signed int inflateBackInit_(struct z_stream_s *, signed int, unsigned char *, const char *, signed int);
+// isatty
+// file /usr/include/unistd.h line 779
+extern signed int isatty(signed int);
+// join
+// file yarn.h line 119
+void join(struct thread_s *ally);
+// join_all
+// file yarn.h line 120
+signed int join_all(void);
+// justname
+// file pigz.c line 3374
+static char * justname(char *path);
+// launch
+// file yarn.h line 118
+struct thread_s * launch(void (*probe)(void *), void *payload);
+// launch::probe$object
+//
+void probe$object(void *);
+// list_info
+// file pigz.c line 2761
+static void list_info(void);
+// load
+// file pigz.c line 2294
+static unsigned long int load(void);
+// load_read
+// file pigz.c line 2264
+static void load_read(void *dummy);
+// localtime
+// file /usr/include/time.h line 243
+extern struct tm * localtime(const signed long int *);
+// log
+// file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 109
+extern double log(double);
+// longjmp
+// file /usr/include/setjmp.h line 74
+extern void longjmp(struct __jmp_buf_tag *, signed int);
+// lseek
+// file /usr/include/unistd.h line 337
+extern signed long int lseek(signed int, signed long int, signed int);
+// lstat
+// file /usr/include/x86_64-linux-gnu/sys/stat.h line 266
+extern signed int lstat(const char *, struct stat *);
+// malloc
+// file /usr/include/stdlib.h line 466
+extern void * malloc(unsigned long int);
+// memchr
+// file /usr/include/string.h line 96
+extern void * memchr(const void *, signed int, unsigned long int);
+// memcpy
+// file /usr/include/string.h line 46
+extern void * memcpy(void *, const void *, unsigned long int);
+// memmove
+// file /usr/include/string.h line 50
+extern void * memmove(void *, const void *, unsigned long int);
+// memset
+// file /usr/include/string.h line 66
+extern void * memset(void *, signed int, unsigned long int);
+// mktime
+// file /usr/include/time.h line 199
+extern signed long int mktime(struct tm *);
+// my_free$object
+//
+void my_free$object(void *);
+// my_malloc
+// file yarn.c line 81
+static void * my_malloc(unsigned long int size);
+// my_malloc_f$object
+//
+void * my_malloc_f$object(unsigned long int);
+// new_lock
+// file yarn.h line 124
+struct lock_s * new_lock(signed long int initial);
+// new_opts
+// file pigz.c line 3873
+static void new_opts(void);
+// new_pool
+// file pigz.c line 1245
+static void new_pool(struct pool *pool, unsigned long int size, signed int limit);
+// nprocs
+// file pigz.c line 3804
+static signed int nprocs(signed int n);
+// num
+// file pigz.c line 3882
+static unsigned long int num(char *arg);
+// open
+// file /usr/include/fcntl.h line 149
+extern signed int open(const char *, signed int, ...);
+// opendir
+// file /usr/include/dirent.h line 134
+extern struct __dirstream * opendir(const char *);
+// option
+// file pigz.c line 3899
+static signed int option(char *arg);
+// outb
+// file pigz.c line 2974
+static signed int outb(void *desc, unsigned char *buf, unsigned int len);
+// outb_check
+// file pigz.c line 2945
+static void outb_check(void *dummy);
+// outb_write
+// file pigz.c line 2919
+static void outb_write(void *dummy);
+// parallel_compress
+// file pigz.c line 1828
+static void parallel_compress(void);
+// peek_lock
+// file yarn.h line 133
+signed long int peek_lock(struct lock_s *bolt);
+// possess
+// file yarn.h line 125
+void possess(struct lock_s *bolt);
+// printf
+// file /usr/include/stdio.h line 362
+extern signed int printf(const char *, ...);
+// process
+// file pigz.c line 3423
+static void process(char *path);
+// pthread_attr_destroy
+// file /usr/include/pthread.h line 292
+extern signed int pthread_attr_destroy(union pthread_attr_t *);
+// pthread_attr_init
+// file /usr/include/pthread.h line 289
+extern signed int pthread_attr_init(union pthread_attr_t *);
+// pthread_attr_setdetachstate
+// file /usr/include/pthread.h line 301
+extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int);
+// pthread_cancel
+// file /usr/include/pthread.h line 515
+extern signed int pthread_cancel(unsigned long int);
+// pthread_cond_broadcast
+// file /usr/include/pthread.h line 983
+extern signed int pthread_cond_broadcast(union anonymous$3 *);
+// pthread_cond_destroy
+// file /usr/include/pthread.h line 975
+extern signed int pthread_cond_destroy(union anonymous$3 *);
+// pthread_cond_init
+// file /usr/include/pthread.h line 970
+extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$7 *);
+// pthread_cond_wait
+// file /usr/include/pthread.h line 991
+extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$2 *);
+// pthread_create
+// file /usr/include/pthread.h line 235
+extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
+// pthread_equal
+// file /usr/include/pthread.h line 280
+extern signed int pthread_equal(unsigned long int, unsigned long int);
+// pthread_getspecific
+// file /usr/include/pthread.h line 1121
+extern void * pthread_getspecific(unsigned int);
+// pthread_join
+// file /usr/include/pthread.h line 252
+extern signed int pthread_join(unsigned long int, void **);
+// pthread_key_create
+// file /usr/include/pthread.h line 1113
+extern signed int pthread_key_create(unsigned int *, void (*)(void *));
+// pthread_mutex_destroy
+// file /usr/include/pthread.h line 756
+extern signed int pthread_mutex_destroy(union anonymous$2 *);
+// pthread_mutex_init
+// file /usr/include/pthread.h line 751
+extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$7 *);
+// pthread_mutex_lock
+// file /usr/include/pthread.h line 764
+extern signed int pthread_mutex_lock(union anonymous$2 *);
+// pthread_mutex_unlock
+// file /usr/include/pthread.h line 775
+extern signed int pthread_mutex_unlock(union anonymous$2 *);
+// pthread_once
+// file /usr/include/pthread.h line 496
+extern signed int pthread_once(signed int *, void (*)(void));
+// pthread_self
+// file /usr/include/pthread.h line 277
+extern unsigned long int pthread_self(void);
+// pthread_setspecific
+// file /usr/include/pthread.h line 1124
+extern signed int pthread_setspecific(unsigned int, const void *);
+// put_header
+// file pigz.c line 960
+static unsigned long int put_header(void);
+// put_trailer
+// file pigz.c line 1025
+static void put_trailer(unsigned long int ulen, unsigned long int clen, unsigned long int check, unsigned long int head);
+// puts
+// file /usr/include/stdio.h line 695
+extern signed int puts(const char *);
+// qsort
+// file /usr/include/stdlib.h line 764
+extern void qsort(void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
+// read
+// file /usr/include/unistd.h line 360
+extern signed long int read(signed int, void *, unsigned long int);
+// read_extra
+// file pigz.c line 2440
+static signed int read_extra(unsigned int len, signed int save);
+// readdir
+// file /usr/include/dirent.h line 165
+extern struct dirent * readdir(struct __dirstream *);
+// readn
+// file pigz.c line 900
+static unsigned long int readn(signed int desc, unsigned char *buf, unsigned long int len);
+// realloc
+// file /usr/include/stdlib.h line 480
+extern void * realloc(void *, unsigned long int);
+// reenter
+// file yarn.c line 210
+static void reenter(void *dummy);
+// release
+// file yarn.h line 126
+void release(struct lock_s *bolt);
+// setup_jobs
+// file pigz.c line 1394
+static void setup_jobs(void);
+// show_info
+// file pigz.c line 2675
+static void show_info(signed int method, unsigned long int check, signed long int len, signed int cont);
+// signal
+// file /usr/include/signal.h line 102
+extern void (*signal(signed int, void (*)(signed int)))(signed int);
+// single_compress
+// file pigz.c line 2022
+static void single_compress(signed int reset);
+// stat
+// file /usr/include/x86_64-linux-gnu/sys/stat.h line 216
+extern signed int stat(const char *, struct stat *);
+// strchr
+// file /usr/include/string.h line 235
+extern char * strchr(const char *, signed int);
+// strcmp
+// file /usr/include/string.h line 144
+extern signed int strcmp(const char *, const char *);
+// strcpy
+// file /usr/include/string.h line 129
+extern char * strcpy(char *, const char *);
+// strerror
+// file /usr/include/string.h line 412
+extern char * strerror(signed int);
+// strlen
+// file /usr/include/string.h line 398
+extern unsigned long int strlen(const char *);
+// strncpy
+// file /usr/include/string.h line 132
+extern char * strncpy(char *, const char *, unsigned long int);
+// strrchr
+// file /usr/include/string.h line 262
+extern char * strrchr(const char *, signed int);
+// sysconf
+// file /usr/include/unistd.h line 619
+extern signed long int sysconf(signed int);
+// time
+// file /usr/include/time.h line 192
+extern signed long int time(signed long int *);
+// time2dos
+// file pigz.c line 935
+static unsigned long int time2dos(signed long int t);
+// tolong
+// file pigz.c line 2432
+static signed long int tolong(unsigned long int val);
+// touch
+// file pigz.c line 3410
+static void touch(char *path, signed long int t);
+// try_create_
+// file try.c line 21
+static void try_create_(void);
+// try_setup_
+// file try.h line 303
+void try_setup_(void);
+// try_throw_
+// file try.h line 421
+void try_throw_(signed int code, char *fmt, ...);
+// twist
+// file yarn.h line 128
+void twist(struct lock_s *bolt, enum twist_op op, signed long int val);
+// unlink
+// file /usr/include/unistd.h line 826
+extern signed int unlink(const char *);
+// unlzw
+// file pigz.c line 3183
+static void unlzw(void);
+// use_space
+// file pigz.c line 1308
+static void use_space(struct space *space);
+// utimes
+// file /usr/include/x86_64-linux-gnu/sys/time.h line 138
+extern signed int utimes(const char *, struct timeval *);
+// vfprintf
+// file /usr/include/stdio.h line 371
+extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
+// vmemcpy
+// file pigz.c line 870
+static inline unsigned long int vmemcpy(char **mem, unsigned long int *size, unsigned long int off, void *cpy, unsigned long int len);
+// vsnprintf
+// file /usr/include/stdio.h line 390
+extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
+// vstrcpy
+// file pigz.c line 894
+static inline unsigned long int vstrcpy(char **str, unsigned long int *size, unsigned long int off, void *cpy);
+// wait_for
+// file yarn.h line 132
+void wait_for(struct lock_s *bolt, enum wait_op op, signed long int val);
+// write
+// file /usr/include/unistd.h line 366
+extern signed long int write(signed int, const void *, unsigned long int);
+// write_thread
+// file pigz.c line 1716
+static void write_thread(void *dummy);
+// writen
+// file pigz.c line 920
+static void writen(signed int desc, unsigned char *buf, unsigned long int len);
+// yarn_abort$object
+//
+void yarn_abort$object(signed int);
+// yarn_mem
+// file yarn.c line 74
+void yarn_mem(void * (*lease)(unsigned long int), void (*vacate)(void *));
+// yarn_mem::lease$object
+//
+void * lease$object(unsigned long int);
+// yarn_mem::vacate$object
+//
+void vacate$object(void *);
+
+struct ZopfliOptions
+{
+  // verbose
+  signed int verbose;
+  // verbose_more
+  signed int verbose_more;
+  // numiterations
+  signed int numiterations;
+  // blocksplitting
+  signed int blocksplitting;
+  // blocksplittinglast
+  signed int blocksplittinglast;
+  // blocksplittingmax
+  signed int blocksplittingmax;
+};
+
+struct anonymous$1
+{
+  // prog
+  char *prog;
+  // ind
+  signed int ind;
+  // outd
+  signed int outd;
+  // inf
+  char *inf;
+  // inz
+  unsigned long int inz;
+  // outf
+  char *outf;
+  // verbosity
+  signed int verbosity;
+  // headis
+  signed int headis;
+  // pipeout
+  signed int pipeout;
+  // keep
+  signed int keep;
+  // force
+  signed int force;
+  // form
+  signed int form;
+  // magic1
+  unsigned char magic1;
+  // recurse
+  signed int recurse;
+  // sufx
+  char *sufx;
+  // name
+  char *name;
+  // mtime
+  signed long int mtime;
+  // list
+  signed int list;
+  // first
+  signed int first;
+  // decode
+  signed int decode;
+  // level
+  signed int level;
+  // zopts
+  struct ZopfliOptions zopts;
+  // rsync
+  signed int rsync;
+  // procs
+  signed int procs;
+  // setdict
+  signed int setdict;
+  // block
+  unsigned long int block;
+  // stamp
+  signed long int stamp;
+  // hname
+  char *hname;
+  // zip_crc
+  unsigned long int zip_crc;
+  // zip_clen
+  unsigned long int zip_clen;
+  // zip_ulen
+  unsigned long int zip_ulen;
+  // in_buf
+  unsigned char in_buf[32768l];
+  // in_next
+  unsigned char *in_next;
+  // in_left
+  unsigned long int in_left;
+  // in_eof
+  signed int in_eof;
+  // in_short
+  signed int in_short;
+  // in_tot
+  signed long int in_tot;
+  // out_tot
+  signed long int out_tot;
+  // out_check
+  unsigned long int out_check;
+  // in_buf2
+  unsigned char in_buf2[32768l];
+  // in_len
+  unsigned long int in_len;
+  // in_which
+  signed int in_which;
+  // load_state
+  struct lock_s *load_state;
+  // load_thread
+  struct thread_s *load_thread;
+};
+
+struct anonymous$0
+{
+  // __val
+  unsigned long int __val[16l];
+};
+
+struct anonymous$4
+{
+  // __cancel_jmp_buf
+  signed long int __cancel_jmp_buf[8l];
+  // __mask_was_saved
+  signed int __mask_was_saved;
+};
+
+struct anonymous$5
+{
+  // __cancel_jmp_buf
+  struct anonymous$4 __cancel_jmp_buf[1l];
+  // __pad
+  void *__pad[4l];
+};
+
+struct anonymous$6
+{
+  // __lock
+  signed int __lock;
+  // __futex
+  unsigned int __futex;
+  // __total_seq
+  unsigned long long int __total_seq;
+  // __wakeup_seq
+  unsigned long long int __wakeup_seq;
+  // __woken_seq
+  unsigned long long int __woken_seq;
+  // __mutex
+  void *__mutex;
+  // __nwaiters
+  unsigned int __nwaiters;
+  // __broadcast_seq
+  unsigned int __broadcast_seq;
+};
+
+struct anonymous
+{
+  // code
+  signed int code;
+  // free
+  signed int free;
+  // why
+  char *why;
+};
+
+union anonymous$7
+{
+  // __size
+  char __size[4l];
+  // __align
+  signed int __align;
+};
+
+union anonymous$3
+{
+  // __data
+  struct anonymous$6 __data;
+  // __size
+  char __size[48l];
+  // __align
+  signed long long int __align;
+};
+
+struct __pthread_internal_list
+{
+  // __prev
+  struct __pthread_internal_list *__prev;
+  // __next
+  struct __pthread_internal_list *__next;
+};
+
+struct __pthread_mutex_s
+{
+  // __lock
+  signed int __lock;
+  // __count
+  unsigned int __count;
+  // __owner
+  signed int __owner;
+  // __nusers
+  unsigned int __nusers;
+  // __kind
+  signed int __kind;
+  // __spins
+  signed short int __spins;
+  // __elision
+  signed short int __elision;
+  // __list
+  struct __pthread_internal_list __list;
+};
+
+union anonymous$2
+{
+  // __data
+  struct __pthread_mutex_s __data;
+  // __size
+  char __size[40l];
+  // __align
+  signed long int __align;
+};
+
+struct Node
+{
+  // weight
+  unsigned long int weight;
+  // tail
+  struct Node *tail;
+  // count
+  signed int count;
+  // inuse
+  char inuse;
+};
+
+struct NodePool
+{
+  // nodes
+  struct Node *nodes;
+  // next
+  struct Node *next;
+  // size
+  signed int size;
+};
+
+struct RanState
+{
+  // m_w
+  unsigned int m_w;
+  // m_z
+  unsigned int m_z;
+};
+
+struct SplitCostContext
+{
+  // litlens
+  const unsigned short int *litlens;
+  // dists
+  const unsigned short int *dists;
+  // llsize
+  unsigned long int llsize;
+  // start
+  unsigned long int start;
+  // end
+  unsigned long int end;
+};
+
+struct SymbolStats
+{
+  // litlens
+  unsigned long int litlens[288l];
+  // dists
+  unsigned long int dists[32l];
+  // ll_symbols
+  double ll_symbols[288l];
+  // d_symbols
+  double d_symbols[32l];
+};
+
+struct ZopfliBlockState
+{
+  // options
+  const struct ZopfliOptions *options;
+  // lmc
+  struct ZopfliLongestMatchCache *lmc;
+  // blockstart
+  unsigned long int blockstart;
+  // blockend
+  unsigned long int blockend;
+};
+
+struct ZopfliHash
+{
+  // head
+  signed int *head;
+  // prev
+  unsigned short int *prev;
+  // hashval
+  signed int *hashval;
+  // val
+  signed int val;
+  // head2
+  signed int *head2;
+  // prev2
+  unsigned short int *prev2;
+  // hashval2
+  signed int *hashval2;
+  // val2
+  signed int val2;
+  // same
+  unsigned short int *same;
+};
+
+struct ZopfliLZ77Store
+{
+  // litlens
+  unsigned short int *litlens;
+  // dists
+  unsigned short int *dists;
+  // size
+  unsigned long int size;
+};
+
+struct ZopfliLongestMatchCache
+{
+  // length
+  unsigned short int *length;
+  // dist
+  unsigned short int *dist;
+  // sublen
+  unsigned char *sublen;
+};
+
+struct _IO_FILE
+{
+  // _flags
+  signed int _flags;
+  // _IO_read_ptr
+  char *_IO_read_ptr;
+  // _IO_read_end
+  char *_IO_read_end;
+  // _IO_read_base
+  char *_IO_read_base;
+  // _IO_write_base
+  char *_IO_write_base;
+  // _IO_write_ptr
+  char *_IO_write_ptr;
+  // _IO_write_end
+  char *_IO_write_end;
+  // _IO_buf_base
+  char *_IO_buf_base;
+  // _IO_buf_end
+  char *_IO_buf_end;
+  // _IO_save_base
+  char *_IO_save_base;
+  // _IO_backup_base
+  char *_IO_backup_base;
+  // _IO_save_end
+  char *_IO_save_end;
+  // _markers
+  struct _IO_marker *_markers;
+  // _chain
+  struct _IO_FILE *_chain;
+  // _fileno
+  signed int _fileno;
+  // _flags2
+  signed int _flags2;
+  // _old_offset
+  signed long int _old_offset;
+  // _cur_column
+  unsigned short int _cur_column;
+  // _vtable_offset
+  signed char _vtable_offset;
+  // _shortbuf
+  char _shortbuf[1l];
+  // _lock
+  void *_lock;
+  // _offset
+  signed long int _offset;
+  // __pad1
+  void *__pad1;
+  // __pad2
+  void *__pad2;
+  // __pad3
+  void *__pad3;
+  // __pad4
+  void *__pad4;
+  // __pad5
+  unsigned long int __pad5;
+  // _mode
+  signed int _mode;
+  // _unused2
+  char _unused2[(signed long int)(sizeof(signed int) * 5) /*20l*/ ];
+};
+
+struct _IO_marker
+{
+  // _next
+  struct _IO_marker *_next;
+  // _sbuf
+  struct _IO_FILE *_sbuf;
+  // _pos
+  signed int _pos;
+};
+
+struct __jmp_buf_tag
+{
+  // __jmpbuf
+  signed long int __jmpbuf[8l];
+  // __mask_was_saved
+  signed int __mask_was_saved;
+  // __saved_mask
+  struct anonymous$0 __saved_mask;
+};
+
+struct capsule
+{
+  // probe
+  void (*probe)(void *);
+  // payload
+  void *payload;
+};
+
+struct dirent
+{
+  // d_ino
+  unsigned long int d_ino;
+  // d_off
+  signed long int d_off;
+  // d_reclen
+  unsigned short int d_reclen;
+  // d_type
+  unsigned char d_type;
+  // d_name
+  char d_name[256l];
+};
+
+struct internal_state
+{
+  // dummy
+  signed int dummy;
+};
+
+struct job
+{
+  // seq
+  signed long int seq;
+  // more
+  signed int more;
+  // in
+  struct space *in;
+  // out
+  struct space *out;
+  // lens
+  struct space *lens;
+  // check
+  unsigned long int check;
+  // calc
+  struct lock_s *calc;
+  // next
+  struct job *next;
+};
+
+struct lock_s
+{
+  // mutex
+  union anonymous$2 mutex;
+  // cond
+  union anonymous$3 cond;
+  // value
+  signed long int value;
+};
+
+struct pool
+{
+  // have
+  struct lock_s *have;
+  // head
+  struct space *head;
+  // size
+  unsigned long int size;
+  // limit
+  signed int limit;
+  // made
+  signed int made;
+};
+
+union pthread_attr_t
+{
+  // __size
+  char __size[56l];
+  // __align
+  signed long int __align;
+};
+
+struct space
+{
+  // use
+  struct lock_s *use;
+  // buf
+  unsigned char *buf;
+  // size
+  unsigned long int size;
+  // len
+  unsigned long int len;
+  // pool
+  struct pool *pool;
+  // next
+  struct space *next;
+};
+
+struct timespec
+{
+  // tv_sec
+  signed long int tv_sec;
+  // tv_nsec
+  signed long int tv_nsec;
+};
+
+struct stat
+{
+  // st_dev
+  unsigned long int st_dev;
+  // st_ino
+  unsigned long int st_ino;
+  // st_nlink
+  unsigned long int st_nlink;
+  // st_mode
+  unsigned int st_mode;
+  // st_uid
+  unsigned int st_uid;
+  // st_gid
+  unsigned int st_gid;
+  // __pad0
+  signed int __pad0;
+  // st_rdev
+  unsigned long int st_rdev;
+  // st_size
+  signed long int st_size;
+  // st_blksize
+  signed long int st_blksize;
+  // st_blocks
+  signed long int st_blocks;
+  // st_atim
+  struct timespec st_atim;
+  // st_mtim
+  struct timespec st_mtim;
+  // st_ctim
+  struct timespec st_ctim;
+  // __glibc_reserved
+  signed long int __glibc_reserved[3l];
+};
+
+struct thread_s
+{
+  // id
+  unsigned long int id;
+  // done
+  signed int done;
+  // next
+  struct thread_s *next;
+};
+
+struct timeval
+{
+  // tv_sec
+  signed long int tv_sec;
+  // tv_usec
+  signed long int tv_usec;
+};
+
+struct tm
+{
+  // tm_sec
+  signed int tm_sec;
+  // tm_min
+  signed int tm_min;
+  // tm_hour
+  signed int tm_hour;
+  // tm_mday
+  signed int tm_mday;
+  // tm_mon
+  signed int tm_mon;
+  // tm_year
+  signed int tm_year;
+  // tm_wday
+  signed int tm_wday;
+  // tm_yday
+  signed int tm_yday;
+  // tm_isdst
+  signed int tm_isdst;
+  // tm_gmtoff
+  signed long int tm_gmtoff;
+  // tm_zone
+  const char *tm_zone;
+};
+
+struct try_s_
+{
+  // env
+  struct __jmp_buf_tag env[1l];
+  // ball
+  struct anonymous ball;
+  // next
+  struct try_s_ *next;
+};
+
+struct z_stream_s
+{
+  // next_in
+  unsigned char *next_in;
+  // avail_in
+  unsigned int avail_in;
+  // total_in
+  unsigned long int total_in;
+  // next_out
+  unsigned char *next_out;
+  // avail_out
+  unsigned int avail_out;
+  // total_out
+  unsigned long int total_out;
+  // msg
+  char *msg;
+  // state
+  struct internal_state *state;
+  // zalloc
+  void * (*zalloc)(void *, unsigned int, unsigned int);
+  // zfree
+  void (*zfree)(void *, void *);
+  // opaque
+  void *opaque;
+  // data_type
+  signed int data_type;
+  // adler
+  unsigned long int adler;
+  // reserved
+  unsigned long int reserved;
+};
+
+
+// compress_have
+// file pigz.c line 1380
+static struct lock_s *compress_have = (struct lock_s *)(void *)0;
+// compress_head
+// file pigz.c line 1381
+static struct job *compress_head;
+// compress_tail
+// file pigz.c line 1381
+static struct job **compress_tail;
+// cthreads
+// file pigz.c line 1388
+static signed int cthreads = 0;
+// dict_pool
+// file pigz.c line 1360
+static struct pool dict_pool;
+// g
+// file pigz.c line 525
+static struct anonymous$1 g;
+// helptext
+// file pigz.c line 3739
+static char *helptext[36l] = { "Usage: pigz [options] [files ...]", "  will compress files in place, adding the suffix '.gz'.  If no files are",
+    "  specified, stdin will be compressed to stdout.  pigz does what gzip does,",
+    "  but spreads the work over multiple processors and cores when compressing.",
+    "", "Options:", "  -0 to -9, -11        Compression level (11 is much slower, a few % better)",
+    "  --fast, --best       Compression levels 1 and 9 respectively",
+    "  -b, --blocksize mmm  Set compression block size to mmmK (default 128K)",
+    "  -c, --stdout         Write all processed output to stdout (won't delete)",
+    "  -d, --decompress     Decompress the compressed input",
+    "  -f, --force          Force overwrite, compress .gz, links, and to terminal",
+    "  -F  --first          Do iterations first, before block split for -11",
+    "  -h, --help           Display a help screen and quit",
+    "  -i, --independent    Compress blocks independently for damage recovery",
+    "  -I, --iterations n   Number of iterations for -11 optimization",
+    "  -k, --keep           Do not delete original file after processing",
+    "  -K, --zip            Compress to PKWare zip (.zip) single entry format",
+    "  -l, --list           List the contents of the compressed input",
+    "  -L, --license        Display the pigz license and quit",
+    "  -M, --maxsplits n    Maximum number of split blocks for -11",
+    "  -n, --no-name        Do not store or restore file name in/from header",
+    "  -N, --name           Store/restore file name and mod time in/from header",
+    "  -O  --oneblock       Do not split into smaller blocks for -11",
+    "  -p, --processes n    Allow up to n compression threads (default is the",
+    "                       number of online processors, or 8 if unknown)",
+    "  -q, --quiet          Print no messages, even on error",
+    "  -r, --recursive      Process the contents of all subdirectories",
+    "  -R, --rsyncable      Input-determined block locations for rsync",
+    "  -S, --suffix .sss    Use suffix .sss instead of .gz (for compression)",
+    "  -t, --test           Test the integrity of the compressed input",
+    "  -T, --no-time        Do not store or restore mod time in/from header",
+    "  -v, --verbose        Provide more verbose output",
+    "  -V  --version        Show the version of pigz",
+    "  -z, --zlib           Compress to zlib (.zz) instead of gzip format",
+    "  --                   All arguments after \"--\" are treated as files" };
+// in_pool
+// file pigz.c line 1358
+static struct pool in_pool;
+// lens_pool
+// file pigz.c line 1361
+static struct pool lens_pool;
+// longopts
+// file pigz.c line 3858
+static char *longopts[34l][2l] = { { "LZW", "Z" }, { "ascii", "a" }, { "best", "9" }, { "bits", "Z" }, { "blocksize", "b" }, { "decompress", "d" }, { "fast", "1" }, { "first", "F" }, { "force", "f" }, { "help", "h" }, { "independent", "i" }, { "iterations", "I" }, { "keep", "k" }, { "license", "L" }, { "list", "l" }, { "maxsplits", "M" }, { "name", "N" }, { "no-name", "n" }, { "no-time", "T" }, { "oneblock", "O" }, { "processes", "p" }, { "quiet", "q" }, { "recursive", "r" }, { "rsyncable", "R" }, { "silent", "q" }, { "stdout", "c" }, { "suffix", "S" }, { "test", "t" }, { "to-stdout", "c" }, { "uncompress", "d" }, { "verbose", "v" }, { "version", "V" }, { "zip", "K" }, { "zlib", "z" } };
+// my_free
+// file yarn.c line 71
+static void (*my_free)(void *);
+// my_free
+// file yarn.c line 71
+static void (*my_free)(void *) = free;
+// my_malloc_f
+// file yarn.c line 70
+static void * (*my_malloc_f)(unsigned long int);
+// my_malloc_f
+// file yarn.c line 70
+static void * (*my_malloc_f)(unsigned long int) = malloc;
+// out_buf
+// file pigz.c line 2907
+static unsigned char out_buf[32768l];
+// out_copy
+// file pigz.c line 2911
+static unsigned char out_copy[32768l];
+// out_len
+// file pigz.c line 2912
+static unsigned long int out_len;
+// out_pool
+// file pigz.c line 1359
+static struct pool out_pool;
+// outb_check_more
+// file pigz.c line 2916
+static struct lock_s *outb_check_more;
+// outb_write_more
+// file pigz.c line 2915
+static struct lock_s *outb_write_more = (struct lock_s *)(void *)0;
+// stderr
+// file /usr/include/stdio.h line 170
+extern struct _IO_FILE *stderr;
+// stdout
+// file /usr/include/stdio.h line 169
+extern struct _IO_FILE *stdout;
+// threads
+// file yarn.c line 201
+static struct thread_s *threads = (struct thread_s *)(void *)0;
+// threads_lock
+// file yarn.c line 196
+static struct lock_s threads_lock = { .mutex={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+    .__kind=0, .__spins=(signed short int)0,
+    .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } }, .cond={ .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+    .__woken_seq=(unsigned long long int)0,
+    .__mutex=(void *)0,
+    .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } },
+    .value=(signed long int)0 };
+// try_key_
+// file try.c line 19
+unsigned int try_key_;
+// try_once_
+// file try.c line 20
+static signed int try_once_ = 0;
+// write_first
+// file pigz.c line 1384
+static struct lock_s *write_first;
+// write_head
+// file pigz.c line 1385
+static struct job *write_head;
+// writeth
+// file pigz.c line 1391
+static struct thread_s *writeth = (struct thread_s *)(void *)0;
+// yarn_abort
+// file yarn.c line 53
+void (*yarn_abort)(signed int) = (void (*)(signed int))(void *)0;
+// yarn_prefix
+// file yarn.c line 52
+char *yarn_prefix = "yarn";
+
+// AbsDiff
+// file zopfli/src/zopfli/deflate.c line 369
+static unsigned long int AbsDiff(unsigned long int x, unsigned long int y)
+{
+  if(!(y >= x))
+    return x - y;
+
+  else
+    return y - x;
+}
+
+// AddBit
+// file zopfli/src/zopfli/deflate.c line 38
+static void AddBit(signed int bit, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  if((signed int)*bp == 0)
+  {
+    if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+    {
+      if(*outsize == 0ul)
+      {
+        return_value_malloc$1=malloc(sizeof(unsigned char) /*1ul*/ );
+        tmp_if_expr$3 = return_value_malloc$1;
+      }
+
+      else
+      {
+        return_value_realloc$2=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+        tmp_if_expr$3 = return_value_realloc$2;
+      }
+      *out = (unsigned char *)tmp_if_expr$3;
+    }
+
+    (*out)[(signed long int)*outsize] = (unsigned char)0;
+    *outsize = *outsize + 1ul;
+  }
+
+  (*out)[(signed long int)(*outsize - (unsigned long int)1)] = (*out)[(signed long int)(*outsize - (unsigned long int)1)] | (unsigned char)(bit << (signed int)*bp);
+  *bp = (unsigned char)((signed int)*bp + 1 & 7);
+}
+
+// AddBits
+// file zopfli/src/zopfli/deflate.c line 45
+static void AddBits(unsigned int symbol, unsigned int length, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned int i = (unsigned int)0;
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  for( ; !(i >= length); i = i + 1u)
+  {
+    unsigned int bit = symbol >> i & (unsigned int)1;
+    if((signed int)*bp == 0)
+    {
+      if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+      {
+        if(*outsize == 0ul)
+        {
+          return_value_malloc$1=malloc(sizeof(unsigned char) /*1ul*/ );
+          tmp_if_expr$3 = return_value_malloc$1;
+        }
+
+        else
+        {
+          return_value_realloc$2=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+          tmp_if_expr$3 = return_value_realloc$2;
+        }
+        *out = (unsigned char *)tmp_if_expr$3;
+      }
+
+      (*out)[(signed long int)*outsize] = (unsigned char)0;
+      *outsize = *outsize + 1ul;
+    }
+
+    (*out)[(signed long int)(*outsize - (unsigned long int)1)] = (*out)[(signed long int)(*outsize - (unsigned long int)1)] | (unsigned char)(bit << (signed int)*bp);
+    *bp = (unsigned char)((signed int)*bp + 1 & 7);
+  }
+}
+
+// AddDynamicTree
+// file zopfli/src/zopfli/deflate.c line 251
+static void AddDynamicTree(const unsigned int *ll_lengths, const unsigned int *d_lengths, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  signed int i;
+  signed int best = 0;
+  unsigned long int bestsize = (unsigned long int)0;
+  i = 0;
+  for( ; !(i >= 8); i = i + 1)
+  {
+    unsigned long int size;
+    size=EncodeTree(ll_lengths, d_lengths, i & 1, i & 2, i & 4, ((unsigned char *)NULL), ((unsigned char **)NULL), ((unsigned long int *)NULL));
+    if(bestsize == 0ul || !(size >= bestsize))
+    {
+      bestsize = size;
+      best = i;
+    }
+
+  }
+  EncodeTree(ll_lengths, d_lengths, best & 1, best & 2, best & 4, bp, out, outsize);
+}
+
+// AddHuffmanBits
+// file zopfli/src/zopfli/deflate.c line 61
+static void AddHuffmanBits(unsigned int symbol, unsigned int length, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned int i = (unsigned int)0;
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  for( ; !(i >= length); i = i + 1u)
+  {
+    unsigned int bit = symbol >> (length - i) - (unsigned int)1 & (unsigned int)1;
+    if((signed int)*bp == 0)
+    {
+      if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+      {
+        if(*outsize == 0ul)
+        {
+          return_value_malloc$1=malloc(sizeof(unsigned char) /*1ul*/ );
+          tmp_if_expr$3 = return_value_malloc$1;
+        }
+
+        else
+        {
+          return_value_realloc$2=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+          tmp_if_expr$3 = return_value_realloc$2;
+        }
+        *out = (unsigned char *)tmp_if_expr$3;
+      }
+
+      (*out)[(signed long int)*outsize] = (unsigned char)0;
+      *outsize = *outsize + 1ul;
+    }
+
+    (*out)[(signed long int)(*outsize - (unsigned long int)1)] = (*out)[(signed long int)(*outsize - (unsigned long int)1)] | (unsigned char)(bit << (signed int)*bp);
+    *bp = (unsigned char)((signed int)*bp + 1 & 7);
+  }
+}
+
+// AddLZ77Block
+// file zopfli/src/zopfli/deflate.c line 528
+static void AddLZ77Block(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, unsigned long int expected_data_size, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned int ll_lengths[288l];
+  unsigned int d_lengths[32l];
+  unsigned int ll_symbols[288l];
+  unsigned int d_symbols[32l];
+  unsigned long int detect_block_size = *outsize;
+  unsigned long int compressed_size;
+  unsigned long int uncompressed_size = (unsigned long int)0;
+  unsigned long int i;
+  AddBit(final, bp, out, outsize);
+  AddBit(btype & 1, bp, out, outsize);
+  AddBit((btype & 2) >> 1, bp, out, outsize);
+  if(btype == 1)
+    GetFixedTree(ll_lengths, d_lengths);
+
+  else
+  {
+    unsigned int detect_tree_size;
+    /* assertion btype == 2 */
+    assert(btype == 2);
+    GetDynamicLengths(litlens, dists, lstart, lend, ll_lengths, d_lengths);
+    detect_tree_size = (unsigned int)*outsize;
+    AddDynamicTree(ll_lengths, d_lengths, bp, out, outsize);
+    if(!(options->verbose == 0))
+      fprintf(stderr, "treesize: %d\n", (signed int)(*outsize - (unsigned long int)detect_tree_size));
+
+  }
+  ZopfliLengthsToSymbols(ll_lengths, (unsigned long int)288, (unsigned int)15, ll_symbols);
+  ZopfliLengthsToSymbols(d_lengths, (unsigned long int)32, (unsigned int)15, d_symbols);
+  detect_block_size = *outsize;
+  AddLZ77Data(litlens, dists, lstart, lend, expected_data_size, ll_symbols, ll_lengths, d_symbols, d_lengths, bp, out, outsize);
+  AddHuffmanBits(ll_symbols[(signed long int)256], ll_lengths[(signed long int)256], bp, out, outsize);
+  i = lstart;
+  signed int tmp_if_expr$1;
+  for( ; !(i >= lend); i = i + 1ul)
+  {
+    if((signed int)dists[(signed long int)i] == 0)
+      tmp_if_expr$1 = 1;
+
+    else
+      tmp_if_expr$1 = (signed int)litlens[(signed long int)i];
+    uncompressed_size = uncompressed_size + (unsigned long int)tmp_if_expr$1;
+  }
+  compressed_size = *outsize - detect_block_size;
+  if(!(options->verbose == 0))
+    fprintf(stderr, "compressed block size: %d (%dk) (unc: %d)\n", (signed int)compressed_size, (signed int)(compressed_size / (unsigned long int)1024), (signed int)uncompressed_size);
+
+}
+
+// AddLZ77Data
+// file zopfli/src/zopfli/deflate.c line 297
+static void AddLZ77Data(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, unsigned long int expected_data_size, const unsigned int *ll_symbols, const unsigned int *ll_lengths, const unsigned int *d_symbols, const unsigned int *d_lengths, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned long int testlength = (unsigned long int)0;
+  unsigned long int i = lstart;
+  for( ; !(i >= lend); i = i + 1ul)
+  {
+    unsigned int dist = (unsigned int)dists[(signed long int)i];
+    unsigned int litlen = (unsigned int)litlens[(signed long int)i];
+    if(dist == 0u)
+    {
+      /* assertion litlen < 256 */
+      assert(litlen < (unsigned int)256);
+      /* assertion ll_lengths[litlen] > 0 */
+      assert(ll_lengths[(signed long int)litlen] > (unsigned int)0);
+      AddHuffmanBits(ll_symbols[(signed long int)litlen], ll_lengths[(signed long int)litlen], bp, out, outsize);
+      testlength = testlength + 1ul;
+    }
+
+    else
+    {
+      unsigned int lls;
+      signed int return_value_ZopfliGetLengthSymbol$1;
+      return_value_ZopfliGetLengthSymbol$1=ZopfliGetLengthSymbol((signed int)litlen);
+      lls = (unsigned int)return_value_ZopfliGetLengthSymbol$1;
+      unsigned int ds;
+      signed int return_value_ZopfliGetDistSymbol$2;
+      return_value_ZopfliGetDistSymbol$2=ZopfliGetDistSymbol((signed int)dist);
+      ds = (unsigned int)return_value_ZopfliGetDistSymbol$2;
+      /* assertion litlen >= 3 && litlen <= 288 */
+      assert(litlen >= (unsigned int)3 && litlen <= (unsigned int)288);
+      /* assertion ll_lengths[lls] > 0 */
+      assert(ll_lengths[(signed long int)lls] > (unsigned int)0);
+      /* assertion d_lengths[ds] > 0 */
+      assert(d_lengths[(signed long int)ds] > (unsigned int)0);
+      AddHuffmanBits(ll_symbols[(signed long int)lls], ll_lengths[(signed long int)lls], bp, out, outsize);
+      signed int return_value_ZopfliGetLengthExtraBitsValue$3;
+      return_value_ZopfliGetLengthExtraBitsValue$3=ZopfliGetLengthExtraBitsValue((signed int)litlen);
+      signed int return_value_ZopfliGetLengthExtraBits$4;
+      return_value_ZopfliGetLengthExtraBits$4=ZopfliGetLengthExtraBits((signed int)litlen);
+      AddBits((unsigned int)return_value_ZopfliGetLengthExtraBitsValue$3, (unsigned int)return_value_ZopfliGetLengthExtraBits$4, bp, out, outsize);
+      AddHuffmanBits(d_symbols[(signed long int)ds], d_lengths[(signed long int)ds], bp, out, outsize);
+      signed int return_value_ZopfliGetDistExtraBitsValue$5;
+      return_value_ZopfliGetDistExtraBitsValue$5=ZopfliGetDistExtraBitsValue((signed int)dist);
+      signed int return_value_ZopfliGetDistExtraBits$6;
+      return_value_ZopfliGetDistExtraBits$6=ZopfliGetDistExtraBits((signed int)dist);
+      AddBits((unsigned int)return_value_ZopfliGetDistExtraBitsValue$5, (unsigned int)return_value_ZopfliGetDistExtraBits$6, bp, out, outsize);
+      testlength = testlength + (unsigned long int)litlen;
+    }
+  }
+  /* assertion expected_data_size == 0 || testlength == expected_data_size */
+  assert(expected_data_size == (unsigned long int)0 || testlength == expected_data_size);
+}
+
+// AddSorted
+// file zopfli/src/zopfli/blocksplitter.c line 132
+static void AddSorted(unsigned long int value, unsigned long int **out, unsigned long int *outsize)
+{
+  unsigned long int i;
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+  {
+    if(*outsize == 0ul)
+    {
+      return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/ );
+      tmp_if_expr$3 = return_value_malloc$1;
+    }
+
+    else
+    {
+      return_value_realloc$2=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned long int) /*8ul*/ );
+      tmp_if_expr$3 = return_value_realloc$2;
+    }
+    *out = (unsigned long int *)tmp_if_expr$3;
+  }
+
+  (*out)[(signed long int)*outsize] = value;
+  *outsize = *outsize + 1ul;
+  i = (unsigned long int)0;
+  for( ; !(1ul + i >= *outsize); i = i + 1ul)
+    if(!(value >= (*out)[(signed long int)i]))
+    {
+      unsigned long int j = *outsize - (unsigned long int)1;
+      for( ; !(i >= j); j = j - 1ul)
+        (*out)[(signed long int)j] = (*out)[(signed long int)(j - (unsigned long int)1)];
+      (*out)[(signed long int)i] = value;
+      break;
+    }
+
+}
+
+// AddWeighedStatFreqs
+// file zopfli/src/zopfli/squeeze.c line 60
+static void AddWeighedStatFreqs(const struct SymbolStats *stats1, double w1, const struct SymbolStats *stats2, double w2, struct SymbolStats *result)
+{
+  unsigned long int i = (unsigned long int)0;
+  for( ; !(i >= 288ul); i = i + 1ul)
+    result->litlens[(signed long int)i] = (unsigned long int)((double)stats1->litlens[(signed long int)i] * w1 + (double)stats2->litlens[(signed long int)i] * w2);
+  i = (unsigned long int)0;
+  for( ; !(i >= 32ul); i = i + 1ul)
+    result->dists[(signed long int)i] = (unsigned long int)((double)stats1->dists[(signed long int)i] * w1 + (double)stats2->dists[(signed long int)i] * w2);
+  result->litlens[(signed long int)256] = (unsigned long int)1;
+}
+
+// BoundaryPM
+// file zopfli/src/zopfli/katajainen.c line 105
+static void BoundaryPM(struct Node *(*lists)[2l], signed int maxbits, struct Node *leaves, signed int numsymbols, struct NodePool *pool, signed int index, char final)
+{
+  struct Node *newchain;
+  struct Node *oldchain;
+  signed int lastcount = lists[(signed long int)index][(signed long int)1]->count;
+  _Bool tmp_if_expr$1;
+  if(!(index == 0) || !(lastcount >= numsymbols))
+  {
+    newchain=GetFreeNode(lists, maxbits, pool);
+    oldchain = lists[(signed long int)index][(signed long int)1];
+    lists[(signed long int)index][(signed long int)0] = oldchain;
+    lists[(signed long int)index][(signed long int)1] = newchain;
+    if(index == 0)
+      InitNode((leaves + (signed long int)lastcount)->weight, lastcount + 1, ((struct Node *)NULL), newchain);
+
+    else
+    {
+      unsigned long int sum = lists[(signed long int)(index - 1)][(signed long int)0]->weight + lists[(signed long int)(index - 1)][(signed long int)1]->weight;
+      if(!(lastcount >= numsymbols))
+        tmp_if_expr$1 = sum > (leaves + (signed long int)lastcount)->weight ? (_Bool)1 : (_Bool)0;
+
+      else
+        tmp_if_expr$1 = (_Bool)0;
+      if(tmp_if_expr$1)
+        InitNode((leaves + (signed long int)lastcount)->weight, lastcount + 1, oldchain->tail, newchain);
+
+      else
+      {
+        InitNode(sum, lastcount, lists[(signed long int)(index - 1)][(signed long int)1], newchain);
+        if(final == 0)
+        {
+          BoundaryPM(lists, maxbits, leaves, numsymbols, pool, index - 1, (char)0);
+          BoundaryPM(lists, maxbits, leaves, numsymbols, pool, index - 1, (char)0);
+        }
+
+      }
+    }
+  }
+
+}
+
+// CalculateBlockSymbolSize
+// file zopfli/src/zopfli/deflate.c line 348
+static unsigned long int CalculateBlockSymbolSize(const unsigned int *ll_lengths, const unsigned int *d_lengths, const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend)
+{
+  unsigned long int result = (unsigned long int)0;
+  unsigned long int i = lstart;
+  for( ; !(i >= lend); i = i + 1ul)
+    if((signed int)dists[(signed long int)i] == 0)
+      result = result + (unsigned long int)ll_lengths[(signed long int)litlens[(signed long int)i]];
+
+    else
+    {
+      signed int return_value_ZopfliGetLengthSymbol$1;
+      return_value_ZopfliGetLengthSymbol$1=ZopfliGetLengthSymbol((signed int)litlens[(signed long int)i]);
+      result = result + (unsigned long int)ll_lengths[(signed long int)return_value_ZopfliGetLengthSymbol$1];
+      signed int return_value_ZopfliGetDistSymbol$2;
+      return_value_ZopfliGetDistSymbol$2=ZopfliGetDistSymbol((signed int)dists[(signed long int)i]);
+      result = result + (unsigned long int)d_lengths[(signed long int)return_value_ZopfliGetDistSymbol$2];
+      signed int return_value_ZopfliGetLengthExtraBits$3;
+      return_value_ZopfliGetLengthExtraBits$3=ZopfliGetLengthExtraBits((signed int)litlens[(signed long int)i]);
+      result = result + (unsigned long int)return_value_ZopfliGetLengthExtraBits$3;
+      signed int return_value_ZopfliGetDistExtraBits$4;
+      return_value_ZopfliGetDistExtraBits$4=ZopfliGetDistExtraBits((signed int)dists[(signed long int)i]);
+      result = result + (unsigned long int)return_value_ZopfliGetDistExtraBits$4;
+    }
+  result = result + (unsigned long int)ll_lengths[(signed long int)256];
+  return result;
+}
+
+// CalculateStatistics
+// file zopfli/src/zopfli/squeeze.c line 393
+static void CalculateStatistics(struct SymbolStats *stats)
+{
+  ZopfliCalculateEntropy(stats->litlens, (unsigned long int)288, stats->ll_symbols);
+  ZopfliCalculateEntropy(stats->dists, (unsigned long int)32, stats->d_symbols);
+}
+
+// CalculateTreeSize
+// file zopfli/src/zopfli/deflate.c line 277
+static unsigned long int CalculateTreeSize(const unsigned int *ll_lengths, const unsigned int *d_lengths)
+{
+  unsigned long int result = (unsigned long int)0;
+  signed int i = 0;
+  for( ; !(i >= 8); i = i + 1)
+  {
+    unsigned long int size;
+    size=EncodeTree(ll_lengths, d_lengths, i & 1, i & 2, i & 4, ((unsigned char *)NULL), ((unsigned char **)NULL), ((unsigned long int *)NULL));
+    if(result == 0ul || !(size >= result))
+      result = size;
+
+  }
+  return result;
+}
+
+// ClearStatFreqs
+// file zopfli/src/zopfli/squeeze.c line 104
+static void ClearStatFreqs(struct SymbolStats *stats)
+{
+  unsigned long int i = (unsigned long int)0;
+  for( ; !(i >= 288ul); i = i + 1ul)
+    stats->litlens[(signed long int)i] = (unsigned long int)0;
+  i = (unsigned long int)0;
+  for( ; !(i >= 32ul); i = i + 1ul)
+    stats->dists[(signed long int)i] = (unsigned long int)0;
+}
+
+// CopyStats
+// file zopfli/src/zopfli/squeeze.c line 50
+static void CopyStats(struct SymbolStats *source, struct SymbolStats *dest)
+{
+  memcpy((void *)dest->litlens, (const void *)source->litlens, (unsigned long int)288 * sizeof(unsigned long int) /*8ul*/ );
+  memcpy((void *)dest->dists, (const void *)source->dists, (unsigned long int)32 * sizeof(unsigned long int) /*8ul*/ );
+  memcpy((void *)dest->ll_symbols, (const void *)source->ll_symbols, (unsigned long int)288 * sizeof(double) /*8ul*/ );
+  memcpy((void *)dest->d_symbols, (const void *)source->d_symbols, (unsigned long int)32 * sizeof(double) /*8ul*/ );
+}
+
+// DeflateBlock
+// file zopfli/src/zopfli/deflate.c line 700
+static void DeflateBlock(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  if(btype == 0)
+    DeflateNonCompressedBlock(options, final, in, instart, inend, bp, out, outsize);
+
+  else
+    if(btype == 1)
+      DeflateFixedBlock(options, final, in, instart, inend, bp, out, outsize);
+
+    else
+    {
+      /* assertion btype == 2 */
+      assert(btype == 2);
+      DeflateDynamicBlock(options, final, in, instart, inend, bp, out, outsize);
+    }
+}
+
+// DeflateDynamicBlock
+// file zopfli/src/zopfli/deflate.c line 586
+static void DeflateDynamicBlock(const struct ZopfliOptions *options, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  struct ZopfliBlockState s;
+  unsigned long int blocksize = inend - instart;
+  struct ZopfliLZ77Store store;
+  signed int btype = 2;
+  ZopfliInitLZ77Store(&store);
+  s.options = options;
+  s.blockstart = instart;
+  s.blockend = inend;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(struct ZopfliLongestMatchCache) /*24ul*/ );
+  s.lmc = (struct ZopfliLongestMatchCache *)return_value_malloc$1;
+  ZopfliInitCache(blocksize, s.lmc);
+  ZopfliLZ77Optimal(&s, in, instart, inend, &store);
+  if(!(store.size >= 1000ul))
+  {
+    double dyncost;
+    double fixedcost;
+    struct ZopfliLZ77Store fixedstore;
+    ZopfliInitLZ77Store(&fixedstore);
+    ZopfliLZ77OptimalFixed(&s, in, instart, inend, &fixedstore);
+    dyncost=ZopfliCalculateBlockSize(store.litlens, store.dists, (unsigned long int)0, store.size, 2);
+    fixedcost=ZopfliCalculateBlockSize(fixedstore.litlens, fixedstore.dists, (unsigned long int)0, fixedstore.size, 1);
+    if(fixedcost < dyncost)
+    {
+      btype = 1;
+      ZopfliCleanLZ77Store(&store);
+      store = fixedstore;
+    }
+
+    else
+      ZopfliCleanLZ77Store(&fixedstore);
+  }
+
+  AddLZ77Block(s.options, btype, final, store.litlens, store.dists, (unsigned long int)0, store.size, blocksize, bp, out, outsize);
+  ZopfliCleanCache(s.lmc);
+  free((void *)s.lmc);
+  ZopfliCleanLZ77Store(&store);
+}
+
+// DeflateFixedBlock
+// file zopfli/src/zopfli/deflate.c line 639
+static void DeflateFixedBlock(const struct ZopfliOptions *options, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  struct ZopfliBlockState s;
+  unsigned long int blocksize = inend - instart;
+  struct ZopfliLZ77Store store;
+  ZopfliInitLZ77Store(&store);
+  s.options = options;
+  s.blockstart = instart;
+  s.blockend = inend;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(struct ZopfliLongestMatchCache) /*24ul*/ );
+  s.lmc = (struct ZopfliLongestMatchCache *)return_value_malloc$1;
+  ZopfliInitCache(blocksize, s.lmc);
+  ZopfliLZ77OptimalFixed(&s, in, instart, inend, &store);
+  AddLZ77Block(s.options, 1, final, store.litlens, store.dists, (unsigned long int)0, store.size, blocksize, bp, out, outsize);
+  ZopfliCleanCache(s.lmc);
+  free((void *)s.lmc);
+  ZopfliCleanLZ77Store(&store);
+}
+
+// DeflateNonCompressedBlock
+// file zopfli/src/zopfli/deflate.c line 670
+static void DeflateNonCompressedBlock(const struct ZopfliOptions *options, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned long int i;
+  unsigned long int blocksize = inend - instart;
+  unsigned short int nlen = (unsigned short int)~blocksize;
+  (void)options;
+  /* assertion blocksize < 65536 */
+  assert(blocksize < (unsigned long int)65536);
+  AddBit(final, bp, out, outsize);
+  AddBit(0, bp, out, outsize);
+  AddBit(0, bp, out, outsize);
+  *bp = (unsigned char)0;
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+  {
+    if(*outsize == 0ul)
+    {
+      return_value_malloc$1=malloc(sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$3 = return_value_malloc$1;
+    }
+
+    else
+    {
+      return_value_realloc$2=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$3 = return_value_realloc$2;
+    }
+    *out = (unsigned char *)tmp_if_expr$3;
+  }
+
+  (*out)[(signed long int)*outsize] = (unsigned char)(blocksize % (unsigned long int)256);
+  *outsize = *outsize + 1ul;
+  void *tmp_if_expr$6;
+  void *return_value_malloc$4;
+  void *return_value_realloc$5;
+  if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+  {
+    if(*outsize == 0ul)
+    {
+      return_value_malloc$4=malloc(sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$6 = return_value_malloc$4;
+    }
+
+    else
+    {
+      return_value_realloc$5=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$6 = return_value_realloc$5;
+    }
+    *out = (unsigned char *)tmp_if_expr$6;
+  }
+
+  (*out)[(signed long int)*outsize] = (unsigned char)((blocksize / (unsigned long int)256) % (unsigned long int)256);
+  *outsize = *outsize + 1ul;
+  void *tmp_if_expr$9;
+  void *return_value_malloc$7;
+  void *return_value_realloc$8;
+  if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+  {
+    if(*outsize == 0ul)
+    {
+      return_value_malloc$7=malloc(sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$9 = return_value_malloc$7;
+    }
+
+    else
+    {
+      return_value_realloc$8=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$9 = return_value_realloc$8;
+    }
+    *out = (unsigned char *)tmp_if_expr$9;
+  }
+
+  (*out)[(signed long int)*outsize] = (unsigned char)((signed int)nlen % 256);
+  *outsize = *outsize + 1ul;
+  void *tmp_if_expr$12;
+  void *return_value_malloc$10;
+  void *return_value_realloc$11;
+  if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+  {
+    if(*outsize == 0ul)
+    {
+      return_value_malloc$10=malloc(sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$12 = return_value_malloc$10;
+    }
+
+    else
+    {
+      return_value_realloc$11=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+      tmp_if_expr$12 = return_value_realloc$11;
+    }
+    *out = (unsigned char *)tmp_if_expr$12;
+  }
+
+  (*out)[(signed long int)*outsize] = (unsigned char)(((signed int)nlen / 256) % 256);
+  *outsize = *outsize + 1ul;
+  i = instart;
+  void *tmp_if_expr$15;
+  void *return_value_malloc$13;
+  void *return_value_realloc$14;
+  for( ; !(i >= inend); i = i + 1ul)
+  {
+    if((*outsize + 18446744073709551615ul & *outsize) == 0ul)
+    {
+      if(*outsize == 0ul)
+      {
+        return_value_malloc$13=malloc(sizeof(unsigned char) /*1ul*/ );
+        tmp_if_expr$15 = return_value_malloc$13;
+      }
+
+      else
+      {
+        return_value_realloc$14=realloc((void *)*out, *outsize * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+        tmp_if_expr$15 = return_value_realloc$14;
+      }
+      *out = (unsigned char *)tmp_if_expr$15;
+    }
+
+    (*out)[(signed long int)*outsize] = in[(signed long int)i];
+    *outsize = *outsize + 1ul;
+  }
+}
+
+// DeflateSplittingFirst
+// file zopfli/src/zopfli/deflate.c line 721
+static void DeflateSplittingFirst(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned long int i;
+  unsigned long int *splitpoints = ((unsigned long int *)NULL);
+  unsigned long int npoints = (unsigned long int)0;
+  if(btype == 0)
+    ZopfliBlockSplitSimple(in, instart, inend, (unsigned long int)65535, &splitpoints, &npoints);
+
+  else
+    if(!(btype == 1))
+      ZopfliBlockSplit(options, in, instart, inend, (unsigned long int)options->blocksplittingmax, &splitpoints, &npoints);
+
+  i = (unsigned long int)0;
+  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr$2;
+  for( ; npoints >= i; i = i + 1ul)
+  {
+    unsigned long int start;
+    if(i == 0ul)
+      tmp_if_expr$1 = instart;
+
+    else
+      tmp_if_expr$1 = splitpoints[(signed long int)(i - (unsigned long int)1)];
+    start = tmp_if_expr$1;
+    unsigned long int end;
+    if(i == npoints)
+      tmp_if_expr$2 = inend;
+
+    else
+      tmp_if_expr$2 = splitpoints[(signed long int)i];
+    end = tmp_if_expr$2;
+    DeflateBlock(options, btype, (signed int)(i == npoints && final != 0), in, start, end, bp, out, outsize);
+  }
+  free((void *)splitpoints);
+}
+
+// DeflateSplittingLast
+// file zopfli/src/zopfli/deflate.c line 755
+static void DeflateSplittingLast(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned long int i;
+  struct ZopfliBlockState s;
+  struct ZopfliLZ77Store store;
+  unsigned long int *splitpoints = ((unsigned long int *)NULL);
+  unsigned long int npoints = (unsigned long int)0;
+  if(btype == 0)
+    DeflateSplittingFirst(options, btype, final, in, instart, inend, bp, out, outsize);
+
+  /* assertion btype == 1 || btype == 2 */
+  assert(btype == 1 || btype == 2);
+  ZopfliInitLZ77Store(&store);
+  s.options = options;
+  s.blockstart = instart;
+  s.blockend = inend;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(struct ZopfliLongestMatchCache) /*24ul*/ );
+  s.lmc = (struct ZopfliLongestMatchCache *)return_value_malloc$1;
+  ZopfliInitCache(inend - instart, s.lmc);
+  if(btype == 2)
+    ZopfliLZ77Optimal(&s, in, instart, inend, &store);
+
+  else
+  {
+    /* assertion btype == 1 */
+    assert(btype == 1);
+    ZopfliLZ77OptimalFixed(&s, in, instart, inend, &store);
+  }
+  if(!(btype == 1))
+    ZopfliBlockSplitLZ77(options, store.litlens, store.dists, store.size, (unsigned long int)options->blocksplittingmax, &splitpoints, &npoints);
+
+  i = (unsigned long int)0;
+  unsigned long int tmp_if_expr$2;
+  unsigned long int tmp_if_expr$3;
+  for( ; npoints >= i; i = i + 1ul)
+  {
+    unsigned long int start;
+    if(i == 0ul)
+      tmp_if_expr$2 = (unsigned long int)0;
+
+    else
+      tmp_if_expr$2 = splitpoints[(signed long int)(i - (unsigned long int)1)];
+    start = tmp_if_expr$2;
+    unsigned long int end;
+    if(i == npoints)
+      tmp_if_expr$3 = store.size;
+
+    else
+      tmp_if_expr$3 = splitpoints[(signed long int)i];
+    end = tmp_if_expr$3;
+    AddLZ77Block(options, btype, (signed int)(i == npoints && final != 0), store.litlens, store.dists, start, end, (unsigned long int)0, bp, out, outsize);
+  }
+  ZopfliCleanCache(s.lmc);
+  free((void *)s.lmc);
+  ZopfliCleanLZ77Store(&store);
+  free((void *)splitpoints);
+}
+
+// EncodeTree
+// file zopfli/src/zopfli/deflate.c line 105
+static unsigned long int EncodeTree(const unsigned int *ll_lengths, const unsigned int *d_lengths, signed int use_16, signed int use_17, signed int use_18, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned int lld_total;
+  unsigned int *rle = ((unsigned int *)NULL);
+  unsigned int *rle_bits = ((unsigned int *)NULL);
+  unsigned long int rle_size = (unsigned long int)0;
+  unsigned long int rle_bits_size = (unsigned long int)0;
+  unsigned int hlit = (unsigned int)29;
+  unsigned int hdist = (unsigned int)29;
+  unsigned int hclen;
+  unsigned int hlit2;
+  unsigned long int i;
+  unsigned long int j;
+  unsigned long int clcounts[19l];
+  unsigned int clcl[19l];
+  unsigned int clsymbols[19l];
+  signed int size_only = (signed int)!(out != ((unsigned char **)NULL));
+  unsigned long int result_size = (unsigned long int)0;
+  i = (unsigned long int)0;
+  for( ; !(i >= 19ul); i = i + 1ul)
+    clcounts[(signed long int)i] = (unsigned long int)0;
+  for( ; hlit >= 1u; hlit = hlit - 1u)
+    if(!(ll_lengths[(signed long int)(257u + hlit + 4294967295u)] == 0u))
+      break;
+
+  for( ; hdist >= 1u; hdist = hdist - 1u)
+    if(!(d_lengths[(signed long int)(1u + hdist + 4294967295u)] == 0u))
+      break;
+
+  hlit2 = hlit + (unsigned int)257;
+  lld_total = hlit2 + hdist + (unsigned int)1;
+  i = (unsigned long int)0;
+  unsigned int tmp_if_expr$1;
+  _Bool tmp_if_expr$3;
+  unsigned int tmp_if_expr$2;
+  void *tmp_if_expr$6;
+  void *return_value_malloc$4;
+  void *return_value_realloc$5;
+  void *tmp_if_expr$9;
+  void *return_value_malloc$7;
+  void *return_value_realloc$8;
+  void *tmp_if_expr$12;
+  void *return_value_malloc$10;
+  void *return_value_realloc$11;
+  void *tmp_if_expr$15;
+  void *return_value_malloc$13;
+  void *return_value_realloc$14;
+  void *tmp_if_expr$18;
+  void *return_value_malloc$16;
+  void *return_value_realloc$17;
+  void *tmp_if_expr$21;
+  void *return_value_malloc$19;
+  void *return_value_realloc$20;
+  void *tmp_if_expr$24;
+  void *return_value_malloc$22;
+  void *return_value_realloc$23;
+  void *tmp_if_expr$27;
+  void *return_value_malloc$25;
+  void *return_value_realloc$26;
+  void *tmp_if_expr$30;
+  void *return_value_malloc$28;
+  void *return_value_realloc$29;
+  void *tmp_if_expr$33;
+  void *return_value_malloc$31;
+  void *return_value_realloc$32;
+  for( ; !(i >= (unsigned long int)lld_total); i = i + 1ul)
+  {
+    unsigned char symbol;
+    if(!(i >= (unsigned long int)hlit2))
+      tmp_if_expr$1 = ll_lengths[(signed long int)i];
+
+    else
+      tmp_if_expr$1 = d_lengths[(signed long int)(i - (unsigned long int)hlit2)];
+    symbol = (unsigned char)tmp_if_expr$1;
+    unsigned int count = (unsigned int)1;
+    if((signed int)symbol == 0 && (!(use_17 == 0) || !(use_18 == 0)) || !(use_16 == 0))
+    {
+      j = i + (unsigned long int)1;
+      do
+      {
+        if(!(j >= (unsigned long int)lld_total))
+        {
+          if(!(j >= (unsigned long int)hlit2))
+            tmp_if_expr$2 = ll_lengths[(signed long int)j];
+
+          else
+            tmp_if_expr$2 = d_lengths[(signed long int)(j - (unsigned long int)hlit2)];
+          tmp_if_expr$3 = (unsigned int)symbol == tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$3 = (_Bool)0;
+        if(!tmp_if_expr$3)
+          break;
+
+        count = count + 1u;
+        j = j + 1ul;
+      }
+      while((_Bool)1);
+    }
+
+    i = i + (unsigned long int)(count - (unsigned int)1);
+    if((signed int)symbol == 0 && count >= 3u)
+    {
+      if(!(use_18 == 0))
+        while(count >= 11u)
+        {
+          unsigned int count2 = count > (unsigned int)138 ? (unsigned int)138 : count;
+          if(size_only == 0)
+          {
+            if((rle_size + 18446744073709551615ul & rle_size) == 0ul)
+            {
+              if(rle_size == 0ul)
+              {
+                return_value_malloc$4=malloc(sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$6 = return_value_malloc$4;
+              }
+
+              else
+              {
+                return_value_realloc$5=realloc((void *)*(&rle), *(&rle_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$6 = return_value_realloc$5;
+              }
+              *(&rle) = (unsigned int *)tmp_if_expr$6;
+            }
+
+            (*(&rle))[(signed long int)*(&rle_size)] = (unsigned int)18;
+            *(&rle_size) = *(&rle_size) + 1ul;
+            if((rle_bits_size + 18446744073709551615ul & rle_bits_size) == 0ul)
+            {
+              if(rle_bits_size == 0ul)
+              {
+                return_value_malloc$7=malloc(sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$9 = return_value_malloc$7;
+              }
+
+              else
+              {
+                return_value_realloc$8=realloc((void *)*(&rle_bits), *(&rle_bits_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$9 = return_value_realloc$8;
+              }
+              *(&rle_bits) = (unsigned int *)tmp_if_expr$9;
+            }
+
+            (*(&rle_bits))[(signed long int)*(&rle_bits_size)] = count2 - (unsigned int)11;
+            *(&rle_bits_size) = *(&rle_bits_size) + 1ul;
+          }
+
+          clcounts[(signed long int)18] = clcounts[(signed long int)18] + 1ul;
+          count = count - count2;
+        }
+
+      if(!(use_17 == 0))
+        while(count >= 3u)
+        {
+          unsigned int EncodeTree$$1$$2$$1$$2$$2$$1$$count2 = count > (unsigned int)10 ? (unsigned int)10 : count;
+          if(size_only == 0)
+          {
+            if((rle_size + 18446744073709551615ul & rle_size) == 0ul)
+            {
+              if(rle_size == 0ul)
+              {
+                return_value_malloc$10=malloc(sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$12 = return_value_malloc$10;
+              }
+
+              else
+              {
+                return_value_realloc$11=realloc((void *)*(&rle), *(&rle_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$12 = return_value_realloc$11;
+              }
+              *(&rle) = (unsigned int *)tmp_if_expr$12;
+            }
+
+            (*(&rle))[(signed long int)*(&rle_size)] = (unsigned int)17;
+            *(&rle_size) = *(&rle_size) + 1ul;
+            if((rle_bits_size + 18446744073709551615ul & rle_bits_size) == 0ul)
+            {
+              if(rle_bits_size == 0ul)
+              {
+                return_value_malloc$13=malloc(sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$15 = return_value_malloc$13;
+              }
+
+              else
+              {
+                return_value_realloc$14=realloc((void *)*(&rle_bits), *(&rle_bits_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+                tmp_if_expr$15 = return_value_realloc$14;
+              }
+              *(&rle_bits) = (unsigned int *)tmp_if_expr$15;
+            }
+
+            (*(&rle_bits))[(signed long int)*(&rle_bits_size)] = EncodeTree$$1$$2$$1$$2$$2$$1$$count2 - (unsigned int)3;
+            *(&rle_bits_size) = *(&rle_bits_size) + 1ul;
+          }
+
+          clcounts[(signed long int)17] = clcounts[(signed long int)17] + 1ul;
+          count = count - EncodeTree$$1$$2$$1$$2$$2$$1$$count2;
+        }
+
+    }
+
+    if(count >= 4u && !(use_16 == 0))
+    {
+      count = count - 1u;
+      clcounts[(signed long int)symbol] = clcounts[(signed long int)symbol] + 1ul;
+      if(size_only == 0)
+      {
+        if((rle_size + 18446744073709551615ul & rle_size) == 0ul)
+        {
+          if(rle_size == 0ul)
+          {
+            return_value_malloc$16=malloc(sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$18 = return_value_malloc$16;
+          }
+
+          else
+          {
+            return_value_realloc$17=realloc((void *)*(&rle), *(&rle_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$18 = return_value_realloc$17;
+          }
+          *(&rle) = (unsigned int *)tmp_if_expr$18;
+        }
+
+        (*(&rle))[(signed long int)*(&rle_size)] = (unsigned int)symbol;
+        *(&rle_size) = *(&rle_size) + 1ul;
+        if((rle_bits_size + 18446744073709551615ul & rle_bits_size) == 0ul)
+        {
+          if(rle_bits_size == 0ul)
+          {
+            return_value_malloc$19=malloc(sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$21 = return_value_malloc$19;
+          }
+
+          else
+          {
+            return_value_realloc$20=realloc((void *)*(&rle_bits), *(&rle_bits_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$21 = return_value_realloc$20;
+          }
+          *(&rle_bits) = (unsigned int *)tmp_if_expr$21;
+        }
+
+        (*(&rle_bits))[(signed long int)*(&rle_bits_size)] = (unsigned int)0;
+        *(&rle_bits_size) = *(&rle_bits_size) + 1ul;
+      }
+
+      while(count >= 3u)
+      {
+        unsigned int EncodeTree$$1$$2$$1$$3$$2$$count2 = count > (unsigned int)6 ? (unsigned int)6 : count;
+        if(size_only == 0)
+        {
+          if((rle_size + 18446744073709551615ul & rle_size) == 0ul)
+          {
+            if(rle_size == 0ul)
+            {
+              return_value_malloc$22=malloc(sizeof(unsigned int) /*4ul*/ );
+              tmp_if_expr$24 = return_value_malloc$22;
+            }
+
+            else
+            {
+              return_value_realloc$23=realloc((void *)*(&rle), *(&rle_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+              tmp_if_expr$24 = return_value_realloc$23;
+            }
+            *(&rle) = (unsigned int *)tmp_if_expr$24;
+          }
+
+          (*(&rle))[(signed long int)*(&rle_size)] = (unsigned int)16;
+          *(&rle_size) = *(&rle_size) + 1ul;
+          if((rle_bits_size + 18446744073709551615ul & rle_bits_size) == 0ul)
+          {
+            if(rle_bits_size == 0ul)
+            {
+              return_value_malloc$25=malloc(sizeof(unsigned int) /*4ul*/ );
+              tmp_if_expr$27 = return_value_malloc$25;
+            }
+
+            else
+            {
+              return_value_realloc$26=realloc((void *)*(&rle_bits), *(&rle_bits_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+              tmp_if_expr$27 = return_value_realloc$26;
+            }
+            *(&rle_bits) = (unsigned int *)tmp_if_expr$27;
+          }
+
+          (*(&rle_bits))[(signed long int)*(&rle_bits_size)] = EncodeTree$$1$$2$$1$$3$$2$$count2 - (unsigned int)3;
+          *(&rle_bits_size) = *(&rle_bits_size) + 1ul;
+        }
+
+        clcounts[(signed long int)16] = clcounts[(signed long int)16] + 1ul;
+        count = count - EncodeTree$$1$$2$$1$$3$$2$$count2;
+      }
+    }
+
+    clcounts[(signed long int)symbol] = clcounts[(signed long int)symbol] + (unsigned long int)count;
+    for( ; count >= 1u; count = count - 1u)
+      if(size_only == 0)
+      {
+        if((rle_size + 18446744073709551615ul & rle_size) == 0ul)
+        {
+          if(rle_size == 0ul)
+          {
+            return_value_malloc$28=malloc(sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$30 = return_value_malloc$28;
+          }
+
+          else
+          {
+            return_value_realloc$29=realloc((void *)*(&rle), *(&rle_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$30 = return_value_realloc$29;
+          }
+          *(&rle) = (unsigned int *)tmp_if_expr$30;
+        }
+
+        (*(&rle))[(signed long int)*(&rle_size)] = (unsigned int)symbol;
+        *(&rle_size) = *(&rle_size) + 1ul;
+        if((rle_bits_size + 18446744073709551615ul & rle_bits_size) == 0ul)
+        {
+          if(rle_bits_size == 0ul)
+          {
+            return_value_malloc$31=malloc(sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$33 = return_value_malloc$31;
+          }
+
+          else
+          {
+            return_value_realloc$32=realloc((void *)*(&rle_bits), *(&rle_bits_size) * (unsigned long int)2 * sizeof(unsigned int) /*4ul*/ );
+            tmp_if_expr$33 = return_value_realloc$32;
+          }
+          *(&rle_bits) = (unsigned int *)tmp_if_expr$33;
+        }
+
+        (*(&rle_bits))[(signed long int)*(&rle_bits_size)] = (unsigned int)0;
+        *(&rle_bits_size) = *(&rle_bits_size) + 1ul;
+      }
+
+  }
+  ZopfliCalculateBitLengths(clcounts, (unsigned long int)19, 7, clcl);
+  if(size_only == 0)
+    ZopfliLengthsToSymbols(clcl, (unsigned long int)19, (unsigned int)7, clsymbols);
+
+  hclen = (unsigned int)15;
+  static const unsigned int order[19l] = { (const unsigned int)16, (const unsigned int)17, (const unsigned int)18, (const unsigned int)0, (const unsigned int)8, (const unsigned int)7, (const unsigned int)9, (const unsigned int)6, (const unsigned int)10, (const unsigned int)5, (const unsigned int)11, (const unsigned int)4, (const unsigned int)12, (const unsigned int)3, (const unsigned int)13, (const unsigned int)2, (const unsigned int)14, (const unsigned int)1, (const unsigned int)15 };
+  for( ; hclen >= 1u; hclen = hclen - 1u)
+    if(!(clcounts[(signed long int)order[(signed long int)(4u + hclen + 4294967295u)]] == 0ul))
+      break;
+
+  if(size_only == 0)
+  {
+    AddBits(hlit, (unsigned int)5, bp, out, outsize);
+    AddBits(hdist, (unsigned int)5, bp, out, outsize);
+    AddBits(hclen, (unsigned int)4, bp, out, outsize);
+    i = (unsigned long int)0;
+    for( ; !(i >= (unsigned long int)(4u + hclen)); i = i + 1ul)
+      AddBits(clcl[(signed long int)order[(signed long int)i]], (unsigned int)3, bp, out, outsize);
+    i = (unsigned long int)0;
+    for( ; !(i >= rle_size); i = i + 1ul)
+    {
+      unsigned int EncodeTree$$1$$3$$2$$1$$symbol = clsymbols[(signed long int)rle[(signed long int)i]];
+      AddHuffmanBits(EncodeTree$$1$$3$$2$$1$$symbol, clcl[(signed long int)rle[(signed long int)i]], bp, out, outsize);
+      if(rle[(signed long int)i] == 16u)
+        AddBits(rle_bits[(signed long int)i], (unsigned int)2, bp, out, outsize);
+
+      else
+        if(rle[(signed long int)i] == 17u)
+          AddBits(rle_bits[(signed long int)i], (unsigned int)3, bp, out, outsize);
+
+        else
+          if(rle[(signed long int)i] == 18u)
+            AddBits(rle_bits[(signed long int)i], (unsigned int)7, bp, out, outsize);
+
+    }
+  }
+
+  result_size = result_size + (unsigned long int)14;
+  result_size = result_size + (unsigned long int)((hclen + (unsigned int)4) * (unsigned int)3);
+  i = (unsigned long int)0;
+  for( ; !(i >= 19ul); i = i + 1ul)
+    result_size = result_size + (unsigned long int)clcl[(signed long int)i] * clcounts[(signed long int)i];
+  result_size = result_size + clcounts[(signed long int)16] * (unsigned long int)2;
+  result_size = result_size + clcounts[(signed long int)17] * (unsigned long int)3;
+  result_size = result_size + clcounts[(signed long int)18] * (unsigned long int)7;
+  free((void *)rle);
+  free((void *)rle_bits);
+  return result_size;
+}
+
+// EstimateCost
+// file zopfli/src/zopfli/blocksplitter.c line 106
+static double EstimateCost(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend)
+{
+  double return_value_ZopfliCalculateBlockSize$1;
+  return_value_ZopfliCalculateBlockSize$1=ZopfliCalculateBlockSize(litlens, dists, lstart, lend, 2);
+  return return_value_ZopfliCalculateBlockSize$1;
+}
+
+// ExtractBitLengths
+// file zopfli/src/zopfli/katajainen.c line 163
+static void ExtractBitLengths(struct Node *chain, struct Node *leaves, unsigned int *bitlengths)
+{
+  struct Node *node = chain;
+  for( ; !(node == ((struct Node *)NULL)); node = node->tail)
+  {
+    signed int i = 0;
+    for( ; !(i >= node->count); i = i + 1)
+      bitlengths[(signed long int)(leaves + (signed long int)i)->count] = bitlengths[(signed long int)(leaves + (signed long int)i)->count] + 1u;
+  }
+}
+
+// FindLargestSplittableBlock
+// file zopfli/src/zopfli/blocksplitter.c line 198
+static signed int FindLargestSplittableBlock(unsigned long int llsize, const unsigned char *done, const unsigned long int *splitpoints, unsigned long int npoints, unsigned long int *lstart, unsigned long int *lend)
+{
+  unsigned long int longest = (unsigned long int)0;
+  signed int found = 0;
+  unsigned long int i = (unsigned long int)0;
+  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr$2;
+  for( ; npoints >= i; i = i + 1ul)
+  {
+    unsigned long int start;
+    if(i == 0ul)
+      tmp_if_expr$1 = (unsigned long int)0;
+
+    else
+      tmp_if_expr$1 = splitpoints[(signed long int)(i - (unsigned long int)1)];
+    start = tmp_if_expr$1;
+    unsigned long int end;
+    if(i == npoints)
+      tmp_if_expr$2 = llsize - (unsigned long int)1;
+
+    else
+      tmp_if_expr$2 = splitpoints[(signed long int)i];
+    end = tmp_if_expr$2;
+    if(done[(signed long int)start] == 0)
+    {
+      if(!(longest >= end + -start))
+      {
+        *lstart = start;
+        *lend = end;
+        found = 1;
+        longest = end - start;
+      }
+
+    }
+
+  }
+  return found;
+}
+
+// FindMinimum
+// file zopfli/src/zopfli/blocksplitter.c line 43
+static unsigned long int FindMinimum(double (*f)(unsigned long int, void *), void *context, unsigned long int start, unsigned long int end)
+{
+  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr$2;
+  if(!(end + -start >= 1024ul))
+  {
+    double best = 1e30;
+    unsigned long int result = start;
+    unsigned long int i = start;
+    if(!(i >= end))
+    {
+      double v;
+      v=f(i, context);
+      if(v < best)
+      {
+        best = v;
+        result = i;
+      }
+
+      i = i + 1ul;
+    }
+
+    return result;
+  }
+
+  else
+  {
+    unsigned long int FindMinimum$$1$$2$$i;
+    unsigned long int p[9l];
+    double vp[9l];
+    unsigned long int besti;
+    double FindMinimum$$1$$2$$best;
+    double lastbest = 1e30;
+    unsigned long int pos = start;
+    for( ; end + -start >= 10ul; lastbest = FindMinimum$$1$$2$$best)
+    {
+      FindMinimum$$1$$2$$i = (unsigned long int)0;
+      if(!(FindMinimum$$1$$2$$i >= 9ul))
+      {
+        p[(signed long int)FindMinimum$$1$$2$$i] = start + (FindMinimum$$1$$2$$i + (unsigned long int)1) * ((end - start) / (unsigned long int)(9 + 1));
+        vp[(signed long int)FindMinimum$$1$$2$$i]=f(p[(signed long int)FindMinimum$$1$$2$$i], context);
+        FindMinimum$$1$$2$$i = FindMinimum$$1$$2$$i + 1ul;
+      }
+
+      besti = (unsigned long int)0;
+      FindMinimum$$1$$2$$best = vp[(signed long int)0];
+      FindMinimum$$1$$2$$i = (unsigned long int)1;
+      for( ; !(FindMinimum$$1$$2$$i >= 9ul); FindMinimum$$1$$2$$i = FindMinimum$$1$$2$$i + 1ul)
+        if(vp[(signed long int)FindMinimum$$1$$2$$i] < FindMinimum$$1$$2$$best)
+        {
+          FindMinimum$$1$$2$$best = vp[(signed long int)FindMinimum$$1$$2$$i];
+          besti = FindMinimum$$1$$2$$i;
+        }
+
+      if(FindMinimum$$1$$2$$best > lastbest)
+        break;
+
+      if(besti == 0ul)
+        tmp_if_expr$1 = start;
+
+      else
+        tmp_if_expr$1 = p[(signed long int)(besti - (unsigned long int)1)];
+      start = tmp_if_expr$1;
+      if(besti == 8ul)
+        tmp_if_expr$2 = end;
+
+      else
+        tmp_if_expr$2 = p[(signed long int)(besti + (unsigned long int)1)];
+      end = tmp_if_expr$2;
+      pos = p[(signed long int)besti];
+    }
+    return pos;
+  }
+}
+
+// FollowPath
+// file zopfli/src/zopfli/squeeze.c line 334
+static void FollowPath(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned short int *path, unsigned long int pathsize, struct ZopfliLZ77Store *store)
+{
+  unsigned long int i;
+  unsigned long int j;
+  unsigned long int pos = (unsigned long int)0;
+  unsigned long int windowstart = instart > (unsigned long int)32768 ? instart - (unsigned long int)32768 : (unsigned long int)0;
+  unsigned long int total_length_test = (unsigned long int)0;
+  struct ZopfliHash hash;
+  struct ZopfliHash *h = &hash;
+  if(!(instart == inend))
+  {
+    ZopfliInitHash((unsigned long int)32768, h);
+    ZopfliWarmupHash(in, windowstart, inend, h);
+    i = windowstart;
+    for( ; !(i >= instart); i = i + 1ul)
+      ZopfliUpdateHash(in, i, inend, h);
+    pos = instart;
+    i = (unsigned long int)0;
+    for( ; !(i >= pathsize); i = i + 1ul)
+    {
+      unsigned short int length = path[(signed long int)i];
+      unsigned short int dummy_length;
+      unsigned short int dist;
+      /* assertion pos < inend */
+      assert(pos < inend);
+      ZopfliUpdateHash(in, pos, inend, h);
+      if((signed int)length >= 3)
+      {
+        ZopfliFindLongestMatch(s, h, in, pos, inend, (unsigned long int)length, ((unsigned short int *)NULL), &dist, &dummy_length);
+        /* assertion !(dummy_length != length && length > 2 && dummy_length > 2) */
+        assert(!(dummy_length != length && (signed int)length > 2 && (signed int)dummy_length > 2));
+        ZopfliVerifyLenDist(in, inend, pos, dist, length);
+        ZopfliStoreLitLenDist(length, dist, store);
+        total_length_test = total_length_test + (unsigned long int)length;
+      }
+
+      else
+      {
+        length = (unsigned short int)1;
+        ZopfliStoreLitLenDist((unsigned short int)in[(signed long int)pos], (unsigned short int)0, store);
+        total_length_test = total_length_test + 1ul;
+      }
+      /* assertion pos + length <= inend */
+      assert(pos + (unsigned long int)length <= inend);
+      j = (unsigned long int)1;
+      for( ; !(j >= (unsigned long int)length); j = j + 1ul)
+        ZopfliUpdateHash(in, pos + j, inend, h);
+      pos = pos + (unsigned long int)length;
+    }
+    ZopfliCleanHash(h);
+  }
+
+}
+
+// GetBestLengths
+// file zopfli/src/zopfli/squeeze.c line 208
+static double GetBestLengths(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, double (*costmodel)(unsigned int, unsigned int, void *), void *costcontext, unsigned short int *length_array)
+{
+  unsigned long int blocksize = inend - instart;
+  float *costs;
+  unsigned long int i = (unsigned long int)0;
+  unsigned long int k;
+  unsigned short int leng;
+  unsigned short int dist;
+  unsigned short int sublen[259l];
+  unsigned long int windowstart = instart > (unsigned long int)32768 ? instart - (unsigned long int)32768 : (unsigned long int)0;
+  struct ZopfliHash hash;
+  struct ZopfliHash *h = &hash;
+  double result;
+  double mincost;
+  mincost=GetCostModelMinCost(costmodel, costcontext);
+  if(instart == inend)
+    return (double)0;
+
+  else
+  {
+    void *return_value_malloc$1;
+    return_value_malloc$1=malloc(sizeof(float) /*4ul*/  * (blocksize + (unsigned long int)1));
+    costs = (float *)return_value_malloc$1;
+    if(costs == ((float *)NULL))
+      exit(-1);
+
+    ZopfliInitHash((unsigned long int)32768, h);
+    ZopfliWarmupHash(in, windowstart, inend, h);
+    i = windowstart;
+    for( ; !(i >= instart); i = i + 1ul)
+      ZopfliUpdateHash(in, i, inend, h);
+    i = (unsigned long int)1;
+    for( ; !(i >= 1ul + blocksize); i = i + 1ul)
+      costs[(signed long int)i] = (float)1e30;
+    costs[(signed long int)0] = (float)0;
+    length_array[(signed long int)0] = (unsigned short int)0;
+    i = instart;
+    for( ; !(i >= inend); i = i + 1ul)
+    {
+      unsigned long int j = i - instart;
+      ZopfliUpdateHash(in, i, inend, h);
+      if((signed int)h->same[32767l & (signed long int)i] >= 517)
+      {
+        if(!(259ul + instart >= i))
+        {
+          if(!(517ul + i >= inend))
+          {
+            if((signed int)h->same[-258l + (signed long int)i & 32767l] >= 259)
+            {
+              double symbolcost;
+              symbolcost=costmodel((unsigned int)258, (unsigned int)1, costcontext);
+              k = (unsigned long int)0;
+              if(!(k >= 258ul))
+              {
+                costs[(signed long int)(j + (unsigned long int)258)] = (float)((double)costs[(signed long int)j] + symbolcost);
+                length_array[(signed long int)(j + (unsigned long int)258)] = (unsigned short int)258;
+                i = i + 1ul;
+                j = j + 1ul;
+                ZopfliUpdateHash(in, i, inend, h);
+                k = k + 1ul;
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+      ZopfliFindLongestMatch(s, h, in, i, inend, (unsigned long int)258, sublen, &dist, &leng);
+      if(inend >= 1ul + i)
+      {
+        double newCost;
+        double return_value;
+        return_value=costmodel((unsigned int)in[(signed long int)i], (unsigned int)0, costcontext);
+        newCost = (double)costs[(signed long int)j] + return_value;
+        /* assertion newCost >= 0 */
+        assert(newCost >= (double)0);
+        if(newCost < (double)costs[1l + (signed long int)j])
+        {
+          costs[(signed long int)(j + (unsigned long int)1)] = (float)newCost;
+          length_array[(signed long int)(j + (unsigned long int)1)] = (unsigned short int)1;
+        }
+
+      }
+
+      k = (unsigned long int)3;
+      for( ; inend >= i + k && (unsigned long int)leng >= k; k = k + 1ul)
+      {
+        double GetBestLengths$$1$$3$$1$$3$$1$$newCost;
+        if(!((double)(costs[(signed long int)j + (signed long int)k] + -costs[(signed long int)j]) <= mincost))
+        {
+          double return_value_1;
+          return_value_1=costmodel((unsigned int)k, (unsigned int)sublen[(signed long int)k], costcontext);
+          GetBestLengths$$1$$3$$1$$3$$1$$newCost = (double)costs[(signed long int)j] + return_value_1;
+          /* assertion newCost >= 0 */
+          assert(GetBestLengths$$1$$3$$1$$3$$1$$newCost >= (double)0);
+          if(GetBestLengths$$1$$3$$1$$3$$1$$newCost < (double)costs[(signed long int)j + (signed long int)k])
+          {
+            /* assertion k <= 258 */
+            assert(k <= (unsigned long int)258);
+            costs[(signed long int)(j + k)] = (float)GetBestLengths$$1$$3$$1$$3$$1$$newCost;
+            length_array[(signed long int)(j + k)] = (unsigned short int)k;
+          }
+
+        }
+
+      }
+    }
+    /* assertion costs[blocksize] >= 0 */
+    assert(costs[(signed long int)blocksize] >= (float)0);
+    result = (double)costs[(signed long int)blocksize];
+    ZopfliCleanHash(h);
+    free((void *)costs);
+    return result;
+  }
+}
+
+// GetCostFixed
+// file zopfli/src/zopfli/squeeze.c line 120
+static double GetCostFixed(unsigned int litlen, unsigned int dist, void *unused)
+{
+  (void)unused;
+  if(dist == 0u)
+  {
+    if(!(litlen >= 144u))
+      return (double)8;
+
+    else
+      return (double)9;
+  }
+
+  else
+  {
+    signed int dbits;
+    dbits=ZopfliGetDistExtraBits((signed int)dist);
+    signed int lbits;
+    lbits=ZopfliGetLengthExtraBits((signed int)litlen);
+    signed int lsym;
+    lsym=ZopfliGetLengthSymbol((signed int)litlen);
+    double cost = (double)0;
+    if(!(lsym >= 280))
+      cost = cost + (double)7;
+
+    else
+      cost = cost + (double)8;
+    cost = cost + (double)5;
+    return cost + (double)dbits + (double)lbits;
+  }
+}
+
+// GetCostModelMinCost
+// file zopfli/src/zopfli/squeeze.c line 158
+static double GetCostModelMinCost(double (*costmodel)(unsigned int, unsigned int, void *), void *costcontext)
+{
+  double mincost;
+  signed int bestlength = 0;
+  signed int bestdist = 0;
+  signed int i;
+  mincost = 1e30;
+  i = 3;
+  if(!(i >= 259))
+  {
+    double c;
+    c=costmodel((unsigned int)i, (unsigned int)1, costcontext);
+    if(c < mincost)
+    {
+      bestlength = i;
+      mincost = c;
+    }
+
+    i = i + 1;
+  }
+
+  mincost = 1e30;
+  i = 0;
+  if(!(i >= 30))
+  {
+    double GetCostModelMinCost$$1$$2$$1$$c;
+    static const signed int dsymbols[30l] = { 1, 2, 3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 97, 129, 193, 257, 385, 513, 769, 1025, 1537, 2049, 3073, 4097, 6145, 8193, 12289, 16385, 24577 };
+    GetCostModelMinCost$$1$$2$$1$$c=costmodel((unsigned int)3, (unsigned int)dsymbols[(signed long int)i], costcontext);
+    if(GetCostModelMinCost$$1$$2$$1$$c < mincost)
+    {
+      bestdist = dsymbols[(signed long int)i];
+      mincost = GetCostModelMinCost$$1$$2$$1$$c;
+    }
+
+    i = i + 1;
+  }
+
+  double return_value;
+  return_value=costmodel((unsigned int)bestlength, (unsigned int)bestdist, costcontext);
+  return return_value;
+}
+
+// GetCostStat
+// file zopfli/src/zopfli/squeeze.c line 141
+static double GetCostStat(unsigned int litlen, unsigned int dist, void *context)
+{
+  struct SymbolStats *stats = (struct SymbolStats *)context;
+  if(dist == 0u)
+    return stats->ll_symbols[(signed long int)litlen];
+
+  else
+  {
+    signed int lsym;
+    lsym=ZopfliGetLengthSymbol((signed int)litlen);
+    signed int lbits;
+    lbits=ZopfliGetLengthExtraBits((signed int)litlen);
+    signed int dsym;
+    dsym=ZopfliGetDistSymbol((signed int)dist);
+    signed int dbits;
+    dbits=ZopfliGetDistExtraBits((signed int)dist);
+    return stats->ll_symbols[(signed long int)lsym] + (double)lbits + stats->d_symbols[(signed long int)dsym] + (double)dbits;
+  }
+}
+
+// GetDynamicLengths
+// file zopfli/src/zopfli/deflate.c line 473
+static void GetDynamicLengths(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, unsigned int *ll_lengths, unsigned int *d_lengths)
+{
+  unsigned long int ll_counts[288l];
+  unsigned long int d_counts[32l];
+  ZopfliLZ77Counts(litlens, dists, lstart, lend, ll_counts, d_counts);
+  OptimizeHuffmanForRle(288, ll_counts);
+  OptimizeHuffmanForRle(32, d_counts);
+  ZopfliCalculateBitLengths(ll_counts, (unsigned long int)288, 15, ll_lengths);
+  ZopfliCalculateBitLengths(d_counts, (unsigned long int)32, 15, d_lengths);
+  PatchDistanceCodesForBuggyDecoders(d_lengths);
+}
+
+// GetFixedTree
+// file zopfli/src/zopfli/deflate.c line 336
+static void GetFixedTree(unsigned int *ll_lengths, unsigned int *d_lengths)
+{
+  unsigned long int i = (unsigned long int)0;
+  for( ; !(i >= 144ul); i = i + 1ul)
+    ll_lengths[(signed long int)i] = (unsigned int)8;
+  i = (unsigned long int)144;
+  for( ; !(i >= 256ul); i = i + 1ul)
+    ll_lengths[(signed long int)i] = (unsigned int)9;
+  i = (unsigned long int)256;
+  for( ; !(i >= 280ul); i = i + 1ul)
+    ll_lengths[(signed long int)i] = (unsigned int)7;
+  i = (unsigned long int)280;
+  for( ; !(i >= 288ul); i = i + 1ul)
+    ll_lengths[(signed long int)i] = (unsigned int)8;
+  i = (unsigned long int)0;
+  for( ; !(i >= 32ul); i = i + 1ul)
+    d_lengths[(signed long int)i] = (unsigned int)5;
+}
+
+// GetFreeNode
+// file zopfli/src/zopfli/katajainen.c line 67
+static struct Node * GetFreeNode(struct Node *(*lists)[2l], signed int maxbits, struct NodePool *pool)
+{
+  for( ; (_Bool)1; pool->next = pool->next + 1l)
+  {
+    if(pool->next >= pool->nodes + (signed long int)pool->size)
+    {
+      signed int i = 0;
+      for( ; !(i >= pool->size); i = i + 1)
+        (pool->nodes + (signed long int)i)->inuse = (char)0;
+      if(!(lists == ((struct Node *(*)[2l])NULL)))
+      {
+        i = 0;
+        for( ; !(i >= 2 * maxbits); i = i + 1)
+        {
+          struct Node *node = lists[(signed long int)(i / 2)][(signed long int)(i % 2)];
+          for( ; !(node == ((struct Node *)NULL)); node = node->tail)
+            node->inuse = (char)1;
+        }
+      }
+
+      pool->next = &pool->nodes[(signed long int)0];
+    }
+
+    if(pool->next->inuse == 0)
+      break;
+
+  }
+  struct Node *tmp_post$1 = pool->next;
+  pool->next = pool->next + 1l;
+  return tmp_post$1;
+}
+
+// GetLengthScore
+// file zopfli/src/zopfli/lz77.c line 87
+static signed int GetLengthScore(signed int length, signed int distance)
+{
+  return distance > 1024 ? length - 1 : length;
+}
+
+// GetMatch
+// file zopfli/src/zopfli/lz77.c line 119
+static const unsigned char * GetMatch(const unsigned char *scan, const unsigned char *match, const unsigned char *end, const unsigned char *safe_end)
+{
+  for( ; !(scan >= safe_end); match = match + (signed long int)8)
+  {
+    if(!(*((unsigned long int *)scan) == *((unsigned long int *)match)))
+      break;
+
+    scan = scan + (signed long int)8;
+  }
+  for( ; !(scan == end); match = match + 1l)
+  {
+    if(!(*scan == *match))
+      break;
+
+    scan = scan + 1l;
+  }
+  return scan;
+}
+
+// GetStatistics
+// file zopfli/src/zopfli/squeeze.c line 399
+static void GetStatistics(const struct ZopfliLZ77Store *store, struct SymbolStats *stats)
+{
+  unsigned long int i = (unsigned long int)0;
+  for( ; !(i >= store->size); i = i + 1ul)
+    if((signed int)store->dists[(signed long int)i] == 0)
+      stats->litlens[(signed long int)store->litlens[(signed long int)i]] = stats->litlens[(signed long int)store->litlens[(signed long int)i]] + 1ul;
+
+    else
+    {
+      signed int return_value_ZopfliGetLengthSymbol$1;
+      return_value_ZopfliGetLengthSymbol$1=ZopfliGetLengthSymbol((signed int)store->litlens[(signed long int)i]);
+      stats->litlens[(signed long int)return_value_ZopfliGetLengthSymbol$1] = stats->litlens[(signed long int)return_value_ZopfliGetLengthSymbol$1] + 1ul;
+      signed int return_value_ZopfliGetDistSymbol$2;
+      return_value_ZopfliGetDistSymbol$2=ZopfliGetDistSymbol((signed int)store->dists[(signed long int)i]);
+      stats->dists[(signed long int)return_value_ZopfliGetDistSymbol$2] = stats->dists[(signed long int)return_value_ZopfliGetDistSymbol$2] + 1ul;
+    }
+  stats->litlens[(signed long int)256] = (unsigned long int)1;
+  CalculateStatistics(stats);
+}
+
+// InitLists
+// file zopfli/src/zopfli/katajainen.c line 145
+static void InitLists(struct NodePool *pool, const struct Node *leaves, signed int maxbits, struct Node *(*lists)[2l])
+{
+  signed int i;
+  struct Node *node0;
+  node0=GetFreeNode(((struct Node *(*)[2l])NULL), maxbits, pool);
+  struct Node *node1;
+  node1=GetFreeNode(((struct Node *(*)[2l])NULL), maxbits, pool);
+  InitNode((leaves + (signed long int)0)->weight, 1, ((struct Node *)NULL), node0);
+  InitNode((leaves + (signed long int)1)->weight, 2, ((struct Node *)NULL), node1);
+  i = 0;
+  for( ; !(i >= maxbits); i = i + 1)
+  {
+    lists[(signed long int)i][(signed long int)0] = node0;
+    lists[(signed long int)i][(signed long int)1] = node1;
+  }
+}
+
+// InitNode
+// file zopfli/src/zopfli/katajainen.c line 54
+static void InitNode(unsigned long int weight, signed int count, struct Node *tail, struct Node *node)
+{
+  node->weight = weight;
+  node->count = count;
+  node->tail = tail;
+  node->inuse = (char)1;
+}
+
+// InitRanState
+// file zopfli/src/zopfli/squeeze.c line 79
+static void InitRanState(struct RanState *state)
+{
+  state->m_w = (unsigned int)1;
+  state->m_z = (unsigned int)2;
+}
+
+// InitStats
+// file zopfli/src/zopfli/squeeze.c line 42
+static void InitStats(struct SymbolStats *stats)
+{
+  memset((void *)stats->litlens, 0, (unsigned long int)288 * sizeof(unsigned long int) /*8ul*/ );
+  memset((void *)stats->dists, 0, (unsigned long int)32 * sizeof(unsigned long int) /*8ul*/ );
+  memset((void *)stats->ll_symbols, 0, (unsigned long int)288 * sizeof(double) /*8ul*/ );
+  memset((void *)stats->d_symbols, 0, (unsigned long int)32 * sizeof(double) /*8ul*/ );
+}
+
+// LZ77OptimalRun
+// file zopfli/src/zopfli/squeeze.c line 431
+static double LZ77OptimalRun(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned short int **path, unsigned long int *pathsize, unsigned short int *length_array, double (*costmodel)(unsigned int, unsigned int, void *), void *costcontext, struct ZopfliLZ77Store *store)
+{
+  double cost;
+  cost=GetBestLengths(s, in, instart, inend, costmodel, costcontext, length_array);
+  free((void *)*path);
+  *path = ((unsigned short int *)NULL);
+  *pathsize = (unsigned long int)0;
+  TraceBackwards(inend - instart, length_array, path, pathsize);
+  FollowPath(s, in, instart, inend, *path, *pathsize, store);
+  /* assertion cost < 1e30 */
+  assert(cost < 1e30);
+  return cost;
+}
+
+// LeafComparator
+// file zopfli/src/zopfli/katajainen.c line 176
+static signed int LeafComparator(const void *a, const void *b)
+{
+  return (signed int)(((const struct Node *)a)->weight - ((const struct Node *)b)->weight);
+}
+
+// OptimizeHuffmanForRle
+// file zopfli/src/zopfli/deflate.c line 381
+void OptimizeHuffmanForRle(signed int length, unsigned long int *counts)
+{
+  signed int i;
+  signed int k;
+  signed int stride;
+  unsigned long int symbol;
+  unsigned long int sum;
+  unsigned long int limit;
+  signed int *good_for_rle;
+  for( ; length >= 0; length = length - 1)
+  {
+    if(length == 0)
+      goto __CPROVER_DUMP_L30;
+
+    if(!(counts[(signed long int)(length + -1)] == 0ul))
+      break;
+
+  }
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc((unsigned long int)length * sizeof(signed int) /*4ul*/ );
+  good_for_rle = (signed int *)return_value_malloc$1;
+  i = 0;
+  for( ; !(i >= length); i = i + 1)
+    good_for_rle[(signed long int)i] = 0;
+  symbol = counts[(signed long int)0];
+  stride = 0;
+  i = 0;
+  _Bool tmp_if_expr$2;
+  for( ; !(i >= 1 + length); i = i + 1)
+  {
+    if(i == length)
+      tmp_if_expr$2 = (_Bool)1;
+
+    else
+      tmp_if_expr$2 = counts[(signed long int)i] != symbol ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr$2)
+    {
+      if(symbol == 0ul && stride >= 5 || stride >= 7 && !(symbol == 0ul))
+      {
+        k = 0;
+        for( ; !(k >= stride); k = k + 1)
+          good_for_rle[(signed long int)((i - k) - 1)] = 1;
+      }
+
+      stride = 1;
+      if(!(i == length))
+        symbol = counts[(signed long int)i];
+
+    }
+
+    else
+      stride = stride + 1;
+  }
+  stride = 0;
+  limit = counts[(signed long int)0];
+  sum = (unsigned long int)0;
+  i = 0;
+  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr$5;
+  unsigned long int return_value_AbsDiff$4;
+  for( ; !(i >= 1 + length); i = i + 1)
+  {
+    if(i == length)
+      tmp_if_expr$3 = (_Bool)1;
+
+    else
+      tmp_if_expr$3 = good_for_rle[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr$3)
+      tmp_if_expr$5 = (_Bool)1;
+
+    else
+    {
+      return_value_AbsDiff$4=AbsDiff(counts[(signed long int)i], limit);
+      tmp_if_expr$5 = return_value_AbsDiff$4 >= (unsigned long int)4 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$5)
+    {
+      if(stride >= 4 || sum == 0ul && stride >= 3)
+      {
+        signed int count = (signed int)((sum + (unsigned long int)(stride / 2)) / (unsigned long int)stride);
+        if(!(count >= 1))
+          count = 1;
+
+        if(sum == 0ul)
+          count = 0;
+
+        k = 0;
+        for( ; !(k >= stride); k = k + 1)
+          counts[(signed long int)((i - k) - 1)] = (unsigned long int)count;
+      }
+
+      stride = 0;
+      sum = (unsigned long int)0;
+      if(!(i >= length + -3))
+        limit = (counts[(signed long int)i] + counts[(signed long int)(i + 1)] + counts[(signed long int)(i + 2)] + counts[(signed long int)(i + 3)] + (unsigned long int)2) / (unsigned long int)4;
+
+      else
+        if(!(i >= length))
+          limit = counts[(signed long int)i];
+
+        else
+          limit = (unsigned long int)0;
+    }
+
+    stride = stride + 1;
+    if(!(i == length))
+      sum = sum + counts[(signed long int)i];
+
+  }
+  free((void *)good_for_rle);
+
+__CPROVER_DUMP_L30:
+  ;
+}
+
+// PatchDistanceCodesForBuggyDecoders
+// file zopfli/src/zopfli/deflate.c line 86
+static void PatchDistanceCodesForBuggyDecoders(unsigned int *d_lengths)
+{
+  signed int num_dist_codes = 0;
+  signed int i = 0;
+  for( ; !(i >= 30); i = i + 1)
+  {
+    if(!(d_lengths[(signed long int)i] == 0u))
+      num_dist_codes = num_dist_codes + 1;
+
+    if(num_dist_codes >= 2)
+      goto __CPROVER_DUMP_L7;
+
+  }
+  if(num_dist_codes == 0)
+  {
+    d_lengths[(signed long int)1] = (unsigned int)1;
+    d_lengths[(signed long int)0] = d_lengths[(signed long int)1];
+  }
+
+  else
+    if(num_dist_codes == 1)
+      d_lengths[(signed long int)(d_lengths[(signed long int)0] != 0u ? 1 : 0)] = (unsigned int)1;
+
+
+__CPROVER_DUMP_L7:
+  ;
+}
+
+// PrintBlockSplitPoints
+// file zopfli/src/zopfli/blocksplitter.c line 150
+static void PrintBlockSplitPoints(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int llsize, const unsigned long int *lz77splitpoints, unsigned long int nlz77points)
+{
+  unsigned long int *splitpoints = ((unsigned long int *)NULL);
+  unsigned long int npoints = (unsigned long int)0;
+  unsigned long int i;
+  unsigned long int pos = (unsigned long int)0;
+  signed int tmp_if_expr$1;
+  void *tmp_if_expr$4;
+  void *return_value_malloc$2;
+  void *return_value_realloc$3;
+  if(nlz77points >= 1ul)
+  {
+    i = (unsigned long int)0;
+    for( ; !(i >= llsize); i = i + 1ul)
+    {
+      unsigned long int length;
+      if((signed int)dists[(signed long int)i] == 0)
+        tmp_if_expr$1 = 1;
+
+      else
+        tmp_if_expr$1 = (signed int)litlens[(signed long int)i];
+      length = (unsigned long int)tmp_if_expr$1;
+      if(lz77splitpoints[(signed long int)npoints] == i)
+      {
+        if((npoints + 18446744073709551615ul & npoints) == 0ul)
+        {
+          if(npoints == 0ul)
+          {
+            return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/ );
+            tmp_if_expr$4 = return_value_malloc$2;
+          }
+
+          else
+          {
+            return_value_realloc$3=realloc((void *)*(&splitpoints), *(&npoints) * (unsigned long int)2 * sizeof(unsigned long int) /*8ul*/ );
+            tmp_if_expr$4 = return_value_realloc$3;
+          }
+          *(&splitpoints) = (unsigned long int *)tmp_if_expr$4;
+        }
+
+        (*(&splitpoints))[(signed long int)*(&npoints)] = pos;
+        *(&npoints) = *(&npoints) + 1ul;
+        if(npoints == nlz77points)
+          break;
+
+      }
+
+      pos = pos + length;
+    }
+  }
+
+  /* assertion npoints == nlz77points */
+  assert(npoints == nlz77points);
+  fprintf(stderr, "block split points: ");
+  i = (unsigned long int)0;
+  for( ; !(i >= npoints); i = i + 1ul)
+    fprintf(stderr, "%d ", (signed int)splitpoints[(signed long int)i]);
+  fprintf(stderr, "(hex:");
+  i = (unsigned long int)0;
+  for( ; !(i >= npoints); i = i + 1ul)
+    fprintf(stderr, " %x", (signed int)splitpoints[(signed long int)i]);
+  fprintf(stderr, ")\n");
+  free((void *)splitpoints);
+}
+
+// Ran
+// file zopfli/src/zopfli/squeeze.c line 85
+static unsigned int Ran(struct RanState *state)
+{
+  state->m_z = (unsigned int)36969 * (state->m_z & (unsigned int)65535) + (state->m_z >> 16);
+  state->m_w = (unsigned int)18000 * (state->m_w & (unsigned int)65535) + (state->m_w >> 16);
+  return (state->m_z << 16) + state->m_w;
+}
+
+// RandomizeFreqs
+// file zopfli/src/zopfli/squeeze.c line 91
+static void RandomizeFreqs(struct RanState *state, unsigned long int *freqs, signed int n)
+{
+  signed int i = 0;
+  unsigned int return_value_Ran$1;
+  for( ; !(i >= n); i = i + 1)
+  {
+    unsigned int return_value_Ran$2;
+    return_value_Ran$2=Ran(state);
+    if((return_value_Ran$2 >> 4) % 3u == 0u)
+    {
+      return_value_Ran$1=Ran(state);
+      freqs[(signed long int)i] = freqs[(signed long int)(return_value_Ran$1 % (unsigned int)n)];
+    }
+
+  }
+}
+
+// RandomizeStatFreqs
+// file zopfli/src/zopfli/squeeze.c line 98
+static void RandomizeStatFreqs(struct RanState *state, struct SymbolStats *stats)
+{
+  RandomizeFreqs(state, stats->litlens, 288);
+  RandomizeFreqs(state, stats->dists, 32);
+  stats->litlens[(signed long int)256] = (unsigned long int)1;
+}
+
+// SplitCost
+// file zopfli/src/zopfli/blocksplitter.c line 126
+static double SplitCost(unsigned long int i, void *context)
+{
+  struct SplitCostContext *c = (struct SplitCostContext *)context;
+  double return_value_EstimateCost$1;
+  return_value_EstimateCost$1=EstimateCost(c->litlens, c->dists, c->start, i);
+  double return_value_EstimateCost$2;
+  return_value_EstimateCost$2=EstimateCost(c->litlens, c->dists, i, c->end);
+  return return_value_EstimateCost$1 + return_value_EstimateCost$2;
+}
+
+// StoreInLongestMatchCache
+// file zopfli/src/zopfli/lz77.c line 206
+static void StoreInLongestMatchCache(struct ZopfliBlockState *s, unsigned long int pos, unsigned long int limit, const unsigned short int *sublen, unsigned short int distance, unsigned short int length)
+{
+  unsigned long int lmcpos = pos - s->blockstart;
+  unsigned char cache_available;
+  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr$1;
+  if(!(s->lmc == ((struct ZopfliLongestMatchCache *)NULL)))
+  {
+    if((signed int)s->lmc->length[(signed long int)lmcpos] == 0)
+      tmp_if_expr$1 = (_Bool)1;
+
+    else
+      tmp_if_expr$1 = (signed int)s->lmc->dist[(signed long int)lmcpos] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+  }
+
+  else
+    tmp_if_expr$2 = (_Bool)0;
+  cache_available = (unsigned char)tmp_if_expr$2;
+  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr$4;
+  if(!(s->lmc == ((struct ZopfliLongestMatchCache *)NULL)))
+  {
+    if(limit == 258ul)
+    {
+      if(!(sublen == ((const unsigned short int *)NULL)))
+      {
+        if(cache_available == 0)
+        {
+          if((signed int)s->lmc->length[(signed long int)lmcpos] == 1)
+            tmp_if_expr$3 = (signed int)s->lmc->dist[(signed long int)lmcpos] == 0 ? (_Bool)1 : (_Bool)0;
+
+          else
+            tmp_if_expr$3 = (_Bool)0;
+          /* assertion s->lmc->length[lmcpos] == 1 && s->lmc->dist[lmcpos] == 0 */
+          assert(tmp_if_expr$3);
+          s->lmc->dist[(signed long int)lmcpos] = (unsigned short int)((signed int)length < 3 ? 0 : (signed int)distance);
+          s->lmc->length[(signed long int)lmcpos] = (unsigned short int)((signed int)length < 3 ? 0 : (signed int)length);
+          if((signed int)s->lmc->length[(signed long int)lmcpos] == 1)
+            tmp_if_expr$4 = (signed int)s->lmc->dist[(signed long int)lmcpos] == 0 ? (_Bool)1 : (_Bool)0;
+
+          else
+            tmp_if_expr$4 = (_Bool)0;
+          /* assertion !(s->lmc->length[lmcpos] == 1 && s->lmc->dist[lmcpos] == 0) */
+          assert(!tmp_if_expr$4);
+          ZopfliSublenToCache(sublen, lmcpos, (unsigned long int)length, s->lmc);
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+// TraceBackwards
+// file zopfli/src/zopfli/squeeze.c line 313
+static void TraceBackwards(unsigned long int size, const unsigned short int *length_array, unsigned short int **path, unsigned long int *pathsize)
+{
+  unsigned long int index = size;
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  if(!(size == 0ul))
+  {
+    while((_Bool)1)
+    {
+      if((*pathsize + 18446744073709551615ul & *pathsize) == 0ul)
+      {
+        if(*pathsize == 0ul)
+        {
+          return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/ );
+          tmp_if_expr$3 = return_value_malloc$1;
+        }
+
+        else
+        {
+          return_value_realloc$2=realloc((void *)*path, *pathsize * (unsigned long int)2 * sizeof(unsigned short int) /*2ul*/ );
+          tmp_if_expr$3 = return_value_realloc$2;
+        }
+        *path = (unsigned short int *)tmp_if_expr$3;
+      }
+
+      (*path)[(signed long int)*pathsize] = length_array[(signed long int)index];
+      *pathsize = *pathsize + 1ul;
+      /* assertion length_array[index] <= index */
+      assert((unsigned long int)length_array[(signed long int)index] <= index);
+      /* assertion length_array[index] <= 258 */
+      assert((signed int)length_array[(signed long int)index] <= 258);
+      /* assertion length_array[index] != 0 */
+      assert((signed int)length_array[(signed long int)index] != 0);
+      index = index - (unsigned long int)length_array[(signed long int)index];
+      if(index == 0ul)
+        break;
+
+    }
+    index = (unsigned long int)0;
+    for( ; !(index >= *pathsize / 2ul); index = index + 1ul)
+    {
+      unsigned short int temp = (*path)[(signed long int)index];
+      (*path)[(signed long int)index] = (*path)[(signed long int)((*pathsize - index) - (unsigned long int)1)];
+      (*path)[(signed long int)((*pathsize - index) - (unsigned long int)1)] = temp;
+    }
+  }
+
+}
+
+// TryGetFromLongestMatchCache
+// file zopfli/src/zopfli/lz77.c line 162
+static signed int TryGetFromLongestMatchCache(struct ZopfliBlockState *s, unsigned long int pos, unsigned long int *limit, unsigned short int *sublen, unsigned short int *distance, unsigned short int *length)
+{
+  unsigned long int lmcpos = pos - s->blockstart;
+  unsigned char cache_available;
+  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr$1;
+  if(!(s->lmc == ((struct ZopfliLongestMatchCache *)NULL)))
+  {
+    if((signed int)s->lmc->length[(signed long int)lmcpos] == 0)
+      tmp_if_expr$1 = (_Bool)1;
+
+    else
+      tmp_if_expr$1 = (signed int)s->lmc->dist[(signed long int)lmcpos] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+  }
+
+  else
+    tmp_if_expr$2 = (_Bool)0;
+  cache_available = (unsigned char)tmp_if_expr$2;
+  unsigned char limit_ok_for_cache;
+  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr$5;
+  unsigned int return_value_ZopfliMaxCachedSublen$4;
+  if(!(cache_available == 0))
+  {
+    if(*limit == 258ul)
+      tmp_if_expr$3 = (_Bool)1;
+
+    else
+      tmp_if_expr$3 = (unsigned long int)s->lmc->length[(signed long int)lmcpos] <= *limit ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr$3)
+      tmp_if_expr$6 = (_Bool)1;
+
+    else
+    {
+      if(!(sublen == ((unsigned short int *)NULL)))
+      {
+        return_value_ZopfliMaxCachedSublen$4=ZopfliMaxCachedSublen(s->lmc, lmcpos, (unsigned long int)s->lmc->length[(signed long int)lmcpos]);
+        tmp_if_expr$5 = (unsigned long int)return_value_ZopfliMaxCachedSublen$4 >= *limit ? (_Bool)1 : (_Bool)0;
+      }
+
+      else
+        tmp_if_expr$5 = (_Bool)0;
+      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+    }
+    tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+  }
+
+  else
+    tmp_if_expr$7 = (_Bool)0;
+  limit_ok_for_cache = (unsigned char)tmp_if_expr$7;
+  _Bool tmp_if_expr$9;
+  unsigned int return_value_ZopfliMaxCachedSublen$8;
+  if(!(s->lmc == ((struct ZopfliLongestMatchCache *)NULL)))
+  {
+    if(!(limit_ok_for_cache == 0))
+    {
+      if(!(cache_available == 0))
+      {
+        if(sublen == ((unsigned short int *)NULL))
+          tmp_if_expr$9 = (_Bool)1;
+
+        else
+        {
+          return_value_ZopfliMaxCachedSublen$8=ZopfliMaxCachedSublen(s->lmc, lmcpos, (unsigned long int)s->lmc->length[(signed long int)lmcpos]);
+          tmp_if_expr$9 = (unsigned int)s->lmc->length[(signed long int)lmcpos] <= return_value_ZopfliMaxCachedSublen$8 ? (_Bool)1 : (_Bool)0;
+        }
+        if(tmp_if_expr$9)
+        {
+          *length = s->lmc->length[(signed long int)lmcpos];
+          if(!(*limit >= (unsigned long int)*length))
+            *length = (unsigned short int)*limit;
+
+          if(!(sublen == ((unsigned short int *)NULL)))
+          {
+            ZopfliCacheToSublen(s->lmc, lmcpos, (unsigned long int)*length, sublen);
+            *distance = sublen[(signed long int)*length];
+            if(*limit == 258ul)
+            {
+              if((signed int)*length >= 3)
+                /* assertion sublen[*length] == s->lmc->dist[lmcpos] */
+                assert(sublen[(signed long int)*length] == s->lmc->dist[(signed long int)lmcpos]);
+
+            }
+
+          }
+
+          else
+            *distance = s->lmc->dist[(signed long int)lmcpos];
+          return 1;
+        }
+
+        *limit = (unsigned long int)s->lmc->length[(signed long int)lmcpos];
+      }
+
+    }
+
+  }
+
+  return 0;
+}
+
+// UpdateHashValue
+// file zopfli/src/zopfli/hash.c line 87
+static void UpdateHashValue(struct ZopfliHash *h, unsigned char c)
+{
+  h->val = (h->val << 5 ^ (signed int)c) & 32767;
+}
+
+// ZopfliBlockSplit
+// file zopfli/src/zopfli/blocksplitter.h line 64
+void ZopfliBlockSplit(const struct ZopfliOptions *options, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned long int maxblocks, unsigned long int **splitpoints, unsigned long int *npoints)
+{
+  unsigned long int pos = (unsigned long int)0;
+  unsigned long int i;
+  struct ZopfliBlockState s;
+  unsigned long int *lz77splitpoints = ((unsigned long int *)NULL);
+  unsigned long int nlz77points = (unsigned long int)0;
+  struct ZopfliLZ77Store store;
+  ZopfliInitLZ77Store(&store);
+  s.options = options;
+  s.blockstart = instart;
+  s.blockend = inend;
+  s.lmc = ((struct ZopfliLongestMatchCache *)NULL);
+  *npoints = (unsigned long int)0;
+  *splitpoints = ((unsigned long int *)NULL);
+  ZopfliLZ77Greedy(&s, in, instart, inend, &store);
+  ZopfliBlockSplitLZ77(options, store.litlens, store.dists, store.size, maxblocks, &lz77splitpoints, &nlz77points);
+  pos = instart;
+  signed int tmp_if_expr$1;
+  void *tmp_if_expr$4;
+  void *return_value_malloc$2;
+  void *return_value_realloc$3;
+  if(nlz77points >= 1ul)
+  {
+    i = (unsigned long int)0;
+    for( ; !(i >= store.size); i = i + 1ul)
+    {
+      unsigned long int length;
+      if((signed int)store.dists[(signed long int)i] == 0)
+        tmp_if_expr$1 = 1;
+
+      else
+        tmp_if_expr$1 = (signed int)store.litlens[(signed long int)i];
+      length = (unsigned long int)tmp_if_expr$1;
+      if(lz77splitpoints[(signed long int)*npoints] == i)
+      {
+        if((*npoints + 18446744073709551615ul & *npoints) == 0ul)
+        {
+          if(*npoints == 0ul)
+          {
+            return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/ );
+            tmp_if_expr$4 = return_value_malloc$2;
+          }
+
+          else
+          {
+            return_value_realloc$3=realloc((void *)*splitpoints, *npoints * (unsigned long int)2 * sizeof(unsigned long int) /*8ul*/ );
+            tmp_if_expr$4 = return_value_realloc$3;
+          }
+          *splitpoints = (unsigned long int *)tmp_if_expr$4;
+        }
+
+        (*splitpoints)[(signed long int)*npoints] = pos;
+        *npoints = *npoints + 1ul;
+        if(*npoints == nlz77points)
+          break;
+
+      }
+
+      pos = pos + length;
+    }
+  }
+
+  /* assertion *npoints == nlz77points */
+  assert(*npoints == nlz77points);
+  free((void *)lz77splitpoints);
+  ZopfliCleanLZ77Store(&store);
+}
+
+// ZopfliBlockSplitLZ77
+// file zopfli/src/zopfli/blocksplitter.h line 44
+void ZopfliBlockSplitLZ77(const struct ZopfliOptions *options, const unsigned short int *litlens, const unsigned short int *dists, unsigned long int llsize, unsigned long int maxblocks, unsigned long int **splitpoints, unsigned long int *npoints)
+{
+  unsigned long int lstart;
+  unsigned long int lend;
+  unsigned long int i;
+  unsigned long int llpos = (unsigned long int)0;
+  unsigned long int numblocks = (unsigned long int)1;
+  unsigned char *done;
+  double splitcost;
+  double origcost;
+  if(llsize >= 10ul)
+  {
+    void *return_value_malloc$1;
+    return_value_malloc$1=malloc(llsize);
+    done = (unsigned char *)return_value_malloc$1;
+    if(done == ((unsigned char *)NULL))
+      exit(-1);
+
+    i = (unsigned long int)0;
+    for( ; !(i >= llsize); i = i + 1ul)
+      done[(signed long int)i] = (unsigned char)0;
+    lstart = (unsigned long int)0;
+    lend = llsize;
+    do
+    {
+      struct SplitCostContext c;
+      if(numblocks >= maxblocks && maxblocks >= 1ul)
+        break;
+
+      c.litlens = litlens;
+      c.dists = dists;
+      c.llsize = llsize;
+      c.start = lstart;
+      c.end = lend;
+      /* assertion lstart < lend */
+      assert(lstart < lend);
+      llpos=FindMinimum(SplitCost, (void *)&c, lstart + (unsigned long int)1, lend);
+      /* assertion llpos > lstart */
+      assert(llpos > lstart);
+      /* assertion llpos < lend */
+      assert(llpos < lend);
+      double return_value_EstimateCost$2;
+      return_value_EstimateCost$2=EstimateCost(litlens, dists, lstart, llpos);
+      double return_value_EstimateCost$3;
+      return_value_EstimateCost$3=EstimateCost(litlens, dists, llpos, lend);
+      splitcost = return_value_EstimateCost$2 + return_value_EstimateCost$3;
+      origcost=EstimateCost(litlens, dists, lstart, lend);
+      if(llpos == 1ul + lstart || llpos == lend || splitcost > origcost)
+        done[(signed long int)lstart] = (unsigned char)1;
+
+      else
+      {
+        AddSorted(llpos, splitpoints, npoints);
+        numblocks = numblocks + 1ul;
+      }
+      signed int return_value_FindLargestSplittableBlock$4;
+      return_value_FindLargestSplittableBlock$4=FindLargestSplittableBlock(llsize, done, *splitpoints, *npoints, &lstart, &lend);
+      if(return_value_FindLargestSplittableBlock$4 == 0)
+        break;
+
+      if(!(lend + -lstart >= 10ul))
+        break;
+
+    }
+    while((_Bool)1);
+    if(!(options->verbose == 0))
+      PrintBlockSplitPoints(litlens, dists, llsize, *splitpoints, *npoints);
+
+    free((void *)done);
+  }
+
+}
+
+// ZopfliBlockSplitSimple
+// file zopfli/src/zopfli/blocksplitter.h line 72
+void ZopfliBlockSplitSimple(const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned long int blocksize, unsigned long int **splitpoints, unsigned long int *npoints)
+{
+  unsigned long int i = instart;
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  for( ; !(i >= inend); i = i + blocksize)
+  {
+    if((*npoints + 18446744073709551615ul & *npoints) == 0ul)
+    {
+      if(*npoints == 0ul)
+      {
+        return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/ );
+        tmp_if_expr$3 = return_value_malloc$1;
+      }
+
+      else
+      {
+        return_value_realloc$2=realloc((void *)*splitpoints, *npoints * (unsigned long int)2 * sizeof(unsigned long int) /*8ul*/ );
+        tmp_if_expr$3 = return_value_realloc$2;
+      }
+      *splitpoints = (unsigned long int *)tmp_if_expr$3;
+    }
+
+    (*splitpoints)[(signed long int)*npoints] = i;
+    *npoints = *npoints + 1ul;
+  }
+  (void)in;
+}
+
+// ZopfliCacheToSublen
+// file zopfli/src/zopfli/cache.h line 57
+void ZopfliCacheToSublen(const struct ZopfliLongestMatchCache *lmc, unsigned long int pos, unsigned long int length, unsigned short int *sublen)
+{
+  unsigned long int i;
+  unsigned long int j;
+  unsigned int maxlength;
+  maxlength=ZopfliMaxCachedSublen(lmc, pos, length);
+  unsigned int prevlength = (unsigned int)0;
+  unsigned char *cache;
+  if(length >= 3ul)
+  {
+    cache = &lmc->sublen[(signed long int)((unsigned long int)8 * pos * (unsigned long int)3)];
+    j = (unsigned long int)0;
+    for( ; !(j >= 8ul); j = j + 1ul)
+    {
+      unsigned int ZopfliCacheToSublen$$1$$1$$1$$length = (unsigned int)((signed int)cache[(signed long int)(j * (unsigned long int)3)] + 3);
+      unsigned int dist = (unsigned int)((signed int)cache[(signed long int)(j * (unsigned long int)3 + (unsigned long int)1)] + 256 * (signed int)cache[(signed long int)(j * (unsigned long int)3 + (unsigned long int)2)]);
+      i = (unsigned long int)prevlength;
+      for( ; (unsigned long int)ZopfliCacheToSublen$$1$$1$$1$$length >= i; i = i + 1ul)
+        sublen[(signed long int)i] = (unsigned short int)dist;
+      if(ZopfliCacheToSublen$$1$$1$$1$$length == maxlength)
+        break;
+
+      prevlength = ZopfliCacheToSublen$$1$$1$$1$$length + (unsigned int)1;
+    }
+  }
+
+}
+
+// ZopfliCalculateBitLengths
+// file zopfli/src/zopfli/tree.h line 33
+void ZopfliCalculateBitLengths(const unsigned long int *count, unsigned long int n, signed int maxbits, unsigned int *bitlengths)
+{
+  signed int error;
+  error=ZopfliLengthLimitedCodeLengths(count, (signed int)n, maxbits, bitlengths);
+  (void)error;
+  /* assertion !error */
+  assert(!(error != 0));
+}
+
+// ZopfliCalculateBlockSize
+// file zopfli/src/zopfli/deflate.c line 488
+double ZopfliCalculateBlockSize(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int lstart, unsigned long int lend, signed int btype)
+{
+  unsigned int ll_lengths[288l];
+  unsigned int d_lengths[32l];
+  double result = (double)3;
+  /* assertion btype == 1 || btype == 2 */
+  assert(btype == 1 || btype == 2);
+  if(btype == 1)
+    GetFixedTree(ll_lengths, d_lengths);
+
+  else
+  {
+    GetDynamicLengths(litlens, dists, lstart, lend, ll_lengths, d_lengths);
+    unsigned long int return_value_CalculateTreeSize$1;
+    return_value_CalculateTreeSize$1=CalculateTreeSize(ll_lengths, d_lengths);
+    result = result + (double)return_value_CalculateTreeSize$1;
+  }
+  unsigned long int return_value_CalculateBlockSymbolSize$2;
+  return_value_CalculateBlockSymbolSize$2=CalculateBlockSymbolSize(ll_lengths, d_lengths, litlens, dists, lstart, lend);
+  result = result + (double)return_value_CalculateBlockSymbolSize$2;
+  return result;
+}
+
+// ZopfliCalculateEntropy
+// file zopfli/src/zopfli/tree.c line 71
+void ZopfliCalculateEntropy(const unsigned long int *count, unsigned long int n, double *bitlengths)
+{
+  unsigned int sum = (unsigned int)0;
+  unsigned int i;
+  double log2sum;
+  i = (unsigned int)0;
+  for( ; !((unsigned long int)i >= n); i = i + 1u)
+    sum = sum + (unsigned int)count[(signed long int)i];
+  double tmp_if_expr$3;
+  double return_value_log$1;
+  double return_value_log$2;
+  if(sum == 0u)
+  {
+    return_value_log$1=log((double)n);
+    tmp_if_expr$3 = return_value_log$1;
+  }
+
+  else
+  {
+    return_value_log$2=log((double)sum);
+    tmp_if_expr$3 = return_value_log$2;
+  }
+  static const double kInvLog2 = 1.4426950408889;
+  log2sum = tmp_if_expr$3 * kInvLog2;
+  i = (unsigned int)0;
+  double return_value_log$4;
+  for( ; !((unsigned long int)i >= n); i = i + 1u)
+  {
+    if(count[(signed long int)i] == 0ul)
+      bitlengths[(signed long int)i] = log2sum;
+
+    else
+    {
+      return_value_log$4=log((double)count[(signed long int)i]);
+      bitlengths[(signed long int)i] = log2sum - return_value_log$4 * kInvLog2;
+    }
+    if(bitlengths[(signed long int)i] < 0.000000)
+    {
+      if(bitlengths[(signed long int)i] > -1.000000e-5)
+        bitlengths[(signed long int)i] = (double)0;
+
+    }
+
+    /* assertion bitlengths[i] >= 0 */
+    assert(bitlengths[(signed long int)i] >= (double)0);
+  }
+}
+
+// ZopfliCleanCache
+// file zopfli/src/zopfli/cache.h line 49
+void ZopfliCleanCache(struct ZopfliLongestMatchCache *lmc)
+{
+  free((void *)lmc->length);
+  free((void *)lmc->dist);
+  free((void *)lmc->sublen);
+}
+
+// ZopfliCleanHash
+// file zopfli/src/zopfli/hash.h line 53
+void ZopfliCleanHash(struct ZopfliHash *h)
+{
+  free((void *)h->head);
+  free((void *)h->prev);
+  free((void *)h->hashval);
+  free((void *)h->head2);
+  free((void *)h->prev2);
+  free((void *)h->hashval2);
+  free((void *)h->same);
+}
+
+// ZopfliCleanLZ77Store
+// file zopfli/src/zopfli/lz77.h line 52
+void ZopfliCleanLZ77Store(struct ZopfliLZ77Store *store)
+{
+  free((void *)store->litlens);
+  free((void *)store->dists);
+}
+
+// ZopfliCopyLZ77Store
+// file zopfli/src/zopfli/lz77.c line 38
+void ZopfliCopyLZ77Store(const struct ZopfliLZ77Store *source, struct ZopfliLZ77Store *dest)
+{
+  unsigned long int i;
+  ZopfliCleanLZ77Store(dest);
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/  * source->size);
+  dest->litlens = (unsigned short int *)return_value_malloc$1;
+  void *return_value_malloc$2;
+  return_value_malloc$2=malloc(sizeof(unsigned short int) /*2ul*/  * source->size);
+  dest->dists = (unsigned short int *)return_value_malloc$2;
+  _Bool tmp_if_expr$3;
+  if(dest->litlens == ((unsigned short int *)NULL))
+    tmp_if_expr$3 = (_Bool)1;
+
+  else
+    tmp_if_expr$3 = !(dest->dists != ((unsigned short int *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr$3)
+    exit(-1);
+
+  dest->size = source->size;
+  i = (unsigned long int)0;
+  for( ; !(i >= source->size); i = i + 1ul)
+  {
+    dest->litlens[(signed long int)i] = source->litlens[(signed long int)i];
+    dest->dists[(signed long int)i] = source->dists[(signed long int)i];
+  }
+}
+
+// ZopfliDeflate
+// file zopfli/src/zopfli/deflate.c line 844
+void ZopfliDeflate(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int insize, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  unsigned long int i = (unsigned long int)0;
+  while(!(i >= insize))
+  {
+    signed int masterfinal = (signed int)(i + (unsigned long int)20000000 >= insize);
+    signed int final2 = (signed int)(final != 0 && masterfinal != 0);
+    unsigned long int size = masterfinal != 0 ? insize - i : (unsigned long int)20000000;
+    ZopfliDeflatePart(options, btype, final2, in, i, i + size, bp, out, outsize);
+    i = i + size;
+  }
+  if(!(options->verbose == 0))
+    fprintf(stderr, "Original Size: %d, Deflate: %d, Compression: %f%% Removed\n", (signed int)insize, (signed int)*outsize, (100.0 * (double)(insize - *outsize)) / (double)insize);
+
+}
+
+// ZopfliDeflatePart
+// file zopfli/src/zopfli/deflate.h line 66
+void ZopfliDeflatePart(const struct ZopfliOptions *options, signed int btype, signed int final, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned char *bp, unsigned char **out, unsigned long int *outsize)
+{
+  if(!(options->blocksplitting == 0))
+  {
+    if(!(options->blocksplittinglast == 0))
+      DeflateSplittingLast(options, btype, final, in, instart, inend, bp, out, outsize);
+
+    else
+      DeflateSplittingFirst(options, btype, final, in, instart, inend, bp, out, outsize);
+  }
+
+  else
+    DeflateBlock(options, btype, final, in, instart, inend, bp, out, outsize);
+}
+
+// ZopfliFindLongestMatch
+// file zopfli/src/zopfli/lz77.c line 229
+void ZopfliFindLongestMatch(struct ZopfliBlockState *s, const struct ZopfliHash *h, const unsigned char *array, unsigned long int pos, unsigned long int size, unsigned long int limit, unsigned short int *sublen, unsigned short int *distance, unsigned short int *length)
+{
+  unsigned short int hpos = (unsigned short int)(pos & (unsigned long int)(32768 - 1));
+  unsigned short int p;
+  unsigned short int pp;
+  unsigned short int bestdist = (unsigned short int)0;
+  unsigned short int bestlength = (unsigned short int)1;
+  const unsigned char *scan;
+  const unsigned char *match;
+  const unsigned char *arrayend;
+  const unsigned char *arrayend_safe;
+  signed int chain_counter = 8192;
+  unsigned int dist = (unsigned int)0;
+  signed int *hhead = h->head;
+  unsigned short int *hprev = h->prev;
+  signed int *hhashval = h->hashval;
+  signed int hval = h->val;
+  signed int return_value_TryGetFromLongestMatchCache$1;
+  return_value_TryGetFromLongestMatchCache$1=TryGetFromLongestMatchCache(s, pos, &limit, sublen, distance, length);
+  _Bool tmp_if_expr$2;
+  if(!(return_value_TryGetFromLongestMatchCache$1 == 0))
+    /* assertion pos + *length <= size */
+    assert(pos + (unsigned long int)*length <= size);
+
+  else
+  {
+    /* assertion limit <= 258 */
+    assert(limit <= (unsigned long int)258);
+    /* assertion limit >= 3 */
+    assert(limit >= (unsigned long int)3);
+    /* assertion pos < size */
+    assert(pos < size);
+    if(!(size + -pos >= 3ul))
+    {
+      *length = (unsigned short int)0;
+      *distance = (unsigned short int)0;
+    }
+
+    else
+    {
+      if(!(size >= limit + pos))
+        limit = size - pos;
+
+      arrayend = &array[(signed long int)pos] + (signed long int)limit;
+      arrayend_safe = arrayend - (signed long int)8;
+      /* assertion hval < 65536 */
+      assert(hval < 65536);
+      pp = (unsigned short int)hhead[(signed long int)hval];
+      p = hprev[(signed long int)pp];
+      /* assertion pp == hpos */
+      assert(pp == hpos);
+      dist = (unsigned int)((signed int)p < (signed int)pp ? (signed int)pp - (signed int)p : (32768 - (signed int)p) + (signed int)pp);
+      while(!(dist >= 32768u))
+      {
+        unsigned short int currentlength = (unsigned short int)0;
+        /* assertion p < 32768 */
+        assert((signed int)p < 32768);
+        /* assertion p == hprev[pp] */
+        assert(p == hprev[(signed long int)pp]);
+        /* assertion hhashval[p] == hval */
+        assert(hhashval[(signed long int)p] == hval);
+        if(dist >= 1u)
+        {
+          /* assertion pos < size */
+          assert(pos < size);
+          /* assertion dist <= pos */
+          assert((unsigned long int)dist <= pos);
+          scan = &array[(signed long int)pos];
+          match = &array[(signed long int)(pos - (unsigned long int)dist)];
+          if(pos + (unsigned long int)bestlength >= size)
+            tmp_if_expr$2 = (_Bool)1;
+
+          else
+            tmp_if_expr$2 = scan[(signed long int)bestlength] == match[(signed long int)bestlength] ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr$2)
+          {
+            unsigned short int same0 = h->same[(signed long int)(pos & (unsigned long int)(32768 - 1))];
+            if((signed int)same0 >= 3)
+            {
+              if(*scan == *match)
+              {
+                unsigned short int same1 = h->same[(signed long int)(pos - (unsigned long int)dist & (unsigned long int)(32768 - 1))];
+                unsigned short int same = (unsigned short int)((signed int)same0 < (signed int)same1 ? (signed int)same0 : (signed int)same1);
+                if(!(limit >= (unsigned long int)same))
+                  same = (unsigned short int)limit;
+
+                scan = scan + (signed long int)same;
+                match = match + (signed long int)same;
+              }
+
+            }
+
+            scan=GetMatch(scan, match, arrayend, arrayend_safe);
+            currentlength = (unsigned short int)(scan - &array[(signed long int)pos]);
+          }
+
+          if(!((signed int)bestlength >= (signed int)currentlength))
+          {
+            if(!(sublen == ((unsigned short int *)NULL)))
+            {
+              unsigned short int j = (unsigned short int)((signed int)bestlength + 1);
+              for( ; (signed int)currentlength >= (signed int)j; j = j + 1)
+                sublen[(signed long int)j] = (unsigned short int)dist;
+            }
+
+            bestdist = (unsigned short int)dist;
+            bestlength = currentlength;
+            if((unsigned long int)currentlength >= limit)
+              break;
+
+          }
+
+        }
+
+        if(!(hhead == h->head2))
+        {
+          if((signed int)bestlength >= (signed int)h->same[(signed long int)hpos])
+          {
+            if(h->val2 == h->hashval2[(signed long int)p])
+            {
+              hhead = h->head2;
+              hprev = h->prev2;
+              hhashval = h->hashval2;
+              hval = h->val2;
+            }
+
+          }
+
+        }
+
+        pp = p;
+        p = hprev[(signed long int)p];
+        if(p == pp)
+          break;
+
+        dist = dist + (unsigned int)((signed int)p < (signed int)pp ? (signed int)pp - (signed int)p : (32768 - (signed int)p) + (signed int)pp);
+        chain_counter = chain_counter - 1;
+        if(!(chain_counter >= 1))
+          break;
+
+      }
+      StoreInLongestMatchCache(s, pos, limit, sublen, bestdist, bestlength);
+      /* assertion bestlength <= limit */
+      assert((unsigned long int)bestlength <= limit);
+      *distance = bestdist;
+      *length = bestlength;
+      /* assertion pos + *length <= size */
+      assert(pos + (unsigned long int)*length <= size);
+    }
+  }
+}
+
+// ZopfliGetDistExtraBits
+// file zopfli/src/zopfli/util.h line 135
+signed int ZopfliGetDistExtraBits(signed int dist)
+{
+  if(!(dist >= 5))
+    return 0;
+
+  else
+  {
+    signed int return_value___builtin_clz$1;
+    return_value___builtin_clz$1=__builtin_clz((unsigned int)(dist - 1));
+    return (31 ^ return_value___builtin_clz$1) - 1;
+  }
+}
+
+// ZopfliGetDistExtraBitsValue
+// file zopfli/src/zopfli/util.h line 138
+signed int ZopfliGetDistExtraBitsValue(signed int dist)
+{
+  if(!(dist >= 5))
+    return 0;
+
+  else
+  {
+    signed int l;
+    signed int return_value___builtin_clz$1;
+    return_value___builtin_clz$1=__builtin_clz((unsigned int)(dist - 1));
+    l = 31 ^ return_value___builtin_clz$1;
+    return dist - (1 + (1 << l)) & (1 << l - 1) - 1;
+  }
+}
+
+// ZopfliGetDistSymbol
+// file zopfli/src/zopfli/util.h line 132
+signed int ZopfliGetDistSymbol(signed int dist)
+{
+  if(!(dist >= 5))
+    return dist - 1;
+
+  else
+  {
+    signed int l;
+    signed int return_value___builtin_clz$1;
+    return_value___builtin_clz$1=__builtin_clz((unsigned int)(dist - 1));
+    l = 31 ^ return_value___builtin_clz$1;
+    signed int r = dist - 1 >> l - 1 & 1;
+    return l * 2 + r;
+  }
+}
+
+// ZopfliGetLengthExtraBits
+// file zopfli/src/zopfli/util.h line 126
+signed int ZopfliGetLengthExtraBits(signed int l)
+{
+  static const signed int table[259l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 0 };
+  return table[(signed long int)l];
+}
+
+// ZopfliGetLengthExtraBitsValue
+// file zopfli/src/zopfli/util.h line 129
+signed int ZopfliGetLengthExtraBitsValue(signed int l)
+{
+  static const signed int table[259l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 0 };
+  return table[(signed long int)l];
+}
+
+// ZopfliGetLengthSymbol
+// file zopfli/src/zopfli/util.h line 123
+signed int ZopfliGetLengthSymbol(signed int l)
+{
+  static const signed int table[259l] = { 0, 0, 0, 257, 258, 259, 260, 261, 262, 263, 264, 265, 265, 266, 266, 267, 267, 268, 268, 269, 269, 269, 269, 270, 270, 270, 270, 271, 271, 271, 271, 272, 272, 272, 272, 273, 273, 273, 273, 273, 273, 273, 273, 274, 274, 274, 274, 274, 274, 274, 274, 275, 275, 275, 275, 275, 275, 275, 275, 276, 276, 276, 276, 276, 276, 276, 276, 277, 277, 277, 277, 277, 277, 277, 277, 277, 277, 277, 277, 277, 277, 277, 277, 278, 278, 278, 278, 278, 278, 278, 278, 278, 278, 278, 278, 278, 278, 278, 278, 279, 279, 279, 279, 279, 279, 279, 279, 279, 279, 279, 279, 279, 279, 279, 279, 280, 280, 280, 280, 280, 280, 280, 280, 280, 280, 280, 280, 280, 280, 280, 280, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 282, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 283, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 284, 285 };
+  return table[(signed long int)l];
+}
+
+// ZopfliInitCache
+// file zopfli/src/zopfli/cache.h line 46
+void ZopfliInitCache(unsigned long int blocksize, struct ZopfliLongestMatchCache *lmc)
+{
+  unsigned long int i;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/  * blocksize);
+  lmc->length = (unsigned short int *)return_value_malloc$1;
+  void *return_value_malloc$2;
+  return_value_malloc$2=malloc(sizeof(unsigned short int) /*2ul*/  * blocksize);
+  lmc->dist = (unsigned short int *)return_value_malloc$2;
+  void *return_value_malloc$3;
+  return_value_malloc$3=malloc((unsigned long int)(8 * 3) * blocksize);
+  lmc->sublen = (unsigned char *)return_value_malloc$3;
+  i = (unsigned long int)0;
+  for( ; !(i >= blocksize); i = i + 1ul)
+    lmc->length[(signed long int)i] = (unsigned short int)1;
+  i = (unsigned long int)0;
+  for( ; !(i >= blocksize); i = i + 1ul)
+    lmc->dist[(signed long int)i] = (unsigned short int)0;
+  i = (unsigned long int)0;
+  for( ; !(i >= 24ul * blocksize); i = i + 1ul)
+    lmc->sublen[(signed long int)i] = (unsigned char)0;
+}
+
+// ZopfliInitHash
+// file zopfli/src/zopfli/hash.h line 50
+void ZopfliInitHash(unsigned long int window_size, struct ZopfliHash *h)
+{
+  unsigned long int i;
+  h->val = 0;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)65536);
+  h->head = (signed int *)return_value_malloc$1;
+  void *return_value_malloc$2;
+  return_value_malloc$2=malloc(sizeof(unsigned short int) /*2ul*/  * window_size);
+  h->prev = (unsigned short int *)return_value_malloc$2;
+  void *return_value_malloc$3;
+  return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * window_size);
+  h->hashval = (signed int *)return_value_malloc$3;
+  i = (unsigned long int)0;
+  for( ; !(i >= 65536ul); i = i + 1ul)
+    h->head[(signed long int)i] = -1;
+  i = (unsigned long int)0;
+  for( ; !(i >= window_size); i = i + 1ul)
+  {
+    h->prev[(signed long int)i] = (unsigned short int)i;
+    h->hashval[(signed long int)i] = -1;
+  }
+  void *return_value_malloc$4;
+  return_value_malloc$4=malloc(sizeof(unsigned short int) /*2ul*/  * window_size);
+  h->same = (unsigned short int *)return_value_malloc$4;
+  i = (unsigned long int)0;
+  for( ; !(i >= window_size); i = i + 1ul)
+    h->same[(signed long int)i] = (unsigned short int)0;
+  h->val2 = 0;
+  void *return_value_malloc$5;
+  return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)65536);
+  h->head2 = (signed int *)return_value_malloc$5;
+  void *return_value_malloc$6;
+  return_value_malloc$6=malloc(sizeof(unsigned short int) /*2ul*/  * window_size);
+  h->prev2 = (unsigned short int *)return_value_malloc$6;
+  void *return_value_malloc$7;
+  return_value_malloc$7=malloc(sizeof(signed int) /*4ul*/  * window_size);
+  h->hashval2 = (signed int *)return_value_malloc$7;
+  i = (unsigned long int)0;
+  for( ; !(i >= 65536ul); i = i + 1ul)
+    h->head2[(signed long int)i] = -1;
+  i = (unsigned long int)0;
+  for( ; !(i >= window_size); i = i + 1ul)
+  {
+    h->prev2[(signed long int)i] = (unsigned short int)i;
+    h->hashval2[(signed long int)i] = -1;
+  }
+}
+
+// ZopfliInitLZ77Store
+// file zopfli/src/zopfli/lz77.h line 51
+void ZopfliInitLZ77Store(struct ZopfliLZ77Store *store)
+{
+  store->size = (unsigned long int)0;
+  store->litlens = ((unsigned short int *)NULL);
+  store->dists = ((unsigned short int *)NULL);
+}
+
+// ZopfliInitOptions
+// file zopfli/src/zopfli/zopfli.h line 70
+void ZopfliInitOptions(struct ZopfliOptions *options)
+{
+  options->verbose = 0;
+  options->verbose_more = 0;
+  options->numiterations = 15;
+  options->blocksplitting = 1;
+  options->blocksplittinglast = 0;
+  options->blocksplittingmax = 15;
+}
+
+// ZopfliLZ77Counts
+// file zopfli/src/zopfli/lz77.h line 113
+void ZopfliLZ77Counts(const unsigned short int *litlens, const unsigned short int *dists, unsigned long int start, unsigned long int end, unsigned long int *ll_count, unsigned long int *d_count)
+{
+  unsigned long int i = (unsigned long int)0;
+  for( ; !(i >= 288ul); i = i + 1ul)
+    ll_count[(signed long int)i] = (unsigned long int)0;
+  i = (unsigned long int)0;
+  for( ; !(i >= 32ul); i = i + 1ul)
+    d_count[(signed long int)i] = (unsigned long int)0;
+  i = start;
+  for( ; !(i >= end); i = i + 1ul)
+    if((signed int)dists[(signed long int)i] == 0)
+      ll_count[(signed long int)litlens[(signed long int)i]] = ll_count[(signed long int)litlens[(signed long int)i]] + 1ul;
+
+    else
+    {
+      signed int return_value_ZopfliGetLengthSymbol$1;
+      return_value_ZopfliGetLengthSymbol$1=ZopfliGetLengthSymbol((signed int)litlens[(signed long int)i]);
+      ll_count[(signed long int)return_value_ZopfliGetLengthSymbol$1] = ll_count[(signed long int)return_value_ZopfliGetLengthSymbol$1] + 1ul;
+      signed int return_value_ZopfliGetDistSymbol$2;
+      return_value_ZopfliGetDistSymbol$2=ZopfliGetDistSymbol((signed int)dists[(signed long int)i]);
+      d_count[(signed long int)return_value_ZopfliGetDistSymbol$2] = d_count[(signed long int)return_value_ZopfliGetDistSymbol$2] + 1ul;
+    }
+  ll_count[(signed long int)256] = (unsigned long int)1;
+}
+
+// ZopfliLZ77Greedy
+// file zopfli/src/zopfli/lz77.h line 125
+void ZopfliLZ77Greedy(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, struct ZopfliLZ77Store *store)
+{
+  unsigned long int i = (unsigned long int)0;
+  unsigned long int j;
+  unsigned short int leng;
+  unsigned short int dist;
+  signed int lengthscore;
+  unsigned long int windowstart = instart > (unsigned long int)32768 ? instart - (unsigned long int)32768 : (unsigned long int)0;
+  unsigned short int dummysublen[259l];
+  struct ZopfliHash hash;
+  struct ZopfliHash *h = &hash;
+  unsigned int prev_length = (unsigned int)0;
+  unsigned int prev_match = (unsigned int)0;
+  signed int prevlengthscore;
+  signed int match_available = 0;
+  if(!(instart == inend))
+  {
+    ZopfliInitHash((unsigned long int)32768, h);
+    ZopfliWarmupHash(in, windowstart, inend, h);
+    i = windowstart;
+    for( ; !(i >= instart); i = i + 1ul)
+      ZopfliUpdateHash(in, i, inend, h);
+    i = instart;
+    for( ; !(i >= inend); i = i + 1ul)
+    {
+      ZopfliUpdateHash(in, i, inend, h);
+      ZopfliFindLongestMatch(s, h, in, i, inend, (unsigned long int)258, dummysublen, &dist, &leng);
+      lengthscore=GetLengthScore((signed int)leng, (signed int)dist);
+      prevlengthscore=GetLengthScore((signed int)prev_length, (signed int)prev_match);
+      if(!(match_available == 0))
+      {
+        match_available = 0;
+        if(!(1 + prevlengthscore >= lengthscore))
+        {
+          ZopfliStoreLitLenDist((unsigned short int)in[(signed long int)(i - (unsigned long int)1)], (unsigned short int)0, store);
+          if(lengthscore >= 3 && !((signed int)leng >= 258))
+          {
+            match_available = 1;
+            prev_length = (unsigned int)leng;
+            prev_match = (unsigned int)dist;
+            goto __CPROVER_DUMP_L15;
+          }
+
+        }
+
+        else
+        {
+          leng = (unsigned short int)prev_length;
+          dist = (unsigned short int)prev_match;
+          lengthscore = prevlengthscore;
+          ZopfliVerifyLenDist(in, inend, i - (unsigned long int)1, dist, leng);
+          ZopfliStoreLitLenDist(leng, dist, store);
+          j = (unsigned long int)2;
+          for( ; !(j >= (unsigned long int)leng); j = j + 1ul)
+          {
+            /* assertion i < inend */
+            assert(i < inend);
+            i = i + 1ul;
+            ZopfliUpdateHash(in, i, inend, h);
+          }
+          goto __CPROVER_DUMP_L15;
+        }
+      }
+
+      else
+        if(lengthscore >= 3 && !((signed int)leng >= 258))
+        {
+          match_available = 1;
+          prev_length = (unsigned int)leng;
+          prev_match = (unsigned int)dist;
+          goto __CPROVER_DUMP_L15;
+        }
+
+      if(lengthscore >= 3)
+      {
+        ZopfliVerifyLenDist(in, inend, i, dist, leng);
+        ZopfliStoreLitLenDist(leng, dist, store);
+      }
+
+      else
+      {
+        leng = (unsigned short int)1;
+        ZopfliStoreLitLenDist((unsigned short int)in[(signed long int)i], (unsigned short int)0, store);
+      }
+      j = (unsigned long int)1;
+      for( ; !(j >= (unsigned long int)leng); j = j + 1ul)
+      {
+        /* assertion i < inend */
+        assert(i < inend);
+        i = i + 1ul;
+        ZopfliUpdateHash(in, i, inend, h);
+      }
+
+    __CPROVER_DUMP_L15:
+      ;
+    }
+    ZopfliCleanHash(h);
+  }
+
+}
+
+// ZopfliLZ77Optimal
+// file zopfli/src/zopfli/squeeze.h line 41
+void ZopfliLZ77Optimal(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, struct ZopfliLZ77Store *store)
+{
+  unsigned long int blocksize = inend - instart;
+  unsigned short int *length_array;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/  * (blocksize + (unsigned long int)1));
+  length_array = (unsigned short int *)return_value_malloc$1;
+  unsigned short int *path = ((unsigned short int *)NULL);
+  unsigned long int pathsize = (unsigned long int)0;
+  struct ZopfliLZ77Store currentstore;
+  struct SymbolStats stats;
+  struct SymbolStats beststats;
+  struct SymbolStats laststats;
+  signed int i;
+  double cost;
+  double bestcost = 1e30;
+  double lastcost = (double)0;
+  struct RanState ran_state;
+  signed int lastrandomstep = -1;
+  if(length_array == ((unsigned short int *)NULL))
+    exit(-1);
+
+  InitRanState(&ran_state);
+  InitStats(&stats);
+  ZopfliInitLZ77Store(&currentstore);
+  ZopfliLZ77Greedy(s, in, instart, inend, &currentstore);
+  GetStatistics(&currentstore, &stats);
+  i = 0;
+  _Bool tmp_if_expr$2;
+  for( ; !(i >= s->options->numiterations); i = i + 1)
+  {
+    ZopfliCleanLZ77Store(&currentstore);
+    ZopfliInitLZ77Store(&currentstore);
+    LZ77OptimalRun(s, in, instart, inend, &path, &pathsize, length_array, GetCostStat, (void *)&stats, &currentstore);
+    cost=ZopfliCalculateBlockSize(currentstore.litlens, currentstore.dists, (unsigned long int)0, currentstore.size, 2);
+    if(!(s->options->verbose_more == 0))
+      tmp_if_expr$2 = (_Bool)1;
+
+    else
+      tmp_if_expr$2 = (s->options->verbose != 0 ? (cost < bestcost ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr$2)
+      fprintf(stderr, "Iteration %d: %d bit\n", i, (signed int)cost);
+
+    if(cost < bestcost)
+    {
+      ZopfliCopyLZ77Store(&currentstore, store);
+      CopyStats(&stats, &beststats);
+      bestcost = cost;
+    }
+
+    CopyStats(&stats, &laststats);
+    ClearStatFreqs(&stats);
+    GetStatistics(&currentstore, &stats);
+    if(!(lastrandomstep == -1))
+    {
+      AddWeighedStatFreqs(&stats, 1.0, &laststats, 0.5, &stats);
+      CalculateStatistics(&stats);
+    }
+
+    if(i >= 6 && IEEE_FLOAT_EQUAL(cost, lastcost))
+    {
+      CopyStats(&beststats, &stats);
+      RandomizeStatFreqs(&ran_state, &stats);
+      CalculateStatistics(&stats);
+      lastrandomstep = i;
+    }
+
+    lastcost = cost;
+  }
+  free((void *)length_array);
+  free((void *)path);
+  ZopfliCleanLZ77Store(&currentstore);
+}
+
+// ZopfliLZ77OptimalFixed
+// file zopfli/src/zopfli/squeeze.h line 55
+void ZopfliLZ77OptimalFixed(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, struct ZopfliLZ77Store *store)
+{
+  unsigned long int blocksize = inend - instart;
+  unsigned short int *length_array;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/  * (blocksize + (unsigned long int)1));
+  length_array = (unsigned short int *)return_value_malloc$1;
+  unsigned short int *path = ((unsigned short int *)NULL);
+  unsigned long int pathsize = (unsigned long int)0;
+  if(length_array == ((unsigned short int *)NULL))
+    exit(-1);
+
+  s->blockstart = instart;
+  s->blockend = inend;
+  LZ77OptimalRun(s, in, instart, inend, &path, &pathsize, length_array, GetCostFixed, NULL, store);
+  free((void *)length_array);
+  free((void *)path);
+}
+
+// ZopfliLengthLimitedCodeLengths
+// file zopfli/src/zopfli/katajainen.h line 39
+signed int ZopfliLengthLimitedCodeLengths(const unsigned long int *frequencies, signed int n, signed int maxbits, unsigned int *bitlengths)
+{
+  struct NodePool pool;
+  signed int i;
+  signed int numsymbols = 0;
+  signed int numBoundaryPMRuns;
+  struct Node *(*lists)[2l];
+  struct Node *leaves;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc((unsigned long int)n * sizeof(struct Node) /*24ul*/ );
+  leaves = (struct Node *)return_value_malloc$1;
+  i = 0;
+  for( ; !(i >= n); i = i + 1)
+    bitlengths[(signed long int)i] = (unsigned int)0;
+  i = 0;
+  for( ; !(i >= n); i = i + 1)
+    if(!(frequencies[(signed long int)i] == 0ul))
+    {
+      (leaves + (signed long int)numsymbols)->weight = frequencies[(signed long int)i];
+      (leaves + (signed long int)numsymbols)->count = i;
+      numsymbols = numsymbols + 1;
+    }
+
+  if(!(1 << maxbits >= numsymbols))
+  {
+    free((void *)leaves);
+    return 1;
+  }
+
+  else
+    if(numsymbols == 0)
+    {
+      free((void *)leaves);
+      return 0;
+    }
+
+    else
+      if(numsymbols == 1)
+      {
+        bitlengths[(signed long int)(leaves + (signed long int)0)->count] = (unsigned int)1;
+        free((void *)leaves);
+        return 0;
+      }
+
+      else
+      {
+        qsort((void *)leaves, (unsigned long int)numsymbols, sizeof(struct Node) /*24ul*/ , LeafComparator);
+        pool.size = 2 * maxbits * (maxbits + 1);
+        void *return_value_malloc$2;
+        return_value_malloc$2=malloc((unsigned long int)pool.size * sizeof(struct Node) /*24ul*/ );
+        pool.nodes = (struct Node *)return_value_malloc$2;
+        pool.next = pool.nodes;
+        i = 0;
+        for( ; !(i >= pool.size); i = i + 1)
+          (pool.nodes + (signed long int)i)->inuse = (char)0;
+        void *return_value_malloc$3;
+        return_value_malloc$3=malloc((unsigned long int)maxbits * sizeof(struct Node *[2l]) /*16ul*/ );
+        lists = (struct Node *(*)[2l])return_value_malloc$3;
+        InitLists(&pool, leaves, maxbits, lists);
+        numBoundaryPMRuns = 2 * numsymbols - 4;
+        i = 0;
+        for( ; !(i >= numBoundaryPMRuns); i = i + 1)
+        {
+          char final = (char)(i == numBoundaryPMRuns - 1);
+          BoundaryPM(lists, maxbits, leaves, numsymbols, &pool, maxbits - 1, final);
+        }
+        ExtractBitLengths(lists[(signed long int)(maxbits - 1)][(signed long int)1], leaves, bitlengths);
+        free((void *)lists);
+        free((void *)leaves);
+        free((void *)pool.nodes);
+        return 0;
+      }
+}
+
+// ZopfliLengthsToSymbols
+// file zopfli/src/zopfli/tree.h line 39
+void ZopfliLengthsToSymbols(const unsigned int *lengths, unsigned long int n, unsigned int maxbits, unsigned int *symbols)
+{
+  unsigned long int *bl_count;
+  void *return_value_malloc$1;
+  return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(maxbits + (unsigned int)1));
+  bl_count = (unsigned long int *)return_value_malloc$1;
+  unsigned long int *next_code;
+  void *return_value_malloc$2;
+  return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(maxbits + (unsigned int)1));
+  next_code = (unsigned long int *)return_value_malloc$2;
+  unsigned int bits;
+  unsigned int i;
+  unsigned int code;
+  i = (unsigned int)0;
+  for( ; !((unsigned long int)i >= n); i = i + 1u)
+    symbols[(signed long int)i] = (unsigned int)0;
+  bits = (unsigned int)0;
+  for( ; maxbits >= bits; bits = bits + 1u)
+    bl_count[(signed long int)bits] = (unsigned long int)0;
+  i = (unsigned int)0;
+  for( ; !((unsigned long int)i >= n); i = i + 1u)
+  {
+    /* assertion lengths[i] <= maxbits */
+    assert(lengths[(signed long int)i] <= maxbits);
+    bl_count[(signed long int)lengths[(signed long int)i]] = bl_count[(signed long int)lengths[(signed long int)i]] + 1ul;
+  }
+  code = (unsigned int)0;
+  bl_count[(signed long int)0] = (unsigned long int)0;
+  bits = (unsigned int)1;
+  for( ; maxbits >= bits; bits = bits + 1u)
+  {
+    code = (unsigned int)((unsigned long int)code + bl_count[(signed long int)(bits - (unsigned int)1)] << 1);
+    next_code[(signed long int)bits] = (unsigned long int)code;
+  }
+  i = (unsigned int)0;
+  for( ; !((unsigned long int)i >= n); i = i + 1u)
+  {
+    unsigned int len = lengths[(signed long int)i];
+    if(!(len == 0u))
+    {
+      symbols[(signed long int)i] = (unsigned int)next_code[(signed long int)len];
+      next_code[(signed long int)len] = next_code[(signed long int)len] + 1ul;
+    }
+
+  }
+  free((void *)bl_count);
+  free((void *)next_code);
+}
+
+// ZopfliMaxCachedSublen
+// file zopfli/src/zopfli/cache.h line 61
+unsigned int ZopfliMaxCachedSublen(const struct ZopfliLongestMatchCache *lmc, unsigned long int pos, unsigned long int length)
+{
+  unsigned char *cache = &lmc->sublen[(signed long int)((unsigned long int)8 * pos * (unsigned long int)3)];
+  (void)length;
+  if((signed int)cache[1l] == 0)
+  {
+    if(!((signed int)cache[2l] == 0))
+      goto __CPROVER_DUMP_L1;
+
+    return (unsigned int)0;
+  }
+
+  else
+  {
+
+  __CPROVER_DUMP_L1:
+    ;
+    return (unsigned int)((signed int)cache[(signed long int)((8 - 1) * 3)] + 3);
+  }
+}
+
+// ZopfliStoreLitLenDist
+// file zopfli/src/zopfli/lz77.c line 59
+void ZopfliStoreLitLenDist(unsigned short int length, unsigned short int dist, struct ZopfliLZ77Store *store)
+{
+  unsigned long int size2 = store->size;
+  void *tmp_if_expr$3;
+  void *return_value_malloc$1;
+  void *return_value_realloc$2;
+  if((store->size + 18446744073709551615ul & store->size) == 0ul)
+  {
+    if(store->size == 0ul)
+    {
+      return_value_malloc$1=malloc(sizeof(unsigned short int) /*2ul*/ );
+      tmp_if_expr$3 = return_value_malloc$1;
+    }
+
+    else
+    {
+      return_value_realloc$2=realloc((void *)*(&store->litlens), *(&store->size) * (unsigned long int)2 * sizeof(unsigned short int) /*2ul*/ );
+      tmp_if_expr$3 = return_value_realloc$2;
+    }
+    *(&store->litlens) = (unsigned short int *)tmp_if_expr$3;
+  }
+
+  (*(&store->litlens))[(signed long int)*(&store->size)] = length;
+  *(&store->size) = *(&store->size) + 1ul;
+  void *tmp_if_expr$6;
+  void *return_value_malloc$4;
+  void *return_value_realloc$5;
+  if((size2 + 18446744073709551615ul & size2) == 0ul)
+  {
+    if(size2 == 0ul)
+    {
+      return_value_malloc$4=malloc(sizeof(unsigned short int) /*2ul*/ );
+      tmp_if_expr$6 = return_value_malloc$4;
+    }
+
+    else
+    {
+      return_value_realloc$5=realloc((void *)*(&store->dists), *(&size2) * (unsigned long int)2 * sizeof(unsigned short int) /*2ul*/ );
+      tmp_if_expr$6 = return_value_realloc$5;
+    }
+    *(&store->dists) = (unsigned short int *)tmp_if_expr$6;
+  }
+
+  (*(&store->dists))[(signed long int)*(&size2)] = dist;
+  *(&size2) = *(&size2) + 1ul;
+}
+
+// ZopfliSublenToCache
+// file zopfli/src/zopfli/cache.h line 52
+void ZopfliSublenToCache(const unsigned short int *sublen, unsigned long int pos, unsigned long int length, struct ZopfliLongestMatchCache *lmc)
+{
+  unsigned long int i;
+  unsigned long int j = (unsigned long int)0;
+  unsigned int bestlength = (unsigned int)0;
+  unsigned char *cache = &lmc->sublen[(signed long int)((unsigned long int)8 * pos * (unsigned long int)3)];
+  _Bool tmp_if_expr$1;
+  if(length >= 3ul)
+  {
+    i = (unsigned long int)3;
+    for( ; length >= i; i = i + 1ul)
+    {
+      if(i == length)
+        tmp_if_expr$1 = (_Bool)1;
+
+      else
+        tmp_if_expr$1 = sublen[(signed long int)i] != sublen[(signed long int)(i + (unsigned long int)1)] ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr$1)
+      {
+        cache[(signed long int)(j * (unsigned long int)3)] = (unsigned char)(i - (unsigned long int)3);
+        cache[(signed long int)(j * (unsigned long int)3 + (unsigned long int)1)] = (unsigned char)((signed int)sublen[(signed long int)i] % 256);
+        cache[(signed long int)(j * (unsigned long int)3 + (unsigned long int)2)] = (unsigned char)(((signed int)sublen[(signed long int)i] >> 8) % 256);
+        bestlength = (unsigned int)i;
+        j = j + 1ul;
+        if(j >= 8ul)
+          break;
+
+      }
+
+    }
+    if(!(j >= 8ul))
+    {
+      /* assertion bestlength == length */
+      assert((unsigned long int)bestlength == length);
+      cache[(signed long int)((8 - 1) * 3)] = (unsigned char)(bestlength - (unsigned int)3);
+    }
+
+    else
+      /* assertion bestlength <= length */
+      assert((unsigned long int)bestlength <= length);
+    unsigned int return_value_ZopfliMaxCachedSublen$2;
+    return_value_ZopfliMaxCachedSublen$2=ZopfliMaxCachedSublen(lmc, pos, length);
+    /* assertion bestlength == ZopfliMaxCachedSublen(lmc, pos, length) */
+    assert(bestlength == return_value_ZopfliMaxCachedSublen$2);
+  }
+
+}
+
+// ZopfliUpdateHash
+// file zopfli/src/zopfli/hash.h line 59
+void ZopfliUpdateHash(const unsigned char *array, unsigned long int pos, unsigned long int end, struct ZopfliHash *h)
+{
+  unsigned short int hpos = (unsigned short int)(pos & (unsigned long int)(32768 - 1));
+  unsigned long int amount = (unsigned long int)0;
+  signed int tmp_if_expr$1;
+  if(end >= 3ul + pos)
+    tmp_if_expr$1 = (signed int)array[(signed long int)((pos + (unsigned long int)3) - (unsigned long int)1)];
+
+  else
+    tmp_if_expr$1 = 0;
+  UpdateHashValue(h, (unsigned char)tmp_if_expr$1);
+  h->hashval[(signed long int)hpos] = h->val;
+  _Bool tmp_if_expr$2;
+  if(!(h->head[(signed long int)h->val] == -1))
+    tmp_if_expr$2 = h->hashval[(signed long int)h->head[(signed long int)h->val]] == h->val ? (_Bool)1 : (_Bool)0;
+
+  else
+    tmp_if_expr$2 = (_Bool)0;
+  if(tmp_if_expr$2)
+    h->prev[(signed long int)hpos] = (unsigned short int)h->head[(signed long int)h->val];
+
+  else
+    h->prev[(signed long int)hpos] = hpos;
+  h->head[(signed long int)h->val] = (signed int)hpos;
+  if((signed int)h->same[-1l + (signed long int)pos & 32767l] >= 2)
+    amount = (unsigned long int)((signed int)h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))] - 1);
+
+  for( ; !(1ul + amount + pos >= end); amount = amount + 1ul)
+  {
+    if(!(array[(signed long int)pos] == array[1l + (signed long int)amount + (signed long int)pos]))
+      break;
+
+    if(amount >= 65535ul)
+      break;
+
+  }
+  h->same[(signed long int)hpos] = (unsigned short int)amount;
+  h->val2 = (signed int)h->same[(signed long int)hpos] - 3 & 255 ^ h->val;
+  h->hashval2[(signed long int)hpos] = h->val2;
+  _Bool tmp_if_expr$3;
+  if(!(h->head2[(signed long int)h->val2] == -1))
+    tmp_if_expr$3 = h->hashval2[(signed long int)h->head2[(signed long int)h->val2]] == h->val2 ? (_Bool)1 : (_Bool)0;
+
+  else
+    tmp_if_expr$3 = (_Bool)0;
+  if(tmp_if_expr$3)
+    h->prev2[(signed long int)hpos] = (unsigned short int)h->head2[(signed long int)h->val2];
+
+  else
+    h->prev2[(signed long int)hpos] = hpos;
+  h->head2[(signed long int)h->val2] = (signed int)hpos;
+}
+
+// ZopfliVerifyLenDist
+// file zopfli/src/zopfli/lz77.c line 95
+void ZopfliVerifyLenDist(const unsigned char *data, unsigned long int datasize, unsigned long int pos, unsigned short int dist, unsigned short int length)
+{
+  unsigned long int i;
+  /* assertion pos + length <= datasize */
+  assert(pos + (unsigned long int)length <= datasize);
+  i = (unsigned long int)0;
+  for( ; !(i >= (unsigned long int)length); i = i + 1ul)
+    if(!(data[(signed long int)i + (signed long int)pos + -((signed long int)(unsigned long int)dist)] == data[(signed long int)i + (signed long int)pos]))
+    {
+      /* assertion data[pos - dist + i] == data[pos + i] */
+      assert(data[(signed long int)((pos - (unsigned long int)dist) + i)] == data[(signed long int)(pos + i)]);
+      break;
+    }
+
+}
+
+// ZopfliWarmupHash
+// file zopfli/src/zopfli/hash.h line 67
+void ZopfliWarmupHash(const unsigned char *array, unsigned long int pos, unsigned long int end, struct ZopfliHash *h)
+{
+  (void)end;
+  UpdateHashValue(h, array[(signed long int)(pos + (unsigned long int)0)]);
+  UpdateHashValue(h, array[(signed long int)(pos + (unsigned long int)1)]);
+}
+
+// adler32_comb
+// file pigz.c line 1192
+static unsigned long int adler32_comb(unsigned long int adler1, unsigned long int adler2, unsigned long int len2)
+{
+  unsigned long int sum1;
+  unsigned long int sum2;
+  unsigned int rem = (unsigned int)(len2 % (unsigned long int)65521U);
+  sum1 = adler1 & (unsigned long int)0xffff;
+  sum2 = ((unsigned long int)rem * sum1) % (unsigned long int)65521U;
+  sum1 = sum1 + (((adler2 & (unsigned long int)0xffff) + (unsigned long int)65521U) - (unsigned long int)1);
+  sum2 = sum2 + (((adler1 >> 16 & (unsigned long int)0xffff) + (adler2 >> 16 & (unsigned long int)0xffff) + (unsigned long int)65521U) - (unsigned long int)rem);
+  if(sum1 >= 65521ul)
+    sum1 = sum1 - (unsigned long int)65521U;
+
+  if(sum1 >= 65521ul)
+    sum1 = sum1 - (unsigned long int)65521U;
+
+  if(sum2 >= 131042ul)
+    sum2 = sum2 - (unsigned long int)(65521U << 1);
+
+  if(sum2 >= 65521ul)
+    sum2 = sum2 - (unsigned long int)65521U;
+
+  return sum1 | sum2 << 16;
+}
+
+// alloc
+// file pigz.c line 656
+static void * alloc(void *ptr, unsigned long int size)
+{
+  ptr=realloc(ptr, size);
+  if(ptr == NULL)
+    try_throw_(12, "not enough memory", (void *)0);
+
+  return ptr;
+}
+
+// append_len
+// file pigz.c line 1792
+static void append_len(struct job *job, unsigned long int len)
+{
+  struct space *lens;
+  /* assertion len < 539000896UL */
+  assert(len < 539000896UL);
+  if(job->lens == ((struct space *)NULL))
+    job->lens=get_space(&lens_pool);
+
+  lens = job->lens;
+  if(!(lens->size >= 3ul + lens->len))
+    grow_space(lens);
+
+  unsigned long int tmp_post$1;
+  unsigned long int tmp_post$2;
+  unsigned long int tmp_post$3;
+  unsigned long int tmp_post$4;
+  unsigned long int tmp_post$5;
+  unsigned long int tmp_post$6;
+  unsigned long int tmp_post$7;
+  unsigned long int tmp_post$8;
+  unsigned long int tmp_post$9;
+  unsigned long int tmp_post$10;
+  if(!(len >= 64ul))
+  {
+    tmp_post$1 = lens->len;
+    lens->len = lens->len + 1ul;
+    lens->buf[(signed long int)tmp_post$1] = (unsigned char)(len + (unsigned long int)128);
+  }
+
+  else
+    if(!(len >= 32832ul))
+    {
+      len = len - (unsigned long int)64;
+      tmp_post$2 = lens->len;
+      lens->len = lens->len + 1ul;
+      lens->buf[(signed long int)tmp_post$2] = (unsigned char)(len >> 8);
+      tmp_post$3 = lens->len;
+      lens->len = lens->len + 1ul;
+      lens->buf[(signed long int)tmp_post$3] = (unsigned char)len;
+    }
+
+    else
+      if(!(len >= 2129984UL))
+      {
+        len = len - (unsigned long int)32832U;
+        tmp_post$4 = lens->len;
+        lens->len = lens->len + 1ul;
+        lens->buf[(signed long int)tmp_post$4] = (unsigned char)((len >> 16) + (unsigned long int)192);
+        tmp_post$5 = lens->len;
+        lens->len = lens->len + 1ul;
+        lens->buf[(signed long int)tmp_post$5] = (unsigned char)(len >> 8);
+        tmp_post$6 = lens->len;
+        lens->len = lens->len + 1ul;
+        lens->buf[(signed long int)tmp_post$6] = (unsigned char)len;
+      }
+
+      else
+      {
+        len = len - 2129984UL;
+        tmp_post$7 = lens->len;
+        lens->len = lens->len + 1ul;
+        lens->buf[(signed long int)tmp_post$7] = (unsigned char)((len >> 24) + (unsigned long int)224);
+        tmp_post$8 = lens->len;
+        lens->len = lens->len + 1ul;
+        lens->buf[(signed long int)tmp_post$8] = (unsigned char)(len >> 16);
+        tmp_post$9 = lens->len;
+        lens->len = lens->len + 1ul;
+        lens->buf[(signed long int)tmp_post$9] = (unsigned char)(len >> 8);
+        tmp_post$10 = lens->len;
+        lens->len = lens->len + 1ul;
+        lens->buf[(signed long int)tmp_post$10] = (unsigned char)len;
+      }
+}
+
+// cat
+// file pigz.c line 2877
+static void cat(void)
+{
+  writen(g.outd, &g.magic1, (unsigned long int)1);
+  g.out_tot = (signed long int)1;
+  while(!(g.in_left == 0ul))
+  {
+    writen(g.outd, g.in_next, g.in_left);
+    g.out_tot = g.out_tot + (signed long int)g.in_left;
+    g.in_left = (unsigned long int)0;
+    load();
+  }
+}
+
+// complain
+// file pigz.c line 528
+static signed int complain(char *fmt, ...)
+{
+  void **ap;
+  if(g.verbosity >= 1)
+  {
+    fprintf(stderr, "%s: ", g.prog);
+    ap = (void **)&fmt;
+    vfprintf(stderr, fmt, ap);
+    ap = ((void **)NULL);
+    _IO_putc(10, stderr);
+    fflush(stderr);
+  }
+
+  return 0;
+}
+
+// compress_thread
+// file pigz.c line 1482
+static void compress_thread(void *dummy)
+{
+  struct job *job;
+  struct job *here;
+  struct job **prior;
+  unsigned long int check;
+  unsigned char *next;
+  unsigned long int left;
+  unsigned long int len;
+  signed int bits;
+  struct space *temp = (struct space *)(void *)0;
+  signed int ret;
+  struct z_stream_s strm;
+  struct anonymous err;
+  (void)dummy;
+  unsigned char *tmp_if_expr$2;
+  signed int tmp_if_expr$4;
+  unsigned char *tmp_post$3;
+  unsigned char *tmp_post$5;
+  unsigned char *tmp_post$6;
+  unsigned char *tmp_post$7;
+  unsigned char *tmp_post$8;
+  unsigned char *tmp_post$9;
+  unsigned char *tmp_post$10;
+  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr$19;
+  unsigned long int tmp_post$13;
+  unsigned long int tmp_post$14;
+  unsigned long int tmp_post$15;
+  unsigned long int tmp_post$16;
+  unsigned long int tmp_post$17;
+  unsigned long int tmp_post$18;
+  unsigned long int tmp_if_expr$22;
+  unsigned long int return_value_adler32$20;
+  unsigned long int return_value_crc32$21;
+  unsigned long int tmp_if_expr$25;
+  unsigned long int return_value_adler32$23;
+  unsigned long int return_value_crc32$24;
+  unsigned long int tmp_if_expr$28;
+  unsigned long int return_value_adler32$26;
+  unsigned long int return_value_crc32$27;
+  do
+  {
+    struct try_s_ try_this_;
+    signed int try_pushed_ = 1;
+    try_this_.ball.code = 0;
+    try_this_.ball.free = 0;
+    try_this_.ball.why = (char *)(void *)0;
+    try_setup_();
+    void *return_value_pthread_getspecific$1;
+    return_value_pthread_getspecific$1=pthread_getspecific(try_key_);
+    try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$1;
+    do
+    {
+      signed int compress_thread$$1$$1$$1$$try_ret_;
+      compress_thread$$1$$1$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)&try_this_);
+      /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+      assert(compress_thread$$1$$1$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+    }
+    while((_Bool)0);
+    signed int return_value__setjmp$29;
+    return_value__setjmp$29=_setjmp(try_this_.env);
+    if(!(return_value__setjmp$29 >= 2))
+      do
+      {
+        strm.zfree = ((void (*)(void *, void *))NULL);
+        strm.zalloc = ((void * (*)(void *, unsigned int, unsigned int))NULL);
+        strm.opaque = NULL;
+        ret=deflateInit2_(&strm, 6, 8, -15, 8, 0, "1.2.8", (signed int)sizeof(struct z_stream_s) /*112ul*/ );
+        if(ret == -4)
+          try_throw_(12, "not enough memory", (void *)0);
+
+        if(!(ret == 0))
+          try_throw_(22, "internal error", (void *)0);
+
+        do
+        {
+          possess(compress_have);
+          wait_for(compress_have, (enum wait_op)NOT_TO_BE, (signed long int)0);
+          job = compress_head;
+          /* assertion job != ((void *)0) */
+          assert(job != (struct job *)(void *)0);
+          if(job->seq == -1l)
+            break;
+
+          compress_head = job->next;
+          if(job->next == ((struct job *)NULL))
+            compress_tail = &compress_head;
+
+          twist(compress_have, (enum twist_op)BY, (signed long int)-1);
+          if(!(g.level >= 10))
+          {
+            deflateReset(&strm);
+            deflateParams(&strm, g.level, 0);
+          }
+
+          else
+          {
+            if(temp == ((struct space *)NULL))
+              temp=get_space(&out_pool);
+
+            temp->len = (unsigned long int)0;
+          }
+          if(!(job->out == ((struct space *)NULL)))
+          {
+            len = job->out->len;
+            left = len < (unsigned long int)32768U ? len : (unsigned long int)32768U;
+            if(!(g.level >= 10))
+              deflateSetDictionary(&strm, job->out->buf + (signed long int)(len - left), (unsigned int)left);
+
+            else
+            {
+              memcpy((void *)temp->buf, (const void *)(job->out->buf + (signed long int)(len - left)), left);
+              temp->len = left;
+            }
+            drop_space(job->out);
+          }
+
+          job->out=get_space(&out_pool);
+          if(!(g.level >= 10))
+          {
+            strm.next_in = job->in->buf;
+            strm.next_out = job->out->buf;
+          }
+
+          else
+            memcpy((void *)(temp->buf + (signed long int)temp->len), (const void *)job->in->buf, job->in->len);
+          if(job->lens == ((struct space *)NULL))
+            tmp_if_expr$2 = (unsigned char *)(void *)0;
+
+          else
+            tmp_if_expr$2 = job->lens->buf;
+          next = tmp_if_expr$2;
+          left = job->in->len;
+          job->out->len = (unsigned long int)0;
+          do
+          {
+            if(next == ((unsigned char *)NULL))
+              tmp_if_expr$4 = 128;
+
+            else
+            {
+              tmp_post$3 = next;
+              next = next + 1l;
+              tmp_if_expr$4 = (signed int)*tmp_post$3;
+            }
+            len = (unsigned long int)tmp_if_expr$4;
+            if(!(len >= 128ul))
+            {
+              tmp_post$5 = next;
+              next = next + 1l;
+              len = (len << 8) + (unsigned long int)*tmp_post$5 + (unsigned long int)64;
+            }
+
+            else
+              if(len == 128ul)
+                len = left;
+
+              else
+                if(!(len >= 192ul))
+                  len = len & (unsigned long int)0x3f;
+
+                else
+                  if(!(len >= 224ul))
+                  {
+                    tmp_post$6 = next;
+                    next = next + 1l;
+                    len = ((len & (unsigned long int)0x1f) << 16) + (unsigned long int)((signed int)*tmp_post$6 << 8);
+                    tmp_post$7 = next;
+                    next = next + 1l;
+                    len = len + (unsigned long int)((unsigned int)*tmp_post$7 + 32832U);
+                  }
+
+                  else
+                  {
+                    tmp_post$8 = next;
+                    next = next + 1l;
+                    len = ((len & (unsigned long int)0x1f) << 24) + (unsigned long int)((signed int)*tmp_post$8 << 16);
+                    tmp_post$9 = next;
+                    next = next + 1l;
+                    len = len + (unsigned long int)((signed int)*tmp_post$9 << 8);
+                    tmp_post$10 = next;
+                    next = next + 1l;
+                    len = len + (unsigned long int)*tmp_post$10 + 2129984UL;
+                  }
+            left = left - len;
+            if(!(g.level >= 10))
+            {
+              for( ; len >= 2147483649ul; len = len - (unsigned long int)(((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1)))
+              {
+                strm.avail_in = ((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1);
+                deflate_engine(&strm, job->out, 0);
+              }
+              strm.avail_in = (unsigned int)len;
+              if(!(left == 0ul))
+                tmp_if_expr$11 = (_Bool)1;
+
+              else
+                tmp_if_expr$11 = job->more != 0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr$11)
+              {
+                deflate_engine(&strm, job->out, 5);
+                deflatePending(&strm, ((unsigned int *)NULL), &bits);
+                if(!((1 & bits) == 0))
+                  deflate_engine(&strm, job->out, 2);
+
+                else
+                  if(!((7 & bits) == 0))
+                  {
+                    do
+                    {
+                      bits=deflatePrime(&strm, 10, 2);
+                      /* assertion bits == 0 */
+                      assert(bits == 0);
+                      deflatePending(&strm, ((unsigned int *)NULL), &bits);
+                    }
+                    while(!((7 & bits) == 0));
+                    deflate_engine(&strm, job->out, 5);
+                  }
+
+              }
+
+              else
+                deflate_engine(&strm, job->out, 4);
+            }
+
+            else
+            {
+              unsigned char compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits;
+              unsigned char *out;
+              unsigned long int outsize;
+              out = (unsigned char *)(void *)0;
+              outsize = (unsigned long int)0;
+              compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits = (unsigned char)0;
+              if(!(left == 0ul))
+                tmp_if_expr$12 = (_Bool)1;
+
+              else
+                tmp_if_expr$12 = job->more != 0 ? (_Bool)1 : (_Bool)0;
+              ZopfliDeflatePart(&g.zopts, 2, (signed int)!tmp_if_expr$12, temp->buf, temp->len, temp->len + len, &compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits, &out, &outsize);
+              /* assertion job->out->len + outsize + 5 <= job->out->size */
+              assert(job->out->len + outsize + (unsigned long int)5 <= job->out->size);
+              memcpy((void *)(job->out->buf + (signed long int)job->out->len), (const void *)out, outsize);
+              free((void *)out);
+              job->out->len = job->out->len + outsize;
+              if(!(left == 0ul))
+                tmp_if_expr$19 = (_Bool)1;
+
+              else
+                tmp_if_expr$19 = job->more != 0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr$19)
+              {
+                compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits = compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits & (unsigned char)7;
+                if(!((1 & (signed int)compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits) == 0))
+                {
+                  if((signed int)compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits == 7)
+                  {
+                    tmp_post$13 = job->out->len;
+                    job->out->len = job->out->len + 1ul;
+                    job->out->buf[(signed long int)tmp_post$13] = (unsigned char)0;
+                  }
+
+                  tmp_post$14 = job->out->len;
+                  job->out->len = job->out->len + 1ul;
+                  job->out->buf[(signed long int)tmp_post$14] = (unsigned char)0;
+                  tmp_post$15 = job->out->len;
+                  job->out->len = job->out->len + 1ul;
+                  job->out->buf[(signed long int)tmp_post$15] = (unsigned char)0;
+                  tmp_post$16 = job->out->len;
+                  job->out->len = job->out->len + 1ul;
+                  job->out->buf[(signed long int)tmp_post$16] = (unsigned char)0xff;
+                  tmp_post$17 = job->out->len;
+                  job->out->len = job->out->len + 1ul;
+                  job->out->buf[(signed long int)tmp_post$17] = (unsigned char)0xff;
+                }
+
+                else
+                  if(!(compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits == 0))
+                    do
+                    {
+                      job->out->buf[(signed long int)(job->out->len - (unsigned long int)1)] = job->out->buf[(signed long int)(job->out->len - (unsigned long int)1)] + (unsigned char)(2 << (signed int)compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits);
+                      tmp_post$18 = job->out->len;
+                      job->out->len = job->out->len + 1ul;
+                      job->out->buf[(signed long int)tmp_post$18] = (unsigned char)0;
+                      compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits = compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits + (unsigned char)2;
+                    }
+                    while(!((signed int)compress_thread$$1$$1$$2$$1$$1$$1$$5$$4$$bits >= 8));
+
+              }
+
+              temp->len = temp->len + len;
+            }
+          }
+          while(!(left == 0ul));
+          drop_space(job->lens);
+          job->lens = (struct space *)(void *)0;
+          use_space(job->in);
+          possess(write_first);
+          prior = &write_head;
+          do
+          {
+            here = *prior;
+            if(here == ((struct job *)NULL))
+              break;
+
+            if(!(job->seq >= here->seq))
+              break;
+
+            prior = &here->next;
+          }
+          while((_Bool)1);
+          job->next = here;
+          *prior = job;
+          twist(write_first, (enum twist_op)TO, write_head->seq);
+          len = job->in->len;
+          next = job->in->buf;
+          if(g.form == 1)
+          {
+            return_value_adler32$20=adler32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+            tmp_if_expr$22 = return_value_adler32$20;
+          }
+
+          else
+          {
+            return_value_crc32$21=crc32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+            tmp_if_expr$22 = return_value_crc32$21;
+          }
+          check = tmp_if_expr$22;
+          while(len >= 2147483649ul)
+          {
+            if(g.form == 1)
+            {
+              return_value_adler32$23=adler32(check, next, ((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+              tmp_if_expr$25 = return_value_adler32$23;
+            }
+
+            else
+            {
+              return_value_crc32$24=crc32(check, next, ((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+              tmp_if_expr$25 = return_value_crc32$24;
+            }
+            check = tmp_if_expr$25;
+            len = len - (unsigned long int)(((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+            next = next + (signed long int)(((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+          }
+          if(g.form == 1)
+          {
+            return_value_adler32$26=adler32(check, next, (unsigned int)len);
+            tmp_if_expr$28 = return_value_adler32$26;
+          }
+
+          else
+          {
+            return_value_crc32$27=crc32(check, next, (unsigned int)len);
+            tmp_if_expr$28 = return_value_crc32$27;
+          }
+          check = tmp_if_expr$28;
+          drop_space(job->in);
+          job->check = check;
+          possess(job->calc);
+          twist(job->calc, (enum twist_op)TO, (signed long int)1);
+        }
+        while((_Bool)1);
+        drop_space(temp);
+        release(compress_have);
+        deflateEnd(&strm);
+      }
+      while((_Bool)0);
+
+    if(!(try_pushed_ == 0))
+    {
+      do
+      {
+        signed int try_ret_;
+        try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      try_pushed_ = 0;
+    }
+
+    err = try_this_.ball;
+  }
+  while((_Bool)0);
+  if(!(err.code == 0))
+    do
+    {
+      complain("abort: %s", err.why);
+      do
+        if(!(err.free == 0))
+        {
+          free((void *)err.why);
+          err.free = 0;
+          err.why = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      cut_short(-err.code);
+    }
+    while((_Bool)0);
+
+}
+
+// compressed_suffix
+// file pigz.c line 2642
+static unsigned long int compressed_suffix(char *nm)
+{
+  unsigned long int len;
+  len=strlen(nm);
+  _Bool tmp_if_expr$3;
+  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr$5;
+  signed int return_value_strcmp$4;
+  if(len >= 5ul)
+  {
+    nm = nm + (signed long int)(len - (unsigned long int)4);
+    len = (unsigned long int)4;
+    signed int return_value_strcmp$1;
+    return_value_strcmp$1=strcmp(nm, ".zip");
+    if(return_value_strcmp$1 == 0)
+      tmp_if_expr$3 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$2=strcmp(nm, ".ZIP");
+      tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$3)
+      tmp_if_expr$5 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$4=strcmp(nm, ".tgz");
+      tmp_if_expr$5 = return_value_strcmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$5)
+      return (unsigned long int)4;
+
+  }
+
+  _Bool tmp_if_expr$8;
+  signed int return_value_strcmp$7;
+  _Bool tmp_if_expr$10;
+  signed int return_value_strcmp$9;
+  _Bool tmp_if_expr$12;
+  signed int return_value_strcmp$11;
+  if(len >= 4ul)
+  {
+    nm = nm + (signed long int)(len - (unsigned long int)3);
+    len = (unsigned long int)3;
+    signed int return_value_strcmp$6;
+    return_value_strcmp$6=strcmp(nm, ".gz");
+    if(return_value_strcmp$6 == 0)
+      tmp_if_expr$8 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$7=strcmp(nm, "-gz");
+      tmp_if_expr$8 = return_value_strcmp$7 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$8)
+      tmp_if_expr$10 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$9=strcmp(nm, ".zz");
+      tmp_if_expr$10 = return_value_strcmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$10)
+      tmp_if_expr$12 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$11=strcmp(nm, "-zz");
+      tmp_if_expr$12 = return_value_strcmp$11 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$12)
+      return (unsigned long int)3;
+
+  }
+
+  _Bool tmp_if_expr$15;
+  signed int return_value_strcmp$14;
+  _Bool tmp_if_expr$17;
+  signed int return_value_strcmp$16;
+  _Bool tmp_if_expr$19;
+  signed int return_value_strcmp$18;
+  if(len >= 3ul)
+  {
+    nm = nm + (signed long int)(len - (unsigned long int)2);
+    signed int return_value_strcmp$13;
+    return_value_strcmp$13=strcmp(nm, ".z");
+    if(return_value_strcmp$13 == 0)
+      tmp_if_expr$15 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$14=strcmp(nm, "-z");
+      tmp_if_expr$15 = return_value_strcmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$15)
+      tmp_if_expr$17 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$16=strcmp(nm, "_z");
+      tmp_if_expr$17 = return_value_strcmp$16 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$17)
+      tmp_if_expr$19 = (_Bool)1;
+
+    else
+    {
+      return_value_strcmp$18=strcmp(nm, ".Z");
+      tmp_if_expr$19 = return_value_strcmp$18 == 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$19)
+      return (unsigned long int)2;
+
+  }
+
+  return (unsigned long int)0;
+}
+
+// copymeta
+// file pigz.c line 3386
+static void copymeta(char *from, char *to)
+{
+  struct stat st;
+  struct timeval times[2l];
+  signed int return_value_stat$1;
+  return_value_stat$1=stat(from, &st);
+  if((61440u & st.st_mode) == 32768u && return_value_stat$1 == 0)
+  {
+    chmod(to, st.st_mode & (unsigned int)07777);
+    chown(to, st.st_uid, st.st_gid);
+    times[(signed long int)0].tv_sec = st.st_atim.tv_sec;
+    times[(signed long int)0].tv_usec = (signed long int)0;
+    times[(signed long int)1].tv_sec = st.st_mtim.tv_sec;
+    times[(signed long int)1].tv_usec = (signed long int)0;
+    utimes(to, times);
+  }
+
+}
+
+// crc32_comb
+// file pigz.c line 1136
+static unsigned long int crc32_comb(unsigned long int crc1, unsigned long int crc2, unsigned long int len2)
+{
+  signed int n;
+  unsigned long int row;
+  unsigned long int even[32l];
+  unsigned long int odd[32l];
+  if(len2 == 0ul)
+    return crc1;
+
+  else
+  {
+    odd[(signed long int)0] = 0xedb88320UL;
+    row = (unsigned long int)1;
+    n = 1;
+    for( ; !(n >= 32); n = n + 1)
+    {
+      odd[(signed long int)n] = row;
+      row = row << 1;
+    }
+    gf2_matrix_square(even, odd);
+    gf2_matrix_square(odd, even);
+    do
+    {
+      gf2_matrix_square(even, odd);
+      if(!((1ul & len2) == 0ul))
+        crc1=gf2_matrix_times(even, crc1);
+
+      len2 = len2 >> 1;
+      if(len2 == 0ul)
+        break;
+
+      gf2_matrix_square(odd, even);
+      if(!((1ul & len2) == 0ul))
+        crc1=gf2_matrix_times(odd, crc1);
+
+      len2 = len2 >> 1;
+    }
+    while(!(len2 == 0ul));
+    crc1 = crc1 ^ crc2;
+    return crc1;
+  }
+}
+
+// cut_short
+// file pigz.c line 824
+static void cut_short(signed int sig)
+{
+  if(!(g.outd == 1) && !(g.outd == -1))
+  {
+    unlink(g.outf);
+    do
+      if(!(g.outf == ((char *)NULL)))
+      {
+        free((void *)g.outf);
+        g.outf = (char *)(void *)0;
+      }
+
+    while((_Bool)0);
+    g.outd = -1;
+  }
+
+  _exit(sig < 0 ? -sig : 125);
+}
+
+// cut_yarn
+// file pigz.c line 4049
+static void cut_yarn(signed int err)
+{
+  try_throw_(err, err == 12 ? "not enough memory" : "internal threads error", (void *)0);
+}
+
+// defaults
+// file pigz.c line 3826
+static void defaults(void)
+{
+  g.level = -1;
+  ZopfliInitOptions(&g.zopts);
+  g.procs=nprocs(8);
+  g.block = 131072UL;
+  g.rsync = 0;
+  g.setdict = 1;
+  g.verbosity = 1;
+  g.headis = 3;
+  g.pipeout = 0;
+  g.sufx = ".gz";
+  g.decode = 0;
+  g.list = 0;
+  g.keep = 0;
+  g.force = 0;
+  g.recurse = 0;
+  g.form = 0;
+}
+
+// deflate_engine
+// file pigz.c line 1459
+static void deflate_engine(struct z_stream_s *strm, struct space *out, signed int flush)
+{
+  unsigned long int room;
+  do
+  {
+    room = out->size - out->len;
+    if(room == 0ul)
+    {
+      grow_space(out);
+      room = out->size - out->len;
+    }
+
+    strm->next_out = out->buf + (signed long int)out->len;
+    strm->avail_out = room < (unsigned long int)((unsigned int)0x7fffffff * 2U + 1U) ? (unsigned int)room : (unsigned int)0x7fffffff * 2U + 1U;
+    deflate(strm, flush);
+    out->len = (unsigned long int)(strm->next_out - out->buf);
+  }
+  while(strm->avail_out == 0u);
+  /* assertion strm->avail_in == 0 */
+  assert(strm->avail_in == (unsigned int)0);
+}
+
+// destruct
+// file yarn.h line 121
+void destruct(struct thread_s *off_course)
+{
+  signed int ret;
+  ret=pthread_cancel(off_course->id);
+  if(!(ret == 0))
+    fail(ret);
+
+  join(off_course);
+}
+
+// dos2time
+// file pigz.c line 2415
+static signed long int dos2time(unsigned long int dos)
+{
+  struct tm tm;
+  signed long int return_value_time$1;
+  if(dos == 0ul)
+  {
+    return_value_time$1=time((signed long int *)(void *)0);
+    return return_value_time$1;
+  }
+
+  else
+  {
+    tm.tm_year = ((signed int)(dos >> 25) & 0x7f) + 80;
+    tm.tm_mon = ((signed int)(dos >> 21) & 0xf) - 1;
+    tm.tm_mday = (signed int)(dos >> 16) & 0x1f;
+    tm.tm_hour = (signed int)(dos >> 11) & 0x1f;
+    tm.tm_min = (signed int)(dos >> 5) & 0x3f;
+    tm.tm_sec = (signed int)(dos << 1) & 0x3e;
+    tm.tm_isdst = -1;
+    signed long int return_value_mktime$2;
+    return_value_mktime$2=mktime(&tm);
+    return return_value_mktime$2;
+  }
+}
+
+// drop_space
+// file pigz.c line 1315
+static void drop_space(struct space *space)
+{
+  signed int use;
+  struct pool *pool;
+  if(!(space == ((struct space *)NULL)))
+  {
+    possess(space->use);
+    signed long int return_value_peek_lock$1;
+    return_value_peek_lock$1=peek_lock(space->use);
+    use = (signed int)return_value_peek_lock$1;
+    /* assertion use != 0 */
+    assert(use != 0);
+    if(use == 1)
+    {
+      pool = space->pool;
+      possess(pool->have);
+      space->next = pool->head;
+      pool->head = space;
+      twist(pool->have, (enum twist_op)BY, (signed long int)+1);
+    }
+
+    twist(space->use, (enum twist_op)BY, (signed long int)-1);
+  }
+
+}
+
+// fail
+// file yarn.c line 57
+static void fail(signed int err)
+{
+  if(!(yarn_abort == ((void (*)(signed int))NULL)))
+    yarn_abort(err);
+
+  fprintf(stderr, "%s: %s (%d) -- aborting\n", yarn_prefix, err == 12 ? "out of memory" : "internal pthread error", err);
+  exit(err == 12 || err == 11 ? err : 22);
+}
+
+// finish_jobs
+// file pigz.c line 1418
+static void finish_jobs(void)
+{
+  struct job job;
+  signed int caught;
+  if(!(compress_have == ((struct lock_s *)NULL)))
+  {
+    possess(compress_have);
+    job.seq = (signed long int)-1;
+    job.next = (struct job *)(void *)0;
+    compress_head = &job;
+    compress_tail = &job.next;
+    twist(compress_have, (enum twist_op)BY, (signed long int)+1);
+    caught=join_all();
+    /* assertion caught == cthreads */
+    assert(caught == cthreads);
+    cthreads = 0;
+    caught=free_pool(&lens_pool);
+    caught=free_pool(&dict_pool);
+    caught=free_pool(&out_pool);
+    caught=free_pool(&in_pool);
+    free_lock(write_first);
+    free_lock(compress_have);
+    compress_have = (struct lock_s *)(void *)0;
+  }
+
+}
+
+// free_lock
+// file yarn.h line 134
+void free_lock(struct lock_s *bolt)
+{
+  signed int ret;
+  _Bool tmp_if_expr$1;
+  if(!(bolt == ((struct lock_s *)NULL)))
+  {
+    ret=pthread_cond_destroy(&bolt->cond);
+    if(!(ret == 0))
+      tmp_if_expr$1 = (_Bool)1;
+
+    else
+    {
+      ret=pthread_mutex_destroy(&bolt->mutex);
+      tmp_if_expr$1 = ret != 0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$1)
+      fail(ret);
+
+    my_free((void *)bolt);
+  }
+
+}
+
+// free_pool
+// file pigz.c line 1337
+static signed int free_pool(struct pool *pool)
+{
+  signed int count;
+  struct space *space;
+  possess(pool->have);
+  count = 0;
+  do
+  {
+    space = pool->head;
+    if(space == ((struct space *)NULL))
+      break;
+
+    pool->head = space->next;
+    free((void *)space->buf);
+    free_lock(space->use);
+    free((void *)space);
+    count = count + 1;
+  }
+  while((_Bool)1);
+  /* assertion count == pool->made */
+  assert(count == pool->made);
+  release(pool->have);
+  free_lock(pool->have);
+  return count;
+}
+
+// get_header
+// file pigz.c line 2498
+static signed int get_header(signed int save)
+{
+  unsigned int magic;
+  signed int method;
+  signed int flags;
+  unsigned int fname;
+  unsigned int extra;
+  unsigned int tmp2;
+  unsigned long int tmp4;
+  unsigned long int crc;
+  if(!(save == 0))
+  {
+    g.stamp = (signed long int)0;
+    do
+      if(!(g.hname == ((char *)NULL)))
+      {
+        free((void *)g.hname);
+        g.hname = (char *)(void *)0;
+      }
+
+    while((_Bool)0);
+  }
+
+  g.form = -1;
+  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr$2;
+  unsigned long int return_value_load$1;
+  if(g.in_left == 0ul)
+  {
+    if(!(g.in_eof == 0))
+      tmp_if_expr$2 = (_Bool)1;
+
+    else
+    {
+      return_value_load$1=load();
+      tmp_if_expr$2 = return_value_load$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    }
+    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+  }
+
+  else
+    tmp_if_expr$3 = (_Bool)0;
+  signed int tmp_if_expr$5;
+  unsigned char *tmp_post$4;
+  if(tmp_if_expr$3)
+    tmp_if_expr$5 = 0;
+
+  else
+  {
+    g.in_left = g.in_left - 1ul;
+    tmp_post$4 = g.in_next;
+    g.in_next = g.in_next + 1l;
+    tmp_if_expr$5 = (signed int)*tmp_post$4;
+  }
+  g.magic1 = (unsigned char)tmp_if_expr$5;
+  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr$7;
+  unsigned long int return_value_load$6;
+  signed int tmp_if_expr$10;
+  unsigned char *tmp_post$9;
+  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr$12;
+  unsigned long int return_value_load$11;
+  signed int tmp_if_expr$15;
+  unsigned char *tmp_post$14;
+  _Bool tmp_if_expr$18;
+  _Bool tmp_if_expr$17;
+  unsigned long int return_value_load$16;
+  signed int tmp_if_expr$20;
+  unsigned char *tmp_post$19;
+  _Bool tmp_if_expr$24;
+  _Bool tmp_if_expr$23;
+  unsigned long int return_value_load$22;
+  signed int tmp_if_expr$26;
+  unsigned char *tmp_post$25;
+  _Bool tmp_if_expr$29;
+  _Bool tmp_if_expr$28;
+  unsigned long int return_value_load$27;
+  signed int tmp_if_expr$31;
+  unsigned char *tmp_post$30;
+  _Bool tmp_if_expr$34;
+  _Bool tmp_if_expr$33;
+  unsigned long int return_value_load$32;
+  signed int tmp_if_expr$36;
+  unsigned char *tmp_post$35;
+  _Bool tmp_if_expr$39;
+  _Bool tmp_if_expr$38;
+  unsigned long int return_value_load$37;
+  signed int tmp_if_expr$41;
+  unsigned char *tmp_post$40;
+  _Bool tmp_if_expr$44;
+  _Bool tmp_if_expr$43;
+  unsigned long int return_value_load$42;
+  signed int tmp_if_expr$46;
+  unsigned char *tmp_post$45;
+  _Bool tmp_if_expr$49;
+  _Bool tmp_if_expr$48;
+  unsigned long int return_value_load$47;
+  signed int tmp_if_expr$51;
+  unsigned char *tmp_post$50;
+  _Bool tmp_if_expr$54;
+  _Bool tmp_if_expr$53;
+  unsigned long int return_value_load$52;
+  signed int tmp_if_expr$56;
+  unsigned char *tmp_post$55;
+  _Bool tmp_if_expr$59;
+  _Bool tmp_if_expr$58;
+  unsigned long int return_value_load$57;
+  signed int tmp_if_expr$61;
+  unsigned char *tmp_post$60;
+  _Bool tmp_if_expr$65;
+  _Bool tmp_if_expr$64;
+  unsigned long int return_value_load$63;
+  signed int tmp_if_expr$67;
+  unsigned char *tmp_post$66;
+  _Bool tmp_if_expr$70;
+  _Bool tmp_if_expr$69;
+  unsigned long int return_value_load$68;
+  signed int tmp_if_expr$72;
+  unsigned char *tmp_post$71;
+  _Bool tmp_if_expr$75;
+  _Bool tmp_if_expr$74;
+  unsigned long int return_value_load$73;
+  signed int tmp_if_expr$77;
+  unsigned char *tmp_post$76;
+  _Bool tmp_if_expr$80;
+  _Bool tmp_if_expr$79;
+  unsigned long int return_value_load$78;
+  signed int tmp_if_expr$82;
+  unsigned char *tmp_post$81;
+  _Bool tmp_if_expr$85;
+  _Bool tmp_if_expr$84;
+  unsigned long int return_value_load$83;
+  signed int tmp_if_expr$87;
+  unsigned char *tmp_post$86;
+  _Bool tmp_if_expr$90;
+  _Bool tmp_if_expr$89;
+  unsigned long int return_value_load$88;
+  signed int tmp_if_expr$92;
+  unsigned char *tmp_post$91;
+  _Bool tmp_if_expr$95;
+  _Bool tmp_if_expr$94;
+  unsigned long int return_value_load$93;
+  signed int tmp_if_expr$97;
+  unsigned char *tmp_post$96;
+  _Bool tmp_if_expr$100;
+  _Bool tmp_if_expr$99;
+  unsigned long int return_value_load$98;
+  signed int tmp_if_expr$102;
+  unsigned char *tmp_post$101;
+  _Bool tmp_if_expr$105;
+  _Bool tmp_if_expr$104;
+  unsigned long int return_value_load$103;
+  signed int tmp_if_expr$107;
+  unsigned char *tmp_post$106;
+  _Bool tmp_if_expr$110;
+  _Bool tmp_if_expr$109;
+  unsigned long int return_value_load$108;
+  signed int tmp_if_expr$112;
+  unsigned char *tmp_post$111;
+  _Bool tmp_if_expr$115;
+  _Bool tmp_if_expr$114;
+  unsigned long int return_value_load$113;
+  signed int tmp_if_expr$117;
+  unsigned char *tmp_post$116;
+  _Bool tmp_if_expr$120;
+  _Bool tmp_if_expr$119;
+  unsigned long int return_value_load$118;
+  signed int tmp_if_expr$122;
+  unsigned char *tmp_post$121;
+  _Bool tmp_if_expr$125;
+  _Bool tmp_if_expr$124;
+  unsigned long int return_value_load$123;
+  signed int tmp_if_expr$127;
+  unsigned char *tmp_post$126;
+  _Bool tmp_if_expr$130;
+  _Bool tmp_if_expr$129;
+  unsigned long int return_value_load$128;
+  signed int tmp_if_expr$132;
+  unsigned char *tmp_post$131;
+  _Bool tmp_if_expr$135;
+  _Bool tmp_if_expr$134;
+  unsigned long int return_value_load$133;
+  signed int tmp_if_expr$137;
+  unsigned char *tmp_post$136;
+  _Bool tmp_if_expr$140;
+  _Bool tmp_if_expr$139;
+  unsigned long int return_value_load$138;
+  signed int tmp_if_expr$142;
+  unsigned char *tmp_post$141;
+  _Bool tmp_if_expr$148;
+  _Bool tmp_if_expr$147;
+  unsigned long int return_value_load$146;
+  signed int tmp_if_expr$150;
+  unsigned char *tmp_post$149;
+  _Bool tmp_if_expr$153;
+  _Bool tmp_if_expr$152;
+  unsigned long int return_value_load$151;
+  signed int tmp_if_expr$155;
+  unsigned char *tmp_post$154;
+  _Bool tmp_if_expr$158;
+  _Bool tmp_if_expr$157;
+  unsigned long int return_value_load$156;
+  signed int tmp_if_expr$160;
+  unsigned char *tmp_post$159;
+  _Bool tmp_if_expr$163;
+  _Bool tmp_if_expr$162;
+  unsigned long int return_value_load$161;
+  signed int tmp_if_expr$165;
+  unsigned char *tmp_post$164;
+  _Bool tmp_if_expr$168;
+  _Bool tmp_if_expr$167;
+  unsigned long int return_value_load$166;
+  signed int tmp_if_expr$170;
+  unsigned char *tmp_post$169;
+  _Bool tmp_if_expr$173;
+  _Bool tmp_if_expr$172;
+  unsigned long int return_value_load$171;
+  signed int tmp_if_expr$175;
+  unsigned char *tmp_post$174;
+  _Bool tmp_if_expr$180;
+  _Bool tmp_if_expr$179;
+  unsigned long int return_value_load$178;
+  signed int tmp_if_expr$182;
+  unsigned char *tmp_post$181;
+  _Bool tmp_if_expr$185;
+  _Bool tmp_if_expr$184;
+  unsigned long int return_value_load$183;
+  signed int tmp_if_expr$187;
+  unsigned char *tmp_post$186;
+  unsigned long int return_value_load$189;
+  _Bool tmp_if_expr$193;
+  _Bool tmp_if_expr$192;
+  unsigned long int return_value_load$191;
+  signed int tmp_if_expr$195;
+  unsigned char *tmp_post$194;
+  _Bool tmp_if_expr$198;
+  _Bool tmp_if_expr$197;
+  unsigned long int return_value_load$196;
+  signed int tmp_if_expr$200;
+  unsigned char *tmp_post$199;
+  _Bool tmp_if_expr$203;
+  _Bool tmp_if_expr$202;
+  unsigned long int return_value_load$201;
+  signed int tmp_if_expr$205;
+  unsigned char *tmp_post$204;
+  _Bool tmp_if_expr$208;
+  _Bool tmp_if_expr$207;
+  unsigned long int return_value_load$206;
+  signed int tmp_if_expr$210;
+  unsigned char *tmp_post$209;
+  if(!(g.in_eof == 0))
+    return -1;
+
+  else
+  {
+    magic = (unsigned int)((signed int)g.magic1 << 8);
+    if(g.in_left == 0ul)
+    {
+      if(!(g.in_eof == 0))
+        tmp_if_expr$7 = (_Bool)1;
+
+      else
+      {
+        return_value_load$6=load();
+        tmp_if_expr$7 = return_value_load$6 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      }
+      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+    }
+
+    else
+      tmp_if_expr$8 = (_Bool)0;
+    if(tmp_if_expr$8)
+      tmp_if_expr$10 = 0;
+
+    else
+    {
+      g.in_left = g.in_left - 1ul;
+      tmp_post$9 = g.in_next;
+      g.in_next = g.in_next + 1l;
+      tmp_if_expr$10 = (signed int)*tmp_post$9;
+    }
+    magic = magic + (unsigned int)tmp_if_expr$10;
+    if(!(g.in_eof == 0))
+      return -2;
+
+    else
+      if((36640u & magic) == 2048u && magic % 31u == 0u)
+      {
+        g.form = 1;
+        return 8;
+      }
+
+      else
+        if(magic == 8093u)
+          return 257;
+
+        else
+        {
+          if(magic == 20555u)
+          {
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$12 = (_Bool)1;
+
+              else
+              {
+                return_value_load$11=load();
+                tmp_if_expr$12 = return_value_load$11 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$13 = (_Bool)0;
+            if(tmp_if_expr$13)
+              tmp_if_expr$15 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$14 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$15 = (signed int)*tmp_post$14;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$15;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$17 = (_Bool)1;
+
+              else
+              {
+                return_value_load$16=load();
+                tmp_if_expr$17 = return_value_load$16 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$18 = (_Bool)0;
+            if(tmp_if_expr$18)
+              tmp_if_expr$20 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$19 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$20 = (signed int)*tmp_post$19;
+            }
+            magic = tmp2 + ((unsigned int)tmp_if_expr$20 << 8);
+            if(!(g.in_eof == 0))
+              return -3;
+
+            if(magic == 513u || magic == 2054u)
+              return -5;
+
+            if(!(magic == 1027u))
+              return -4;
+
+            do
+            {
+              unsigned long int get_header$$1$$3$$1$$togo = (unsigned long int)2;
+              while(!(g.in_left >= get_header$$1$$3$$1$$togo))
+              {
+                get_header$$1$$3$$1$$togo = get_header$$1$$3$$1$$togo - g.in_left;
+                unsigned long int return_value_load$21;
+                return_value_load$21=load();
+                if(return_value_load$21 == 0ul)
+                  return -3;
+
+              }
+              g.in_left = g.in_left - get_header$$1$$3$$1$$togo;
+              g.in_next = g.in_next + (signed long int)get_header$$1$$3$$1$$togo;
+            }
+            while((_Bool)0);
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$23 = (_Bool)1;
+
+              else
+              {
+                return_value_load$22=load();
+                tmp_if_expr$23 = return_value_load$22 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$24 = tmp_if_expr$23 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$24 = (_Bool)0;
+            if(tmp_if_expr$24)
+              tmp_if_expr$26 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$25 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$26 = (signed int)*tmp_post$25;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$26;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$28 = (_Bool)1;
+
+              else
+              {
+                return_value_load$27=load();
+                tmp_if_expr$28 = return_value_load$27 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$29 = tmp_if_expr$28 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$29 = (_Bool)0;
+            if(tmp_if_expr$29)
+              tmp_if_expr$31 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$30 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$31 = (signed int)*tmp_post$30;
+            }
+            flags = (signed int)(tmp2 + ((unsigned int)tmp_if_expr$31 << 8));
+            if(!((0xfff0 & flags) == 0))
+              return -4;
+
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$33 = (_Bool)1;
+
+              else
+              {
+                return_value_load$32=load();
+                tmp_if_expr$33 = return_value_load$32 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$34 = tmp_if_expr$33 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$34 = (_Bool)0;
+            if(tmp_if_expr$34)
+              tmp_if_expr$36 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$35 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$36 = (signed int)*tmp_post$35;
+            }
+            method = tmp_if_expr$36;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$38 = (_Bool)1;
+
+              else
+              {
+                return_value_load$37=load();
+                tmp_if_expr$38 = return_value_load$37 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$39 = tmp_if_expr$38 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$39 = (_Bool)0;
+            if(tmp_if_expr$39)
+              tmp_if_expr$41 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$40 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$41 = (signed int)*tmp_post$40;
+            }
+            if(!((1 & flags) == 0) || !(tmp_if_expr$41 == 0))
+              method = 256;
+
+            if(!(save == 0))
+            {
+              if(g.in_left == 0ul)
+              {
+                if(!(g.in_eof == 0))
+                  tmp_if_expr$43 = (_Bool)1;
+
+                else
+                {
+                  return_value_load$42=load();
+                  tmp_if_expr$43 = return_value_load$42 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                }
+                tmp_if_expr$44 = tmp_if_expr$43 ? (_Bool)1 : (_Bool)0;
+              }
+
+              else
+                tmp_if_expr$44 = (_Bool)0;
+              if(tmp_if_expr$44)
+                tmp_if_expr$46 = 0;
+
+              else
+              {
+                g.in_left = g.in_left - 1ul;
+                tmp_post$45 = g.in_next;
+                g.in_next = g.in_next + 1l;
+                tmp_if_expr$46 = (signed int)*tmp_post$45;
+              }
+              tmp2 = (unsigned int)tmp_if_expr$46;
+              if(g.in_left == 0ul)
+              {
+                if(!(g.in_eof == 0))
+                  tmp_if_expr$48 = (_Bool)1;
+
+                else
+                {
+                  return_value_load$47=load();
+                  tmp_if_expr$48 = return_value_load$47 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                }
+                tmp_if_expr$49 = tmp_if_expr$48 ? (_Bool)1 : (_Bool)0;
+              }
+
+              else
+                tmp_if_expr$49 = (_Bool)0;
+              if(tmp_if_expr$49)
+                tmp_if_expr$51 = 0;
+
+              else
+              {
+                g.in_left = g.in_left - 1ul;
+                tmp_post$50 = g.in_next;
+                g.in_next = g.in_next + 1l;
+                tmp_if_expr$51 = (signed int)*tmp_post$50;
+              }
+              tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$51 << 8));
+              if(g.in_left == 0ul)
+              {
+                if(!(g.in_eof == 0))
+                  tmp_if_expr$53 = (_Bool)1;
+
+                else
+                {
+                  return_value_load$52=load();
+                  tmp_if_expr$53 = return_value_load$52 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                }
+                tmp_if_expr$54 = tmp_if_expr$53 ? (_Bool)1 : (_Bool)0;
+              }
+
+              else
+                tmp_if_expr$54 = (_Bool)0;
+              if(tmp_if_expr$54)
+                tmp_if_expr$56 = 0;
+
+              else
+              {
+                g.in_left = g.in_left - 1ul;
+                tmp_post$55 = g.in_next;
+                g.in_next = g.in_next + 1l;
+                tmp_if_expr$56 = (signed int)*tmp_post$55;
+              }
+              tmp2 = (unsigned int)tmp_if_expr$56;
+              if(g.in_left == 0ul)
+              {
+                if(!(g.in_eof == 0))
+                  tmp_if_expr$58 = (_Bool)1;
+
+                else
+                {
+                  return_value_load$57=load();
+                  tmp_if_expr$58 = return_value_load$57 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                }
+                tmp_if_expr$59 = tmp_if_expr$58 ? (_Bool)1 : (_Bool)0;
+              }
+
+              else
+                tmp_if_expr$59 = (_Bool)0;
+              if(tmp_if_expr$59)
+                tmp_if_expr$61 = 0;
+
+              else
+              {
+                g.in_left = g.in_left - 1ul;
+                tmp_post$60 = g.in_next;
+                g.in_next = g.in_next + 1l;
+                tmp_if_expr$61 = (signed int)*tmp_post$60;
+              }
+              g.stamp=dos2time(tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$61 << 8)) << 16));
+            }
+
+            else
+              do
+              {
+                unsigned long int togo = (unsigned long int)4;
+                while(!(g.in_left >= togo))
+                {
+                  togo = togo - g.in_left;
+                  unsigned long int return_value_load$62;
+                  return_value_load$62=load();
+                  if(return_value_load$62 == 0ul)
+                    return -3;
+
+                }
+                g.in_left = g.in_left - togo;
+                g.in_next = g.in_next + (signed long int)togo;
+              }
+              while((_Bool)0);
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$64 = (_Bool)1;
+
+              else
+              {
+                return_value_load$63=load();
+                tmp_if_expr$64 = return_value_load$63 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$65 = tmp_if_expr$64 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$65 = (_Bool)0;
+            if(tmp_if_expr$65)
+              tmp_if_expr$67 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$66 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$67 = (signed int)*tmp_post$66;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$67;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$69 = (_Bool)1;
+
+              else
+              {
+                return_value_load$68=load();
+                tmp_if_expr$69 = return_value_load$68 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$70 = tmp_if_expr$69 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$70 = (_Bool)0;
+            if(tmp_if_expr$70)
+              tmp_if_expr$72 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$71 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$72 = (signed int)*tmp_post$71;
+            }
+            tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$72 << 8));
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$74 = (_Bool)1;
+
+              else
+              {
+                return_value_load$73=load();
+                tmp_if_expr$74 = return_value_load$73 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$75 = tmp_if_expr$74 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$75 = (_Bool)0;
+            if(tmp_if_expr$75)
+              tmp_if_expr$77 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$76 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$77 = (signed int)*tmp_post$76;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$77;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$79 = (_Bool)1;
+
+              else
+              {
+                return_value_load$78=load();
+                tmp_if_expr$79 = return_value_load$78 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$80 = tmp_if_expr$79 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$80 = (_Bool)0;
+            if(tmp_if_expr$80)
+              tmp_if_expr$82 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$81 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$82 = (signed int)*tmp_post$81;
+            }
+            g.zip_crc = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$82 << 8)) << 16);
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$84 = (_Bool)1;
+
+              else
+              {
+                return_value_load$83=load();
+                tmp_if_expr$84 = return_value_load$83 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$85 = tmp_if_expr$84 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$85 = (_Bool)0;
+            if(tmp_if_expr$85)
+              tmp_if_expr$87 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$86 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$87 = (signed int)*tmp_post$86;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$87;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$89 = (_Bool)1;
+
+              else
+              {
+                return_value_load$88=load();
+                tmp_if_expr$89 = return_value_load$88 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$90 = tmp_if_expr$89 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$90 = (_Bool)0;
+            if(tmp_if_expr$90)
+              tmp_if_expr$92 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$91 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$92 = (signed int)*tmp_post$91;
+            }
+            tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$92 << 8));
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$94 = (_Bool)1;
+
+              else
+              {
+                return_value_load$93=load();
+                tmp_if_expr$94 = return_value_load$93 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$95 = tmp_if_expr$94 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$95 = (_Bool)0;
+            if(tmp_if_expr$95)
+              tmp_if_expr$97 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$96 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$97 = (signed int)*tmp_post$96;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$97;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$99 = (_Bool)1;
+
+              else
+              {
+                return_value_load$98=load();
+                tmp_if_expr$99 = return_value_load$98 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$100 = tmp_if_expr$99 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$100 = (_Bool)0;
+            if(tmp_if_expr$100)
+              tmp_if_expr$102 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$101 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$102 = (signed int)*tmp_post$101;
+            }
+            g.zip_clen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$102 << 8)) << 16);
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$104 = (_Bool)1;
+
+              else
+              {
+                return_value_load$103=load();
+                tmp_if_expr$104 = return_value_load$103 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$105 = tmp_if_expr$104 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$105 = (_Bool)0;
+            if(tmp_if_expr$105)
+              tmp_if_expr$107 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$106 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$107 = (signed int)*tmp_post$106;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$107;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$109 = (_Bool)1;
+
+              else
+              {
+                return_value_load$108=load();
+                tmp_if_expr$109 = return_value_load$108 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$110 = tmp_if_expr$109 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$110 = (_Bool)0;
+            if(tmp_if_expr$110)
+              tmp_if_expr$112 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$111 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$112 = (signed int)*tmp_post$111;
+            }
+            tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$112 << 8));
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$114 = (_Bool)1;
+
+              else
+              {
+                return_value_load$113=load();
+                tmp_if_expr$114 = return_value_load$113 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$115 = tmp_if_expr$114 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$115 = (_Bool)0;
+            if(tmp_if_expr$115)
+              tmp_if_expr$117 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$116 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$117 = (signed int)*tmp_post$116;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$117;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$119 = (_Bool)1;
+
+              else
+              {
+                return_value_load$118=load();
+                tmp_if_expr$119 = return_value_load$118 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$120 = tmp_if_expr$119 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$120 = (_Bool)0;
+            if(tmp_if_expr$120)
+              tmp_if_expr$122 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$121 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$122 = (signed int)*tmp_post$121;
+            }
+            g.zip_ulen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$122 << 8)) << 16);
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$124 = (_Bool)1;
+
+              else
+              {
+                return_value_load$123=load();
+                tmp_if_expr$124 = return_value_load$123 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$125 = tmp_if_expr$124 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$125 = (_Bool)0;
+            if(tmp_if_expr$125)
+              tmp_if_expr$127 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$126 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$127 = (signed int)*tmp_post$126;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$127;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$129 = (_Bool)1;
+
+              else
+              {
+                return_value_load$128=load();
+                tmp_if_expr$129 = return_value_load$128 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$130 = tmp_if_expr$129 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$130 = (_Bool)0;
+            if(tmp_if_expr$130)
+              tmp_if_expr$132 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$131 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$132 = (signed int)*tmp_post$131;
+            }
+            fname = tmp2 + ((unsigned int)tmp_if_expr$132 << 8);
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$134 = (_Bool)1;
+
+              else
+              {
+                return_value_load$133=load();
+                tmp_if_expr$134 = return_value_load$133 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$135 = tmp_if_expr$134 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$135 = (_Bool)0;
+            if(tmp_if_expr$135)
+              tmp_if_expr$137 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$136 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$137 = (signed int)*tmp_post$136;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$137;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$139 = (_Bool)1;
+
+              else
+              {
+                return_value_load$138=load();
+                tmp_if_expr$139 = return_value_load$138 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$140 = tmp_if_expr$139 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$140 = (_Bool)0;
+            if(tmp_if_expr$140)
+              tmp_if_expr$142 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$141 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$142 = (signed int)*tmp_post$141;
+            }
+            extra = tmp2 + ((unsigned int)tmp_if_expr$142 << 8);
+            if(!(save == 0))
+            {
+              char *next;
+              if(!(g.in_eof == 0))
+                return -3;
+
+              void *return_value_alloc$143;
+              return_value_alloc$143=alloc((void *)0, (unsigned long int)(fname + (unsigned int)1));
+              g.hname = (char *)return_value_alloc$143;
+              next = g.hname;
+              while(!(g.in_left >= (unsigned long int)fname))
+              {
+                memcpy((void *)next, (const void *)g.in_next, g.in_left);
+                fname = fname - (unsigned int)g.in_left;
+                next = next + (signed long int)g.in_left;
+                unsigned long int return_value_load$144;
+                return_value_load$144=load();
+                if(return_value_load$144 == 0ul)
+                  return -3;
+
+              }
+              memcpy((void *)next, (const void *)g.in_next, (unsigned long int)fname);
+              g.in_left = g.in_left - (unsigned long int)fname;
+              g.in_next = g.in_next + (signed long int)fname;
+              next = next + (signed long int)fname;
+              *next = (char)0;
+            }
+
+            else
+              do
+              {
+                unsigned long int get_header$$1$$3$$4$$togo = (unsigned long int)fname;
+                while(!(g.in_left >= get_header$$1$$3$$4$$togo))
+                {
+                  get_header$$1$$3$$4$$togo = get_header$$1$$3$$4$$togo - g.in_left;
+                  unsigned long int return_value_load$145;
+                  return_value_load$145=load();
+                  if(return_value_load$145 == 0ul)
+                    return -3;
+
+                }
+                g.in_left = g.in_left - get_header$$1$$3$$4$$togo;
+                g.in_next = g.in_next + (signed long int)get_header$$1$$3$$4$$togo;
+              }
+              while((_Bool)0);
+            read_extra(extra, save);
+            g.form = 2 + ((flags & 8) >> 3);
+            return g.in_eof != 0 ? -3 : method;
+          }
+
+          if(!(magic == 8075u))
+          {
+            g.in_left = g.in_left + 1ul;
+            g.in_next = g.in_next - 1l;
+            return -2;
+          }
+
+          else
+          {
+            crc = (unsigned long int)0xf6e946c9;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$147 = (_Bool)1;
+
+              else
+              {
+                return_value_load$146=load();
+                tmp_if_expr$147 = return_value_load$146 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$148 = tmp_if_expr$147 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$148 = (_Bool)0;
+            if(tmp_if_expr$148)
+              tmp_if_expr$150 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              crc=crc32(crc, g.in_next, (unsigned int)1);
+              tmp_post$149 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$150 = (signed int)*tmp_post$149;
+            }
+            method = tmp_if_expr$150;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$152 = (_Bool)1;
+
+              else
+              {
+                return_value_load$151=load();
+                tmp_if_expr$152 = return_value_load$151 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$153 = tmp_if_expr$152 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$153 = (_Bool)0;
+            if(tmp_if_expr$153)
+              tmp_if_expr$155 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              crc=crc32(crc, g.in_next, (unsigned int)1);
+              tmp_post$154 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$155 = (signed int)*tmp_post$154;
+            }
+            flags = tmp_if_expr$155;
+            if(!((0xe0 & flags) == 0))
+              return -4;
+
+            else
+            {
+              if(!(save == 0))
+              {
+                if(g.in_left == 0ul)
+                {
+                  if(!(g.in_eof == 0))
+                    tmp_if_expr$157 = (_Bool)1;
+
+                  else
+                  {
+                    return_value_load$156=load();
+                    tmp_if_expr$157 = return_value_load$156 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  }
+                  tmp_if_expr$158 = tmp_if_expr$157 ? (_Bool)1 : (_Bool)0;
+                }
+
+                else
+                  tmp_if_expr$158 = (_Bool)0;
+                if(tmp_if_expr$158)
+                  tmp_if_expr$160 = 0;
+
+                else
+                {
+                  g.in_left = g.in_left - 1ul;
+                  crc=crc32(crc, g.in_next, (unsigned int)1);
+                  tmp_post$159 = g.in_next;
+                  g.in_next = g.in_next + 1l;
+                  tmp_if_expr$160 = (signed int)*tmp_post$159;
+                }
+                tmp2 = (unsigned int)tmp_if_expr$160;
+                if(g.in_left == 0ul)
+                {
+                  if(!(g.in_eof == 0))
+                    tmp_if_expr$162 = (_Bool)1;
+
+                  else
+                  {
+                    return_value_load$161=load();
+                    tmp_if_expr$162 = return_value_load$161 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  }
+                  tmp_if_expr$163 = tmp_if_expr$162 ? (_Bool)1 : (_Bool)0;
+                }
+
+                else
+                  tmp_if_expr$163 = (_Bool)0;
+                if(tmp_if_expr$163)
+                  tmp_if_expr$165 = 0;
+
+                else
+                {
+                  g.in_left = g.in_left - 1ul;
+                  crc=crc32(crc, g.in_next, (unsigned int)1);
+                  tmp_post$164 = g.in_next;
+                  g.in_next = g.in_next + 1l;
+                  tmp_if_expr$165 = (signed int)*tmp_post$164;
+                }
+                tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$165 << 8));
+                if(g.in_left == 0ul)
+                {
+                  if(!(g.in_eof == 0))
+                    tmp_if_expr$167 = (_Bool)1;
+
+                  else
+                  {
+                    return_value_load$166=load();
+                    tmp_if_expr$167 = return_value_load$166 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  }
+                  tmp_if_expr$168 = tmp_if_expr$167 ? (_Bool)1 : (_Bool)0;
+                }
+
+                else
+                  tmp_if_expr$168 = (_Bool)0;
+                if(tmp_if_expr$168)
+                  tmp_if_expr$170 = 0;
+
+                else
+                {
+                  g.in_left = g.in_left - 1ul;
+                  crc=crc32(crc, g.in_next, (unsigned int)1);
+                  tmp_post$169 = g.in_next;
+                  g.in_next = g.in_next + 1l;
+                  tmp_if_expr$170 = (signed int)*tmp_post$169;
+                }
+                tmp2 = (unsigned int)tmp_if_expr$170;
+                if(g.in_left == 0ul)
+                {
+                  if(!(g.in_eof == 0))
+                    tmp_if_expr$172 = (_Bool)1;
+
+                  else
+                  {
+                    return_value_load$171=load();
+                    tmp_if_expr$172 = return_value_load$171 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  }
+                  tmp_if_expr$173 = tmp_if_expr$172 ? (_Bool)1 : (_Bool)0;
+                }
+
+                else
+                  tmp_if_expr$173 = (_Bool)0;
+                if(tmp_if_expr$173)
+                  tmp_if_expr$175 = 0;
+
+                else
+                {
+                  g.in_left = g.in_left - 1ul;
+                  crc=crc32(crc, g.in_next, (unsigned int)1);
+                  tmp_post$174 = g.in_next;
+                  g.in_next = g.in_next + 1l;
+                  tmp_if_expr$175 = (signed int)*tmp_post$174;
+                }
+                g.stamp=tolong(tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$175 << 8)) << 16));
+              }
+
+              else
+                do
+                {
+                  unsigned long int get_header$$1$$5$$togo = (unsigned long int)4;
+                  while(!(g.in_left >= get_header$$1$$5$$togo))
+                  {
+                    crc=crc32(crc, g.in_next, (unsigned int)g.in_left);
+                    get_header$$1$$5$$togo = get_header$$1$$5$$togo - g.in_left;
+                    unsigned long int return_value_load$176;
+                    return_value_load$176=load();
+                    if(return_value_load$176 == 0ul)
+                      return -3;
+
+                  }
+                  crc=crc32(crc, g.in_next, (unsigned int)get_header$$1$$5$$togo);
+                  g.in_left = g.in_left - get_header$$1$$5$$togo;
+                  g.in_next = g.in_next + (signed long int)get_header$$1$$5$$togo;
+                }
+                while((_Bool)0);
+              do
+              {
+                unsigned long int get_header$$1$$6$$togo = (unsigned long int)2;
+                while(!(g.in_left >= get_header$$1$$6$$togo))
+                {
+                  crc=crc32(crc, g.in_next, (unsigned int)g.in_left);
+                  get_header$$1$$6$$togo = get_header$$1$$6$$togo - g.in_left;
+                  unsigned long int return_value_load$177;
+                  return_value_load$177=load();
+                  if(return_value_load$177 == 0ul)
+                    return -3;
+
+                }
+                crc=crc32(crc, g.in_next, (unsigned int)get_header$$1$$6$$togo);
+                g.in_left = g.in_left - get_header$$1$$6$$togo;
+                g.in_next = g.in_next + (signed long int)get_header$$1$$6$$togo;
+              }
+              while((_Bool)0);
+              if(!((4 & flags) == 0))
+                do
+                {
+                  unsigned long int get_header$$1$$7$$togo;
+                  if(g.in_left == 0ul)
+                  {
+                    if(!(g.in_eof == 0))
+                      tmp_if_expr$179 = (_Bool)1;
+
+                    else
+                    {
+                      return_value_load$178=load();
+                      tmp_if_expr$179 = return_value_load$178 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                    }
+                    tmp_if_expr$180 = tmp_if_expr$179 ? (_Bool)1 : (_Bool)0;
+                  }
+
+                  else
+                    tmp_if_expr$180 = (_Bool)0;
+                  if(tmp_if_expr$180)
+                    tmp_if_expr$182 = 0;
+
+                  else
+                  {
+                    g.in_left = g.in_left - 1ul;
+                    crc=crc32(crc, g.in_next, (unsigned int)1);
+                    tmp_post$181 = g.in_next;
+                    g.in_next = g.in_next + 1l;
+                    tmp_if_expr$182 = (signed int)*tmp_post$181;
+                  }
+                  tmp2 = (unsigned int)tmp_if_expr$182;
+                  if(g.in_left == 0ul)
+                  {
+                    if(!(g.in_eof == 0))
+                      tmp_if_expr$184 = (_Bool)1;
+
+                    else
+                    {
+                      return_value_load$183=load();
+                      tmp_if_expr$184 = return_value_load$183 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                    }
+                    tmp_if_expr$185 = tmp_if_expr$184 ? (_Bool)1 : (_Bool)0;
+                  }
+
+                  else
+                    tmp_if_expr$185 = (_Bool)0;
+                  if(tmp_if_expr$185)
+                    tmp_if_expr$187 = 0;
+
+                  else
+                  {
+                    g.in_left = g.in_left - 1ul;
+                    crc=crc32(crc, g.in_next, (unsigned int)1);
+                    tmp_post$186 = g.in_next;
+                    g.in_next = g.in_next + 1l;
+                    tmp_if_expr$187 = (signed int)*tmp_post$186;
+                  }
+                  get_header$$1$$7$$togo = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$187 << 8));
+                  while(!(g.in_left >= get_header$$1$$7$$togo))
+                  {
+                    crc=crc32(crc, g.in_next, (unsigned int)g.in_left);
+                    get_header$$1$$7$$togo = get_header$$1$$7$$togo - g.in_left;
+                    unsigned long int return_value_load$188;
+                    return_value_load$188=load();
+                    if(return_value_load$188 == 0ul)
+                      return -3;
+
+                  }
+                  crc=crc32(crc, g.in_next, (unsigned int)get_header$$1$$7$$togo);
+                  g.in_left = g.in_left - get_header$$1$$7$$togo;
+                  g.in_next = g.in_next + (signed long int)get_header$$1$$7$$togo;
+                }
+                while((_Bool)0);
+
+              if(!((8 & flags) == 0) && !(save == 0))
+              {
+                unsigned char *end;
+                unsigned long int copy;
+                unsigned long int have;
+                unsigned long int size = (unsigned long int)0;
+                have = (unsigned long int)0;
+                while((_Bool)1)
+                {
+                  if(g.in_left == 0ul)
+                  {
+                    return_value_load$189=load();
+                    if(return_value_load$189 == 0ul)
+                      return -3;
+
+                  }
+
+                  void *return_value_memchr$190;
+                  return_value_memchr$190=memchr((const void *)g.in_next, 0, g.in_left);
+                  end = (unsigned char *)return_value_memchr$190;
+                  copy = end == (unsigned char *)(void *)0 ? g.in_left : (unsigned long int)(end - g.in_next) + (unsigned long int)1;
+                  have=vmemcpy(&g.hname, &size, have, (void *)g.in_next, copy);
+                  g.in_left = g.in_left - copy;
+                  g.in_next = g.in_next + (signed long int)copy;
+                  if(!(end == ((unsigned char *)NULL)))
+                    break;
+
+                }
+                crc=crc32(crc, (unsigned char *)g.hname, (unsigned int)have);
+              }
+
+              else
+                if(!((8 & flags) == 0))
+                  do
+                  {
+                    if(g.in_left == 0ul)
+                    {
+                      if(!(g.in_eof == 0))
+                        tmp_if_expr$192 = (_Bool)1;
+
+                      else
+                      {
+                        return_value_load$191=load();
+                        tmp_if_expr$192 = return_value_load$191 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                      }
+                      tmp_if_expr$193 = tmp_if_expr$192 ? (_Bool)1 : (_Bool)0;
+                    }
+
+                    else
+                      tmp_if_expr$193 = (_Bool)0;
+                    if(tmp_if_expr$193)
+                      tmp_if_expr$195 = 0;
+
+                    else
+                    {
+                      g.in_left = g.in_left - 1ul;
+                      crc=crc32(crc, g.in_next, (unsigned int)1);
+                      tmp_post$194 = g.in_next;
+                      g.in_next = g.in_next + 1l;
+                      tmp_if_expr$195 = (signed int)*tmp_post$194;
+                    }
+                    if(tmp_if_expr$195 == 0)
+                      break;
+
+                  }
+                  while((_Bool)1);
+
+              if(!((16 & flags) == 0))
+                do
+                {
+                  if(g.in_left == 0ul)
+                  {
+                    if(!(g.in_eof == 0))
+                      tmp_if_expr$197 = (_Bool)1;
+
+                    else
+                    {
+                      return_value_load$196=load();
+                      tmp_if_expr$197 = return_value_load$196 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                    }
+                    tmp_if_expr$198 = tmp_if_expr$197 ? (_Bool)1 : (_Bool)0;
+                  }
+
+                  else
+                    tmp_if_expr$198 = (_Bool)0;
+                  if(tmp_if_expr$198)
+                    tmp_if_expr$200 = 0;
+
+                  else
+                  {
+                    g.in_left = g.in_left - 1ul;
+                    crc=crc32(crc, g.in_next, (unsigned int)1);
+                    tmp_post$199 = g.in_next;
+                    g.in_next = g.in_next + 1l;
+                    tmp_if_expr$200 = (signed int)*tmp_post$199;
+                  }
+                  if(tmp_if_expr$200 == 0)
+                    break;
+
+                }
+                while((_Bool)1);
+
+              if(!((2 & flags) == 0))
+              {
+                if(g.in_left == 0ul)
+                {
+                  if(!(g.in_eof == 0))
+                    tmp_if_expr$202 = (_Bool)1;
+
+                  else
+                  {
+                    return_value_load$201=load();
+                    tmp_if_expr$202 = return_value_load$201 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  }
+                  tmp_if_expr$203 = tmp_if_expr$202 ? (_Bool)1 : (_Bool)0;
+                }
+
+                else
+                  tmp_if_expr$203 = (_Bool)0;
+                if(tmp_if_expr$203)
+                  tmp_if_expr$205 = 0;
+
+                else
+                {
+                  g.in_left = g.in_left - 1ul;
+                  tmp_post$204 = g.in_next;
+                  g.in_next = g.in_next + 1l;
+                  tmp_if_expr$205 = (signed int)*tmp_post$204;
+                }
+                tmp2 = (unsigned int)tmp_if_expr$205;
+                if(g.in_left == 0ul)
+                {
+                  if(!(g.in_eof == 0))
+                    tmp_if_expr$207 = (_Bool)1;
+
+                  else
+                  {
+                    return_value_load$206=load();
+                    tmp_if_expr$207 = return_value_load$206 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  }
+                  tmp_if_expr$208 = tmp_if_expr$207 ? (_Bool)1 : (_Bool)0;
+                }
+
+                else
+                  tmp_if_expr$208 = (_Bool)0;
+                if(tmp_if_expr$208)
+                  tmp_if_expr$210 = 0;
+
+                else
+                {
+                  g.in_left = g.in_left - 1ul;
+                  tmp_post$209 = g.in_next;
+                  g.in_next = g.in_next + 1l;
+                  tmp_if_expr$210 = (signed int)*tmp_post$209;
+                }
+                if((unsigned long int)(((unsigned int)tmp_if_expr$210 << 8) + tmp2) == (65535ul & crc))
+                  goto __CPROVER_DUMP_L295;
+
+                return -6;
+              }
+
+              else
+              {
+
+              __CPROVER_DUMP_L295:
+                ;
+                g.form = 0;
+                return g.in_eof != 0 ? -3 : method;
+              }
+            }
+          }
+        }
+  }
+}
+
+// get_space
+// file pigz.c line 1256
+static struct space * get_space(struct pool *pool)
+{
+  struct space *space;
+  possess(pool->have);
+  if(pool->limit == 0)
+    wait_for(pool->have, (enum wait_op)NOT_TO_BE, (signed long int)0);
+
+  if(!(pool->head == ((struct space *)NULL)))
+  {
+    space = pool->head;
+    possess(space->use);
+    pool->head = space->next;
+    twist(pool->have, (enum twist_op)BY, (signed long int)-1);
+    twist(space->use, (enum twist_op)TO, (signed long int)1);
+    space->len = (unsigned long int)0;
+    return space;
+  }
+
+  else
+  {
+    /* assertion pool->limit != 0 */
+    assert(pool->limit != 0);
+    if(pool->limit >= 1)
+      pool->limit = pool->limit - 1;
+
+    pool->made = pool->made + 1;
+    release(pool->have);
+    void *return_value_alloc$1;
+    return_value_alloc$1=alloc((void *)0, sizeof(struct space) /*48ul*/ );
+    space = (struct space *)return_value_alloc$1;
+    space->use=new_lock((signed long int)1);
+    void *return_value_alloc$2;
+    return_value_alloc$2=alloc((void *)0, pool->size);
+    space->buf = (unsigned char *)return_value_alloc$2;
+    space->size = pool->size;
+    space->len = (unsigned long int)0;
+    space->pool = pool;
+    return space;
+  }
+}
+
+// gf2_matrix_square
+// file pigz.c line 1128
+static void gf2_matrix_square(unsigned long int *square, unsigned long int *mat)
+{
+  signed int n = 0;
+  for( ; !(n >= 32); n = n + 1)
+    square[(signed long int)n]=gf2_matrix_times(mat, mat[(signed long int)n]);
+}
+
+// gf2_matrix_times
+// file pigz.c line 1114
+static unsigned long int gf2_matrix_times(unsigned long int *mat, unsigned long int vec)
+{
+  unsigned long int sum = (unsigned long int)0;
+  for( ; !(vec == 0ul); mat = mat + 1l)
+  {
+    if(!((1ul & vec) == 0ul))
+      sum = sum ^ *mat;
+
+    vec = vec >> 1;
+  }
+  return sum;
+}
+
+// grow
+// file pigz.c line 849
+static inline unsigned long int grow(unsigned long int size)
+{
+  unsigned long int was;
+  unsigned long int top;
+  signed int shift;
+  was = size;
+  size = size + (size >> 2);
+  top = size;
+  shift = 0;
+  for( ; top >= 8ul; shift = shift + 1)
+    top = top >> 1;
+  if(top == 7ul)
+    size = (unsigned long int)1 << shift + 3;
+
+  if(!(size >= 16ul))
+    size = (unsigned long int)16;
+
+  if(was >= size)
+    size = (unsigned long int)0 - (unsigned long int)1;
+
+  return size;
+}
+
+// grow_space
+// file pigz.c line 1292
+static void grow_space(struct space *space)
+{
+  unsigned long int more;
+  more=grow(space->size);
+  if(more == space->size)
+    try_throw_(75, "overflow", (void *)0);
+
+  void *return_value_alloc$1;
+  return_value_alloc$1=alloc((void *)space->buf, more);
+  space->buf = (unsigned char *)return_value_alloc$1;
+  space->size = more;
+}
+
+// help
+// file pigz.c line 3789
+static void help(void)
+{
+  signed int n;
+  if(!(g.verbosity == 0))
+  {
+    n = 0;
+    for( ; !(n >= 36); n = n + 1)
+      fprintf(stderr, "%s\n", helptext[(signed long int)n]);
+    fflush(stderr);
+    exit(0);
+  }
+
+}
+
+// ignition
+// file yarn.c line 245
+static void * ignition(void *arg)
+{
+  struct capsule *capsule = (struct capsule *)arg;
+  struct anonymous$5 __cancel_buf;
+  void (*__cancel_routine)(void *) = reenter;
+  void *__cancel_arg = (void *)0;
+  signed int __not_first_call;
+  __not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)__cancel_buf.__cancel_jmp_buf, 0);
+  if(!((signed long int)__not_first_call == 0l))
+  {
+    __cancel_routine(__cancel_arg);
+    __pthread_unwind_next(&__cancel_buf);
+  }
+
+  __pthread_register_cancel(&__cancel_buf);
+  capsule->probe(capsule->payload);
+  my_free((void *)capsule);
+  __pthread_unregister_cancel(&__cancel_buf);
+  __cancel_routine(__cancel_arg);
+  return (void *)0;
+}
+
+// in_init
+// file pigz.c line 2360
+static void in_init(void)
+{
+  g.in_left = (unsigned long int)0;
+  g.in_eof = 0;
+  g.in_short = 0;
+  g.in_tot = (signed long int)0;
+  g.in_which = -1;
+}
+
+// inb
+// file pigz.c line 2897
+static unsigned int inb(void *desc, unsigned char **buf)
+{
+  (void)desc;
+  load();
+  *buf = g.in_next;
+  return (unsigned int)g.in_left;
+}
+
+// infchk
+// file pigz.c line 3040
+static void infchk(void)
+{
+  signed int ret;
+  signed int cont;
+  signed int was;
+  unsigned long int check;
+  unsigned long int len;
+  struct z_stream_s strm;
+  unsigned int tmp2;
+  unsigned long int tmp4;
+  signed long int clen;
+  cont = 0;
+  unsigned long int tmp_if_expr$4;
+  unsigned long int return_value_adler32$2;
+  unsigned long int return_value_crc32$3;
+  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr$6;
+  unsigned long int return_value_load$5;
+  signed int tmp_if_expr$9;
+  unsigned char *tmp_post$8;
+  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr$11;
+  unsigned long int return_value_load$10;
+  signed int tmp_if_expr$14;
+  unsigned char *tmp_post$13;
+  _Bool tmp_if_expr$17;
+  _Bool tmp_if_expr$16;
+  unsigned long int return_value_load$15;
+  signed int tmp_if_expr$19;
+  unsigned char *tmp_post$18;
+  _Bool tmp_if_expr$22;
+  _Bool tmp_if_expr$21;
+  unsigned long int return_value_load$20;
+  signed int tmp_if_expr$24;
+  unsigned char *tmp_post$23;
+  _Bool tmp_if_expr$27;
+  _Bool tmp_if_expr$26;
+  unsigned long int return_value_load$25;
+  signed int tmp_if_expr$29;
+  unsigned char *tmp_post$28;
+  _Bool tmp_if_expr$32;
+  _Bool tmp_if_expr$31;
+  unsigned long int return_value_load$30;
+  signed int tmp_if_expr$34;
+  unsigned char *tmp_post$33;
+  _Bool tmp_if_expr$37;
+  _Bool tmp_if_expr$36;
+  unsigned long int return_value_load$35;
+  signed int tmp_if_expr$39;
+  unsigned char *tmp_post$38;
+  _Bool tmp_if_expr$42;
+  _Bool tmp_if_expr$41;
+  unsigned long int return_value_load$40;
+  signed int tmp_if_expr$44;
+  unsigned char *tmp_post$43;
+  _Bool tmp_if_expr$47;
+  _Bool tmp_if_expr$46;
+  unsigned long int return_value_load$45;
+  signed int tmp_if_expr$49;
+  unsigned char *tmp_post$48;
+  _Bool tmp_if_expr$52;
+  _Bool tmp_if_expr$51;
+  unsigned long int return_value_load$50;
+  signed int tmp_if_expr$54;
+  unsigned char *tmp_post$53;
+  _Bool tmp_if_expr$57;
+  _Bool tmp_if_expr$56;
+  unsigned long int return_value_load$55;
+  signed int tmp_if_expr$59;
+  unsigned char *tmp_post$58;
+  _Bool tmp_if_expr$62;
+  _Bool tmp_if_expr$61;
+  unsigned long int return_value_load$60;
+  signed int tmp_if_expr$64;
+  unsigned char *tmp_post$63;
+  _Bool tmp_if_expr$67;
+  _Bool tmp_if_expr$66;
+  unsigned long int return_value_load$65;
+  signed int tmp_if_expr$69;
+  unsigned char *tmp_post$68;
+  _Bool tmp_if_expr$72;
+  _Bool tmp_if_expr$71;
+  unsigned long int return_value_load$70;
+  signed int tmp_if_expr$74;
+  unsigned char *tmp_post$73;
+  _Bool tmp_if_expr$77;
+  _Bool tmp_if_expr$76;
+  unsigned long int return_value_load$75;
+  signed int tmp_if_expr$79;
+  unsigned char *tmp_post$78;
+  _Bool tmp_if_expr$82;
+  _Bool tmp_if_expr$81;
+  unsigned long int return_value_load$80;
+  signed int tmp_if_expr$84;
+  unsigned char *tmp_post$83;
+  _Bool tmp_if_expr$87;
+  _Bool tmp_if_expr$86;
+  unsigned long int return_value_load$85;
+  signed int tmp_if_expr$89;
+  unsigned char *tmp_post$88;
+  _Bool tmp_if_expr$92;
+  _Bool tmp_if_expr$91;
+  unsigned long int return_value_load$90;
+  signed int tmp_if_expr$94;
+  unsigned char *tmp_post$93;
+  _Bool tmp_if_expr$97;
+  _Bool tmp_if_expr$96;
+  unsigned long int return_value_load$95;
+  signed int tmp_if_expr$99;
+  unsigned char *tmp_post$98;
+  _Bool tmp_if_expr$102;
+  _Bool tmp_if_expr$101;
+  unsigned long int return_value_load$100;
+  signed int tmp_if_expr$104;
+  unsigned char *tmp_post$103;
+  _Bool tmp_if_expr$107;
+  _Bool tmp_if_expr$106;
+  unsigned long int return_value_load$105;
+  signed int tmp_if_expr$109;
+  unsigned char *tmp_post$108;
+  _Bool tmp_if_expr$112;
+  _Bool tmp_if_expr$111;
+  unsigned long int return_value_load$110;
+  signed int tmp_if_expr$114;
+  unsigned char *tmp_post$113;
+  _Bool tmp_if_expr$117;
+  _Bool tmp_if_expr$116;
+  unsigned long int return_value_load$115;
+  signed int tmp_if_expr$119;
+  unsigned char *tmp_post$118;
+  _Bool tmp_if_expr$122;
+  _Bool tmp_if_expr$121;
+  unsigned long int return_value_load$120;
+  signed int tmp_if_expr$124;
+  unsigned char *tmp_post$123;
+  _Bool tmp_if_expr$127;
+  _Bool tmp_if_expr$126;
+  unsigned long int return_value_load$125;
+  signed int tmp_if_expr$129;
+  unsigned char *tmp_post$128;
+  _Bool tmp_if_expr$132;
+  _Bool tmp_if_expr$131;
+  unsigned long int return_value_load$130;
+  signed int tmp_if_expr$134;
+  unsigned char *tmp_post$133;
+  _Bool tmp_if_expr$137;
+  _Bool tmp_if_expr$136;
+  unsigned long int return_value_load$135;
+  signed int tmp_if_expr$139;
+  unsigned char *tmp_post$138;
+  _Bool tmp_if_expr$142;
+  _Bool tmp_if_expr$141;
+  unsigned long int return_value_load$140;
+  signed int tmp_if_expr$144;
+  unsigned char *tmp_post$143;
+  _Bool tmp_if_expr$147;
+  _Bool tmp_if_expr$146;
+  unsigned long int return_value_load$145;
+  signed int tmp_if_expr$149;
+  unsigned char *tmp_post$148;
+  _Bool tmp_if_expr$152;
+  _Bool tmp_if_expr$151;
+  unsigned long int return_value_load$150;
+  signed int tmp_if_expr$154;
+  unsigned char *tmp_post$153;
+  _Bool tmp_if_expr$157;
+  _Bool tmp_if_expr$156;
+  unsigned long int return_value_load$155;
+  signed int tmp_if_expr$159;
+  unsigned char *tmp_post$158;
+  _Bool tmp_if_expr$162;
+  _Bool tmp_if_expr$161;
+  unsigned long int return_value_load$160;
+  signed int tmp_if_expr$164;
+  unsigned char *tmp_post$163;
+  _Bool tmp_if_expr$167;
+  _Bool tmp_if_expr$166;
+  unsigned long int return_value_load$165;
+  signed int tmp_if_expr$169;
+  unsigned char *tmp_post$168;
+  _Bool tmp_if_expr$172;
+  _Bool tmp_if_expr$171;
+  unsigned long int return_value_load$170;
+  signed int tmp_if_expr$174;
+  unsigned char *tmp_post$173;
+  _Bool tmp_if_expr$177;
+  _Bool tmp_if_expr$176;
+  unsigned long int return_value_load$175;
+  signed int tmp_if_expr$179;
+  unsigned char *tmp_post$178;
+  _Bool tmp_if_expr$182;
+  _Bool tmp_if_expr$181;
+  unsigned long int return_value_load$180;
+  signed int tmp_if_expr$184;
+  unsigned char *tmp_post$183;
+  _Bool tmp_if_expr$187;
+  _Bool tmp_if_expr$186;
+  unsigned long int return_value_load$185;
+  signed int tmp_if_expr$189;
+  unsigned char *tmp_post$188;
+  _Bool tmp_if_expr$192;
+  _Bool tmp_if_expr$191;
+  unsigned long int return_value_load$190;
+  signed int tmp_if_expr$194;
+  unsigned char *tmp_post$193;
+  _Bool tmp_if_expr$197;
+  _Bool tmp_if_expr$196;
+  unsigned long int return_value_load$195;
+  signed int tmp_if_expr$199;
+  unsigned char *tmp_post$198;
+  _Bool tmp_if_expr$202;
+  _Bool tmp_if_expr$201;
+  unsigned long int return_value_load$200;
+  signed int tmp_if_expr$204;
+  unsigned char *tmp_post$203;
+  _Bool tmp_if_expr$1;
+  do
+  {
+    g.in_tot = (signed long int)g.in_left;
+    g.out_tot = (signed long int)0;
+    if(g.form == 1)
+    {
+      return_value_adler32$2=adler32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+      tmp_if_expr$4 = return_value_adler32$2;
+    }
+
+    else
+    {
+      return_value_crc32$3=crc32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+      tmp_if_expr$4 = return_value_crc32$3;
+    }
+    g.out_check = tmp_if_expr$4;
+    strm.zalloc = ((void * (*)(void *, unsigned int, unsigned int))NULL);
+    strm.zfree = ((void (*)(void *, void *))NULL);
+    strm.opaque = NULL;
+    ret=inflateBackInit_(&strm, 15, out_buf, "1.2.8", (signed int)sizeof(struct z_stream_s) /*112ul*/ );
+    if(ret == -4)
+      try_throw_(12, "not enough memory", (void *)0);
+
+    if(!(ret == 0))
+      try_throw_(22, "internal error", (void *)0);
+
+    strm.avail_in = (unsigned int)g.in_left;
+    strm.next_in = g.in_next;
+    ret=inflateBack(&strm, inb, (void *)0, outb, (void *)0);
+    inflateBackEnd(&strm);
+    if(ret == -3)
+      try_throw_(33, "%s: corrupted -- invalid deflate data (%s)", g.inf, strm.msg, (void *)0);
+
+    if(ret == -5)
+      try_throw_(33, "%s: corrupted -- incomplete deflate data", g.inf, (void *)0);
+
+    if(!(ret == 1))
+      try_throw_(22, "internal error", (void *)0);
+
+    g.in_left = (unsigned long int)strm.avail_in;
+    g.in_next = strm.next_in;
+    outb((void *)0, (unsigned char *)(void *)0, (unsigned int)0);
+    clen = (signed long int)((unsigned long int)g.in_tot - g.in_left);
+    if(g.form >= 2)
+    {
+      if(g.form == 3)
+      {
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$6 = (_Bool)1;
+
+          else
+          {
+            return_value_load$5=load();
+            tmp_if_expr$6 = return_value_load$5 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$7 = (_Bool)0;
+        if(tmp_if_expr$7)
+          tmp_if_expr$9 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$8 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$9 = (signed int)*tmp_post$8;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$9;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$11 = (_Bool)1;
+
+          else
+          {
+            return_value_load$10=load();
+            tmp_if_expr$11 = return_value_load$10 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$12 = (_Bool)0;
+        if(tmp_if_expr$12)
+          tmp_if_expr$14 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$13 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$14 = (signed int)*tmp_post$13;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$14 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$16 = (_Bool)1;
+
+          else
+          {
+            return_value_load$15=load();
+            tmp_if_expr$16 = return_value_load$15 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$17 = (_Bool)0;
+        if(tmp_if_expr$17)
+          tmp_if_expr$19 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$18 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$19 = (signed int)*tmp_post$18;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$19;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$21 = (_Bool)1;
+
+          else
+          {
+            return_value_load$20=load();
+            tmp_if_expr$21 = return_value_load$20 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$22 = tmp_if_expr$21 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$22 = (_Bool)0;
+        if(tmp_if_expr$22)
+          tmp_if_expr$24 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$23 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$24 = (signed int)*tmp_post$23;
+        }
+        g.zip_crc = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$24 << 8)) << 16);
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$26 = (_Bool)1;
+
+          else
+          {
+            return_value_load$25=load();
+            tmp_if_expr$26 = return_value_load$25 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$27 = tmp_if_expr$26 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$27 = (_Bool)0;
+        if(tmp_if_expr$27)
+          tmp_if_expr$29 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$28 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$29 = (signed int)*tmp_post$28;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$29;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$31 = (_Bool)1;
+
+          else
+          {
+            return_value_load$30=load();
+            tmp_if_expr$31 = return_value_load$30 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$32 = tmp_if_expr$31 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$32 = (_Bool)0;
+        if(tmp_if_expr$32)
+          tmp_if_expr$34 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$33 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$34 = (signed int)*tmp_post$33;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$34 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$36 = (_Bool)1;
+
+          else
+          {
+            return_value_load$35=load();
+            tmp_if_expr$36 = return_value_load$35 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$37 = tmp_if_expr$36 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$37 = (_Bool)0;
+        if(tmp_if_expr$37)
+          tmp_if_expr$39 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$38 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$39 = (signed int)*tmp_post$38;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$39;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$41 = (_Bool)1;
+
+          else
+          {
+            return_value_load$40=load();
+            tmp_if_expr$41 = return_value_load$40 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$42 = tmp_if_expr$41 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$42 = (_Bool)0;
+        if(tmp_if_expr$42)
+          tmp_if_expr$44 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$43 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$44 = (signed int)*tmp_post$43;
+        }
+        g.zip_clen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$44 << 8)) << 16);
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$46 = (_Bool)1;
+
+          else
+          {
+            return_value_load$45=load();
+            tmp_if_expr$46 = return_value_load$45 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$47 = tmp_if_expr$46 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$47 = (_Bool)0;
+        if(tmp_if_expr$47)
+          tmp_if_expr$49 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$48 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$49 = (signed int)*tmp_post$48;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$49;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$51 = (_Bool)1;
+
+          else
+          {
+            return_value_load$50=load();
+            tmp_if_expr$51 = return_value_load$50 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$52 = tmp_if_expr$51 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$52 = (_Bool)0;
+        if(tmp_if_expr$52)
+          tmp_if_expr$54 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$53 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$54 = (signed int)*tmp_post$53;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$54 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$56 = (_Bool)1;
+
+          else
+          {
+            return_value_load$55=load();
+            tmp_if_expr$56 = return_value_load$55 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$57 = tmp_if_expr$56 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$57 = (_Bool)0;
+        if(tmp_if_expr$57)
+          tmp_if_expr$59 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$58 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$59 = (signed int)*tmp_post$58;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$59;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$61 = (_Bool)1;
+
+          else
+          {
+            return_value_load$60=load();
+            tmp_if_expr$61 = return_value_load$60 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$62 = tmp_if_expr$61 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$62 = (_Bool)0;
+        if(tmp_if_expr$62)
+          tmp_if_expr$64 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$63 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$64 = (signed int)*tmp_post$63;
+        }
+        g.zip_ulen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$64 << 8)) << 16);
+        if(!(g.in_eof == 0))
+          try_throw_(33, "%s: corrupted entry -- missing trailer", g.inf, (void *)0);
+
+        if(!(g.zip_crc == g.out_check))
+        {
+          if(!(g.zip_clen == g.out_check) || !(g.zip_crc == 0x08074b50UL))
+            try_throw_(33, "%s: corrupted entry -- crc32 mismatch", g.inf, (void *)0);
+
+          g.zip_crc = g.zip_clen;
+          g.zip_clen = g.zip_ulen;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$66 = (_Bool)1;
+
+            else
+            {
+              return_value_load$65=load();
+              tmp_if_expr$66 = return_value_load$65 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$67 = tmp_if_expr$66 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$67 = (_Bool)0;
+          if(tmp_if_expr$67)
+            tmp_if_expr$69 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$68 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$69 = (signed int)*tmp_post$68;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$69;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$71 = (_Bool)1;
+
+            else
+            {
+              return_value_load$70=load();
+              tmp_if_expr$71 = return_value_load$70 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$72 = tmp_if_expr$71 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$72 = (_Bool)0;
+          if(tmp_if_expr$72)
+            tmp_if_expr$74 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$73 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$74 = (signed int)*tmp_post$73;
+          }
+          tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$74 << 8));
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$76 = (_Bool)1;
+
+            else
+            {
+              return_value_load$75=load();
+              tmp_if_expr$76 = return_value_load$75 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$77 = tmp_if_expr$76 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$77 = (_Bool)0;
+          if(tmp_if_expr$77)
+            tmp_if_expr$79 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$78 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$79 = (signed int)*tmp_post$78;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$79;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$81 = (_Bool)1;
+
+            else
+            {
+              return_value_load$80=load();
+              tmp_if_expr$81 = return_value_load$80 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$82 = tmp_if_expr$81 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$82 = (_Bool)0;
+          if(tmp_if_expr$82)
+            tmp_if_expr$84 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$83 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$84 = (signed int)*tmp_post$83;
+          }
+          g.zip_ulen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$84 << 8)) << 16);
+        }
+
+        else
+          if(g.zip_clen == g.zip_crc && g.zip_crc == 0x08074b50UL && (g.zip_ulen == g.zip_crc || !((0xffffffffUL & (unsigned long int)clen) == g.zip_crc)))
+          {
+            g.zip_crc = g.zip_clen;
+            g.zip_clen = g.zip_ulen;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$86 = (_Bool)1;
+
+              else
+              {
+                return_value_load$85=load();
+                tmp_if_expr$86 = return_value_load$85 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$87 = tmp_if_expr$86 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$87 = (_Bool)0;
+            if(tmp_if_expr$87)
+              tmp_if_expr$89 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$88 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$89 = (signed int)*tmp_post$88;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$89;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$91 = (_Bool)1;
+
+              else
+              {
+                return_value_load$90=load();
+                tmp_if_expr$91 = return_value_load$90 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$92 = tmp_if_expr$91 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$92 = (_Bool)0;
+            if(tmp_if_expr$92)
+              tmp_if_expr$94 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$93 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$94 = (signed int)*tmp_post$93;
+            }
+            tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$94 << 8));
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$96 = (_Bool)1;
+
+              else
+              {
+                return_value_load$95=load();
+                tmp_if_expr$96 = return_value_load$95 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$97 = tmp_if_expr$96 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$97 = (_Bool)0;
+            if(tmp_if_expr$97)
+              tmp_if_expr$99 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$98 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$99 = (signed int)*tmp_post$98;
+            }
+            tmp2 = (unsigned int)tmp_if_expr$99;
+            if(g.in_left == 0ul)
+            {
+              if(!(g.in_eof == 0))
+                tmp_if_expr$101 = (_Bool)1;
+
+              else
+              {
+                return_value_load$100=load();
+                tmp_if_expr$101 = return_value_load$100 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              }
+              tmp_if_expr$102 = tmp_if_expr$101 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$102 = (_Bool)0;
+            if(tmp_if_expr$102)
+              tmp_if_expr$104 = 0;
+
+            else
+            {
+              g.in_left = g.in_left - 1ul;
+              tmp_post$103 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              tmp_if_expr$104 = (signed int)*tmp_post$103;
+            }
+            g.zip_ulen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$104 << 8)) << 16);
+          }
+
+        if(!(g.zip_ulen == (0xffffffffUL & (unsigned long int)g.out_tot)))
+        {
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$106 = (_Bool)1;
+
+            else
+            {
+              return_value_load$105=load();
+              tmp_if_expr$106 = return_value_load$105 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$107 = tmp_if_expr$106 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$107 = (_Bool)0;
+          if(tmp_if_expr$107)
+            tmp_if_expr$109 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$108 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$109 = (signed int)*tmp_post$108;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$109;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$111 = (_Bool)1;
+
+            else
+            {
+              return_value_load$110=load();
+              tmp_if_expr$111 = return_value_load$110 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$112 = tmp_if_expr$111 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$112 = (_Bool)0;
+          if(tmp_if_expr$112)
+            tmp_if_expr$114 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$113 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$114 = (signed int)*tmp_post$113;
+          }
+          tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$114 << 8));
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$116 = (_Bool)1;
+
+            else
+            {
+              return_value_load$115=load();
+              tmp_if_expr$116 = return_value_load$115 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$117 = tmp_if_expr$116 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$117 = (_Bool)0;
+          if(tmp_if_expr$117)
+            tmp_if_expr$119 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$118 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$119 = (signed int)*tmp_post$118;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$119;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$121 = (_Bool)1;
+
+            else
+            {
+              return_value_load$120=load();
+              tmp_if_expr$121 = return_value_load$120 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$122 = tmp_if_expr$121 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$122 = (_Bool)0;
+          if(tmp_if_expr$122)
+            tmp_if_expr$124 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$123 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$124 = (signed int)*tmp_post$123;
+          }
+          g.zip_ulen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$124 << 8)) << 16);
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$126 = (_Bool)1;
+
+            else
+            {
+              return_value_load$125=load();
+              tmp_if_expr$126 = return_value_load$125 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$127 = tmp_if_expr$126 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$127 = (_Bool)0;
+          if(tmp_if_expr$127)
+            tmp_if_expr$129 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$128 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$129 = (signed int)*tmp_post$128;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$129;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$131 = (_Bool)1;
+
+            else
+            {
+              return_value_load$130=load();
+              tmp_if_expr$131 = return_value_load$130 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$132 = tmp_if_expr$131 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$132 = (_Bool)0;
+          if(tmp_if_expr$132)
+            tmp_if_expr$134 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$133 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$134 = (signed int)*tmp_post$133;
+          }
+          tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$134 << 8));
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$136 = (_Bool)1;
+
+            else
+            {
+              return_value_load$135=load();
+              tmp_if_expr$136 = return_value_load$135 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$137 = tmp_if_expr$136 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$137 = (_Bool)0;
+          if(tmp_if_expr$137)
+            tmp_if_expr$139 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$138 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$139 = (signed int)*tmp_post$138;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$139;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$141 = (_Bool)1;
+
+            else
+            {
+              return_value_load$140=load();
+              tmp_if_expr$141 = return_value_load$140 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$142 = tmp_if_expr$141 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$142 = (_Bool)0;
+          if(tmp_if_expr$142)
+            tmp_if_expr$144 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$143 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$144 = (signed int)*tmp_post$143;
+          }
+          tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$144 << 8)) << 16);
+        }
+
+        if(!(g.in_eof == 0))
+          try_throw_(33, "%s: corrupted entry -- missing trailer", g.inf, (void *)0);
+
+      }
+
+      if(!(g.zip_clen == (0xffffffffUL & (unsigned long int)clen)) || !(g.zip_ulen == (0xffffffffUL & (unsigned long int)g.out_tot)))
+        try_throw_(33, "%s: corrupted entry -- length mismatch", g.inf, (void *)0);
+
+      check = g.zip_crc;
+    }
+
+    else
+      if(g.form == 1)
+      {
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$146 = (_Bool)1;
+
+          else
+          {
+            return_value_load$145=load();
+            tmp_if_expr$146 = return_value_load$145 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$147 = tmp_if_expr$146 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$147 = (_Bool)0;
+        if(tmp_if_expr$147)
+          tmp_if_expr$149 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$148 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$149 = (signed int)*tmp_post$148;
+        }
+        check = (unsigned long int)tmp_if_expr$149 << 24;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$151 = (_Bool)1;
+
+          else
+          {
+            return_value_load$150=load();
+            tmp_if_expr$151 = return_value_load$150 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$152 = tmp_if_expr$151 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$152 = (_Bool)0;
+        if(tmp_if_expr$152)
+          tmp_if_expr$154 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$153 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$154 = (signed int)*tmp_post$153;
+        }
+        check = check + ((unsigned long int)tmp_if_expr$154 << 16);
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$156 = (_Bool)1;
+
+          else
+          {
+            return_value_load$155=load();
+            tmp_if_expr$156 = return_value_load$155 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$157 = tmp_if_expr$156 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$157 = (_Bool)0;
+        if(tmp_if_expr$157)
+          tmp_if_expr$159 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$158 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$159 = (signed int)*tmp_post$158;
+        }
+        check = check + (unsigned long int)((unsigned int)tmp_if_expr$159 << 8);
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$161 = (_Bool)1;
+
+          else
+          {
+            return_value_load$160=load();
+            tmp_if_expr$161 = return_value_load$160 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$162 = tmp_if_expr$161 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$162 = (_Bool)0;
+        if(tmp_if_expr$162)
+          tmp_if_expr$164 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$163 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$164 = (signed int)*tmp_post$163;
+        }
+        check = check + (unsigned long int)tmp_if_expr$164;
+        if(!(g.in_eof == 0))
+          try_throw_(33, "%s: corrupted -- missing trailer", g.inf, (void *)0);
+
+        if(!(check == g.out_check))
+          try_throw_(33, "%s: corrupted -- adler32 mismatch", g.inf, (void *)0);
+
+      }
+
+      else
+      {
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$166 = (_Bool)1;
+
+          else
+          {
+            return_value_load$165=load();
+            tmp_if_expr$166 = return_value_load$165 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$167 = tmp_if_expr$166 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$167 = (_Bool)0;
+        if(tmp_if_expr$167)
+          tmp_if_expr$169 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$168 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$169 = (signed int)*tmp_post$168;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$169;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$171 = (_Bool)1;
+
+          else
+          {
+            return_value_load$170=load();
+            tmp_if_expr$171 = return_value_load$170 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$172 = tmp_if_expr$171 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$172 = (_Bool)0;
+        if(tmp_if_expr$172)
+          tmp_if_expr$174 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$173 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$174 = (signed int)*tmp_post$173;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$174 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$176 = (_Bool)1;
+
+          else
+          {
+            return_value_load$175=load();
+            tmp_if_expr$176 = return_value_load$175 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$177 = tmp_if_expr$176 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$177 = (_Bool)0;
+        if(tmp_if_expr$177)
+          tmp_if_expr$179 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$178 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$179 = (signed int)*tmp_post$178;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$179;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$181 = (_Bool)1;
+
+          else
+          {
+            return_value_load$180=load();
+            tmp_if_expr$181 = return_value_load$180 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$182 = tmp_if_expr$181 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$182 = (_Bool)0;
+        if(tmp_if_expr$182)
+          tmp_if_expr$184 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$183 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$184 = (signed int)*tmp_post$183;
+        }
+        check = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$184 << 8)) << 16);
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$186 = (_Bool)1;
+
+          else
+          {
+            return_value_load$185=load();
+            tmp_if_expr$186 = return_value_load$185 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$187 = tmp_if_expr$186 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$187 = (_Bool)0;
+        if(tmp_if_expr$187)
+          tmp_if_expr$189 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$188 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$189 = (signed int)*tmp_post$188;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$189;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$191 = (_Bool)1;
+
+          else
+          {
+            return_value_load$190=load();
+            tmp_if_expr$191 = return_value_load$190 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$192 = tmp_if_expr$191 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$192 = (_Bool)0;
+        if(tmp_if_expr$192)
+          tmp_if_expr$194 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$193 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$194 = (signed int)*tmp_post$193;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$194 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$196 = (_Bool)1;
+
+          else
+          {
+            return_value_load$195=load();
+            tmp_if_expr$196 = return_value_load$195 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$197 = tmp_if_expr$196 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$197 = (_Bool)0;
+        if(tmp_if_expr$197)
+          tmp_if_expr$199 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$198 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$199 = (signed int)*tmp_post$198;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$199;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$201 = (_Bool)1;
+
+          else
+          {
+            return_value_load$200=load();
+            tmp_if_expr$201 = return_value_load$200 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$202 = tmp_if_expr$201 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$202 = (_Bool)0;
+        if(tmp_if_expr$202)
+          tmp_if_expr$204 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$203 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$204 = (signed int)*tmp_post$203;
+        }
+        len = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$204 << 8)) << 16);
+        if(!(g.in_eof == 0))
+          try_throw_(33, "%s: corrupted -- missing trailer", g.inf, (void *)0);
+
+        if(!(check == g.out_check))
+          try_throw_(33, "%s: corrupted -- crc32 mismatch", g.inf, (void *)0);
+
+        if(!(len == (0xffffffffUL & (unsigned long int)g.out_tot)))
+          try_throw_(33, "%s: corrupted -- length mismatch", g.inf, (void *)0);
+
+      }
+    if(!(g.list == 0))
+    {
+      g.in_tot = clen;
+      show_info(8, check, g.out_tot, cont);
+      cont = 1;
+    }
+
+    was = g.form;
+    if(was == 0)
+    {
+      ret=get_header(0);
+      tmp_if_expr$1 = ret == 8 ? (_Bool)1 : (_Bool)0;
+    }
+
+    else
+      tmp_if_expr$1 = (_Bool)0;
+  }
+  while(g.form == 0 && tmp_if_expr$1);
+  _Bool tmp_if_expr$212;
+  signed int return_value_get_header$211;
+  _Bool tmp_if_expr$210;
+  _Bool tmp_if_expr$209;
+  _Bool tmp_if_expr$207;
+  _Bool tmp_if_expr$206;
+  unsigned long int return_value_load$205;
+  unsigned char *tmp_post$208;
+  if(g.list == 0 && ret == -2 && was == 0 && !(g.decode == 2) && !(g.force == 0) && !(g.pipeout == 0))
+    cat();
+
+  else
+  {
+    if(was >= 2)
+    {
+      return_value_get_header$211=get_header(0);
+      tmp_if_expr$212 = return_value_get_header$211 != -5 ? (_Bool)1 : (_Bool)0;
+    }
+
+    else
+      tmp_if_expr$212 = (_Bool)0;
+    if(tmp_if_expr$212)
+      complain("warning: %s: entries after the first were ignored", g.inf);
+
+    else
+    {
+      if(was == 0 && !(ret == -1))
+        tmp_if_expr$210 = (_Bool)1;
+
+      else
+      {
+        if(was == 1)
+        {
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$206 = (_Bool)1;
+
+            else
+            {
+              return_value_load$205=load();
+              tmp_if_expr$206 = return_value_load$205 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$207 = tmp_if_expr$206 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$207 = (_Bool)0;
+          if(tmp_if_expr$207)
+            0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$208 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            *tmp_post$208;
+          }
+          tmp_if_expr$209 = !(g.in_eof != 0) ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$209 = (_Bool)0;
+        tmp_if_expr$210 = tmp_if_expr$209 ? (_Bool)1 : (_Bool)0;
+      }
+      if(tmp_if_expr$210)
+        complain("warning: %s: trailing junk was ignored", g.inf);
+
+    }
+  }
+}
+
+// join
+// file yarn.h line 119
+void join(struct thread_s *ally)
+{
+  signed int ret;
+  struct thread_s *match;
+  struct thread_s **prior;
+  ret=pthread_join(ally->id, (void **)(void *)0);
+  if(!(ret == 0))
+    fail(ret);
+
+  possess(&threads_lock);
+  prior = &threads;
+  do
+  {
+    match = *prior;
+    if(match == ((struct thread_s *)NULL))
+      break;
+
+    if(match == ally)
+      break;
+
+    prior = &match->next;
+  }
+  while((_Bool)1);
+  if(match == ((struct thread_s *)NULL))
+    fail(22);
+
+  if(!(match->done == 0))
+    threads_lock.value = threads_lock.value - 1l;
+
+  *prior = match->next;
+  release(&threads_lock);
+  my_free((void *)ally);
+}
+
+// join_all
+// file yarn.h line 120
+signed int join_all(void)
+{
+  signed int ret;
+  signed int count;
+  struct thread_s *match;
+  struct thread_s **prior;
+  count = 0;
+  possess(&threads_lock);
+  if(!(threads == ((struct thread_s *)NULL)))
+  {
+    wait_for(&threads_lock, (enum wait_op)NOT_TO_BE, (signed long int)0);
+    prior = &threads;
+    do
+    {
+      match = *prior;
+      if(match == ((struct thread_s *)NULL))
+        break;
+
+      if(!(match->done == 0))
+        break;
+
+      prior = &match->next;
+    }
+    while((_Bool)1);
+    if(match == ((struct thread_s *)NULL))
+      fail(22);
+
+    ret=pthread_join(match->id, (void **)(void *)0);
+    if(!(ret == 0))
+      fail(ret);
+
+    threads_lock.value = threads_lock.value - 1l;
+    *prior = match->next;
+    my_free((void *)match);
+    count = count + 1;
+  }
+
+  release(&threads_lock);
+  return count;
+}
+
+// justname
+// file pigz.c line 3374
+static char * justname(char *path)
+{
+  char *p;
+  p=strrchr(path, 47);
+  return p == (char *)(void *)0 ? path : p + (signed long int)1;
+}
+
+// launch
+// file yarn.h line 118
+struct thread_s * launch(void (*probe)(void *), void *payload)
+{
+  signed int ret;
+  struct thread_s *th;
+  struct capsule *capsule;
+  union pthread_attr_t attr;
+  void *return_value_my_malloc$1;
+  return_value_my_malloc$1=my_malloc(sizeof(struct capsule) /*16ul*/ );
+  capsule = (struct capsule *)return_value_my_malloc$1;
+  capsule->probe = probe;
+  capsule->payload = payload;
+  possess(&threads_lock);
+  void *return_value_my_malloc$2;
+  return_value_my_malloc$2=my_malloc(sizeof(struct thread_s) /*24ul*/ );
+  th = (struct thread_s *)return_value_my_malloc$2;
+  ret=pthread_attr_init(&attr);
+  _Bool tmp_if_expr$3;
+  if(!(ret == 0))
+    tmp_if_expr$3 = (_Bool)1;
+
+  else
+  {
+    ret=pthread_attr_setdetachstate(&attr, 0);
+    tmp_if_expr$3 = ret != 0 ? (_Bool)1 : (_Bool)0;
+  }
+  _Bool tmp_if_expr$4;
+  if(tmp_if_expr$3)
+    tmp_if_expr$4 = (_Bool)1;
+
+  else
+  {
+    ret=pthread_create(&th->id, &attr, ignition, (void *)capsule);
+    tmp_if_expr$4 = ret != 0 ? (_Bool)1 : (_Bool)0;
+  }
+  _Bool tmp_if_expr$5;
+  if(tmp_if_expr$4)
+    tmp_if_expr$5 = (_Bool)1;
+
+  else
+  {
+    ret=pthread_attr_destroy(&attr);
+    tmp_if_expr$5 = ret != 0 ? (_Bool)1 : (_Bool)0;
+  }
+  if(tmp_if_expr$5)
+    fail(ret);
+
+  th->done = 0;
+  th->next = threads;
+  threads = th;
+  release(&threads_lock);
+  return th;
+}
+
+// list_info
+// file pigz.c line 2761
+static void list_info(void)
+{
+  signed int method;
+  unsigned long int n;
+  signed long int at;
+  unsigned char tail[8l];
+  unsigned long int check;
+  unsigned long int len;
+  in_init();
+  method=get_header(1);
+  unsigned long int tmp_post$2;
+  unsigned char *tmp_post$3;
+  unsigned long int return_value_load$1;
+  unsigned long int return_value_load$4;
+  if(!(method >= 0))
+  {
+    do
+      if(!(g.hname == ((char *)NULL)))
+      {
+        free((void *)g.hname);
+        g.hname = (char *)(void *)0;
+      }
+
+    while((_Bool)0);
+    if(g.verbosity >= 2 && !(method == -1))
+      complain(method != -6 ? "skipping: %s not compressed" : "skipping: %s corrupted: invalid header crc", g.inf);
+
+  }
+
+  else
+    if(g.form >= 2)
+    {
+      g.in_tot = (signed long int)g.zip_clen;
+      show_info(method, g.zip_crc, (signed long int)g.zip_ulen, 0);
+    }
+
+    else
+      if(g.form == 1)
+      {
+        at=lseek(g.ind, (signed long int)0, 2);
+        if(at == -1l)
+        {
+          check = (unsigned long int)0;
+          do
+          {
+            len = g.in_left < (unsigned long int)4 ? g.in_left : (unsigned long int)4;
+            g.in_next = g.in_next + (signed long int)(g.in_left - len);
+            do
+            {
+              tmp_post$2 = len;
+              len = len - 1ul;
+              if(tmp_post$2 == 0ul)
+                break;
+
+              tmp_post$3 = g.in_next;
+              g.in_next = g.in_next + 1l;
+              check = (check << 8) + (unsigned long int)*tmp_post$3;
+            }
+            while((_Bool)1);
+            return_value_load$1=load();
+          }
+          while(!(return_value_load$1 == 0ul));
+          check = check & 0xffffffffUL;
+        }
+
+        else
+        {
+          g.in_tot = at;
+          lseek(g.ind, (signed long int)-4, 2);
+          readn(g.ind, tail, (unsigned long int)4);
+          check = ((unsigned long int)(((unsigned int)tail[(signed long int)0] << 8) + (unsigned int)tail[(signed long int)1]) << 16) + (unsigned long int)(((unsigned int)(tail + (signed long int)2)[(signed long int)0] << 8) + (unsigned int)(tail + (signed long int)2)[(signed long int)1]);
+        }
+        g.in_tot = g.in_tot - (signed long int)6;
+        show_info(method, check, (signed long int)0, 0);
+      }
+
+      else
+      {
+        if(method == 257)
+        {
+          at=lseek(g.ind, (signed long int)0, 2);
+          if(at == -1l)
+            do
+            {
+              return_value_load$4=load();
+              if(return_value_load$4 == 0ul)
+                break;
+
+            }
+            while((_Bool)1);
+
+          else
+            g.in_tot = at;
+          g.in_tot = g.in_tot - (signed long int)3;
+          show_info(method, (unsigned long int)0, (signed long int)0, 0);
+          goto __CPROVER_DUMP_L30;
+        }
+
+        if(!(g.in_short == 0))
+        {
+          if(!(g.in_left >= 8ul))
+          {
+            complain("skipping: %s not a valid gzip file", g.inf);
+            goto __CPROVER_DUMP_L30;
+          }
+
+          g.in_tot = (signed long int)(g.in_left - (unsigned long int)8);
+          memcpy((void *)tail, (const void *)(g.in_next + (signed long int)(g.in_left - (unsigned long int)8)), (unsigned long int)8);
+        }
+
+        else
+        {
+          at=lseek(g.ind, (signed long int)-8, 2);
+          if(!(at == -1l))
+          {
+            g.in_tot = (signed long int)((unsigned long int)(at - g.in_tot) + g.in_left);
+            readn(g.ind, tail, (unsigned long int)8);
+          }
+
+          else
+          {
+            at = (signed long int)((unsigned long int)g.in_tot - g.in_left);
+            do
+            {
+              n = g.in_left < (unsigned long int)8 ? g.in_left : (unsigned long int)8;
+              memcpy((void *)tail, (const void *)(g.in_next + (signed long int)(g.in_left - n)), n);
+              load();
+            }
+            while(g.in_left == 32768ul);
+            if(!(g.in_left >= 8ul))
+            {
+              if(!(g.in_left + n >= 8ul))
+              {
+                complain("skipping: %s not a valid gzip file", g.inf);
+                goto __CPROVER_DUMP_L30;
+              }
+
+              if(!(g.in_left == 0ul))
+              {
+                if(g.in_left + n >= 9ul)
+                  memcpy((void *)tail, (const void *)((tail + (signed long int)n) - (signed long int)((unsigned long int)8 - g.in_left)), (unsigned long int)8 - g.in_left);
+
+                memcpy((void *)((tail + (signed long int)8) - (signed long int)g.in_left), (const void *)g.in_next, g.in_left);
+              }
+
+            }
+
+            else
+              memcpy((void *)tail, (const void *)(g.in_next + (signed long int)(g.in_left - (unsigned long int)8)), (unsigned long int)8);
+            g.in_tot = g.in_tot - (at + (signed long int)8);
+          }
+        }
+        if(!(g.in_tot >= 2l))
+          complain("skipping: %s not a valid gzip file", g.inf);
+
+        else
+        {
+          check = (unsigned long int)((unsigned int)tail[(signed long int)0] + ((unsigned int)tail[(signed long int)1] << 8)) + ((unsigned long int)((unsigned int)(tail + (signed long int)2)[(signed long int)0] + ((unsigned int)(tail + (signed long int)2)[(signed long int)1] << 8)) << 16);
+          len = (unsigned long int)((unsigned int)(tail + (signed long int)4)[(signed long int)0] + ((unsigned int)(tail + (signed long int)4)[(signed long int)1] << 8)) + ((unsigned long int)((unsigned int)(tail + (signed long int)4 + (signed long int)2)[(signed long int)0] + ((unsigned int)(tail + (signed long int)4 + (signed long int)2)[(signed long int)1] << 8)) << 16);
+          show_info(method, check, (signed long int)len, 0);
+          do
+            if(!(g.hname == ((char *)NULL)))
+            {
+              free((void *)g.hname);
+              g.hname = (char *)(void *)0;
+            }
+
+          while((_Bool)0);
+        }
+      }
+
+__CPROVER_DUMP_L30:
+  ;
+}
+
+// load
+// file pigz.c line 2294
+static unsigned long int load(void)
+{
+  unsigned char *tmp_if_expr$1;
+  if(!(g.in_short == 0))
+  {
+    g.in_eof = 1;
+    g.in_left = (unsigned long int)0;
+    return (unsigned long int)0;
+  }
+
+  else
+  {
+    if(g.procs >= 2)
+    {
+      if(g.in_which == -1)
+      {
+        g.in_which = 1;
+        g.load_state=new_lock((signed long int)1);
+        g.load_thread=launch(load_read, (void *)0);
+      }
+
+      possess(g.load_state);
+      wait_for(g.load_state, (enum wait_op)TO_BE, (signed long int)0);
+      release(g.load_state);
+      if(!(g.in_which == 0))
+        tmp_if_expr$1 = g.in_buf;
+
+      else
+        tmp_if_expr$1 = g.in_buf2;
+      g.in_next = tmp_if_expr$1;
+      g.in_left = g.in_len;
+      if(g.in_len == 32768ul)
+      {
+        g.in_which = 1 - g.in_which;
+        possess(g.load_state);
+        twist(g.load_state, (enum twist_op)TO, (signed long int)1);
+      }
+
+      else
+      {
+        join(g.load_thread);
+        free_lock(g.load_state);
+        g.in_which = -1;
+      }
+    }
+
+    else
+    {
+      g.in_next = g.in_buf;
+      g.in_left=readn(g.ind, g.in_next, (unsigned long int)32768U);
+    }
+    if(!(g.in_left >= 32768ul))
+    {
+      g.in_short = 1;
+      if(g.in_left == 0ul)
+        g.in_eof = 1;
+
+    }
+
+    g.in_tot = g.in_tot + (signed long int)g.in_left;
+    return g.in_left;
+  }
+}
+
+// load_read
+// file pigz.c line 2264
+static void load_read(void *dummy)
+{
+  unsigned long int len;
+  struct anonymous err;
+  (void)dummy;
+  unsigned char *tmp_if_expr$2;
+  do
+  {
+    struct try_s_ try_this_;
+    signed int try_pushed_ = 1;
+    try_this_.ball.code = 0;
+    try_this_.ball.free = 0;
+    try_this_.ball.why = (char *)(void *)0;
+    try_setup_();
+    void *return_value_pthread_getspecific$1;
+    return_value_pthread_getspecific$1=pthread_getspecific(try_key_);
+    try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$1;
+    do
+    {
+      signed int load_read$$1$$1$$1$$try_ret_;
+      load_read$$1$$1$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)&try_this_);
+      /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+      assert(load_read$$1$$1$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+    }
+    while((_Bool)0);
+    signed int return_value__setjmp$3;
+    return_value__setjmp$3=_setjmp(try_this_.env);
+    if(!(return_value__setjmp$3 >= 2))
+      do
+      {
+
+      __CPROVER_DUMP_L3:
+        ;
+        possess(g.load_state);
+        wait_for(g.load_state, (enum wait_op)TO_BE, (signed long int)1);
+        if(!(g.in_which == 0))
+          tmp_if_expr$2 = g.in_buf;
+
+        else
+          tmp_if_expr$2 = g.in_buf2;
+        len=readn(g.ind, tmp_if_expr$2, (unsigned long int)32768U);
+        g.in_len = len;
+        twist(g.load_state, (enum twist_op)TO, (signed long int)0);
+        if(len == 32768ul)
+          goto __CPROVER_DUMP_L3;
+
+      }
+      while((_Bool)0);
+
+    if(!(try_pushed_ == 0))
+    {
+      do
+      {
+        signed int try_ret_;
+        try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      try_pushed_ = 0;
+    }
+
+    err = try_this_.ball;
+  }
+  while((_Bool)0);
+  if(!(err.code == 0))
+    do
+    {
+      complain("abort: %s", err.why);
+      do
+        if(!(err.free == 0))
+        {
+          free((void *)err.why);
+          err.free = 0;
+          err.why = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      cut_short(-err.code);
+    }
+    while((_Bool)0);
+
+}
+
+// main
+// file pigz.c line 4056
+signed int main(signed int argc, char **argv)
+{
+  signed int n;
+  signed int noop;
+  unsigned long int done;
+  char *opts;
+  char *p;
+  struct anonymous err;
+  char *tmp_if_expr$2;
+  _Bool tmp_if_expr$7;
+  signed int return_value_strcmp$6;
+  signed int return_value_strcmp$8;
+  signed int return_value_isatty$10;
+  _Bool tmp_if_expr$16;
+  signed int return_value_strcmp$15;
+  _Bool tmp_if_expr$14;
+  signed int return_value_option$13;
+  char *tmp_if_expr$12;
+  do
+  {
+    struct try_s_ try_this_;
+    signed int try_pushed_ = 1;
+    try_this_.ball.code = 0;
+    try_this_.ball.free = 0;
+    try_this_.ball.why = (char *)(void *)0;
+    try_setup_();
+    void *return_value_pthread_getspecific$1;
+    return_value_pthread_getspecific$1=pthread_getspecific(try_key_);
+    try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$1;
+    do
+    {
+      signed int main$$1$$1$$1$$try_ret_;
+      main$$1$$1$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)&try_this_);
+      /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+      assert(main$$1$$1$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+    }
+    while((_Bool)0);
+    signed int return_value__setjmp$17;
+    return_value__setjmp$17=_setjmp(try_this_.env);
+    if(!(return_value__setjmp$17 >= 2))
+      do
+      {
+        g.inf = (char *)(void *)0;
+        g.inz = (unsigned long int)0;
+        g.outf = (char *)(void *)0;
+        g.first = 1;
+        g.hname = (char *)(void *)0;
+        p=strrchr(argv[(signed long int)0], 47);
+        if(p == ((char *)NULL))
+          tmp_if_expr$2 = argv[(signed long int)0];
+
+        else
+          tmp_if_expr$2 = p + (signed long int)1;
+        p = tmp_if_expr$2;
+        g.prog = *p != 0 ? p : "pigz";
+        signal(2, cut_short);
+        yarn_prefix = g.prog;
+        yarn_abort = cut_yarn;
+        defaults();
+        opts=getenv("GZIP");
+        if(!(opts == ((char *)NULL)))
+        {
+          while(!(*opts == 0))
+          {
+            for( ; (_Bool)1; opts = opts + 1l)
+              if(!((signed int)*opts == 32))
+              {
+                if(!((signed int)*opts == 9))
+                  goto __CPROVER_DUMP_L9;
+
+              }
+
+
+          __CPROVER_DUMP_L9:
+            ;
+            p = opts;
+            for( ; !(*p == 0); p = p + 1l)
+            {
+              if((signed int)*p == 32)
+                break;
+
+              if((signed int)*p == 9)
+                break;
+
+            }
+            n = (signed int)*p;
+            *p = (char)0;
+            signed int return_value_option$3;
+            return_value_option$3=option(opts);
+            if(!(return_value_option$3 == 0))
+              try_throw_(22, "cannot provide files in GZIP environment variable", (void *)0);
+
+            opts = p + (signed long int)(n != 0 ? 1 : 0);
+          }
+          option((char *)(void *)0);
+        }
+
+        opts=getenv("PIGZ");
+        if(!(opts == ((char *)NULL)))
+        {
+          while(!(*opts == 0))
+          {
+            for( ; (_Bool)1; opts = opts + 1l)
+              if(!((signed int)*opts == 32))
+              {
+                if(!((signed int)*opts == 9))
+                  goto __CPROVER_DUMP_L18;
+
+              }
+
+
+          __CPROVER_DUMP_L18:
+            ;
+            p = opts;
+            for( ; !(*p == 0); p = p + 1l)
+            {
+              if((signed int)*p == 32)
+                break;
+
+              if((signed int)*p == 9)
+                break;
+
+            }
+            n = (signed int)*p;
+            *p = (char)0;
+            signed int return_value_option$4;
+            return_value_option$4=option(opts);
+            if(!(return_value_option$4 == 0))
+              try_throw_(22, "cannot provide files in PIGZ environment variable", (void *)0);
+
+            opts = p + (signed long int)(n != 0 ? 1 : 0);
+          }
+          option((char *)(void *)0);
+        }
+
+        signed int return_value_strcmp$5;
+        return_value_strcmp$5=strcmp(g.prog, "unpigz");
+        if(return_value_strcmp$5 == 0)
+          tmp_if_expr$7 = (_Bool)1;
+
+        else
+        {
+          return_value_strcmp$6=strcmp(g.prog, "gunzip");
+          tmp_if_expr$7 = return_value_strcmp$6 == 0 ? (_Bool)1 : (_Bool)0;
+        }
+        if(tmp_if_expr$7)
+        {
+          if(g.decode == 0)
+            g.headis = g.headis >> 2;
+
+          g.decode = 1;
+        }
+
+        unsigned long int return_value_strlen$9;
+        return_value_strlen$9=strlen(g.prog);
+        n = (signed int)return_value_strlen$9;
+        if(n >= 3)
+        {
+          return_value_strcmp$8=strcmp((g.prog + (signed long int)n) - (signed long int)3, "cat");
+          if(return_value_strcmp$8 == 0)
+          {
+            if(g.decode == 0)
+              g.headis = g.headis >> 2;
+
+            g.decode = 1;
+            g.pipeout = 1;
+          }
+
+        }
+
+        if(!(argc >= 2))
+        {
+          return_value_isatty$10=isatty(g.decode != 0 ? 0 : 1);
+          if(!(return_value_isatty$10 == 0))
+            help();
+
+        }
+
+        noop = 0;
+        done = (unsigned long int)noop;
+        n = 1;
+        for( ; !(n >= argc); n = n + 1)
+        {
+          if(noop == 0)
+          {
+            return_value_strcmp$15=strcmp(argv[(signed long int)n], "--");
+            tmp_if_expr$16 = return_value_strcmp$15 == 0 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$16 = (_Bool)0;
+          if(tmp_if_expr$16)
+          {
+            noop = 1;
+            option((char *)(void *)0);
+          }
+
+          else
+          {
+            if(!(noop == 0))
+              tmp_if_expr$14 = (_Bool)1;
+
+            else
+            {
+              return_value_option$13=option(argv[(signed long int)n]);
+              tmp_if_expr$14 = return_value_option$13 != 0 ? (_Bool)1 : (_Bool)0;
+            }
+            if(tmp_if_expr$14)
+            {
+              if(g.decode == 0 && g.list == 0 && done == 1ul && g.form >= 2 && !(g.pipeout == 0))
+                complain("warning: output will be concatenated zip files -- %s will not be able to extract", g.prog);
+
+              signed int return_value_strcmp$11;
+              return_value_strcmp$11=strcmp(argv[(signed long int)n], "-");
+              if(!(return_value_strcmp$11 == 0))
+                tmp_if_expr$12 = argv[(signed long int)n];
+
+              else
+                tmp_if_expr$12 = (char *)(void *)0;
+              process(tmp_if_expr$12);
+              done = done + 1ul;
+            }
+
+          }
+        }
+        option((char *)(void *)0);
+        if(done == 0ul)
+          process((char *)(void *)0);
+
+      }
+      while((_Bool)0);
+
+    if(!(try_pushed_ == 0))
+    {
+      do
+      {
+        signed int main$$1$$1$$3$$1$$try_ret_;
+        main$$1$$1$$3$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(main$$1$$1$$3$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      try_pushed_ = 0;
+    }
+
+
+  __CPROVER_DUMP_L45:
+    ;
+    do
+    {
+      if(!(g.inf == ((char *)NULL)))
+      {
+        free((void *)g.inf);
+        g.inf = (char *)(void *)0;
+      }
+
+      g.inz = (unsigned long int)0;
+      new_opts();
+    }
+    while((_Bool)0);
+    if(!(try_pushed_ == 0))
+    {
+      do
+      {
+        signed int try_ret_;
+        try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      try_pushed_ = 0;
+    }
+
+    err = try_this_.ball;
+  }
+  while((_Bool)0);
+  if(!(err.code == 0))
+    do
+    {
+      complain("abort: %s", err.why);
+      do
+        if(!(err.free == 0))
+        {
+          free((void *)err.why);
+          err.free = 0;
+          err.why = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      cut_short(-err.code);
+    }
+    while((_Bool)0);
+
+  return 0;
+}
+
+// my_malloc
+// file yarn.c line 81
+static void * my_malloc(unsigned long int size)
+{
+  void *block;
+  block=my_malloc_f(size);
+  if(block == NULL)
+    fail(12);
+
+  return block;
+}
+
+// new_lock
+// file yarn.h line 124
+struct lock_s * new_lock(signed long int initial)
+{
+  signed int ret;
+  struct lock_s *bolt;
+  void *return_value_my_malloc$1;
+  return_value_my_malloc$1=my_malloc(sizeof(struct lock_s) /*96ul*/ );
+  bolt = (struct lock_s *)return_value_my_malloc$1;
+  ret=pthread_mutex_init(&bolt->mutex, (const union anonymous$7 *)(void *)0);
+  _Bool tmp_if_expr$2;
+  if(!(ret == 0))
+    tmp_if_expr$2 = (_Bool)1;
+
+  else
+  {
+    ret=pthread_cond_init(&bolt->cond, (const union anonymous$7 *)(void *)0);
+    tmp_if_expr$2 = ret != 0 ? (_Bool)1 : (_Bool)0;
+  }
+  if(tmp_if_expr$2)
+    fail(ret);
+
+  bolt->value = initial;
+  return bolt;
+}
+
+// new_opts
+// file pigz.c line 3873
+static void new_opts(void)
+{
+  single_compress(1);
+  finish_jobs();
+}
+
+// new_pool
+// file pigz.c line 1245
+static void new_pool(struct pool *pool, unsigned long int size, signed int limit)
+{
+  pool->have=new_lock((signed long int)0);
+  pool->head = (struct space *)(void *)0;
+  pool->size = size;
+  pool->limit = limit;
+  pool->made = 0;
+}
+
+// nprocs
+// file pigz.c line 3804
+static signed int nprocs(signed int n)
+{
+  signed long int return_value_sysconf$1;
+  return_value_sysconf$1=sysconf(84);
+  n = (signed int)return_value_sysconf$1;
+  return n;
+}
+
+// num
+// file pigz.c line 3882
+static unsigned long int num(char *arg)
+{
+  char *str = arg;
+  unsigned long int val = (unsigned long int)0;
+  if((signed int)*str == 0)
+    try_throw_(22, "internal error: empty parameter", (void *)0);
+
+  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr$2;
+  do
+  {
+    if(!((signed int)*str >= 48))
+      tmp_if_expr$1 = (_Bool)1;
+
+    else
+      tmp_if_expr$1 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr$1)
+      tmp_if_expr$3 = (_Bool)1;
+
+    else
+    {
+      if(!(val == 0ul))
+        tmp_if_expr$2 = (~((unsigned long int)0) - (unsigned long int)((signed int)*str - 48)) / val < (unsigned long int)10 ? (_Bool)1 : (_Bool)0;
+
+      else
+        tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$3)
+      try_throw_(22, "invalid numeric parameter: %s", arg, (void *)0);
+
+    val = val * (unsigned long int)10 + (unsigned long int)((signed int)*str - 48);
+    str = str + 1l;
+  }
+  while(!(*str == 0));
+  return val;
+}
+
+// option
+// file pigz.c line 3899
+static signed int option(char *arg)
+{
+  char bad[3l] = { '-', 'X', 0 };
+  _Bool tmp_if_expr$1;
+  static signed int get = 0;
+  if(!(get == 0))
+  {
+    if(arg == ((char *)NULL))
+      tmp_if_expr$1 = (_Bool)1;
+
+    else
+      tmp_if_expr$1 = (signed int)*arg == 45 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr$1)
+    {
+      bad[(signed long int)1] = "bpSIM"[(signed long int)(get - 1)];
+      try_throw_(22, "missing parameter after %s", (const void *)bad, (void *)0);
+    }
+
+  }
+
+  signed int return_value_strcmp$2;
+  unsigned long int return_value_num$3;
+  unsigned long int return_value_num$4;
+  if(arg == ((char *)NULL))
+    return 0;
+
+  else
+    if((signed int)*arg == 45)
+    {
+      arg = arg + 1l;
+      if((signed int)*arg == 0)
+        return 1;
+
+      if((signed int)*arg == 45)
+      {
+        signed int j;
+        arg = arg + 1l;
+        j = (signed int)(sizeof(char *[34l][2l]) /*544ul*/  / (sizeof(char *) /*8ul*/  << 1) - (unsigned long int)1);
+        for( ; j >= 0; j = j - 1)
+        {
+          return_value_strcmp$2=strcmp(arg, longopts[(signed long int)j][(signed long int)0]);
+          if(return_value_strcmp$2 == 0)
+          {
+            arg = longopts[(signed long int)j][(signed long int)1];
+            break;
+          }
+
+        }
+        if(!(j >= 0))
+          try_throw_(22, "invalid option: %s", arg - (signed long int)2, (void *)0);
+
+      }
+
+      while((_Bool)1)
+      {
+        if(!(get == 0))
+        {
+          if(get == 3)
+            try_throw_(22, "invalid usage: -s must be followed by space", (void *)0);
+
+          goto __CPROVER_DUMP_L49;
+        }
+
+        bad[(signed long int)1] = *arg;
+        switch((signed int)*arg)
+        {
+          case 48:
+
+          case 49:
+
+          case 50:
+
+          case 51:
+
+          case 52:
+
+          case 53:
+
+          case 54:
+
+          case 55:
+
+          case 56:
+
+          case 57:
+          {
+            g.level = (signed int)*arg - 48;
+            for( ; (signed int)arg[1l] >= 48; g.level = (g.level * 10 + (signed int)*arg) - 48)
+            {
+              if((signed int)arg[1l] >= 58)
+                break;
+
+              if(!(g.level == 0))
+              {
+                if(!((0x7fffffff + -((signed int)arg[1l] + -48)) / g.level >= 10))
+                  try_throw_(22, "only levels 0..9 and 11 are allowed", (void *)0);
+
+              }
+
+              arg = arg + 1l;
+            }
+            if(g.level == 10 || g.level >= 12)
+              try_throw_(22, "only levels 0..9 and 11 are allowed", (void *)0);
+
+            new_opts();
+            break;
+          }
+          case 70:
+          {
+            g.zopts.blocksplittinglast = 1;
+            break;
+          }
+          case 73:
+          {
+            get = 4;
+            break;
+          }
+          case 75:
+          {
+            g.form = 2;
+            g.sufx = ".zip";
+            break;
+          }
+          case 76:
+          {
+            fputs("pigz 2.3.3\n", stderr);
+            fputs("Copyright (C) 2007-2015 Mark Adler\n", stderr);
+            fputs("Subject to the terms of the zlib license.\n", stderr);
+            fputs("No warranty is provided or implied.\n", stderr);
+            exit(0);
+          }
+          case 77:
+          {
+            get = 5;
+            break;
+          }
+          case 78:
+          {
+            g.headis = g.headis | 0xf;
+            break;
+          }
+          case 79:
+          {
+            g.zopts.blocksplitting = 0;
+            break;
+          }
+          case 82:
+          {
+            g.rsync = 1;
+            break;
+          }
+          case 83:
+          {
+            get = 3;
+            break;
+          }
+          case 84:
+          {
+            g.headis = g.headis & ~0xa;
+            break;
+          }
+          case 86:
+          {
+            fputs("pigz 2.3.3\n", stderr);
+            exit(0);
+          }
+          case 90:
+            try_throw_(22, "invalid option: LZW output not supported: %s", (const void *)bad, (void *)0);
+          case 97:
+            try_throw_(22, "invalid option: no ascii conversion: %s", (const void *)bad, (void *)0);
+          case 98:
+          {
+            get = 1;
+            break;
+          }
+          case 99:
+          {
+            g.pipeout = 1;
+            break;
+          }
+          case 100:
+          {
+            if(g.decode == 0)
+              g.headis = g.headis >> 2;
+
+            g.decode = 1;
+            break;
+          }
+          case 102:
+          {
+            g.force = 1;
+            break;
+          }
+          case 104:
+          {
+            help();
+            break;
+          }
+          case 105:
+          {
+            g.setdict = 0;
+            break;
+          }
+          case 107:
+          {
+            g.keep = 1;
+            break;
+          }
+          case 108:
+          {
+            g.list = 1;
+            break;
+          }
+          case 110:
+          {
+            g.headis = g.headis & ~5;
+            break;
+          }
+          case 112:
+          {
+            get = 2;
+            break;
+          }
+          case 113:
+          {
+            g.verbosity = 0;
+            break;
+          }
+          case 114:
+          {
+            g.recurse = 1;
+            break;
+          }
+          case 116:
+          {
+            g.decode = 2;
+            break;
+          }
+          case 118:
+          {
+            g.verbosity = g.verbosity + 1;
+            break;
+          }
+          case 122:
+          {
+            g.form = 1;
+            g.sufx = ".zz";
+            break;
+          }
+          default:
+            try_throw_(22, "invalid option: %s", (const void *)bad, (void *)0);
+        }
+        arg = arg + 1l;
+        if(*arg == 0)
+          break;
+
+      }
+
+    __CPROVER_DUMP_L49:
+      ;
+      if(!((signed int)*arg == 0))
+        goto __CPROVER_DUMP_L50;
+
+      return 0;
+    }
+
+    else
+    {
+
+    __CPROVER_DUMP_L50:
+      ;
+      if(!(get == 0))
+      {
+        unsigned long int n;
+        if(get == 1)
+        {
+          n=num(arg);
+          g.block = n << 10;
+          if(!(g.block >= 32768ul))
+            try_throw_(22, "block size too small (must be >= 32K)", (void *)0);
+
+          if(g.block >= 536870913ul || !(n == g.block >> 10) || !(32768l + (signed long int)(g.block >> 4) + (signed long int)g.block >= 0l) || !(32768ul + (g.block >> 4) + g.block >= g.block))
+            try_throw_(22, "block size too large: %s", arg, (void *)0);
+
+          new_opts();
+        }
+
+        else
+          if(get == 2)
+          {
+            n=num(arg);
+            g.procs = (signed int)n;
+            if(!(g.procs >= 1))
+              try_throw_(22, "invalid number of processes: %s", arg, (void *)0);
+
+            if(!((unsigned long int)g.procs == n) || !(3 + (g.procs << 1) >= 1))
+              try_throw_(22, "too many processes: %s", arg, (void *)0);
+
+            new_opts();
+          }
+
+          else
+            if(get == 3)
+              g.sufx = arg;
+
+            else
+              if(get == 4)
+              {
+                return_value_num$3=num(arg);
+                g.zopts.numiterations = (signed int)return_value_num$3;
+              }
+
+              else
+                if(get == 5)
+                {
+                  return_value_num$4=num(arg);
+                  g.zopts.blocksplittingmax = (signed int)return_value_num$4;
+                }
+
+        get = 0;
+        return 0;
+      }
+
+      return 1;
+    }
+}
+
+// outb
+// file pigz.c line 2974
+static signed int outb(void *desc, unsigned char *buf, unsigned int len)
+{
+  unsigned long int tmp_if_expr$3;
+  unsigned long int return_value_adler32$1;
+  unsigned long int return_value_crc32$2;
+  if(g.procs >= 2)
+  {
+    static struct thread_s *ch;
+    static struct thread_s *wr;
+    if(outb_write_more == ((struct lock_s *)NULL))
+    {
+      outb_write_more=new_lock((signed long int)0);
+      outb_check_more=new_lock((signed long int)0);
+      wr=launch(outb_write, (void *)0);
+      ch=launch(outb_check, (void *)0);
+    }
+
+    possess(outb_check_more);
+    wait_for(outb_check_more, (enum wait_op)TO_BE, (signed long int)0);
+    possess(outb_write_more);
+    wait_for(outb_write_more, (enum wait_op)TO_BE, (signed long int)0);
+    out_len = (unsigned long int)len;
+    g.out_tot = g.out_tot + (signed long int)len;
+    memcpy((void *)out_copy, (const void *)buf, (unsigned long int)len);
+    twist(outb_write_more, (enum twist_op)TO, (signed long int)1);
+    twist(outb_check_more, (enum twist_op)TO, (signed long int)1);
+    if(len == 0u && !(outb_write_more == ((struct lock_s *)NULL)))
+    {
+      if(!(desc == NULL))
+      {
+        destruct(ch);
+        destruct(wr);
+      }
+
+      else
+      {
+        join(ch);
+        join(wr);
+      }
+      free_lock(outb_check_more);
+      free_lock(outb_write_more);
+      outb_write_more = (struct lock_s *)(void *)0;
+    }
+
+    return 0;
+  }
+
+  else
+  {
+    (void)desc;
+    if(!(len == 0u))
+    {
+      if(g.decode == 1)
+        writen(g.outd, buf, (unsigned long int)len);
+
+      if(g.form == 1)
+      {
+        return_value_adler32$1=adler32(g.out_check, buf, len);
+        tmp_if_expr$3 = return_value_adler32$1;
+      }
+
+      else
+      {
+        return_value_crc32$2=crc32(g.out_check, buf, len);
+        tmp_if_expr$3 = return_value_crc32$2;
+      }
+      g.out_check = tmp_if_expr$3;
+      g.out_tot = g.out_tot + (signed long int)len;
+    }
+
+    return 0;
+  }
+}
+
+// outb_check
+// file pigz.c line 2945
+static void outb_check(void *dummy)
+{
+  unsigned long int len;
+  struct anonymous err;
+  (void)dummy;
+  unsigned long int tmp_if_expr$4;
+  unsigned long int return_value_adler32$2;
+  unsigned long int return_value_crc32$3;
+  do
+  {
+    struct try_s_ try_this_;
+    signed int try_pushed_ = 1;
+    try_this_.ball.code = 0;
+    try_this_.ball.free = 0;
+    try_this_.ball.why = (char *)(void *)0;
+    try_setup_();
+    void *return_value_pthread_getspecific$1;
+    return_value_pthread_getspecific$1=pthread_getspecific(try_key_);
+    try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$1;
+    do
+    {
+      signed int outb_check$$1$$1$$1$$try_ret_;
+      outb_check$$1$$1$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)&try_this_);
+      /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+      assert(outb_check$$1$$1$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+    }
+    while((_Bool)0);
+    signed int return_value__setjmp$5;
+    return_value__setjmp$5=_setjmp(try_this_.env);
+    if(!(return_value__setjmp$5 >= 2))
+      do
+      {
+
+      __CPROVER_DUMP_L3:
+        ;
+        possess(outb_check_more);
+        wait_for(outb_check_more, (enum wait_op)TO_BE, (signed long int)1);
+        len = out_len;
+        if(g.form == 1)
+        {
+          return_value_adler32$2=adler32(g.out_check, out_copy, (unsigned int)len);
+          tmp_if_expr$4 = return_value_adler32$2;
+        }
+
+        else
+        {
+          return_value_crc32$3=crc32(g.out_check, out_copy, (unsigned int)len);
+          tmp_if_expr$4 = return_value_crc32$3;
+        }
+        g.out_check = tmp_if_expr$4;
+        twist(outb_check_more, (enum twist_op)TO, (signed long int)0);
+        if(!(len == 0ul))
+          goto __CPROVER_DUMP_L3;
+
+      }
+      while((_Bool)0);
+
+    if(!(try_pushed_ == 0))
+    {
+      do
+      {
+        signed int try_ret_;
+        try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      try_pushed_ = 0;
+    }
+
+    err = try_this_.ball;
+  }
+  while((_Bool)0);
+  if(!(err.code == 0))
+    do
+    {
+      complain("abort: %s", err.why);
+      do
+        if(!(err.free == 0))
+        {
+          free((void *)err.why);
+          err.free = 0;
+          err.why = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      cut_short(-err.code);
+    }
+    while((_Bool)0);
+
+}
+
+// outb_write
+// file pigz.c line 2919
+static void outb_write(void *dummy)
+{
+  unsigned long int len;
+  struct anonymous err;
+  (void)dummy;
+  do
+  {
+    struct try_s_ try_this_;
+    signed int try_pushed_ = 1;
+    try_this_.ball.code = 0;
+    try_this_.ball.free = 0;
+    try_this_.ball.why = (char *)(void *)0;
+    try_setup_();
+    void *return_value_pthread_getspecific$1;
+    return_value_pthread_getspecific$1=pthread_getspecific(try_key_);
+    try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$1;
+    do
+    {
+      signed int try_ret_;
+      try_ret_=pthread_setspecific(try_key_, (const void *)&try_this_);
+      /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+      assert(try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+    }
+    while((_Bool)0);
+    signed int return_value__setjmp$2;
+    return_value__setjmp$2=_setjmp(try_this_.env);
+    if(!(return_value__setjmp$2 >= 2))
+      do
+      {
+
+      __CPROVER_DUMP_L3:
+        ;
+        possess(outb_write_more);
+        wait_for(outb_write_more, (enum wait_op)TO_BE, (signed long int)1);
+        len = out_len;
+        if(g.decode == 1 && !(len == 0ul))
+          writen(g.outd, out_copy, len);
+
+        twist(outb_write_more, (enum twist_op)TO, (signed long int)0);
+        if(!(len == 0ul))
+          goto __CPROVER_DUMP_L3;
+
+      }
+      while((_Bool)0);
+
+    if(!(try_pushed_ == 0))
+    {
+      do
+      {
+        signed int outb_write$$1$$1$$3$$1$$try_ret_;
+        outb_write$$1$$1$$3$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(outb_write$$1$$1$$3$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      try_pushed_ = 0;
+    }
+
+    err = try_this_.ball;
+  }
+  while((_Bool)0);
+  if(!(err.code == 0))
+    do
+    {
+      complain("abort: %s", err.why);
+      do
+        if(!(err.free == 0))
+        {
+          free((void *)err.why);
+          err.free = 0;
+          err.why = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      cut_short(-err.code);
+    }
+    while((_Bool)0);
+
+}
+
+// parallel_compress
+// file pigz.c line 1828
+static void parallel_compress(void)
+{
+  signed long int seq;
+  struct space *curr;
+  struct space *next;
+  struct space *hold;
+  struct space *dict;
+  struct job *job;
+  signed int more;
+  unsigned int hash;
+  unsigned char *scan;
+  unsigned char *end;
+  unsigned char *last;
+  unsigned long int left;
+  unsigned long int len;
+  setup_jobs();
+  writeth=launch(write_thread, (void *)0);
+  seq = (signed long int)0;
+  next=get_space(&in_pool);
+  next->len=readn(g.ind, next->buf, next->size);
+  hold = (struct space *)(void *)0;
+  dict = (struct space *)(void *)0;
+  scan = next->buf;
+  hash = (1U << 12) - (unsigned int)1 >> 1;
+  left = (unsigned long int)0;
+  unsigned char *tmp_post$2;
+  unsigned char *tmp_post$3;
+  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr$5;
+  do
+  {
+    void *return_value_alloc$1;
+    return_value_alloc$1=alloc((void *)0, sizeof(struct job) /*64ul*/ );
+    job = (struct job *)return_value_alloc$1;
+    job->calc=new_lock((signed long int)0);
+    curr = next;
+    next = hold;
+    hold = (struct space *)(void *)0;
+    if(next == ((struct space *)NULL))
+    {
+      next=get_space(&in_pool);
+      next->len=readn(g.ind, next->buf, next->size);
+    }
+
+    job->lens = (struct space *)(void *)0;
+    if(!(g.rsync == 0))
+    {
+      if(!(curr->len == 0ul))
+      {
+        if(left == 0ul)
+        {
+          last = curr->buf;
+          end = curr->buf + (signed long int)curr->len;
+          while(!(scan >= end))
+          {
+            tmp_post$2 = scan;
+            scan = scan + 1l;
+            hash = (hash << 1 ^ (unsigned int)*tmp_post$2) & (1U << 12) - (unsigned int)1;
+            if(hash == 2047u)
+            {
+              len = (unsigned long int)(scan - last);
+              append_len(job, len);
+              last = scan;
+            }
+
+          }
+          left = (unsigned long int)(scan - last);
+          scan = next->buf;
+        }
+
+        last = next->buf;
+        len = curr->size - curr->len;
+        if(!(next->len >= len))
+          len = next->len;
+
+        end = next->buf + (signed long int)len;
+        while(!(scan >= end))
+        {
+          tmp_post$3 = scan;
+          scan = scan + 1l;
+          hash = (hash << 1 ^ (unsigned int)*tmp_post$3) & (1U << 12) - (unsigned int)1;
+          if(hash == 2047u)
+          {
+            len = (unsigned long int)(scan - last) + left;
+            left = (unsigned long int)0;
+            append_len(job, len);
+            last = scan;
+          }
+
+        }
+        append_len(job, (unsigned long int)0);
+        len = (unsigned long int)((job->lens->len == (unsigned long int)1 ? scan : last) - next->buf);
+        if(!(len == 0ul))
+        {
+          memcpy((void *)(curr->buf + (signed long int)curr->len), (const void *)next->buf, len);
+          curr->len = curr->len + len;
+          memmove((void *)next->buf, (const void *)(next->buf + (signed long int)len), next->len - len);
+          next->len = next->len - len;
+          scan = scan - (signed long int)len;
+          left = (unsigned long int)0;
+        }
+
+        else
+        {
+          if(!(job->lens->len == 1ul) && !(left == 0ul))
+            tmp_if_expr$4 = next->len != 0ul ? (_Bool)1 : (_Bool)0;
+
+          else
+            tmp_if_expr$4 = (_Bool)0;
+          if(tmp_if_expr$4)
+          {
+            hold = next;
+            next=get_space(&in_pool);
+            memcpy((void *)next->buf, (const void *)(curr->buf + (signed long int)(curr->len - left)), left);
+            next->len = left;
+            curr->len = curr->len - left;
+          }
+
+          else
+            left = (unsigned long int)0;
+        }
+      }
+
+    }
+
+    job->in = curr;
+    more = (signed int)(next->len != (unsigned long int)0);
+    job->more = more;
+    job->out = dict;
+    if(!(g.setdict == 0) && !(more == 0))
+    {
+      if(curr->len >= 32768ul)
+        tmp_if_expr$5 = (_Bool)1;
+
+      else
+        tmp_if_expr$5 = job->out == (struct space *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr$5)
+      {
+        dict = curr;
+        use_space(dict);
+      }
+
+      else
+      {
+        dict=get_space(&dict_pool);
+        len = (unsigned long int)32768U - curr->len;
+        memcpy((void *)dict->buf, (const void *)(job->out->buf + (signed long int)(job->out->len - len)), len);
+        memcpy((void *)(dict->buf + (signed long int)len), (const void *)curr->buf, curr->len);
+        dict->len = (unsigned long int)32768U;
+      }
+    }
+
+    job->seq = seq;
+    seq = seq + 1l;
+    if(!(seq >= 1l))
+      try_throw_(75, "overflow", (void *)0);
+
+    if(!(cthreads >= g.procs) && !((signed long int)cthreads >= seq))
+    {
+      launch(compress_thread, (void *)0);
+      cthreads = cthreads + 1;
+    }
+
+    possess(compress_have);
+    job->next = (struct job *)(void *)0;
+    *compress_tail = job;
+    compress_tail = &job->next;
+    twist(compress_have, (enum twist_op)BY, (signed long int)+1);
+  }
+  while(!(more == 0));
+  drop_space(next);
+  join(writeth);
+  writeth = (struct thread_s *)(void *)0;
+}
+
+// peek_lock
+// file yarn.h line 133
+signed long int peek_lock(struct lock_s *bolt)
+{
+  return bolt->value;
+}
+
+// possess
+// file yarn.h line 125
+void possess(struct lock_s *bolt)
+{
+  signed int ret;
+  ret=pthread_mutex_lock(&bolt->mutex);
+  if(!(ret == 0))
+    fail(ret);
+
+}
+
+// process
+// file pigz.c line 3423
+static void process(char *path)
+{
+  volatile signed int method = -1;
+  unsigned long int len;
+  struct stat st;
+  struct anonymous err;
+  signed long int tmp_if_expr$4;
+  signed int return_value_fstat$1;
+  signed long int tmp_if_expr$3;
+  signed long int return_value_time$2;
+  char **tmp_post$8;
+  signed int return_value_lstat$5;
+  _Bool tmp_if_expr$7;
+  signed int *return_value___errno_location$6;
+  _Bool tmp_if_expr$13;
+  signed int *return_value___errno_location$12;
+  _Bool tmp_if_expr$19;
+  _Bool tmp_if_expr$18;
+  _Bool tmp_if_expr$17;
+  _Bool tmp_if_expr$16;
+  _Bool tmp_if_expr$20;
+  unsigned long int tmp_if_expr$22;
+  unsigned long int return_value_vstrcpy$21;
+  unsigned long int return_value_strlen$23;
+  unsigned long int return_value_strlen$26;
+  unsigned long int return_value_strlen$24;
+  signed int return_value_strcmp$25;
+  signed int *return_value___errno_location$28;
+  signed int *return_value___errno_location$29;
+  char *return_value_strerror$30;
+  char *tmp_if_expr$32;
+  char *return_value_justname$31;
+  if(path == ((char *)NULL))
+  {
+    vstrcpy(&g.inf, &g.inz, (unsigned long int)0, (void *)"<stdin>");
+    g.ind = 0;
+    g.name = (char *)(void *)0;
+    if(!((2 & g.headis) == 0))
+    {
+      return_value_fstat$1=fstat(g.ind, &st);
+      if(!(return_value_fstat$1 == 0))
+      {
+        return_value_time$2=time((signed long int *)(void *)0);
+        tmp_if_expr$3 = return_value_time$2;
+      }
+
+      else
+        tmp_if_expr$3 = st.st_mtim.tv_sec;
+      tmp_if_expr$4 = tmp_if_expr$3;
+    }
+
+    else
+      tmp_if_expr$4 = (signed long int)0;
+    g.mtime = tmp_if_expr$4;
+    len = (unsigned long int)0;
+  }
+
+  else
+  {
+    if(!(path == g.inf))
+      vstrcpy(&g.inf, &g.inz, (unsigned long int)0, (void *)path);
+
+    len=strlen(g.inf);
+    signed int return_value_lstat$15;
+    return_value_lstat$15=lstat(g.inf, &st);
+    if(!(return_value_lstat$15 == 0))
+    {
+      signed int *return_value___errno_location$10;
+      return_value___errno_location$10=__errno_location();
+      if(*return_value___errno_location$10 == 2)
+      {
+        if(!(g.decode == 0) || !(g.list == 0))
+        {
+          static char *sufs[12l] = { ".z", "-z", "_z", ".Z", ".gz", "-gz", ".zz", "-zz", ".zip", ".ZIP", ".tgz", (char *)(void *)0 };
+          char **sufx = sufs;
+          while(!(*sufx == ((char *)NULL)))
+          {
+            tmp_post$8 = sufx;
+            sufx = sufx + 1l;
+            vstrcpy(&g.inf, &g.inz, len, (void *)*tmp_post$8);
+            signed int *return_value___errno_location$9;
+            return_value___errno_location$9=__errno_location();
+            *return_value___errno_location$9 = 0;
+            return_value_lstat$5=lstat(g.inf, &st);
+            if(!(return_value_lstat$5 == 0))
+            {
+              return_value___errno_location$6=__errno_location();
+              tmp_if_expr$7 = *return_value___errno_location$6 == 2 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr$7 = (_Bool)0;
+            if(!tmp_if_expr$7)
+              break;
+
+          }
+        }
+
+      }
+
+      signed int *return_value___errno_location$11;
+      return_value___errno_location$11=__errno_location();
+      if(*return_value___errno_location$11 == 75)
+        tmp_if_expr$13 = (_Bool)1;
+
+      else
+      {
+        return_value___errno_location$12=__errno_location();
+        tmp_if_expr$13 = *return_value___errno_location$12 == 27 ? (_Bool)1 : (_Bool)0;
+      }
+      if(tmp_if_expr$13)
+        try_throw_(33, "%s too large -- not compiled with large file support", g.inf, (void *)0);
+
+      signed int *return_value___errno_location$14;
+      return_value___errno_location$14=__errno_location();
+      if(!(*return_value___errno_location$14 == 0))
+      {
+        g.inf[(signed long int)len] = (char)0;
+        complain("skipping: %s does not exist", g.inf);
+        goto __CPROVER_DUMP_L117;
+      }
+
+      len=strlen(g.inf);
+    }
+
+    if(!((61440u & st.st_mode) == 16384u) && !((61440u & st.st_mode) == 32768u) && !((61440u & st.st_mode) == 40960u))
+    {
+      complain("skipping: %s is a special file or device", g.inf);
+      goto __CPROVER_DUMP_L117;
+    }
+
+    if((61440u & st.st_mode) == 40960u && g.force == 0 && g.pipeout == 0)
+    {
+      complain("skipping: %s is a symbolic link", g.inf);
+      goto __CPROVER_DUMP_L117;
+    }
+
+    if((61440u & st.st_mode) == 16384u && g.recurse == 0)
+    {
+      complain("skipping: %s is a directory", g.inf);
+      goto __CPROVER_DUMP_L117;
+    }
+
+    if((61440u & st.st_mode) == 16384u)
+    {
+      char *roll = (char *)(void *)0;
+      unsigned long int size = (unsigned long int)0;
+      unsigned long int off = (unsigned long int)0;
+      unsigned long int base;
+      struct __dirstream *here;
+      struct dirent *next;
+      here=opendir(g.inf);
+      if(here == ((struct __dirstream *)NULL))
+        goto __CPROVER_DUMP_L117;
+
+      do
+      {
+        next=readdir(here);
+        if(next == ((struct dirent *)NULL))
+          break;
+
+        if((signed int)next->d_name[0l] == 0)
+          tmp_if_expr$19 = (_Bool)1;
+
+        else
+        {
+          if((signed int)next->d_name[0l] == 46)
+          {
+            if((signed int)next->d_name[1l] == 0)
+              tmp_if_expr$17 = (_Bool)1;
+
+            else
+            {
+              if((signed int)next->d_name[1l] == 46)
+                tmp_if_expr$16 = (signed int)next->d_name[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
+
+              else
+                tmp_if_expr$16 = (_Bool)0;
+              tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$18 = (_Bool)0;
+          tmp_if_expr$19 = tmp_if_expr$18 ? (_Bool)1 : (_Bool)0;
+        }
+        if(!tmp_if_expr$19)
+          off=vstrcpy(&roll, &size, off, (void *)next->d_name);
+
+      }
+      while((_Bool)1);
+      closedir(here);
+      vstrcpy(&roll, &size, off, (void *)"");
+      if(!(len == 0ul))
+        tmp_if_expr$20 = (signed int)g.inf[(signed long int)(len - (unsigned long int)1)] != (signed int)(unsigned char)47 ? (_Bool)1 : (_Bool)0;
+
+      else
+        tmp_if_expr$20 = (_Bool)0;
+      if(tmp_if_expr$20)
+      {
+        return_value_vstrcpy$21=vstrcpy(&g.inf, &g.inz, len, (void *)"/");
+        tmp_if_expr$22 = return_value_vstrcpy$21;
+      }
+
+      else
+        tmp_if_expr$22 = len;
+      base = tmp_if_expr$22;
+      off = (unsigned long int)0;
+      for( ; !(roll[(signed long int)off] == 0); off = off + return_value_strlen$23 + (unsigned long int)1)
+      {
+        vstrcpy(&g.inf, &g.inz, base, (void *)(roll + (signed long int)off));
+        process(g.inf);
+        return_value_strlen$23=strlen(roll + (signed long int)off);
+      }
+      g.inf[(signed long int)len] = (char)0;
+      free((void *)roll);
+      goto __CPROVER_DUMP_L117;
+    }
+
+    if(g.decode == 0 && g.force == 0 && g.list == 0)
+    {
+      return_value_strlen$26=strlen(g.sufx);
+      if(len >= return_value_strlen$26)
+      {
+        return_value_strlen$24=strlen(g.sufx);
+        return_value_strcmp$25=strcmp((g.inf + (signed long int)len) - (signed long int)return_value_strlen$24, g.sufx);
+        if(return_value_strcmp$25 == 0)
+        {
+          complain("skipping: %s ends with %s", g.inf, g.sufx);
+          goto __CPROVER_DUMP_L117;
+        }
+
+      }
+
+    }
+
+    if(g.decode == 1 && g.list == 0 && g.pipeout == 0)
+    {
+      signed int suf;
+      unsigned long int return_value_compressed_suffix$27;
+      return_value_compressed_suffix$27=compressed_suffix(g.inf);
+      suf = (signed int)return_value_compressed_suffix$27;
+      if(suf == 0)
+      {
+        complain("skipping: %s does not have compressed suffix", g.inf);
+        goto __CPROVER_DUMP_L117;
+      }
+
+      len = len - (unsigned long int)suf;
+    }
+
+    g.ind=open(g.inf, 00, 0);
+    if(!(g.ind >= 0))
+    {
+      return_value___errno_location$28=__errno_location();
+      return_value___errno_location$29=__errno_location();
+      return_value_strerror$30=strerror(*return_value___errno_location$29);
+      try_throw_(*return_value___errno_location$28, "read error on %s (%s)", g.inf, return_value_strerror$30, (void *)0);
+    }
+
+    if(!((1 & g.headis) == 0))
+    {
+      return_value_justname$31=justname(g.inf);
+      tmp_if_expr$32 = return_value_justname$31;
+    }
+
+    else
+      tmp_if_expr$32 = (char *)(void *)0;
+    g.name = tmp_if_expr$32;
+    g.mtime = (g.headis & 2) != 0 ? st.st_mtim.tv_sec : (signed long int)0;
+  }
+  do
+    if(!(g.hname == ((char *)NULL)))
+    {
+      free((void *)g.hname);
+      g.hname = (char *)(void *)0;
+    }
+
+  while((_Bool)0);
+  signed int return_value_isatty$40;
+  signed int return_value_strcmp$42;
+  signed int *return_value___errno_location$46;
+  signed int return_value_isatty$45;
+  signed int *return_value___errno_location$47;
+  signed int *return_value___errno_location$48;
+  signed int *return_value___errno_location$49;
+  char *return_value_strerror$50;
+  signed int *return_value___errno_location$56;
+  signed int *return_value___errno_location$57;
+  char *return_value_strerror$58;
+  if(!(g.decode == 0))
+  {
+    in_init();
+    method=get_header(1);
+    if(!(method == 8) && !(method == 257) && (!(g.list == 0) || !(method == -2) || g.decode == 2 || g.force == 0 || g.pipeout == 0))
+    {
+      do
+        if(!(g.hname == ((char *)NULL)))
+        {
+          free((void *)g.hname);
+          g.hname = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      if(!(g.ind == 0))
+        close(g.ind);
+
+      if(!(method == -1))
+        complain(method < 0 ? (method != -6 ? "skipping: %s is not compressed" : "skipping: %s corrupted: invalid header crc") : "skipping: %s has unknown compression method", g.inf);
+
+      goto __CPROVER_DUMP_L117;
+    }
+
+    if(!(g.decode == 2))
+      goto __CPROVER_DUMP_L66;
+
+    do
+    {
+      struct try_s_ try_this_;
+      signed int try_pushed_ = 1;
+      try_this_.ball.code = 0;
+      try_this_.ball.free = 0;
+      try_this_.ball.why = (char *)(void *)0;
+      try_setup_();
+      void *return_value_pthread_getspecific$33;
+      return_value_pthread_getspecific$33=pthread_getspecific(try_key_);
+      try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$33;
+      do
+      {
+        signed int try_ret_;
+        try_ret_=pthread_setspecific(try_key_, (const void *)&try_this_);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      signed int return_value__setjmp$34;
+      return_value__setjmp$34=_setjmp(try_this_.env);
+      if(!(return_value__setjmp$34 >= 2))
+        do
+          if(method == 8)
+            infchk();
+
+          else
+          {
+            unlzw();
+            if(!(g.list == 0))
+            {
+              g.in_tot = g.in_tot - (signed long int)3;
+              show_info(method, (unsigned long int)0, g.out_tot, 0);
+            }
+
+          }
+        while((_Bool)0);
+
+      if(!(try_pushed_ == 0))
+      {
+        do
+        {
+          signed int process$$1$$4$$2$$1$$3$$1$$try_ret_;
+          process$$1$$4$$2$$1$$3$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+          /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+          assert(process$$1$$4$$2$$1$$3$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+        }
+        while((_Bool)0);
+        try_pushed_ = 0;
+      }
+
+      err = try_this_.ball;
+    }
+    while((_Bool)0);
+    if(!(err.code == 0))
+    {
+      if(!(err.code == 33))
+        do
+        {
+          try_setup_();
+          void *return_value_pthread_getspecific$35;
+          return_value_pthread_getspecific$35=pthread_getspecific(try_key_);
+          /* assertion ((try_t_ *)pthread_getspecific(try_key_)) != ((void *)0) && "try: naked punt" */
+          assert((struct try_s_ *)return_value_pthread_getspecific$35 != (struct try_s_ *)(void *)0 ? ((_Bool)"try: naked punt" ? (_Bool)1 : (_Bool)0) : (_Bool)0);
+          void *return_value_pthread_getspecific$36;
+          return_value_pthread_getspecific$36=pthread_getspecific(try_key_);
+          ((struct try_s_ *)return_value_pthread_getspecific$36)->ball = err;
+          void *return_value_pthread_getspecific$37;
+          return_value_pthread_getspecific$37=pthread_getspecific(try_key_);
+          longjmp(((struct try_s_ *)return_value_pthread_getspecific$37)->env, 2);
+        }
+        while((_Bool)0);
+
+      complain("skipping: %s", err.why);
+      do
+        if(!(err.free == 0))
+        {
+          free((void *)err.why);
+          err.free = 0;
+          err.why = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      outb((void *)&g, (unsigned char *)(void *)0, (unsigned int)0);
+    }
+
+    do
+      if(!(g.hname == ((char *)NULL)))
+      {
+        free((void *)g.hname);
+        g.hname = (char *)(void *)0;
+      }
+
+    while((_Bool)0);
+    if(!(g.ind == 0))
+      close(g.ind);
+
+  }
+
+  else
+  {
+
+  __CPROVER_DUMP_L66:
+    ;
+    if(!(g.list == 0))
+    {
+      list_info();
+      do
+        if(!(g.hname == ((char *)NULL)))
+        {
+          free((void *)g.hname);
+          g.hname = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      if(!(g.ind == 0))
+        close(g.ind);
+
+    }
+
+    else
+    {
+      if(path == ((char *)NULL) || !(g.pipeout == 0))
+      {
+        unsigned long int return_value_strlen$38;
+        return_value_strlen$38=strlen("<stdout>");
+        void *return_value_alloc$39;
+        return_value_alloc$39=alloc((void *)0, return_value_strlen$38 + (unsigned long int)1);
+        g.outf = (char *)return_value_alloc$39;
+        strcpy(g.outf, "<stdout>");
+        g.outd = 1;
+        if(g.decode == 0 && g.force == 0)
+        {
+          return_value_isatty$40=isatty(g.outd);
+          if(!(return_value_isatty$40 == 0))
+            try_throw_(22, "trying to write compressed data to a terminal (use -f to force)", (void *)0);
+
+        }
+
+      }
+
+      else
+      {
+        char *to = g.inf;
+        char *process$$1$$7$$sufx = "";
+        unsigned long int pre = (unsigned long int)0;
+        if(!(g.decode == 0))
+        {
+          if(!((1 & g.headis) == 0) && !(g.hname == ((char *)NULL)))
+          {
+            char *return_value_justname$41;
+            return_value_justname$41=justname(g.inf);
+            pre = (unsigned long int)(return_value_justname$41 - g.inf);
+            to=justname(g.hname);
+            len=strlen(to);
+          }
+
+          else
+          {
+            return_value_strcmp$42=strcmp(to + (signed long int)len, ".tgz");
+            if(return_value_strcmp$42 == 0)
+              process$$1$$7$$sufx = ".tar";
+
+          }
+        }
+
+        else
+          process$$1$$7$$sufx = g.sufx;
+        unsigned long int return_value_strlen$43;
+        return_value_strlen$43=strlen(process$$1$$7$$sufx);
+        void *return_value_alloc$44;
+        return_value_alloc$44=alloc((void *)0, pre + len + return_value_strlen$43 + (unsigned long int)1);
+        g.outf = (char *)return_value_alloc$44;
+        memcpy((void *)g.outf, (const void *)g.inf, pre);
+        memcpy((void *)(g.outf + (signed long int)pre), (const void *)to, len);
+        strcpy(g.outf + (signed long int)pre + (signed long int)len, process$$1$$7$$sufx);
+        g.outd=open(g.outf, 0100 | 01000 | 01 | (g.force != 0 ? 0 : 0200), 0600);
+        if(!(g.outd >= 0))
+        {
+          return_value___errno_location$46=__errno_location();
+          if(*return_value___errno_location$46 == 17)
+          {
+            return_value_isatty$45=isatty(0);
+            if(!(return_value_isatty$45 == 0))
+            {
+              if(!(g.verbosity == 0))
+              {
+                signed int ch;
+                signed int reply;
+                fprintf(stderr, "%s exists -- overwrite (y/n)? ", g.outf);
+                fflush(stderr);
+                reply = -1;
+                do
+                {
+                  ch=getchar();
+                  if(!(ch == 9) && !(ch == 32) && !(reply >= 0))
+                    reply = ch == 121 || ch == 89 ? 1 : 0;
+
+                }
+                while(!(ch == 10) && !(ch == 13) && !(ch == -1));
+                if(reply == 1)
+                  g.outd=open(g.outf, 0100 | 01000 | 01, 0600);
+
+              }
+
+            }
+
+          }
+
+        }
+
+        if(!(g.outd >= 0))
+        {
+          return_value___errno_location$47=__errno_location();
+          if(*return_value___errno_location$47 == 17)
+          {
+            complain("skipping: %s exists", g.outf);
+            do
+              if(!(g.outf == ((char *)NULL)))
+              {
+                free((void *)g.outf);
+                g.outf = (char *)(void *)0;
+              }
+
+            while((_Bool)0);
+            do
+              if(!(g.hname == ((char *)NULL)))
+              {
+                free((void *)g.hname);
+                g.hname = (char *)(void *)0;
+              }
+
+            while((_Bool)0);
+            if(!(g.ind == 0))
+              close(g.ind);
+
+            goto __CPROVER_DUMP_L117;
+          }
+
+        }
+
+        if(!(g.outd >= 0))
+        {
+          return_value___errno_location$48=__errno_location();
+          return_value___errno_location$49=__errno_location();
+          return_value_strerror$50=strerror(*return_value___errno_location$49);
+          try_throw_(*return_value___errno_location$48, "write error on %s (%s)", g.outf, return_value_strerror$50, (void *)0);
+        }
+
+      }
+      do
+        if(!(g.hname == ((char *)NULL)))
+        {
+          free((void *)g.hname);
+          g.hname = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      if(g.verbosity >= 2)
+        fprintf(stderr, "%s to %s ", g.inf, g.outf);
+
+      if(!(g.decode == 0))
+      {
+        do
+        {
+          struct try_s_ process$$1$$9$$1$$try_this_;
+          signed int process$$1$$9$$1$$try_pushed_ = 1;
+          process$$1$$9$$1$$try_this_.ball.code = 0;
+          process$$1$$9$$1$$try_this_.ball.free = 0;
+          process$$1$$9$$1$$try_this_.ball.why = (char *)(void *)0;
+          try_setup_();
+          void *return_value_pthread_getspecific$51;
+          return_value_pthread_getspecific$51=pthread_getspecific(try_key_);
+          process$$1$$9$$1$$try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$51;
+          do
+          {
+            signed int process$$1$$9$$1$$1$$try_ret_;
+            process$$1$$9$$1$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)&process$$1$$9$$1$$try_this_);
+            /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+            assert(process$$1$$9$$1$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+          }
+          while((_Bool)0);
+          signed int return_value__setjmp$52;
+          return_value__setjmp$52=_setjmp(process$$1$$9$$1$$try_this_.env);
+          if(!(return_value__setjmp$52 >= 2))
+            do
+              if(method == 8)
+                infchk();
+
+              else
+                if(method == 257)
+                  unlzw();
+
+                else
+                  cat();
+            while((_Bool)0);
+
+          if(!(process$$1$$9$$1$$try_pushed_ == 0))
+          {
+            do
+            {
+              signed int process$$1$$9$$1$$3$$1$$try_ret_;
+              process$$1$$9$$1$$3$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)process$$1$$9$$1$$try_this_.next);
+              /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+              assert(process$$1$$9$$1$$3$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+            }
+            while((_Bool)0);
+            process$$1$$9$$1$$try_pushed_ = 0;
+          }
+
+          err = process$$1$$9$$1$$try_this_.ball;
+        }
+        while((_Bool)0);
+        if(!(err.code == 0))
+        {
+          if(!(err.code == 33))
+            do
+            {
+              try_setup_();
+              void *return_value_pthread_getspecific$53;
+              return_value_pthread_getspecific$53=pthread_getspecific(try_key_);
+              /* assertion ((try_t_ *)pthread_getspecific(try_key_)) != ((void *)0) && "try: naked punt" */
+              assert((struct try_s_ *)return_value_pthread_getspecific$53 != (struct try_s_ *)(void *)0 ? ((_Bool)"try: naked punt" ? (_Bool)1 : (_Bool)0) : (_Bool)0);
+              void *return_value_pthread_getspecific$54;
+              return_value_pthread_getspecific$54=pthread_getspecific(try_key_);
+              ((struct try_s_ *)return_value_pthread_getspecific$54)->ball = err;
+              void *return_value_pthread_getspecific$55;
+              return_value_pthread_getspecific$55=pthread_getspecific(try_key_);
+              longjmp(((struct try_s_ *)return_value_pthread_getspecific$55)->env, 2);
+            }
+            while((_Bool)0);
+
+          complain("skipping: %s", err.why);
+          do
+            if(!(err.free == 0))
+            {
+              free((void *)err.why);
+              err.free = 0;
+              err.why = (char *)(void *)0;
+            }
+
+          while((_Bool)0);
+          outb((void *)g.outf, (unsigned char *)(void *)0, (unsigned int)0);
+          if(!(g.outd == 1) && !(g.outd == -1))
+          {
+            close(g.outd);
+            g.outd = -1;
+            unlink(g.outf);
+            do
+              if(!(g.outf == ((char *)NULL)))
+              {
+                free((void *)g.outf);
+                g.outf = (char *)(void *)0;
+              }
+
+            while((_Bool)0);
+          }
+
+        }
+
+      }
+
+      else
+        if(g.procs >= 2)
+          parallel_compress();
+
+        else
+          single_compress(0);
+      if(g.verbosity >= 2)
+      {
+        _IO_putc(10, stderr);
+        fflush(stderr);
+      }
+
+      if(!(g.ind == 0))
+        close(g.ind);
+
+      if(!(g.outd == 1) && !(g.outd == -1))
+      {
+        signed int return_value_close$59;
+        return_value_close$59=close(g.outd);
+        if(!(return_value_close$59 == 0))
+        {
+          return_value___errno_location$56=__errno_location();
+          return_value___errno_location$57=__errno_location();
+          return_value_strerror$58=strerror(*return_value___errno_location$57);
+          try_throw_(*return_value___errno_location$56, "write error on %s (%s)", g.outf, return_value_strerror$58, (void *)0);
+        }
+
+        g.outd = -1;
+        if(!(g.ind == 0))
+        {
+          copymeta(g.inf, g.outf);
+          if(g.keep == 0)
+            unlink(g.inf);
+
+        }
+
+        if(!((2 & g.headis) == 0) && !(g.decode == 0) && !(g.stamp == 0l))
+          touch(g.outf, g.stamp);
+
+      }
+
+      do
+        if(!(g.outf == ((char *)NULL)))
+        {
+          free((void *)g.outf);
+          g.outf = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+    }
+  }
+
+__CPROVER_DUMP_L117:
+  ;
+}
+
+// put_header
+// file pigz.c line 960
+static unsigned long int put_header(void)
+{
+  unsigned long int len;
+  unsigned char head[30l];
+  unsigned long int tmp_if_expr$6;
+  unsigned long int return_value_strlen$5;
+  unsigned long int tmp_if_expr$8;
+  unsigned long int return_value_strlen$7;
+  unsigned long int return_value_strlen$9;
+  unsigned long int tmp_if_expr$11;
+  unsigned long int return_value_strlen$10;
+  unsigned long int return_value_strlen$12;
+  unsigned long int return_value_strlen$13;
+  if(g.form >= 2)
+  {
+    head[0l] = (unsigned char)(0x04034b50UL & (unsigned long int)0xffff & (unsigned long int)0xff);
+    head[(signed long int)1] = (unsigned char)((0x04034b50UL & (unsigned long int)0xffff) >> 8);
+    head[(signed long int)2] = (unsigned char)(0x04034b50UL >> 16 & (unsigned long int)0xff);
+    (head + (signed long int)2)[(signed long int)1] = (unsigned char)((0x04034b50UL >> 16) >> 8);
+    head[(signed long int)4] = (unsigned char)(20 & 0xff);
+    (head + (signed long int)4)[(signed long int)1] = (unsigned char)(20 >> 8);
+    head[(signed long int)6] = (unsigned char)(8 & 0xff);
+    (head + (signed long int)6)[(signed long int)1] = (unsigned char)(8 >> 8);
+    head[(signed long int)8] = (unsigned char)(8 & 0xff);
+    (head + (signed long int)8)[(signed long int)1] = (unsigned char)(8 >> 8);
+    unsigned long int return_value_time2dos$1;
+    return_value_time2dos$1=time2dos(g.mtime);
+    head[(signed long int)10] = (unsigned char)(return_value_time2dos$1 & (unsigned long int)0xffff & (unsigned long int)0xff);
+    unsigned long int return_value_time2dos$2;
+    return_value_time2dos$2=time2dos(g.mtime);
+    (head + (signed long int)10)[(signed long int)1] = (unsigned char)((return_value_time2dos$2 & (unsigned long int)0xffff) >> 8);
+    unsigned long int return_value_time2dos$3;
+    return_value_time2dos$3=time2dos(g.mtime);
+    (head + (signed long int)10)[(signed long int)2] = (unsigned char)(return_value_time2dos$3 >> 16 & (unsigned long int)0xff);
+    unsigned long int return_value_time2dos$4;
+    return_value_time2dos$4=time2dos(g.mtime);
+    (head + (signed long int)10 + (signed long int)2)[(signed long int)1] = (unsigned char)((return_value_time2dos$4 >> 16) >> 8);
+    head[(signed long int)14] = (unsigned char)(0 & 0xffff & 0xff);
+    (head + (signed long int)14)[(signed long int)1] = (unsigned char)((0 & 0xffff) >> 8);
+    (head + (signed long int)14)[(signed long int)2] = (unsigned char)(0 >> 16 & 0xff);
+    (head + (signed long int)14 + (signed long int)2)[(signed long int)1] = (unsigned char)((0 >> 16) >> 8);
+    head[(signed long int)18] = (unsigned char)(0 & 0xffff & 0xff);
+    (head + (signed long int)18)[(signed long int)1] = (unsigned char)((0 & 0xffff) >> 8);
+    (head + (signed long int)18)[(signed long int)2] = (unsigned char)(0 >> 16 & 0xff);
+    (head + (signed long int)18 + (signed long int)2)[(signed long int)1] = (unsigned char)((0 >> 16) >> 8);
+    head[(signed long int)22] = (unsigned char)(0 & 0xffff & 0xff);
+    (head + (signed long int)22)[(signed long int)1] = (unsigned char)((0 & 0xffff) >> 8);
+    (head + (signed long int)22)[(signed long int)2] = (unsigned char)(0 >> 16 & 0xff);
+    (head + (signed long int)22 + (signed long int)2)[(signed long int)1] = (unsigned char)((0 >> 16) >> 8);
+    if(g.name == ((char *)NULL))
+      tmp_if_expr$6 = (unsigned long int)1;
+
+    else
+    {
+      return_value_strlen$5=strlen(g.name);
+      tmp_if_expr$6 = return_value_strlen$5;
+    }
+    head[(signed long int)26] = (unsigned char)(tmp_if_expr$6 & (unsigned long int)0xff);
+    if(g.name == ((char *)NULL))
+      tmp_if_expr$8 = (unsigned long int)1;
+
+    else
+    {
+      return_value_strlen$7=strlen(g.name);
+      tmp_if_expr$8 = return_value_strlen$7;
+    }
+    (head + (signed long int)26)[(signed long int)1] = (unsigned char)(tmp_if_expr$8 >> 8);
+    head[(signed long int)28] = (unsigned char)(9 & 0xff);
+    (head + (signed long int)28)[(signed long int)1] = (unsigned char)(9 >> 8);
+    writen(g.outd, head, (unsigned long int)30);
+    len = (unsigned long int)30;
+    if(g.name == ((char *)NULL))
+      writen(g.outd, (unsigned char *)"-", (unsigned long int)1);
+
+    else
+    {
+      return_value_strlen$9=strlen(g.name);
+      writen(g.outd, (unsigned char *)g.name, return_value_strlen$9);
+    }
+    if(g.name == ((char *)NULL))
+      tmp_if_expr$11 = (unsigned long int)1;
+
+    else
+    {
+      return_value_strlen$10=strlen(g.name);
+      tmp_if_expr$11 = return_value_strlen$10;
+    }
+    len = len + tmp_if_expr$11;
+    head[0l] = (unsigned char)(0x5455 & 0xff);
+    head[(signed long int)1] = (unsigned char)(0x5455 >> 8);
+    head[(signed long int)2] = (unsigned char)(5 & 0xff);
+    (head + (signed long int)2)[(signed long int)1] = (unsigned char)(5 >> 8);
+    head[(signed long int)4] = (unsigned char)1;
+    head[(signed long int)5] = (unsigned char)(g.mtime & (signed long int)0xffff & (signed long int)0xff);
+    (head + (signed long int)5)[(signed long int)1] = (unsigned char)((g.mtime & (signed long int)0xffff) >> 8);
+    (head + (signed long int)5)[(signed long int)2] = (unsigned char)(g.mtime >> 16 & (signed long int)0xff);
+    (head + (signed long int)5 + (signed long int)2)[(signed long int)1] = (unsigned char)((g.mtime >> 16) >> 8);
+    writen(g.outd, head, (unsigned long int)9);
+    len = len + (unsigned long int)9;
+  }
+
+  else
+    if(!(g.form == 0))
+    {
+      head[(signed long int)0] = (unsigned char)0x78;
+      head[(signed long int)1] = (unsigned char)((g.level >= 9 ? 3 : (g.level == 1 ? 0 : (g.level >= 6 || g.level == -1 ? 1 : 2))) << 6);
+      head[(signed long int)1] = head[(signed long int)1] + (unsigned char)(31 - (((signed int)head[(signed long int)0] << 8) + (signed int)head[(signed long int)1]) % 31);
+      writen(g.outd, head, (unsigned long int)2);
+      len = (unsigned long int)2;
+    }
+
+    else
+    {
+      head[(signed long int)0] = (unsigned char)31;
+      head[(signed long int)1] = (unsigned char)139;
+      head[(signed long int)2] = (unsigned char)8;
+      head[(signed long int)3] = (unsigned char)(g.name != (char *)(void *)0 ? 8 : 0);
+      head[(signed long int)4] = (unsigned char)(g.mtime & (signed long int)0xffff & (signed long int)0xff);
+      (head + (signed long int)4)[(signed long int)1] = (unsigned char)((g.mtime & (signed long int)0xffff) >> 8);
+      (head + (signed long int)4)[(signed long int)2] = (unsigned char)(g.mtime >> 16 & (signed long int)0xff);
+      (head + (signed long int)4 + (signed long int)2)[(signed long int)1] = (unsigned char)((g.mtime >> 16) >> 8);
+      head[(signed long int)8] = (unsigned char)(g.level >= 9 ? 2 : (g.level == 1 ? 4 : 0));
+      head[(signed long int)9] = (unsigned char)3;
+      writen(g.outd, head, (unsigned long int)10);
+      len = (unsigned long int)10;
+      if(!(g.name == ((char *)NULL)))
+      {
+        return_value_strlen$12=strlen(g.name);
+        writen(g.outd, (unsigned char *)g.name, return_value_strlen$12 + (unsigned long int)1);
+      }
+
+      if(!(g.name == ((char *)NULL)))
+      {
+        return_value_strlen$13=strlen(g.name);
+        len = len + return_value_strlen$13 + (unsigned long int)1;
+      }
+
+    }
+  return len;
+}
+
+// put_trailer
+// file pigz.c line 1025
+static void put_trailer(unsigned long int ulen, unsigned long int clen, unsigned long int check, unsigned long int head)
+{
+  unsigned char tail[46l];
+  unsigned long int tmp_if_expr$6;
+  unsigned long int return_value_strlen$5;
+  unsigned long int tmp_if_expr$8;
+  unsigned long int return_value_strlen$7;
+  unsigned long int return_value_strlen$9;
+  unsigned long int tmp_if_expr$11;
+  unsigned long int return_value_strlen$10;
+  if(g.form >= 2)
+  {
+    unsigned long int cent;
+    tail[0l] = (unsigned char)(0x08074b50UL & (unsigned long int)0xffff & (unsigned long int)0xff);
+    tail[(signed long int)1] = (unsigned char)((0x08074b50UL & (unsigned long int)0xffff) >> 8);
+    tail[(signed long int)2] = (unsigned char)(0x08074b50UL >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)2)[(signed long int)1] = (unsigned char)((0x08074b50UL >> 16) >> 8);
+    tail[(signed long int)4] = (unsigned char)(check & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)4)[(signed long int)1] = (unsigned char)((check & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)4)[(signed long int)2] = (unsigned char)(check >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)4 + (signed long int)2)[(signed long int)1] = (unsigned char)((check >> 16) >> 8);
+    tail[(signed long int)8] = (unsigned char)(clen & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)8)[(signed long int)1] = (unsigned char)((clen & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)8)[(signed long int)2] = (unsigned char)(clen >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)8 + (signed long int)2)[(signed long int)1] = (unsigned char)((clen >> 16) >> 8);
+    tail[(signed long int)12] = (unsigned char)(ulen & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)12)[(signed long int)1] = (unsigned char)((ulen & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)12)[(signed long int)2] = (unsigned char)(ulen >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)12 + (signed long int)2)[(signed long int)1] = (unsigned char)((ulen >> 16) >> 8);
+    writen(g.outd, tail, (unsigned long int)16);
+    tail[0l] = (unsigned char)(0x02014b50UL & (unsigned long int)0xffff & (unsigned long int)0xff);
+    tail[(signed long int)1] = (unsigned char)((0x02014b50UL & (unsigned long int)0xffff) >> 8);
+    tail[(signed long int)2] = (unsigned char)(0x02014b50UL >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)2)[(signed long int)1] = (unsigned char)((0x02014b50UL >> 16) >> 8);
+    tail[(signed long int)4] = (unsigned char)63;
+    tail[(signed long int)5] = (unsigned char)255;
+    tail[(signed long int)6] = (unsigned char)(20 & 0xff);
+    (tail + (signed long int)6)[(signed long int)1] = (unsigned char)(20 >> 8);
+    tail[(signed long int)8] = (unsigned char)(8 & 0xff);
+    (tail + (signed long int)8)[(signed long int)1] = (unsigned char)(8 >> 8);
+    tail[(signed long int)10] = (unsigned char)(8 & 0xff);
+    (tail + (signed long int)10)[(signed long int)1] = (unsigned char)(8 >> 8);
+    unsigned long int return_value_time2dos$1;
+    return_value_time2dos$1=time2dos(g.mtime);
+    tail[(signed long int)12] = (unsigned char)(return_value_time2dos$1 & (unsigned long int)0xffff & (unsigned long int)0xff);
+    unsigned long int return_value_time2dos$2;
+    return_value_time2dos$2=time2dos(g.mtime);
+    (tail + (signed long int)12)[(signed long int)1] = (unsigned char)((return_value_time2dos$2 & (unsigned long int)0xffff) >> 8);
+    unsigned long int return_value_time2dos$3;
+    return_value_time2dos$3=time2dos(g.mtime);
+    (tail + (signed long int)12)[(signed long int)2] = (unsigned char)(return_value_time2dos$3 >> 16 & (unsigned long int)0xff);
+    unsigned long int return_value_time2dos$4;
+    return_value_time2dos$4=time2dos(g.mtime);
+    (tail + (signed long int)12 + (signed long int)2)[(signed long int)1] = (unsigned char)((return_value_time2dos$4 >> 16) >> 8);
+    tail[(signed long int)16] = (unsigned char)(check & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)16)[(signed long int)1] = (unsigned char)((check & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)16)[(signed long int)2] = (unsigned char)(check >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)16 + (signed long int)2)[(signed long int)1] = (unsigned char)((check >> 16) >> 8);
+    tail[(signed long int)20] = (unsigned char)(clen & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)20)[(signed long int)1] = (unsigned char)((clen & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)20)[(signed long int)2] = (unsigned char)(clen >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)20 + (signed long int)2)[(signed long int)1] = (unsigned char)((clen >> 16) >> 8);
+    tail[(signed long int)24] = (unsigned char)(ulen & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)24)[(signed long int)1] = (unsigned char)((ulen & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)24)[(signed long int)2] = (unsigned char)(ulen >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)24 + (signed long int)2)[(signed long int)1] = (unsigned char)((ulen >> 16) >> 8);
+    if(g.name == ((char *)NULL))
+      tmp_if_expr$6 = (unsigned long int)1;
+
+    else
+    {
+      return_value_strlen$5=strlen(g.name);
+      tmp_if_expr$6 = return_value_strlen$5;
+    }
+    tail[(signed long int)28] = (unsigned char)(tmp_if_expr$6 & (unsigned long int)0xff);
+    if(g.name == ((char *)NULL))
+      tmp_if_expr$8 = (unsigned long int)1;
+
+    else
+    {
+      return_value_strlen$7=strlen(g.name);
+      tmp_if_expr$8 = return_value_strlen$7;
+    }
+    (tail + (signed long int)28)[(signed long int)1] = (unsigned char)(tmp_if_expr$8 >> 8);
+    tail[(signed long int)30] = (unsigned char)(9 & 0xff);
+    (tail + (signed long int)30)[(signed long int)1] = (unsigned char)(9 >> 8);
+    tail[(signed long int)32] = (unsigned char)(0 & 0xff);
+    (tail + (signed long int)32)[(signed long int)1] = (unsigned char)(0 >> 8);
+    tail[(signed long int)34] = (unsigned char)(0 & 0xff);
+    (tail + (signed long int)34)[(signed long int)1] = (unsigned char)(0 >> 8);
+    tail[(signed long int)36] = (unsigned char)(0 & 0xff);
+    (tail + (signed long int)36)[(signed long int)1] = (unsigned char)(0 >> 8);
+    tail[(signed long int)38] = (unsigned char)(0 & 0xffff & 0xff);
+    (tail + (signed long int)38)[(signed long int)1] = (unsigned char)((0 & 0xffff) >> 8);
+    (tail + (signed long int)38)[(signed long int)2] = (unsigned char)(0 >> 16 & 0xff);
+    (tail + (signed long int)38 + (signed long int)2)[(signed long int)1] = (unsigned char)((0 >> 16) >> 8);
+    tail[(signed long int)42] = (unsigned char)(0 & 0xffff & 0xff);
+    (tail + (signed long int)42)[(signed long int)1] = (unsigned char)((0 & 0xffff) >> 8);
+    (tail + (signed long int)42)[(signed long int)2] = (unsigned char)(0 >> 16 & 0xff);
+    (tail + (signed long int)42 + (signed long int)2)[(signed long int)1] = (unsigned char)((0 >> 16) >> 8);
+    writen(g.outd, tail, (unsigned long int)46);
+    cent = (unsigned long int)46;
+    if(g.name == ((char *)NULL))
+      writen(g.outd, (unsigned char *)"-", (unsigned long int)1);
+
+    else
+    {
+      return_value_strlen$9=strlen(g.name);
+      writen(g.outd, (unsigned char *)g.name, return_value_strlen$9);
+    }
+    if(g.name == ((char *)NULL))
+      tmp_if_expr$11 = (unsigned long int)1;
+
+    else
+    {
+      return_value_strlen$10=strlen(g.name);
+      tmp_if_expr$11 = return_value_strlen$10;
+    }
+    cent = cent + tmp_if_expr$11;
+    tail[0l] = (unsigned char)(0x5455 & 0xff);
+    tail[(signed long int)1] = (unsigned char)(0x5455 >> 8);
+    tail[(signed long int)2] = (unsigned char)(5 & 0xff);
+    (tail + (signed long int)2)[(signed long int)1] = (unsigned char)(5 >> 8);
+    tail[(signed long int)4] = (unsigned char)1;
+    tail[(signed long int)5] = (unsigned char)(g.mtime & (signed long int)0xffff & (signed long int)0xff);
+    (tail + (signed long int)5)[(signed long int)1] = (unsigned char)((g.mtime & (signed long int)0xffff) >> 8);
+    (tail + (signed long int)5)[(signed long int)2] = (unsigned char)(g.mtime >> 16 & (signed long int)0xff);
+    (tail + (signed long int)5 + (signed long int)2)[(signed long int)1] = (unsigned char)((g.mtime >> 16) >> 8);
+    writen(g.outd, tail, (unsigned long int)9);
+    cent = cent + (unsigned long int)9;
+    tail[0l] = (unsigned char)(0x06054b50UL & (unsigned long int)0xffff & (unsigned long int)0xff);
+    tail[(signed long int)1] = (unsigned char)((0x06054b50UL & (unsigned long int)0xffff) >> 8);
+    tail[(signed long int)2] = (unsigned char)(0x06054b50UL >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)2)[(signed long int)1] = (unsigned char)((0x06054b50UL >> 16) >> 8);
+    tail[(signed long int)4] = (unsigned char)(0 & 0xff);
+    (tail + (signed long int)4)[(signed long int)1] = (unsigned char)(0 >> 8);
+    tail[(signed long int)6] = (unsigned char)(0 & 0xff);
+    (tail + (signed long int)6)[(signed long int)1] = (unsigned char)(0 >> 8);
+    tail[(signed long int)8] = (unsigned char)(1 & 0xff);
+    (tail + (signed long int)8)[(signed long int)1] = (unsigned char)(1 >> 8);
+    tail[(signed long int)10] = (unsigned char)(1 & 0xff);
+    (tail + (signed long int)10)[(signed long int)1] = (unsigned char)(1 >> 8);
+    tail[(signed long int)12] = (unsigned char)(cent & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)12)[(signed long int)1] = (unsigned char)((cent & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)12)[(signed long int)2] = (unsigned char)(cent >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)12 + (signed long int)2)[(signed long int)1] = (unsigned char)((cent >> 16) >> 8);
+    tail[(signed long int)16] = (unsigned char)(head + clen + (unsigned long int)16 & (unsigned long int)0xffff & (unsigned long int)0xff);
+    (tail + (signed long int)16)[(signed long int)1] = (unsigned char)((head + clen + (unsigned long int)16 & (unsigned long int)0xffff) >> 8);
+    (tail + (signed long int)16)[(signed long int)2] = (unsigned char)(head + clen + (unsigned long int)16 >> 16 & (unsigned long int)0xff);
+    (tail + (signed long int)16 + (signed long int)2)[(signed long int)1] = (unsigned char)((head + clen + (unsigned long int)16 >> 16) >> 8);
+    tail[(signed long int)20] = (unsigned char)(0 & 0xff);
+    (tail + (signed long int)20)[(signed long int)1] = (unsigned char)(0 >> 8);
+    writen(g.outd, tail, (unsigned long int)22);
+  }
+
+  else
+    if(!(g.form == 0))
+    {
+      tail[0l] = (unsigned char)(check >> 24);
+      tail[(signed long int)1] = (unsigned char)(check >> 16);
+      tail[(signed long int)2] = (unsigned char)(check >> 8);
+      tail[(signed long int)3] = (unsigned char)check;
+      writen(g.outd, tail, (unsigned long int)4);
+    }
+
+    else
+    {
+      tail[0l] = (unsigned char)(check & (unsigned long int)0xffff & (unsigned long int)0xff);
+      tail[(signed long int)1] = (unsigned char)((check & (unsigned long int)0xffff) >> 8);
+      tail[(signed long int)2] = (unsigned char)(check >> 16 & (unsigned long int)0xff);
+      (tail + (signed long int)2)[(signed long int)1] = (unsigned char)((check >> 16) >> 8);
+      tail[(signed long int)4] = (unsigned char)(ulen & (unsigned long int)0xffff & (unsigned long int)0xff);
+      (tail + (signed long int)4)[(signed long int)1] = (unsigned char)((ulen & (unsigned long int)0xffff) >> 8);
+      (tail + (signed long int)4)[(signed long int)2] = (unsigned char)(ulen >> 16 & (unsigned long int)0xff);
+      (tail + (signed long int)4 + (signed long int)2)[(signed long int)1] = (unsigned char)((ulen >> 16) >> 8);
+      writen(g.outd, tail, (unsigned long int)8);
+    }
+}
+
+// read_extra
+// file pigz.c line 2440
+static signed int read_extra(unsigned int len, signed int save)
+{
+  unsigned int id;
+  unsigned int size;
+  unsigned int tmp2;
+  unsigned long int tmp4;
+  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr$2;
+  unsigned long int return_value_load$1;
+  signed int tmp_if_expr$5;
+  unsigned char *tmp_post$4;
+  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr$7;
+  unsigned long int return_value_load$6;
+  signed int tmp_if_expr$10;
+  unsigned char *tmp_post$9;
+  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr$12;
+  unsigned long int return_value_load$11;
+  signed int tmp_if_expr$15;
+  unsigned char *tmp_post$14;
+  _Bool tmp_if_expr$18;
+  _Bool tmp_if_expr$17;
+  unsigned long int return_value_load$16;
+  signed int tmp_if_expr$20;
+  unsigned char *tmp_post$19;
+  _Bool tmp_if_expr$23;
+  _Bool tmp_if_expr$22;
+  unsigned long int return_value_load$21;
+  signed int tmp_if_expr$25;
+  unsigned char *tmp_post$24;
+  _Bool tmp_if_expr$28;
+  _Bool tmp_if_expr$27;
+  unsigned long int return_value_load$26;
+  signed int tmp_if_expr$30;
+  unsigned char *tmp_post$29;
+  _Bool tmp_if_expr$33;
+  _Bool tmp_if_expr$32;
+  unsigned long int return_value_load$31;
+  signed int tmp_if_expr$35;
+  unsigned char *tmp_post$34;
+  _Bool tmp_if_expr$38;
+  _Bool tmp_if_expr$37;
+  unsigned long int return_value_load$36;
+  signed int tmp_if_expr$40;
+  unsigned char *tmp_post$39;
+  _Bool tmp_if_expr$44;
+  _Bool tmp_if_expr$43;
+  unsigned long int return_value_load$42;
+  signed int tmp_if_expr$46;
+  unsigned char *tmp_post$45;
+  _Bool tmp_if_expr$49;
+  _Bool tmp_if_expr$48;
+  unsigned long int return_value_load$47;
+  signed int tmp_if_expr$51;
+  unsigned char *tmp_post$50;
+  _Bool tmp_if_expr$54;
+  _Bool tmp_if_expr$53;
+  unsigned long int return_value_load$52;
+  signed int tmp_if_expr$56;
+  unsigned char *tmp_post$55;
+  _Bool tmp_if_expr$59;
+  _Bool tmp_if_expr$58;
+  unsigned long int return_value_load$57;
+  signed int tmp_if_expr$61;
+  unsigned char *tmp_post$60;
+  _Bool tmp_if_expr$66;
+  _Bool tmp_if_expr$65;
+  unsigned long int return_value_load$64;
+  signed int tmp_if_expr$68;
+  unsigned char *tmp_post$67;
+  _Bool tmp_if_expr$71;
+  _Bool tmp_if_expr$70;
+  unsigned long int return_value_load$69;
+  signed int tmp_if_expr$73;
+  unsigned char *tmp_post$72;
+  _Bool tmp_if_expr$76;
+  _Bool tmp_if_expr$75;
+  unsigned long int return_value_load$74;
+  signed int tmp_if_expr$78;
+  unsigned char *tmp_post$77;
+  _Bool tmp_if_expr$81;
+  _Bool tmp_if_expr$80;
+  unsigned long int return_value_load$79;
+  signed int tmp_if_expr$83;
+  unsigned char *tmp_post$82;
+  _Bool tmp_if_expr$106;
+  _Bool tmp_if_expr$105;
+  unsigned long int return_value_load$104;
+  signed int tmp_if_expr$108;
+  unsigned char *tmp_post$107;
+  _Bool tmp_if_expr$86;
+  _Bool tmp_if_expr$85;
+  unsigned long int return_value_load$84;
+  signed int tmp_if_expr$88;
+  unsigned char *tmp_post$87;
+  _Bool tmp_if_expr$91;
+  _Bool tmp_if_expr$90;
+  unsigned long int return_value_load$89;
+  signed int tmp_if_expr$93;
+  unsigned char *tmp_post$92;
+  _Bool tmp_if_expr$96;
+  _Bool tmp_if_expr$95;
+  unsigned long int return_value_load$94;
+  signed int tmp_if_expr$98;
+  unsigned char *tmp_post$97;
+  _Bool tmp_if_expr$101;
+  _Bool tmp_if_expr$100;
+  unsigned long int return_value_load$99;
+  signed int tmp_if_expr$103;
+  unsigned char *tmp_post$102;
+  while(len >= 4u)
+  {
+    if(g.in_left == 0ul)
+    {
+      if(!(g.in_eof == 0))
+        tmp_if_expr$2 = (_Bool)1;
+
+      else
+      {
+        return_value_load$1=load();
+        tmp_if_expr$2 = return_value_load$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      }
+      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+    }
+
+    else
+      tmp_if_expr$3 = (_Bool)0;
+    if(tmp_if_expr$3)
+      tmp_if_expr$5 = 0;
+
+    else
+    {
+      g.in_left = g.in_left - 1ul;
+      tmp_post$4 = g.in_next;
+      g.in_next = g.in_next + 1l;
+      tmp_if_expr$5 = (signed int)*tmp_post$4;
+    }
+    tmp2 = (unsigned int)tmp_if_expr$5;
+    if(g.in_left == 0ul)
+    {
+      if(!(g.in_eof == 0))
+        tmp_if_expr$7 = (_Bool)1;
+
+      else
+      {
+        return_value_load$6=load();
+        tmp_if_expr$7 = return_value_load$6 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      }
+      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+    }
+
+    else
+      tmp_if_expr$8 = (_Bool)0;
+    if(tmp_if_expr$8)
+      tmp_if_expr$10 = 0;
+
+    else
+    {
+      g.in_left = g.in_left - 1ul;
+      tmp_post$9 = g.in_next;
+      g.in_next = g.in_next + 1l;
+      tmp_if_expr$10 = (signed int)*tmp_post$9;
+    }
+    id = tmp2 + ((unsigned int)tmp_if_expr$10 << 8);
+    if(g.in_left == 0ul)
+    {
+      if(!(g.in_eof == 0))
+        tmp_if_expr$12 = (_Bool)1;
+
+      else
+      {
+        return_value_load$11=load();
+        tmp_if_expr$12 = return_value_load$11 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      }
+      tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+    }
+
+    else
+      tmp_if_expr$13 = (_Bool)0;
+    if(tmp_if_expr$13)
+      tmp_if_expr$15 = 0;
+
+    else
+    {
+      g.in_left = g.in_left - 1ul;
+      tmp_post$14 = g.in_next;
+      g.in_next = g.in_next + 1l;
+      tmp_if_expr$15 = (signed int)*tmp_post$14;
+    }
+    tmp2 = (unsigned int)tmp_if_expr$15;
+    if(g.in_left == 0ul)
+    {
+      if(!(g.in_eof == 0))
+        tmp_if_expr$17 = (_Bool)1;
+
+      else
+      {
+        return_value_load$16=load();
+        tmp_if_expr$17 = return_value_load$16 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      }
+      tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+    }
+
+    else
+      tmp_if_expr$18 = (_Bool)0;
+    if(tmp_if_expr$18)
+      tmp_if_expr$20 = 0;
+
+    else
+    {
+      g.in_left = g.in_left - 1ul;
+      tmp_post$19 = g.in_next;
+      g.in_next = g.in_next + 1l;
+      tmp_if_expr$20 = (signed int)*tmp_post$19;
+    }
+    size = tmp2 + ((unsigned int)tmp_if_expr$20 << 8);
+    if(!(g.in_eof == 0))
+      return -1;
+
+    len = len - (unsigned int)4;
+    if(!(len >= size))
+      break;
+
+    len = len - size;
+    if(id == 1u)
+    {
+      if(g.zip_ulen == 0xffffffffUL && size >= 8u)
+      {
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$22 = (_Bool)1;
+
+          else
+          {
+            return_value_load$21=load();
+            tmp_if_expr$22 = return_value_load$21 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$23 = tmp_if_expr$22 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$23 = (_Bool)0;
+        if(tmp_if_expr$23)
+          tmp_if_expr$25 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$24 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$25 = (signed int)*tmp_post$24;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$25;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$27 = (_Bool)1;
+
+          else
+          {
+            return_value_load$26=load();
+            tmp_if_expr$27 = return_value_load$26 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$28 = tmp_if_expr$27 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$28 = (_Bool)0;
+        if(tmp_if_expr$28)
+          tmp_if_expr$30 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$29 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$30 = (signed int)*tmp_post$29;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$30 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$32 = (_Bool)1;
+
+          else
+          {
+            return_value_load$31=load();
+            tmp_if_expr$32 = return_value_load$31 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$33 = tmp_if_expr$32 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$33 = (_Bool)0;
+        if(tmp_if_expr$33)
+          tmp_if_expr$35 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$34 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$35 = (signed int)*tmp_post$34;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$35;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$37 = (_Bool)1;
+
+          else
+          {
+            return_value_load$36=load();
+            tmp_if_expr$37 = return_value_load$36 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$38 = tmp_if_expr$37 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$38 = (_Bool)0;
+        if(tmp_if_expr$38)
+          tmp_if_expr$40 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$39 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$40 = (signed int)*tmp_post$39;
+        }
+        g.zip_ulen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$40 << 8)) << 16);
+        do
+        {
+          unsigned long int togo = (unsigned long int)4;
+          while(!(g.in_left >= togo))
+          {
+            togo = togo - g.in_left;
+            unsigned long int return_value_load$41;
+            return_value_load$41=load();
+            if(return_value_load$41 == 0ul)
+              return -3;
+
+          }
+          g.in_left = g.in_left - togo;
+          g.in_next = g.in_next + (signed long int)togo;
+        }
+        while((_Bool)0);
+        size = size - (unsigned int)8;
+      }
+
+      if(g.zip_clen == 0xffffffffUL && size >= 8u)
+      {
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$43 = (_Bool)1;
+
+          else
+          {
+            return_value_load$42=load();
+            tmp_if_expr$43 = return_value_load$42 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$44 = tmp_if_expr$43 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$44 = (_Bool)0;
+        if(tmp_if_expr$44)
+          tmp_if_expr$46 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$45 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$46 = (signed int)*tmp_post$45;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$46;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$48 = (_Bool)1;
+
+          else
+          {
+            return_value_load$47=load();
+            tmp_if_expr$48 = return_value_load$47 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$49 = tmp_if_expr$48 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$49 = (_Bool)0;
+        if(tmp_if_expr$49)
+          tmp_if_expr$51 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$50 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$51 = (signed int)*tmp_post$50;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$51 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$53 = (_Bool)1;
+
+          else
+          {
+            return_value_load$52=load();
+            tmp_if_expr$53 = return_value_load$52 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$54 = tmp_if_expr$53 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$54 = (_Bool)0;
+        if(tmp_if_expr$54)
+          tmp_if_expr$56 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$55 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$56 = (signed int)*tmp_post$55;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$56;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$58 = (_Bool)1;
+
+          else
+          {
+            return_value_load$57=load();
+            tmp_if_expr$58 = return_value_load$57 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$59 = tmp_if_expr$58 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$59 = (_Bool)0;
+        if(tmp_if_expr$59)
+          tmp_if_expr$61 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$60 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$61 = (signed int)*tmp_post$60;
+        }
+        g.zip_clen = tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$61 << 8)) << 16);
+        do
+        {
+          unsigned long int read_extra$$1$$1$$1$$2$$1$$togo = (unsigned long int)4;
+          while(!(g.in_left >= read_extra$$1$$1$$1$$2$$1$$togo))
+          {
+            read_extra$$1$$1$$1$$2$$1$$togo = read_extra$$1$$1$$1$$2$$1$$togo - g.in_left;
+            unsigned long int return_value_load$62;
+            return_value_load$62=load();
+            if(return_value_load$62 == 0ul)
+              return -3;
+
+          }
+          g.in_left = g.in_left - read_extra$$1$$1$$1$$2$$1$$togo;
+          g.in_next = g.in_next + (signed long int)read_extra$$1$$1$$1$$2$$1$$togo;
+        }
+        while((_Bool)0);
+        size = size - (unsigned int)8;
+      }
+
+    }
+
+    if(!(save == 0))
+    {
+      if(size >= 8u && (id == 13u || id == 22613u))
+      {
+        do
+        {
+          unsigned long int read_extra$$1$$1$$2$$1$$1$$togo = (unsigned long int)4;
+          while(!(g.in_left >= read_extra$$1$$1$$2$$1$$1$$togo))
+          {
+            read_extra$$1$$1$$2$$1$$1$$togo = read_extra$$1$$1$$2$$1$$1$$togo - g.in_left;
+            unsigned long int return_value_load$63;
+            return_value_load$63=load();
+            if(return_value_load$63 == 0ul)
+              return -3;
+
+          }
+          g.in_left = g.in_left - read_extra$$1$$1$$2$$1$$1$$togo;
+          g.in_next = g.in_next + (signed long int)read_extra$$1$$1$$2$$1$$1$$togo;
+        }
+        while((_Bool)0);
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$65 = (_Bool)1;
+
+          else
+          {
+            return_value_load$64=load();
+            tmp_if_expr$65 = return_value_load$64 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$66 = tmp_if_expr$65 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$66 = (_Bool)0;
+        if(tmp_if_expr$66)
+          tmp_if_expr$68 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$67 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$68 = (signed int)*tmp_post$67;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$68;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$70 = (_Bool)1;
+
+          else
+          {
+            return_value_load$69=load();
+            tmp_if_expr$70 = return_value_load$69 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$71 = tmp_if_expr$70 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$71 = (_Bool)0;
+        if(tmp_if_expr$71)
+          tmp_if_expr$73 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$72 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$73 = (signed int)*tmp_post$72;
+        }
+        tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$73 << 8));
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$75 = (_Bool)1;
+
+          else
+          {
+            return_value_load$74=load();
+            tmp_if_expr$75 = return_value_load$74 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$76 = tmp_if_expr$75 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$76 = (_Bool)0;
+        if(tmp_if_expr$76)
+          tmp_if_expr$78 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$77 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$78 = (signed int)*tmp_post$77;
+        }
+        tmp2 = (unsigned int)tmp_if_expr$78;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$80 = (_Bool)1;
+
+          else
+          {
+            return_value_load$79=load();
+            tmp_if_expr$80 = return_value_load$79 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$81 = tmp_if_expr$80 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$81 = (_Bool)0;
+        if(tmp_if_expr$81)
+          tmp_if_expr$83 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$82 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$83 = (signed int)*tmp_post$82;
+        }
+        g.stamp=tolong(tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$83 << 8)) << 16));
+        size = size - (unsigned int)8;
+      }
+
+      if(id == 21589u && size >= 5u)
+      {
+        size = size - 1u;
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$105 = (_Bool)1;
+
+          else
+          {
+            return_value_load$104=load();
+            tmp_if_expr$105 = return_value_load$104 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          tmp_if_expr$106 = tmp_if_expr$105 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$106 = (_Bool)0;
+        if(tmp_if_expr$106)
+          tmp_if_expr$108 = 0;
+
+        else
+        {
+          g.in_left = g.in_left - 1ul;
+          tmp_post$107 = g.in_next;
+          g.in_next = g.in_next + 1l;
+          tmp_if_expr$108 = (signed int)*tmp_post$107;
+        }
+        if(!((1 & tmp_if_expr$108) == 0))
+        {
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$85 = (_Bool)1;
+
+            else
+            {
+              return_value_load$84=load();
+              tmp_if_expr$85 = return_value_load$84 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$86 = tmp_if_expr$85 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$86 = (_Bool)0;
+          if(tmp_if_expr$86)
+            tmp_if_expr$88 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$87 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$88 = (signed int)*tmp_post$87;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$88;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$90 = (_Bool)1;
+
+            else
+            {
+              return_value_load$89=load();
+              tmp_if_expr$90 = return_value_load$89 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$91 = tmp_if_expr$90 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$91 = (_Bool)0;
+          if(tmp_if_expr$91)
+            tmp_if_expr$93 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$92 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$93 = (signed int)*tmp_post$92;
+          }
+          tmp4 = (unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$93 << 8));
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$95 = (_Bool)1;
+
+            else
+            {
+              return_value_load$94=load();
+              tmp_if_expr$95 = return_value_load$94 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$96 = tmp_if_expr$95 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$96 = (_Bool)0;
+          if(tmp_if_expr$96)
+            tmp_if_expr$98 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$97 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$98 = (signed int)*tmp_post$97;
+          }
+          tmp2 = (unsigned int)tmp_if_expr$98;
+          if(g.in_left == 0ul)
+          {
+            if(!(g.in_eof == 0))
+              tmp_if_expr$100 = (_Bool)1;
+
+            else
+            {
+              return_value_load$99=load();
+              tmp_if_expr$100 = return_value_load$99 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr$101 = tmp_if_expr$100 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr$101 = (_Bool)0;
+          if(tmp_if_expr$101)
+            tmp_if_expr$103 = 0;
+
+          else
+          {
+            g.in_left = g.in_left - 1ul;
+            tmp_post$102 = g.in_next;
+            g.in_next = g.in_next + 1l;
+            tmp_if_expr$103 = (signed int)*tmp_post$102;
+          }
+          g.stamp=tolong(tmp4 + ((unsigned long int)(tmp2 + ((unsigned int)tmp_if_expr$103 << 8)) << 16));
+          size = size - (unsigned int)4;
+        }
+
+      }
+
+    }
+
+    do
+    {
+      unsigned long int read_extra$$1$$1$$3$$togo = (unsigned long int)size;
+      while(!(g.in_left >= read_extra$$1$$1$$3$$togo))
+      {
+        read_extra$$1$$1$$3$$togo = read_extra$$1$$1$$3$$togo - g.in_left;
+        unsigned long int return_value_load$109;
+        return_value_load$109=load();
+        if(return_value_load$109 == 0ul)
+          return -3;
+
+      }
+      g.in_left = g.in_left - read_extra$$1$$1$$3$$togo;
+      g.in_next = g.in_next + (signed long int)read_extra$$1$$1$$3$$togo;
+    }
+    while((_Bool)0);
+  }
+  do
+  {
+    unsigned long int read_extra$$1$$2$$togo = (unsigned long int)len;
+    while(!(g.in_left >= read_extra$$1$$2$$togo))
+    {
+      read_extra$$1$$2$$togo = read_extra$$1$$2$$togo - g.in_left;
+      unsigned long int return_value_load$110;
+      return_value_load$110=load();
+      if(return_value_load$110 == 0ul)
+        return -3;
+
+    }
+    g.in_left = g.in_left - read_extra$$1$$2$$togo;
+    g.in_next = g.in_next + (signed long int)read_extra$$1$$2$$togo;
+  }
+  while((_Bool)0);
+  return 0;
+}
+
+// readn
+// file pigz.c line 900
+static unsigned long int readn(signed int desc, unsigned char *buf, unsigned long int len)
+{
+  signed long int ret;
+  unsigned long int got = (unsigned long int)0;
+  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location$2;
+  char *return_value_strerror$3;
+  while(!(len == 0ul))
+  {
+    ret=read(desc, (void *)buf, len);
+    if(!(ret >= 0l))
+    {
+      return_value___errno_location$1=__errno_location();
+      return_value___errno_location$2=__errno_location();
+      return_value_strerror$3=strerror(*return_value___errno_location$2);
+      try_throw_(*return_value___errno_location$1, "read error on %s (%s)", g.inf, return_value_strerror$3, (void *)0);
+    }
+
+    if(ret == 0l)
+      break;
+
+    buf = buf + ret;
+    len = len - (unsigned long int)ret;
+    got = got + (unsigned long int)ret;
+  }
+  return got;
+}
+
+// reenter
+// file yarn.c line 210
+static void reenter(void *dummy)
+{
+  struct thread_s *match;
+  struct thread_s **prior;
+  unsigned long int me;
+  (void)dummy;
+  me=pthread_self();
+  possess(&threads_lock);
+  prior = &threads;
+  do
+  {
+    match = *prior;
+    if(match == ((struct thread_s *)NULL))
+      break;
+
+    signed int return_value_pthread_equal$1;
+    return_value_pthread_equal$1=pthread_equal(match->id, me);
+    if(!(return_value_pthread_equal$1 == 0))
+      break;
+
+    prior = &match->next;
+  }
+  while((_Bool)1);
+  if(match == ((struct thread_s *)NULL))
+    fail(22);
+
+  match->done = 1;
+  if(!(threads == match))
+  {
+    *prior = match->next;
+    match->next = threads;
+    threads = match;
+  }
+
+  twist(&threads_lock, (enum twist_op)BY, (signed long int)+1);
+}
+
+// release
+// file yarn.h line 126
+void release(struct lock_s *bolt)
+{
+  signed int ret;
+  ret=pthread_mutex_unlock(&bolt->mutex);
+  if(!(ret == 0))
+    fail(ret);
+
+}
+
+// setup_jobs
+// file pigz.c line 1394
+static void setup_jobs(void)
+{
+  if(compress_have == ((struct lock_s *)NULL))
+  {
+    compress_have=new_lock((signed long int)0);
+    compress_head = (struct job *)(void *)0;
+    compress_tail = &compress_head;
+    write_first=new_lock((signed long int)-1);
+    write_head = (struct job *)(void *)0;
+    new_pool(&in_pool, g.block, (g.procs << 1) + 3);
+    new_pool(&out_pool, g.block + (g.block >> 4) + (unsigned long int)32768U, -1);
+    new_pool(&dict_pool, (unsigned long int)32768U, -1);
+    new_pool(&lens_pool, g.block >> 12 - 1, -1);
+  }
+
+}
+
+// show_info
+// file pigz.c line 2675
+static void show_info(signed int method, unsigned long int check, signed long int len, signed int cont)
+{
+  unsigned long int max;
+  unsigned long int n;
+  signed long int now;
+  char mod[26l];
+  char tag[49l];
+  max = (unsigned long int)(g.verbosity > 1 ? 16 : 48);
+  memset((void *)tag, 0, max + (unsigned long int)1);
+  if(!(cont == 0))
+    strncpy(tag, "<...>", max + (unsigned long int)1);
+
+  else
+    if(g.hname == ((char *)NULL))
+    {
+      unsigned long int return_value_strlen$1;
+      return_value_strlen$1=strlen(g.inf);
+      unsigned long int return_value_compressed_suffix$2;
+      return_value_compressed_suffix$2=compressed_suffix(g.inf);
+      n = return_value_strlen$1 - return_value_compressed_suffix$2;
+      strncpy(tag, g.inf, n > max + (unsigned long int)1 ? max + (unsigned long int)1 : n);
+      signed int return_value_strcmp$3;
+      return_value_strcmp$3=strcmp(g.inf + (signed long int)n, ".tgz");
+      if(return_value_strcmp$3 == 0)
+      {
+        if(!(n >= 1ul + max))
+          strncpy(tag + (signed long int)n, ".tar", (max + (unsigned long int)1) - n);
+
+      }
+
+    }
+
+    else
+      strncpy(tag, g.hname, max + (unsigned long int)1);
+  if(!(tag[(signed long int)max] == 0))
+    strcpy((tag + (signed long int)max) - (signed long int)3, "...");
+
+  if(!(g.stamp == 0l))
+  {
+    char *return_value_ctime$4;
+    return_value_ctime$4=ctime(&g.stamp);
+    strcpy(mod, return_value_ctime$4);
+    now=time((signed long int *)(void *)0);
+    char *return_value_ctime$5;
+    return_value_ctime$5=ctime(&now);
+    signed int return_value_strcmp$6;
+    return_value_strcmp$6=strcmp(mod + (signed long int)20, return_value_ctime$5 + (signed long int)20);
+    if(!(return_value_strcmp$6 == 0))
+      strcpy(mod + (signed long int)11, mod + (signed long int)19);
+
+  }
+
+  else
+    strcpy(mod + (signed long int)4, "------ -----");
+  mod[(signed long int)16] = (char)0;
+  if(!(g.first == 0))
+  {
+    if(g.verbosity >= 2)
+      fputs("method    check    timestamp    ", stdout);
+
+    if(g.verbosity >= 1)
+      puts("compressed   original reduced  name");
+
+    g.first = 0;
+  }
+
+  if(g.verbosity >= 2)
+  {
+    if(g.decode == 0 && g.form == 3)
+      printf("zip%3d  --------  %s  ", method, mod + (signed long int)4);
+
+    else
+      if(g.form >= 2)
+        printf("zip%3d  %08lx  %s  ", method, check, mod + (signed long int)4);
+
+      else
+        if(g.form == 1)
+          printf("zlib%2d  %08lx  %s  ", method, check, mod + (signed long int)4);
+
+        else
+          if(method == 257)
+            printf("lzw     --------  %s  ", mod + (signed long int)4);
+
+          else
+            printf("gzip%2d  %08lx  %s  ", method, check, mod + (signed long int)4);
+  }
+
+  if(g.verbosity >= 1)
+  {
+    if(g.decode == 0 && g.form == 3 || method == 8 && !((len >> 10) + 12l + len >= g.in_tot) || method == 257 && !((len >> 1) + 3l + len >= g.in_tot))
+      printf("%10jd %10jd?  unk    %s\n", (signed long int)g.in_tot, (signed long int)len, (const void *)tag);
+
+    else
+      printf("%10jd %10jd %6.1f%%  %s\n", (signed long int)g.in_tot, (signed long int)len, len == (signed long int)0 ? (double)0 : (double)((signed long int)100 * (len - g.in_tot)) / (double)len, (const void *)tag);
+  }
+
+}
+
+// single_compress
+// file pigz.c line 2022
+static void single_compress(signed int reset)
+{
+  unsigned long int got;
+  unsigned long int more;
+  unsigned long int start;
+  unsigned long int have;
+  unsigned long int hist;
+  signed int fresh;
+  unsigned int hash;
+  unsigned char *scan;
+  unsigned long int left;
+  unsigned long int head;
+  unsigned long int ulen;
+  unsigned long int clen;
+  unsigned long int check;
+  unsigned long int tmp_if_expr$7;
+  unsigned long int return_value_adler32$5;
+  unsigned long int return_value_crc32$6;
+  unsigned char *tmp_post$8;
+  unsigned long int tmp_if_expr$11;
+  unsigned long int return_value_adler32$9;
+  unsigned long int return_value_crc32$10;
+  unsigned long int tmp_if_expr$14;
+  unsigned long int return_value_adler32$12;
+  unsigned long int return_value_crc32$13;
+  unsigned long int tmp_if_expr$17;
+  unsigned long int return_value_adler32$15;
+  unsigned long int return_value_crc32$16;
+  unsigned long int tmp_if_expr$20;
+  unsigned long int return_value_adler32$18;
+  unsigned long int return_value_crc32$19;
+  static unsigned char *in;
+  static unsigned char *next;
+  static unsigned char *single_compress$$1$$out;
+  static struct z_stream_s *strm = (struct z_stream_s *)(void *)0;
+  if(!(reset == 0))
+  {
+    if(!(strm == ((struct z_stream_s *)NULL)))
+    {
+      deflateEnd(strm);
+      free((void *)strm);
+      free((void *)single_compress$$1$$out);
+      free((void *)next);
+      free((void *)in);
+      strm = (struct z_stream_s *)(void *)0;
+    }
+
+  }
+
+  else
+  {
+    static unsigned int out_size;
+    if(strm == ((struct z_stream_s *)NULL))
+    {
+      signed int ret;
+      out_size = g.block > (unsigned long int)(((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1)) ? ((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1) : (unsigned int)g.block;
+      void *return_value_alloc$1;
+      return_value_alloc$1=alloc((void *)0, g.block + (unsigned long int)32768U);
+      in = (unsigned char *)return_value_alloc$1;
+      void *return_value_alloc$2;
+      return_value_alloc$2=alloc((void *)0, g.block + (unsigned long int)32768U);
+      next = (unsigned char *)return_value_alloc$2;
+      void *return_value_alloc$3;
+      return_value_alloc$3=alloc((void *)0, (unsigned long int)out_size);
+      single_compress$$1$$out = (unsigned char *)return_value_alloc$3;
+      void *return_value_alloc$4;
+      return_value_alloc$4=alloc((void *)0, sizeof(struct z_stream_s) /*112ul*/ );
+      strm = (struct z_stream_s *)return_value_alloc$4;
+      strm->zfree = ((void (*)(void *, void *))NULL);
+      strm->zalloc = ((void * (*)(void *, unsigned int, unsigned int))NULL);
+      strm->opaque = NULL;
+      ret=deflateInit2_(strm, 6, 8, -15, 8, 0, "1.2.8", (signed int)sizeof(struct z_stream_s) /*112ul*/ );
+      if(ret == -4)
+        try_throw_(12, "not enough memory", (void *)0);
+
+      if(!(ret == 0))
+        try_throw_(22, "internal error", (void *)0);
+
+    }
+
+    head=put_header();
+    if(!(g.level >= 10))
+    {
+      deflateReset(strm);
+      deflateParams(strm, g.level, 0);
+    }
+
+    got = (unsigned long int)0;
+    more=readn(g.ind, next, g.block);
+    ulen = (unsigned long int)more;
+    start = (unsigned long int)0;
+    hist = (unsigned long int)0;
+    clen = (unsigned long int)0;
+    have = (unsigned long int)0;
+    if(g.form == 1)
+    {
+      return_value_adler32$5=adler32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+      tmp_if_expr$7 = return_value_adler32$5;
+    }
+
+    else
+    {
+      return_value_crc32$6=crc32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+      tmp_if_expr$7 = return_value_crc32$6;
+    }
+    check = tmp_if_expr$7;
+    hash = (1U << 12) - (unsigned int)1 >> 1;
+    while((_Bool)1)
+    {
+      if(got == 0ul)
+      {
+        scan = in;
+        in = next;
+        next = scan;
+        strm->next_in = in + (signed long int)start;
+        got = more;
+        if(g.level >= 10)
+        {
+          left = (start + more) - hist;
+          if(left >= 32769ul)
+            left = (unsigned long int)32768U;
+
+          memcpy((void *)next, (const void *)(in + (signed long int)((start + more) - left)), left);
+          start = left;
+          hist = (unsigned long int)0;
+        }
+
+        else
+          start = (unsigned long int)0;
+        more=readn(g.ind, next + (signed long int)start, g.block);
+        ulen = ulen + (unsigned long int)more;
+      }
+
+      left = (unsigned long int)0;
+      if(!(g.rsync == 0) && !(got == 0ul))
+      {
+        scan = strm->next_in;
+        left = got;
+        while((_Bool)1)
+        {
+          if(left == 0ul)
+          {
+            if(got == g.block || more == 0ul)
+              goto __CPROVER_DUMP_L17;
+
+            if(g.level >= 10)
+            {
+              left = (unsigned long int)(strm->next_in - in) - hist;
+              if(left >= 32769ul)
+                left = (unsigned long int)32768U;
+
+            }
+
+            memmove((void *)in, (const void *)(strm->next_in - (signed long int)left), left + got);
+            hist = (unsigned long int)0;
+            strm->next_in = in + (signed long int)left;
+            scan = in + (signed long int)left + (signed long int)got;
+            left = more > g.block - got ? g.block - got : more;
+            memcpy((void *)scan, (const void *)(next + (signed long int)start), left);
+            got = got + left;
+            more = more - left;
+            start = start + left;
+            if(more == 0ul)
+            {
+              more=readn(g.ind, next, g.block);
+              ulen = ulen + (unsigned long int)more;
+              start = (unsigned long int)0;
+            }
+
+          }
+
+          left = left - 1ul;
+          tmp_post$8 = scan;
+          scan = scan + 1l;
+          hash = (hash << 1 ^ (unsigned int)*tmp_post$8) & (1U << 12) - (unsigned int)1;
+          if(hash == 2047u)
+            break;
+
+        }
+
+      __CPROVER_DUMP_L17:
+        ;
+        got = got - left;
+      }
+
+      fresh = 0;
+      if(g.setdict == 0)
+      {
+        have = have + got;
+        if(!(g.block >= have))
+        {
+          fresh = 1;
+          have = got;
+        }
+
+      }
+
+      if(!(g.level >= 10))
+      {
+        if(!(fresh == 0))
+          deflateReset(strm);
+
+        while(got >= 2147483649ul)
+        {
+          strm->avail_in = ((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1);
+          if(g.form == 1)
+          {
+            return_value_adler32$9=adler32(check, strm->next_in, strm->avail_in);
+            tmp_if_expr$11 = return_value_adler32$9;
+          }
+
+          else
+          {
+            return_value_crc32$10=crc32(check, strm->next_in, strm->avail_in);
+            tmp_if_expr$11 = return_value_crc32$10;
+          }
+          check = tmp_if_expr$11;
+          do
+          {
+
+          __CPROVER_DUMP_L23:
+            ;
+            strm->avail_out = out_size;
+            strm->next_out = single_compress$$1$$out;
+            deflate(strm, 0);
+            writen(g.outd, single_compress$$1$$out, (unsigned long int)(out_size - strm->avail_out));
+            clen = clen + (unsigned long int)(out_size - strm->avail_out);
+            if(strm->avail_out == 0u)
+              goto __CPROVER_DUMP_L23;
+
+            /* assertion strm->avail_in == 0 */
+            assert(strm->avail_in == (unsigned int)0);
+          }
+          while((_Bool)0);
+          got = got - (unsigned long int)(((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+        }
+        strm->avail_in = (unsigned int)got;
+        got = left;
+        if(g.form == 1)
+        {
+          return_value_adler32$12=adler32(check, strm->next_in, strm->avail_in);
+          tmp_if_expr$14 = return_value_adler32$12;
+        }
+
+        else
+        {
+          return_value_crc32$13=crc32(check, strm->next_in, strm->avail_in);
+          tmp_if_expr$14 = return_value_crc32$13;
+        }
+        check = tmp_if_expr$14;
+        if(!(got == 0ul) || !(more == 0ul))
+        {
+          signed int single_compress$$1$$4$$4$$2$$bits;
+          do
+          {
+
+          __CPROVER_DUMP_L27:
+            ;
+            strm->avail_out = out_size;
+            strm->next_out = single_compress$$1$$out;
+            deflate(strm, 5);
+            writen(g.outd, single_compress$$1$$out, (unsigned long int)(out_size - strm->avail_out));
+            clen = clen + (unsigned long int)(out_size - strm->avail_out);
+            if(strm->avail_out == 0u)
+              goto __CPROVER_DUMP_L27;
+
+            /* assertion strm->avail_in == 0 */
+            assert(strm->avail_in == (unsigned int)0);
+          }
+          while((_Bool)0);
+          deflatePending(strm, ((unsigned int *)NULL), &single_compress$$1$$4$$4$$2$$bits);
+          if(!((1 & single_compress$$1$$4$$4$$2$$bits) == 0))
+            do
+            {
+
+            __CPROVER_DUMP_L28:
+              ;
+              strm->avail_out = out_size;
+              strm->next_out = single_compress$$1$$out;
+              deflate(strm, 2);
+              writen(g.outd, single_compress$$1$$out, (unsigned long int)(out_size - strm->avail_out));
+              clen = clen + (unsigned long int)(out_size - strm->avail_out);
+              if(strm->avail_out == 0u)
+                goto __CPROVER_DUMP_L28;
+
+              /* assertion strm->avail_in == 0 */
+              assert(strm->avail_in == (unsigned int)0);
+            }
+            while((_Bool)0);
+
+          else
+            if(!((7 & single_compress$$1$$4$$4$$2$$bits) == 0))
+            {
+              do
+              {
+                single_compress$$1$$4$$4$$2$$bits=deflatePrime(strm, 10, 2);
+                /* assertion bits == 0 */
+                assert(single_compress$$1$$4$$4$$2$$bits == 0);
+                deflatePending(strm, ((unsigned int *)NULL), &single_compress$$1$$4$$4$$2$$bits);
+              }
+              while(!((7 & single_compress$$1$$4$$4$$2$$bits) == 0));
+              do
+              {
+
+              __CPROVER_DUMP_L31:
+                ;
+                strm->avail_out = out_size;
+                strm->next_out = single_compress$$1$$out;
+                deflate(strm, 0);
+                writen(g.outd, single_compress$$1$$out, (unsigned long int)(out_size - strm->avail_out));
+                clen = clen + (unsigned long int)(out_size - strm->avail_out);
+                if(strm->avail_out == 0u)
+                  goto __CPROVER_DUMP_L31;
+
+                /* assertion strm->avail_in == 0 */
+                assert(strm->avail_in == (unsigned int)0);
+              }
+              while((_Bool)0);
+            }
+
+        }
+
+        else
+          do
+          {
+
+          __CPROVER_DUMP_L33:
+            ;
+            strm->avail_out = out_size;
+            strm->next_out = single_compress$$1$$out;
+            deflate(strm, 4);
+            writen(g.outd, single_compress$$1$$out, (unsigned long int)(out_size - strm->avail_out));
+            clen = clen + (unsigned long int)(out_size - strm->avail_out);
+            if(strm->avail_out == 0u)
+              goto __CPROVER_DUMP_L33;
+
+            /* assertion strm->avail_in == 0 */
+            assert(strm->avail_in == (unsigned int)0);
+          }
+          while((_Bool)0);
+      }
+
+      else
+      {
+        unsigned char bits;
+        unsigned char *out;
+        unsigned long int outsize;
+        unsigned long int off = (unsigned long int)(strm->next_in - in);
+        if(!(fresh == 0))
+          hist = off;
+
+        out = (unsigned char *)(void *)0;
+        outsize = (unsigned long int)0;
+        bits = (unsigned char)0;
+        ZopfliDeflatePart(&g.zopts, 2, (signed int)!(more != 0ul || left != 0ul), in + (signed long int)hist, off - hist, (off - hist) + got, &bits, &out, &outsize);
+        bits = bits & (unsigned char)7;
+        if(!(bits == 0) && (!(left == 0ul) || !(more == 0ul)))
+        {
+          if(!((1 & (signed int)bits) == 0))
+          {
+            writen(g.outd, out, outsize);
+            if((signed int)bits == 7)
+              writen(g.outd, (unsigned char *)"\0", (unsigned long int)1);
+
+            writen(g.outd, (unsigned char *)"\0\0ÿÿ", (unsigned long int)4);
+          }
+
+          else
+          {
+            /* assertion outsize > 0 */
+            assert(outsize > (unsigned long int)0);
+            writen(g.outd, out, outsize - (unsigned long int)1);
+            do
+            {
+              out[(signed long int)(outsize - (unsigned long int)1)] = out[(signed long int)(outsize - (unsigned long int)1)] + (unsigned char)(2 << (signed int)bits);
+              writen(g.outd, (out + (signed long int)outsize) - (signed long int)1, (unsigned long int)1);
+              out[(signed long int)(outsize - (unsigned long int)1)] = (unsigned char)0;
+              bits = bits + (unsigned char)2;
+            }
+            while(!((signed int)bits >= 8));
+            writen(g.outd, (out + (signed long int)outsize) - (signed long int)1, (unsigned long int)1);
+          }
+        }
+
+        else
+          writen(g.outd, out, outsize);
+        free((void *)out);
+        while(got >= 2147483649ul)
+        {
+          if(g.form == 1)
+          {
+            return_value_adler32$15=adler32(check, strm->next_in, ((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+            tmp_if_expr$17 = return_value_adler32$15;
+          }
+
+          else
+          {
+            return_value_crc32$16=crc32(check, strm->next_in, ((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+            tmp_if_expr$17 = return_value_crc32$16;
+          }
+          check = tmp_if_expr$17;
+          strm->next_in = strm->next_in + (signed long int)(((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+          got = got - (unsigned long int)(((unsigned int)0x7fffffff * 2U + 1U) - ((unsigned int)0x7fffffff * 2U + 1U >> 1));
+        }
+        if(g.form == 1)
+        {
+          return_value_adler32$18=adler32(check, strm->next_in, (unsigned int)got);
+          tmp_if_expr$20 = return_value_adler32$18;
+        }
+
+        else
+        {
+          return_value_crc32$19=crc32(check, strm->next_in, (unsigned int)got);
+          tmp_if_expr$20 = return_value_crc32$19;
+        }
+        check = tmp_if_expr$20;
+        strm->next_in = strm->next_in + (signed long int)got;
+        got = left;
+      }
+      if(got == 0ul && more == 0ul)
+        break;
+
+    }
+    put_trailer(ulen, clen, check, head);
+  }
+}
+
+// time2dos
+// file pigz.c line 935
+static unsigned long int time2dos(signed long int t)
+{
+  struct tm *tm;
+  unsigned long int dos;
+  if(t == 0l)
+    t=time((signed long int *)(void *)0);
+
+  tm=localtime(&t);
+  _Bool tmp_if_expr$1;
+  if(!(tm->tm_year >= 80))
+    tmp_if_expr$1 = (_Bool)1;
+
+  else
+    tmp_if_expr$1 = tm->tm_year > 207 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr$1)
+    return (unsigned long int)0;
+
+  else
+  {
+    dos = (unsigned long int)(tm->tm_year - 80 << 25);
+    dos = dos + (unsigned long int)(tm->tm_mon + 1 << 21);
+    dos = dos + (unsigned long int)(tm->tm_mday << 16);
+    dos = dos + (unsigned long int)(tm->tm_hour << 11);
+    dos = dos + (unsigned long int)(tm->tm_min << 5);
+    dos = dos + (unsigned long int)(tm->tm_sec + 1 >> 1);
+    return dos;
+  }
+}
+
+// tolong
+// file pigz.c line 2432
+static signed long int tolong(unsigned long int val)
+{
+  return (signed long int)(val & 0x7fffffffUL) - (signed long int)(val & 0x80000000UL);
+}
+
+// touch
+// file pigz.c line 3410
+static void touch(char *path, signed long int t)
+{
+  struct timeval times[2l];
+  times[(signed long int)0].tv_sec = t;
+  times[(signed long int)0].tv_usec = (signed long int)0;
+  times[(signed long int)1].tv_sec = t;
+  times[(signed long int)1].tv_usec = (signed long int)0;
+  utimes(path, times);
+}
+
+// try_create_
+// file try.c line 21
+static void try_create_(void)
+{
+  signed int ret;
+  ret=pthread_key_create(&try_key_, (void (*)(void *))(void *)0);
+  /* assertion ret == 0 && "try: pthread_key_create() failed" */
+  assert(ret == 0 && (_Bool)"try: pthread_key_create() failed");
+}
+
+// try_setup_
+// file try.h line 303
+void try_setup_(void)
+{
+  signed int ret;
+  ret=pthread_once(&try_once_, try_create_);
+  /* assertion ret == 0 && "try: pthread_once() failed" */
+  assert(ret == 0 && (_Bool)"try: pthread_once() failed");
+}
+
+// try_throw_
+// file try.h line 421
+void try_throw_(signed int code, char *fmt, ...)
+{
+  try_setup_();
+  void *return_value_pthread_getspecific$1;
+  return_value_pthread_getspecific$1=pthread_getspecific(try_key_);
+  /* assertion ((try_t_ *)pthread_getspecific(try_key_)) != ((void *)0) && "try: naked throw" */
+  assert((struct try_s_ *)return_value_pthread_getspecific$1 != (struct try_s_ *)(void *)0 ? ((_Bool)"try: naked throw" ? (_Bool)1 : (_Bool)0) : (_Bool)0);
+  void *return_value_pthread_getspecific$2;
+  return_value_pthread_getspecific$2=pthread_getspecific(try_key_);
+  ((struct try_s_ *)return_value_pthread_getspecific$2)->ball.code = code;
+  void *return_value_pthread_getspecific$3;
+  return_value_pthread_getspecific$3=pthread_getspecific(try_key_);
+  ((struct try_s_ *)return_value_pthread_getspecific$3)->ball.free = 0;
+  void *return_value_pthread_getspecific$4;
+  return_value_pthread_getspecific$4=pthread_getspecific(try_key_);
+  ((struct try_s_ *)return_value_pthread_getspecific$4)->ball.why = fmt;
+  char *return_value_strchr$10;
+  void *return_value_pthread_getspecific$7;
+  if(!(fmt == ((char *)NULL)))
+  {
+    return_value_strchr$10=strchr(fmt, 37);
+    if(!(return_value_strchr$10 == ((char *)NULL)))
+    {
+      char *why;
+      char nul[1l];
+      unsigned long int len;
+      void **ap1;
+      void **ap2;
+      ap1 = (void **)&fmt;
+      ap2 = (void **)ap1;
+      signed int return_value_vsnprintf$5;
+      return_value_vsnprintf$5=vsnprintf(nul, (unsigned long int)1, fmt, ap1);
+      len = (unsigned long int)return_value_vsnprintf$5;
+      ap1 = ((void **)NULL);
+      void *return_value_malloc$6;
+      return_value_malloc$6=malloc(len + (unsigned long int)1);
+      why = (char *)return_value_malloc$6;
+      if(why == ((char *)NULL))
+      {
+        return_value_pthread_getspecific$7=pthread_getspecific(try_key_);
+        ((struct try_s_ *)return_value_pthread_getspecific$7)->ball.why = "try: out of memory";
+      }
+
+      else
+      {
+        vsnprintf(why, len + (unsigned long int)1, fmt, ap2);
+        ap2 = ((void **)NULL);
+        void *return_value_pthread_getspecific$8;
+        return_value_pthread_getspecific$8=pthread_getspecific(try_key_);
+        ((struct try_s_ *)return_value_pthread_getspecific$8)->ball.free = 1;
+        void *return_value_pthread_getspecific$9;
+        return_value_pthread_getspecific$9=pthread_getspecific(try_key_);
+        ((struct try_s_ *)return_value_pthread_getspecific$9)->ball.why = why;
+      }
+    }
+
+  }
+
+  void *return_value_pthread_getspecific$11;
+  return_value_pthread_getspecific$11=pthread_getspecific(try_key_);
+  longjmp(((struct try_s_ *)return_value_pthread_getspecific$11)->env, 2);
+}
+
+// twist
+// file yarn.h line 128
+void twist(struct lock_s *bolt, enum twist_op op, signed long int val)
+{
+  signed int ret;
+  if((signed int)op == TO)
+    bolt->value = val;
+
+  else
+    if((signed int)op == BY)
+      bolt->value = bolt->value + val;
+
+  ret=pthread_cond_broadcast(&bolt->cond);
+  _Bool tmp_if_expr$1;
+  if(!(ret == 0))
+    tmp_if_expr$1 = (_Bool)1;
+
+  else
+  {
+    ret=pthread_mutex_unlock(&bolt->mutex);
+    tmp_if_expr$1 = ret != 0 ? (_Bool)1 : (_Bool)0;
+  }
+  if(tmp_if_expr$1)
+    fail(ret);
+
+}
+
+// unlzw
+// file pigz.c line 3183
+static void unlzw(void)
+{
+  unsigned int bits;
+  unsigned int mask;
+  unsigned int buf;
+  unsigned int left;
+  signed long int mark;
+  unsigned int code;
+  unsigned int max;
+  unsigned int flags;
+  unsigned int end;
+  unsigned int prev;
+  unsigned int final;
+  unsigned int stack;
+  unsigned int outcnt;
+  unsigned short int prefix[65536l];
+  unsigned char suffix[65536l];
+  unsigned char match[65282l];
+  g.out_tot = (signed long int)0;
+  _Bool tmp_if_expr$2;
+  unsigned long int return_value_load$1;
+  if(g.in_left == 0ul)
+  {
+    if(!(g.in_eof == 0))
+      tmp_if_expr$2 = (_Bool)1;
+
+    else
+    {
+      return_value_load$1=load();
+      tmp_if_expr$2 = return_value_load$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr$2)
+      try_throw_(33, "%s: lzw premature end", g.inf, (void *)0);
+
+  }
+
+  g.in_left = g.in_left - 1ul;
+  unsigned char *tmp_post$3 = g.in_next;
+  g.in_next = g.in_next + 1l;
+  flags = (unsigned int)*tmp_post$3;
+  if(!((96u & flags) == 0u))
+    try_throw_(33, "%s: unknown lzw flags set", g.inf, (void *)0);
+
+  max = flags & (unsigned int)0x1f;
+  if(max >= 17u || !(max >= 9u))
+    try_throw_(33, "%s: lzw bits out of range", g.inf, (void *)0);
+
+  if(max == 9u)
+    max = (unsigned int)10;
+
+  flags = flags & (unsigned int)0x80;
+  mark = (signed long int)((unsigned long int)g.in_tot - g.in_left);
+  bits = (unsigned int)9;
+  mask = (unsigned int)0x1ff;
+  end = (unsigned int)(flags != 0u ? 256 : 255);
+  _Bool tmp_if_expr$5;
+  unsigned long int return_value_load$4;
+  unsigned char *tmp_post$6;
+  _Bool tmp_if_expr$8;
+  unsigned long int return_value_load$7;
+  unsigned char *tmp_post$9;
+  _Bool tmp_if_expr$12;
+  unsigned long int return_value_load$11;
+  unsigned char *tmp_post$13;
+  _Bool tmp_if_expr$15;
+  unsigned long int return_value_load$14;
+  unsigned char *tmp_post$16;
+  unsigned int tmp_post$18;
+  unsigned int tmp_post$19;
+  unsigned int tmp_post$20;
+  unsigned int tmp_post$21;
+  unsigned int tmp_post$22;
+  if(g.in_left == 0ul)
+  {
+    if(!(g.in_eof == 0))
+      tmp_if_expr$5 = (_Bool)1;
+
+    else
+    {
+      return_value_load$4=load();
+      tmp_if_expr$5 = return_value_load$4 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    }
+    if(!tmp_if_expr$5)
+      goto __CPROVER_DUMP_L9;
+
+  }
+
+  else
+  {
+
+  __CPROVER_DUMP_L9:
+    ;
+    g.in_left = g.in_left - 1ul;
+    tmp_post$6 = g.in_next;
+    g.in_next = g.in_next + 1l;
+    buf = (unsigned int)*tmp_post$6;
+    if(g.in_left == 0ul)
+    {
+      if(!(g.in_eof == 0))
+        tmp_if_expr$8 = (_Bool)1;
+
+      else
+      {
+        return_value_load$7=load();
+        tmp_if_expr$8 = return_value_load$7 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      }
+      if(tmp_if_expr$8)
+        try_throw_(33, "%s: lzw premature end", g.inf, (void *)0);
+
+    }
+
+    g.in_left = g.in_left - 1ul;
+    tmp_post$9 = g.in_next;
+    g.in_next = g.in_next + 1l;
+    buf = buf + (unsigned int)((signed int)*tmp_post$9 << 8);
+    prev = buf & mask;
+    final = prev;
+    buf = buf >> bits;
+    left = (unsigned int)16 - bits;
+    if(prev >= 256u)
+      try_throw_(33, "%s: invalid lzw code", g.inf, (void *)0);
+
+    out_buf[(signed long int)0] = (unsigned char)final;
+    outcnt = (unsigned int)1;
+    stack = (unsigned int)0;
+    while((_Bool)1)
+    {
+      if(end >= mask && !(bits >= max))
+      {
+        unsigned int unlzw$$1$$1$$1$$1$$1$$rem = (unsigned int)((((unsigned long int)g.in_tot - g.in_left) - (unsigned long int)mark) % (unsigned long int)bits);
+        if(!(unlzw$$1$$1$$1$$1$$1$$rem == 0u))
+          unlzw$$1$$1$$1$$1$$1$$rem = bits - unlzw$$1$$1$$1$$1$$1$$rem;
+
+        while(!(g.in_left >= (unsigned long int)unlzw$$1$$1$$1$$1$$1$$rem))
+        {
+          unlzw$$1$$1$$1$$1$$1$$rem = unlzw$$1$$1$$1$$1$$1$$rem - (unsigned int)g.in_left;
+          unsigned long int return_value_load$10;
+          return_value_load$10=load();
+          if(return_value_load$10 == 0ul)
+            break;
+
+        }
+        g.in_left = g.in_left - (unsigned long int)unlzw$$1$$1$$1$$1$$1$$rem;
+        g.in_next = g.in_next + (signed long int)unlzw$$1$$1$$1$$1$$1$$rem;
+        buf = (unsigned int)0;
+        left = (unsigned int)0;
+        mark = (signed long int)((unsigned long int)g.in_tot - g.in_left);
+        bits = bits + 1u;
+        mask = mask << 1;
+        mask = mask + 1u;
+      }
+
+      if(g.in_left == 0ul)
+      {
+        if(!(g.in_eof == 0))
+          tmp_if_expr$12 = (_Bool)1;
+
+        else
+        {
+          return_value_load$11=load();
+          tmp_if_expr$12 = return_value_load$11 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+        }
+        if(tmp_if_expr$12)
+          break;
+
+      }
+
+      g.in_left = g.in_left - 1ul;
+      tmp_post$13 = g.in_next;
+      g.in_next = g.in_next + 1l;
+      buf = buf + ((unsigned int)*tmp_post$13 << left);
+      left = left + (unsigned int)8;
+      if(!(left >= bits))
+      {
+        if(g.in_left == 0ul)
+        {
+          if(!(g.in_eof == 0))
+            tmp_if_expr$15 = (_Bool)1;
+
+          else
+          {
+            return_value_load$14=load();
+            tmp_if_expr$15 = return_value_load$14 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          }
+          if(tmp_if_expr$15)
+            try_throw_(33, "%s: lzw premature end", g.inf, (void *)0);
+
+        }
+
+        g.in_left = g.in_left - 1ul;
+        tmp_post$16 = g.in_next;
+        g.in_next = g.in_next + 1l;
+        buf = buf + ((unsigned int)*tmp_post$16 << left);
+        left = left + (unsigned int)8;
+      }
+
+      code = buf & mask;
+      buf = buf >> bits;
+      left = left - bits;
+      if(code == 256u && !(flags == 0u))
+      {
+        unsigned int rem = (unsigned int)((((unsigned long int)g.in_tot - g.in_left) - (unsigned long int)mark) % (unsigned long int)bits);
+        if(!(rem == 0u))
+          rem = bits - rem;
+
+        while(!(g.in_left >= (unsigned long int)rem))
+        {
+          rem = rem - (unsigned int)g.in_left;
+          unsigned long int return_value_load$17;
+          return_value_load$17=load();
+          if(return_value_load$17 == 0ul)
+            break;
+
+        }
+        g.in_left = g.in_left - (unsigned long int)rem;
+        g.in_next = g.in_next + (signed long int)rem;
+        buf = (unsigned int)0;
+        left = (unsigned int)0;
+        mark = (signed long int)((unsigned long int)g.in_tot - g.in_left);
+        bits = (unsigned int)9;
+        mask = (unsigned int)0x1ff;
+        end = (unsigned int)255;
+      }
+
+      else
+      {
+        unsigned int temp = code;
+        if(!(end >= code))
+        {
+          if(!(code == 1u + end) || !(end >= prev))
+            try_throw_(33, "%s: invalid lzw code", g.inf, (void *)0);
+
+          tmp_post$18 = stack;
+          stack = stack + 1u;
+          match[(signed long int)tmp_post$18] = (unsigned char)final;
+          code = prev;
+        }
+
+        for( ; code >= 256u; code = (unsigned int)prefix[(signed long int)code])
+        {
+          tmp_post$19 = stack;
+          stack = stack + 1u;
+          match[(signed long int)tmp_post$19] = suffix[(signed long int)code];
+        }
+        tmp_post$20 = stack;
+        stack = stack + 1u;
+        match[(signed long int)tmp_post$20] = (unsigned char)code;
+        final = code;
+        if(!(end >= mask))
+        {
+          end = end + 1u;
+          prefix[(signed long int)end] = (unsigned short int)prev;
+          suffix[(signed long int)end] = (unsigned char)final;
+        }
+
+        prev = temp;
+        for( ; !(32768U + -outcnt >= stack); outcnt = (unsigned int)0)
+        {
+          for( ; !(outcnt >= 32768U); out_buf[(signed long int)tmp_post$21] = match[(signed long int)stack])
+          {
+            tmp_post$21 = outcnt;
+            outcnt = outcnt + 1u;
+            stack = stack - 1u;
+          }
+          g.out_tot = g.out_tot + (signed long int)outcnt;
+          if(g.decode == 1)
+            writen(g.outd, out_buf, (unsigned long int)outcnt);
+
+        }
+        do
+        {
+          tmp_post$22 = outcnt;
+          outcnt = outcnt + 1u;
+          stack = stack - 1u;
+          out_buf[(signed long int)tmp_post$22] = match[(signed long int)stack];
+        }
+        while(!(stack == 0u));
+      }
+    }
+    g.out_tot = g.out_tot + (signed long int)outcnt;
+    if(g.decode == 1 && !(outcnt == 0u))
+      writen(g.outd, out_buf, (unsigned long int)outcnt);
+
+  }
+}
+
+// use_space
+// file pigz.c line 1308
+static void use_space(struct space *space)
+{
+  possess(space->use);
+  twist(space->use, (enum twist_op)BY, (signed long int)+1);
+}
+
+// vmemcpy
+// file pigz.c line 870
+static inline unsigned long int vmemcpy(char **mem, unsigned long int *size, unsigned long int off, void *cpy, unsigned long int len)
+{
+  unsigned long int need = off + len;
+  if(!(need >= off))
+    try_throw_(75, "overflow", (void *)0);
+
+  if(!(*size >= need))
+  {
+    need=grow(need);
+    if(off == 0ul)
+    {
+      do
+        if(!(*mem == ((char *)NULL)))
+        {
+          free((void *)*mem);
+          *mem = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      *size = (unsigned long int)0;
+    }
+
+    void *return_value_alloc$1;
+    return_value_alloc$1=alloc((void *)*mem, need);
+    *mem = (char *)return_value_alloc$1;
+    *size = need;
+  }
+
+  memcpy((void *)(*mem + (signed long int)off), cpy, len);
+  return off + len;
+}
+
+// vstrcpy
+// file pigz.c line 894
+static inline unsigned long int vstrcpy(char **str, unsigned long int *size, unsigned long int off, void *cpy)
+{
+  unsigned long int return_value_strlen$1;
+  return_value_strlen$1=strlen((const char *)cpy);
+  unsigned long int return_value_vmemcpy$2;
+  return_value_vmemcpy$2=vmemcpy(str, size, off, cpy, return_value_strlen$1 + (unsigned long int)1);
+  return return_value_vmemcpy$2;
+}
+
+// wait_for
+// file yarn.h line 132
+void wait_for(struct lock_s *bolt, enum wait_op op, signed long int val)
+{
+  signed int ret;
+  switch((signed int)op)
+  {
+    case TO_BE:
+    {
+      while(!(bolt->value == val))
+      {
+        ret=pthread_cond_wait(&bolt->cond, &bolt->mutex);
+        if(!(ret == 0))
+          fail(ret);
+
+      }
+      goto __CPROVER_DUMP_L12;
+    }
+    case NOT_TO_BE:
+    {
+      while(bolt->value == val)
+      {
+        ret=pthread_cond_wait(&bolt->cond, &bolt->mutex);
+        if(!(ret == 0))
+          fail(ret);
+
+      }
+      goto __CPROVER_DUMP_L12;
+    }
+    case TO_BE_MORE_THAN:
+    {
+      while(val >= bolt->value)
+      {
+        ret=pthread_cond_wait(&bolt->cond, &bolt->mutex);
+        if(!(ret == 0))
+          fail(ret);
+
+      }
+      goto __CPROVER_DUMP_L12;
+    }
+    case TO_BE_LESS_THAN:
+      while(bolt->value >= val)
+      {
+        ret=pthread_cond_wait(&bolt->cond, &bolt->mutex);
+        if(!(ret == 0))
+          fail(ret);
+
+      }
+    default:
+
+      __CPROVER_DUMP_L12:
+        ;
+  }
+}
+
+// write_thread
+// file pigz.c line 1716
+static void write_thread(void *dummy)
+{
+  signed long int seq;
+  struct job *job;
+  unsigned long int len;
+  signed int more;
+  unsigned long int head;
+  unsigned long int ulen;
+  unsigned long int clen;
+  unsigned long int check;
+  struct anonymous err;
+  (void)dummy;
+  unsigned long int tmp_if_expr$4;
+  unsigned long int return_value_adler32$2;
+  unsigned long int return_value_crc32$3;
+  signed long int tmp_if_expr$5;
+  unsigned long int tmp_if_expr$8;
+  unsigned long int return_value_adler32_comb$6;
+  unsigned long int return_value_crc32_comb$7;
+  _Bool tmp_if_expr$10;
+  signed long int return_value_peek_lock$9;
+  do
+  {
+    struct try_s_ try_this_;
+    signed int try_pushed_ = 1;
+    try_this_.ball.code = 0;
+    try_this_.ball.free = 0;
+    try_this_.ball.why = (char *)(void *)0;
+    try_setup_();
+    void *return_value_pthread_getspecific$1;
+    return_value_pthread_getspecific$1=pthread_getspecific(try_key_);
+    try_this_.next = (struct try_s_ *)return_value_pthread_getspecific$1;
+    do
+    {
+      signed int write_thread$$1$$1$$1$$try_ret_;
+      write_thread$$1$$1$$1$$try_ret_=pthread_setspecific(try_key_, (const void *)&try_this_);
+      /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+      assert(write_thread$$1$$1$$1$$try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+    }
+    while((_Bool)0);
+    signed int return_value__setjmp$11;
+    return_value__setjmp$11=_setjmp(try_this_.env);
+    if(!(return_value__setjmp$11 >= 2))
+      do
+      {
+        head=put_header();
+        clen = (unsigned long int)0;
+        ulen = clen;
+        if(g.form == 1)
+        {
+          return_value_adler32$2=adler32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+          tmp_if_expr$4 = return_value_adler32$2;
+        }
+
+        else
+        {
+          return_value_crc32$3=crc32((unsigned long int)0L, ((const unsigned char *)NULL), (unsigned int)0);
+          tmp_if_expr$4 = return_value_crc32$3;
+        }
+        check = tmp_if_expr$4;
+        seq = (signed long int)0;
+        do
+        {
+          possess(write_first);
+          wait_for(write_first, (enum wait_op)TO_BE, seq);
+          job = write_head;
+          write_head = job->next;
+          if(write_head == ((struct job *)NULL))
+            tmp_if_expr$5 = (signed long int)-1;
+
+          else
+            tmp_if_expr$5 = write_head->seq;
+          twist(write_first, (enum twist_op)TO, tmp_if_expr$5);
+          more = job->more;
+          len = job->in->len;
+          drop_space(job->in);
+          ulen = ulen + (unsigned long int)len;
+          clen = clen + (unsigned long int)job->out->len;
+          writen(g.outd, job->out->buf, job->out->len);
+          drop_space(job->out);
+          possess(job->calc);
+          wait_for(job->calc, (enum wait_op)TO_BE, (signed long int)1);
+          release(job->calc);
+          if(g.form == 1)
+          {
+            return_value_adler32_comb$6=adler32_comb(check, job->check, len);
+            tmp_if_expr$8 = return_value_adler32_comb$6;
+          }
+
+          else
+          {
+            return_value_crc32_comb$7=crc32_comb(check, job->check, len);
+            tmp_if_expr$8 = return_value_crc32_comb$7;
+          }
+          check = tmp_if_expr$8;
+          free_lock(job->calc);
+          free((void *)job);
+          seq = seq + 1l;
+        }
+        while(!(more == 0));
+        put_trailer(ulen, clen, check, head);
+        possess(compress_have);
+        if(compress_head == ((struct job *)NULL))
+        {
+          return_value_peek_lock$9=peek_lock(compress_have);
+          tmp_if_expr$10 = return_value_peek_lock$9 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr$10 = (_Bool)0;
+        /* assertion compress_head == ((void *)0) && peek_lock(compress_have) == 0 */
+        assert(tmp_if_expr$10);
+        release(compress_have);
+        possess(write_first);
+        /* assertion write_head == ((void *)0) */
+        assert(write_head == (struct job *)(void *)0);
+        twist(write_first, (enum twist_op)TO, (signed long int)-1);
+      }
+      while((_Bool)0);
+
+    if(!(try_pushed_ == 0))
+    {
+      do
+      {
+        signed int try_ret_;
+        try_ret_=pthread_setspecific(try_key_, (const void *)try_this_.next);
+        /* assertion try_ret_ == 0 && "try: pthread_setspecific() failed" */
+        assert(try_ret_ == 0 && (_Bool)"try: pthread_setspecific() failed");
+      }
+      while((_Bool)0);
+      try_pushed_ = 0;
+    }
+
+    err = try_this_.ball;
+  }
+  while((_Bool)0);
+  if(!(err.code == 0))
+    do
+    {
+      complain("abort: %s", err.why);
+      do
+        if(!(err.free == 0))
+        {
+          free((void *)err.why);
+          err.free = 0;
+          err.why = (char *)(void *)0;
+        }
+
+      while((_Bool)0);
+      cut_short(-err.code);
+    }
+    while((_Bool)0);
+
+}
+
+// writen
+// file pigz.c line 920
+static void writen(signed int desc, unsigned char *buf, unsigned long int len)
+{
+  signed long int ret;
+  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location$2;
+  char *return_value_strerror$3;
+  while(!(len == 0ul))
+  {
+    ret=write(desc, (const void *)buf, len);
+    if(!(ret >= 1l))
+    {
+      return_value___errno_location$1=__errno_location();
+      return_value___errno_location$2=__errno_location();
+      return_value_strerror$3=strerror(*return_value___errno_location$2);
+      try_throw_(*return_value___errno_location$1, "write error on %s (%s)", g.outf, return_value_strerror$3, (void *)0);
+    }
+
+    buf = buf + ret;
+    len = len - (unsigned long int)ret;
+  }
+}
+
+// yarn_mem
+// file yarn.c line 74
+void yarn_mem(void * (*lease)(unsigned long int), void (*vacate)(void *))
+{
+  my_malloc_f = lease;
+  my_free = vacate;
+}
+
